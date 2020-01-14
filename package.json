@@ -1,0 +1,44 @@
+{
+  "name": "@n6/chae",
+  "version": "0.0.0",
+  "description": "Clean HTML Article Extraction",
+  "main": "src/index.js",
+  "repository": "https://github.com/n5e/chae",
+  "author": {
+    "name": "Goran Spasojevic",
+    "email": "gospaso@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "scripts": {
+    "dev": "nodemon example",
+    "test": "nodemon --exec tape test/*.test.js",
+    "coverage": "istanbul cover tape test/*.test.js",
+    "release": "standard-version --infile=changelog.md",
+    "postrelease": "git push --follow-tags origin master"
+  },
+  "dependencies": {
+    "hast-util-sanitize": "^2.0.1",
+    "hast-util-select": "^3.0.1",
+    "hast-util-to-string": "^1.0.2",
+    "rehype-parse": "^6.0.2",
+    "rehype-stringify": "^6.0.1",
+    "to-vfile": "^6.0.0",
+    "unified": "^8.4.2",
+    "unist-util-inspect": "^5.0.0",
+    "unist-util-remove": "^1.0.3",
+    "unist-util-visit": "^2.0.1"
+  },
+  "devDependencies": {
+    "hast-util-to-html": "^6.1.0",
+    "istanbul": "1.1.0-alpha.1",
+    "pretty": "^2.0.0",
+    "pug": "^2.0.4",
+    "standard-version": "^7.0.1",
+    "tape": "^4.13.0"
+  }
+}

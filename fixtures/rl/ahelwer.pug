@@ -1,0 +1,310 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1')
+    title Simulating physical reality with a quantum computer
+    meta(property='og:title' content='Simulating physical reality with a quantum computer')
+    meta(name='twitter:title' content='Simulating physical reality with a quantum computer')
+    meta(name='description' content='Quantum chemistry for complete beginners')
+    meta(property='og:description' content='Quantum chemistry for complete beginners')
+    meta(name='twitter:description' content='Quantum chemistry for complete beginners')
+    meta(name='author' content='Andrew Helwer')
+    link(href='https://ahelwer.ca/img/favicon.ico' rel='icon' type='image/x-icon')
+    meta(property='og:image' content='https://ahelwer.ca/img/avatar-icon.jpg')
+    meta(name='twitter:image' content='https://ahelwer.ca/img/avatar-icon.jpg')
+    meta(name='twitter:card' content='summary')
+    meta(name='twitter:site' content='@ahelwer')
+    meta(name='twitter:creator' content='@ahelwer')
+    meta(property='og:url' content='https://ahelwer.ca/post/2019-12-21-quantum-chemistry/')
+    meta(property='og:type' content='website')
+    meta(property='og:site_name' content='Andrew Helwer')
+    meta(name='generator' content='Hugo 0.62.0')
+    link(rel='canonical' href='https://ahelwer.ca/post/2019-12-21-quantum-chemistry/')
+    link(rel='alternate' href='https://ahelwer.ca/index.xml' type='application/rss+xml' title='Andrew Helwer')
+    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' integrity='sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0' crossorigin='anonymous')
+    link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css' integrity='sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp' crossorigin='anonymous')
+    link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous')
+    link(rel='stylesheet' href='https://ahelwer.ca/css/main.css')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800')
+    link(rel='stylesheet' href='https://ahelwer.ca/css/pygment_highlights.css')
+    link(rel='stylesheet' href='https://ahelwer.ca/css/highlight.min.css')
+  body
+    nav.navbar.navbar-default.navbar-fixed-top.navbar-custom
+      .container-fluid
+        .navbar-header
+          button.navbar-toggle(type='button' data-toggle='collapse' data-target='#main-navbar')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='https://ahelwer.ca/') Andrew Helwer
+        .collapse.navbar-collapse#main-navbar
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(title='Blog' href='https://ahelwer.ca/') Blog
+            li.navlinks-container
+              a.navlinks-parent(href='javascript:void(0)') Samples
+              .navlinks-children
+                a(href='https://ahelwer.ca/post/2017-03-07-bigimg-sample') Big Image Sample
+                a(href='https://ahelwer.ca/post/2017-03-05-math-sample') Math Sample
+                a(href='https://ahelwer.ca/post/2016-03-08-code-sample') Code Sample
+            li
+              a(title='About' href='https://ahelwer.ca/page/about/') About
+            li
+              a(title='Tags' href='https://ahelwer.ca/tags') Tags
+        .avatar-container
+          .avatar-img-border
+            a(title='Andrew Helwer' href='https://ahelwer.ca/')
+              img.avatar-img(src='https://ahelwer.ca/img/avatar-icon.jpg' alt='Andrew Helwer')
+    header.header-section
+      .intro-header.no-img
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+              .post-heading
+                h1 Simulating physical reality with a quantum computer
+                h2.post-subheading Quantum chemistry for complete beginners
+                span.post-meta.
+
+                  Posted on December 21, 2019
+
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+          article.blog-post(role='main')
+            h2#quantum-computers-not-just-for-breaking-rsa Quantum Computers: Not Just for Breaking RSA
+            p
+              | There's no denying it, Shor's algorithm was a blockbuster result. The thought of an exotic new computer breaking all widely-used public-key crypto plays well with the public imagination, and so you'd be forgiven for believing quantum computing is ultimately a sort of billions-dollar make-work project for software engineers: forcing our profession to relive a Y2K-like mass upgrade of old systems to new,
+              a(href='https://blog.cloudflare.com/the-tls-post-quantum-experiment/') quantum-safe encryption algorithms
+              | . Great for consultants, bad for people who want resources invested toward actual social good.
+            p
+              | In reality, breaking public-key crypto - while
+              em interesting
+              |  - is more of an unfortunate side-effect than quantum computing's
+              em raison d'être
+              | . The original motivation for building a quantum computer was simulating quantum-mechanical systems: particles, atoms, molecules, proteins. Simulating quantum-mechanical systems with a classical computer requires resources scaling exponentially with the size of the system being simulated. By contrast, quantum computers get a “native” speedup: the parts of the problem requiring exponential classical resources are things that quantum computers get for free. Classically intractable simulations move within reach, hopefully revolutionizing material design, pharmaceuticals, and even high-temperature superconductors.
+            p Simulating physical reality with a quantum computer is obviously appealing on several levels, but how is it actually done? Let's be clear from the outset: in order to understand how physics is simulated, you must understand the physics being simulated. This post isn't the place to learn quantum mechanics, so all I will do is set up an extremely simple quantum system, explain how it works in a very “spherical chickens in a vacuum” type way, and walk through how we'd describe that system to a quantum computer.
+            h2#the-problem The Problem
+            p All simulations, quantum or classical, follow the same general structure:
+            ol
+              li A physical system of interest is described, usually in some kind of modeling program
+              li The system's initial state is described, usually also in the same program
+              li The system description and initial state are compiled into a form understood by the simulation program
+              li The simulation program is executed, usually to derive the state of the system (within a margin of error) after some period of time has passed
+              li The simulation program's output state is translated back to the modeling program, or some other such human-usable form
+            p
+              | The goal is to have a correspondence like this:
+
+              img(src='https://ahelwer.ca/img/hamsim/simulation.PNG' alt)
+            p
+              | When we simulate quantum-mechanical systems on a quantum computer, we call this
+              em Hamiltonian Simulation
+              | .
+            h3#describing-the-system Describing the system
+            p
+              | Consider a very simple quantum-mechanical system: a single electron sitting in an infinite uniform magnetic field. Electrons have a property called
+              a(href='https://en.wikipedia.org/wiki/Spin_(physics)') spin
+              | , which is
+              em very loosely
+              |  analogous to the spin of a tennis ball (although the particle is not literally spinning in a physical sense): when the electron is fired through a magnetic field, it will curve in a direction corresponding to its spin (spin-up or spin-down) as demonstrated in the famous
+              a(href='https://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment') Stern-Gerlach experiment
+              | . Note this phenomenon is different from the
+              a(href='https://en.wikipedia.org/wiki/Lorentz_force') Lorentz force
+              |  which affects all charged particles moving through an electromagnetic field:
+            p
+              img(src='https://ahelwer.ca/img/hamsim/cyclotron.jpg' alt)
+              | Cyclotron demonstrating Lorentz force (source:
+              a(href='https://commons.wikimedia.org/wiki/File:Cyclotron_motion_wider_view.jpg') Wikimedia Commons
+              | )
+            p
+              | The magnetic field does more than just alter the electron's path through space: it also affects the spin itself! We want to describe how the electron spin changes over time in a magnetic field; how? Physicists use something called a
+              em Hamiltonian
+              |  to describe these systems. A Hamiltonian, in the context of quantum mechanics, is a matrix; for example:
+            p $$ H = \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} $$
+            p
+              | The Hamiltonian of a system describes its energy. How exactly does a matrix encode the energy of a system? Sadly, that's outside the purview of this post; you'll just have to accept that it does. It can be very complicated to derive the Hamiltonian for a given system, but luckily in our particular case the Hamiltonian is quite famous! Depending on the direction of the magnetic field, our Hamiltonian is one of the
+              a(href='https://en.wikipedia.org/wiki/Pauli_matrices') Pauli spin operators
+              | :
+            p $$ \sigma_x = \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}, \sigma_y = \begin{bmatrix} 0 & -i \\ i & 0 \end{bmatrix}, \sigma_z = \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} $$
+            p If the magnetic field points along the \( x \) direction the Hamiltonian is \( \sigma_x \), along the \( y \) direction it's \( \sigma_y \), and along the \( z \) direction it's \( \sigma_z \) (multiplied by the magnetic field strength, which we will ignore here for simplicity). Let's say our magnetic field points in the \( z \) direction, so our Hamiltonian is \( \sigma_z \). With this Hamiltonian, we have a complete description of how our magnetic field affects the electron's spin over time.
+            h3#describing-the-initial-state Describing the initial state
+            p
+              | Like any property of the quantum realm, spin isn't limited to concrete values like up & down. Particles can also be in a
+              em superposition
+              |  of spin-up and spin-down. Let's cut past the handwaviness here; superposition has a precise mathematical definition, and that's
+              em linear combination
+              | . The state of our quantum system is expressed as a vector. A spin-up particle has this state (the \( |\uparrow\rangle \) is using something called
+              a(href='https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation') bra-ket notation
+              | ): $$ |\uparrow \rangle = \begin{bmatrix} 1 \\ 0 \end{bmatrix} $$
+            p A spin-down particle has this state: $$ |\downarrow \rangle = \begin{bmatrix} 0 \\ 1 \end{bmatrix} $$
+            p A particle in exactly equal superposition of spin-up and spin-down has this state (by convention called the \(|+\rangle\) state): $$ |+\rangle = \frac{1}{\sqrt{2}} \cdot \begin{bmatrix} 1 \\ 0 \end{bmatrix} + \frac{1}{\sqrt{2}} \cdot \begin{bmatrix} 0 \\ 1 \end{bmatrix} = \begin{bmatrix} \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \end{bmatrix} $$
+            p
+              | The values in this vector are Complex numbers called
+              em amplitudes
+              | . The sum of the squares of the absolute values of the vector values must equal one: $$ \begin{bmatrix} a \\ b \end{bmatrix} : a,b \in \mathbb{C}, ||a||^2 + ||b||^2 = 1 $$
+            p
+              | When we measure the spin of our particle (for example by firing it through the Stern-Gerlach experiment mechanism), it
+              em collapses
+              |  probabilistically to spin-up or spin-down. The probability of collapsing to spin-up is given by the absolute-value-squared of the top vector value, and the probability of collapsing to spin-down is given by the absolute-value-squared of the bottom vector value. So, a particle in the \(|+\rangle\) state has a 50/50 chance of collapsing to spin-up or spin-down:
+            p $$ |+\rangle = \begin{bmatrix} \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \end{bmatrix} $$
+            p For our one-electron system, let's say our particle starts out in the spin-up state: $$ |\uparrow \rangle = \begin{bmatrix} 1 \\ 0 \end{bmatrix} $$
+            p A particle in a magnetic field will have its spin rotated around the state space, through different superpositions of spin-up and spin-down. Our goal is to track how our particle's spin changes over time.
+            h3#compiling-to-the-quantum-computer Compiling to the quantum computer
+            p
+              | We have our Hamiltonian and initial state vector, but how do we translate them into a form understood by a quantum computer? This is really the most complicated step of all; we want to take our Hamiltonian matrix and compile it into a series of quantum logic gates for execution on a quantum computer (if you don't know much about quantum logic gates or how a quantum computer works in general, I gave a talk
+              a(href='https://youtu.be/F_Riqjdh2oM') here
+              |  [
+              a(href='https://speakerdeck.com/ahelwer/quantum-computing-for-computer-scientists') slides
+              | ] aimed at computer scientists).
+            p
+              | First, the good news: no compilation is necessary for our state vector. It works as-is. Things are quite a bit different for our Hamiltonian, however. We compile it by solving for \( U(t) \) in the following
+              a(href='https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)#Schr%C3%B6dinger_equation') variant of the Schrödinger equation
+              | : $$ U(t) = e^{-i H t} $$ Where:
+            ul
+              li \( U(t) \) is a matrix that takes time \( t \) as a parameter
+              li
+                | \( e \) is
+                a(href='https://en.wikipedia.org/wiki/E_(mathematical_constant)') Euler's number
+              li \( i \) is the imaginary number such that \( i^2 = -1 \)
+              li \( H \) is our Hamiltonian
+              li \( t \) is time (in seconds), a variable
+            p
+              | There's one very strange thing about this equation: it has a matrix as an exponent! What does that even mean?! How can you raise something to the power of a matrix? You can't, at least not directly - you have to use an identity for \( e^x \) involving the
+              a(href='https://en.wikipedia.org/wiki/Exponential_function#Computation') Taylor series
+              | :
+            p $$ e^x = \sum_{n=0}^{n=\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \ldots $$
+            p Plugging our Hamiltonian \( H \) into that identity moves it out of the exponent and into the (somewhat) more comfortable waters of an infinite sum:
+            p $$ U(t) = e^{-iHt} = \sum_{n=0}^{n=\infty} \frac{(-iHt)^n}{n!} = 1 + (-iHt) + \frac{(-iHt)^2}{2!} + \frac{(-iHt)^3}{3!} + \ldots $$
+            p which expands to:
+            p $$ U(t) = 1 - i(Ht) - \frac{(Ht)^2}{2!} + \frac{i(Ht)^3}{3!} + \frac{(Ht)^4}{4!} - \frac{i(Ht)^5}{5!} - \frac{(Ht)^6}{6!} \ldots $$
+            p Note that raising \(-1\) and \(i\) to successive powers follows the cycle \(1 \rightarrow -i \rightarrow -1 \rightarrow i \rightarrow 1\). Note also that for \(H = \sigma_z\), \(H^2 = \mathbb{I}\), the identity matrix, which is equivalent to the scalar 1. Thus the above series becomes:
+            p $$ U(t) = 1 - iHt - \frac{t^2}{2!} + \frac{iHt^3}{3!} + \frac{t^4}{4!} - \frac{iHt^5}{5!} - \frac{t^6}{6!} \ldots $$
+            p
+              | To translate this into something we can use, we need the
+              a(href='https://en.wikipedia.org/wiki/Trigonometric_functions#Power_series_expansion') Taylor series expansions for sine and cosine
+              | :
+            p $$ \sin(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \ldots $$
+            p $$ \cos(x) = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \ldots $$
+            p You can then extract \(\cos(x)\) from the \(U(t)\) series directly:
+            p $$ U(t) = \cos(t) -iHt + \frac{iHt^3}{3!} - \frac{iHt^5}{5!} + \frac{iHt^7}{7!} + \ldots $$
+            p From which it's easy to extract \(\sin(x)\):
+            p $$ U(t) = \cos(t) - iH \left( t - \frac{t^3}{3!} + \frac{t^5}{5!} - \frac{t^7}{7!} + \ldots \right) = \cos(t) - iH\sin(t) $$
+            p Almost there! Now multiply both sides of the equation by the identity matrix and expand \(H\) to get:
+            p $$ \begin{bmatrix}1 & 0 \\ 0 & 1\end{bmatrix}U(t) = \begin{bmatrix}1 & 0 \\ 0 & 1\end{bmatrix} \left( \cos(t) - i \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix}\sin(t) \right) $$ $$ U(t) = \begin{bmatrix}\cos(t) & 0 \\ 0 & \cos(t)\end{bmatrix} - \begin{bmatrix} i\sin(t) & 0 \\ 0 & -i\sin(t) \end{bmatrix} $$ $$ U(t) = \begin{bmatrix}\cos(t) - i\sin(t) & 0 \\ 0 & \cos(t) + i\sin(t)\end{bmatrix} $$
+            p Recall the famous identity for Euler's formula:
+            p $$e^{ix} = \cos(x) + i\sin(x)$$
+            p Plugging it in to our matrix, we finally have:
+            p $$U(t) = e^{-iHt} = \begin{bmatrix} e^{-it} & 0 \\ 0 & e^{it} \end{bmatrix}$$
+            p
+              | We successfully solved for \(U(t)\)! I wish we could say we are done, but not quite. \(U(t)\) must be the cumulative effect of our quantum logic circuit, but how do we actually build a circuit with that effect? Fortunately here it's very simple; there's a fundamental quantum logic gate called the
+              a(href='https://docs.microsoft.com/en-us/qsharp/api/qsharp/microsoft.quantum.intrinsic.rz?view=qsharp-preview') Rz gate
+              |  which almost exactly matches our \(U(t)\)! Here it is:
+            p $$ Rz(\theta) = \begin{bmatrix} e^{-i \theta/2} & 0 \\ 0 & e^{i \theta/2} \end{bmatrix} $$
+            p At long last, we end up with our compiled Hamiltonian!
+            p $$ U(t) = Rz(2t) $$
+            p Can you compile the Hamiltonian when it's \(\sigma_x\) or \(\sigma_y\)?
+            h3#running-the-simulation Running the simulation
+            p All the pieces are in place. Flip the switch and let it rip! Let's see what our electron's spin will be after, say, three seconds in the magnetic field:
+            p $$ U(3)\begin{bmatrix} 1 \\ 0 \end{bmatrix} = Rz(2 \cdot 3)\begin{bmatrix} 1 \\ 0 \end{bmatrix} = \begin{bmatrix} e^{-i 6/2} & 0 \\ 0 & e^{i 6/2} \end{bmatrix}\begin{bmatrix} 1 \\ 0 \end{bmatrix} = e^{-i3}\begin{bmatrix} 1 \\ 0 \end{bmatrix} $$
+            p
+              | Very exciting! I guess! What does this even mean? Actually, we've stumbled upon a very interesting phenomenon; to understand it, you'll need to understand
+              em phase invariance
+              | . Basically, if two quantum states differ only by a
+              em phase
+              |  (a scalar multiplier \(e^{i\theta}\)) then they are actually the exact same state. Multiple ways of writing the same thing. So, after three seconds in the magnetic field, our electron's spin is
+              em unchanged
+              | . You may think this is a letdown, but actually we've discovered something very important: an eigenstate of our system!
+            p
+              | Eigenstates are the system's stable states. As an analogy, think of a compass in Earth's magnetic field. The compass spins freely until pointing toward magnetic North. Once it points North, it's in an eigenstate and won't spin any further. That's the situation here, except our “compass” (the electron's spin) was already pointing “North”. Eigenstates are so-called because the state is an
+              em eigenvector
+              |  of the Hamiltonian: multiplying the eigenvector by the Hamiltonian matrix is the same as just multiplying it by a scalar. We have the useful and important theorem that if something is an eigenvector of our Hamiltonian \(H\), it's also an eigenvector of \(U(t) = e^{-iHt}\).
+            p Eigenstates are very important. An electron in a specific atomic orbital is in an eigenstate. A fully-folded protein is in an eigenstate. Finding eigenstates is one of the main motivations for using Hamiltonian simulation. We found an eigenstate by accident, but there are algorithms you can use to search for them on purpose. Can you find a second eigenstate?
+            p Enough about that - what about if we run our simulation on a start state that isn't an eigenstate? How about running it for \(\pi/2\) seconds on our 50/50 up-down superposition state?
+            p $$ Rz(2 \pi/2)\begin{bmatrix} \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \end{bmatrix} = \begin{bmatrix} e^{-i \pi/2} & 0 \\ 0 & e^{i \pi/2} \end{bmatrix} \begin{bmatrix} \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \end{bmatrix} = \begin{bmatrix} -i & 0 \\ 0 & i \end{bmatrix} \begin{bmatrix} \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \end{bmatrix} = -i \begin{bmatrix} \frac{1}{\sqrt{2}} \\ \frac{-1}{\sqrt{2}} \end{bmatrix} $$
+            p So our particle's spin changes from the \(|+\rangle\) state to what's called the \(|-\rangle\) state, picking up a global phase along the way. Fascinating! Of course, in reality you can't just peek at the quantum state vector; you must destructively measure it. You can run this over and over to get a pretty good idea of the vector's value, though.
+            h2#upping-the-ante Upping the ante
+            p Puzzled readers might be wondering where the promised quantum speedup comes in. It appears when the system you're analyzing grows in size: if you're analyzing a system with \(n\) properties (for example, \(n\) electrons each with their own spin) then the state vector is of size \(2^n\). If the properties in your system don't affect each other then you can usually factor the exponential-sized state vector into a product of smaller vectors, but once the properties start affecting one another (entanglement) you have to bite the bullet and keep the full \(2^n\)-sized vector around. Quantum computers get this \(2^n\)-sized vector for free, simply because of how quantum mechanics works.
+            h2#how-it-works-in-reality How it works in reality
+            p
+              | Nobody ever stands at a chalkboard deriving the Hamiltonian of their system, outside of undergraduate physics classes. The most complicated Hamiltonian you can derive by hand is probably that of elemental Hydrogen, so this is all done numerically; scientists create a model of their system in a program like
+              a(href='http://www.nwchem-sw.org/index.php/Main_Page') NWChem
+              | , then it sucks up a whole bunch of (classical) computing power before spitting out the Hamiltonian. Similarly, nobody stands around writing down Taylor series expansions and doing weird algebraic tricks to compile their Hamiltonian; there are (very complicated) automatic methods for all of this given certain properties about your Hamiltonian. Both the process of deriving and compiling a system Hamiltonian are fast-moving, active areas of research.
+            h2#in-conclusion In conclusion
+            p True credit to you if you made it this far, reader. That was a whole lot of math just to get the most absolutely basic, hello-world type example out the door. If you're interested in learning more on this topic here are some resources I've found:
+            ul
+              li
+                | The upcoming textbook
+                a(href='https://www.manning.com/books/learn-quantum-computing-with-python-and-q-sharp')
+                  em Learn Quantum Computing with Python and Q#
+                |  by Sarah C. Kaiser and Christopher E. Granade has an entire chapter introducing quantum chemistry
+              li
+                a(href='https://youtu.be/PerdRJ-offU') A talk
+                |  by Robin Kothari on Hamiltonian simulation from a pure computer science perspective
+              li
+                | The review paper
+                a(href='https://arxiv.org/abs/1808.10402')
+                  em Quantum computational chemistry
+                |  by McArdle et al. offers a significantly more technical overview of the material
+            p
+              em
+                | Posted for the
+                a(href='https://devblogs.microsoft.com/qsharp/q-advent-calendar-2019/') Q# Advent Calendar 2019
+          ul.pager.blog-pager
+            li.previous
+              a(href='https://ahelwer.ca/post/2018-12-07-chsh/' data-toggle='tooltip' data-placement='top' title='Walking the faster-than-light tightrope') ← Previous Post
+    footer
+      .container
+        .row
+          .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+            ul.list-inline.text-center.footer-links
+              li
+                a(href='https://gitlab.com/ahelwer' title='GitLab')
+                  span.fa-stack.fa-lg
+                    i.fa.fa-circle.fa-stack-2x
+                    i.fab.fa-gitlab.fa-stack-1x.fa-inverse
+              li
+                a(href='https://github.com/ahelwer' title='GitHub')
+                  span.fa-stack.fa-lg
+                    i.fa.fa-circle.fa-stack-2x
+                    i.fab.fa-github.fa-stack-1x.fa-inverse
+              li
+                a(href='https://twitter.com/ahelwer' title='Twitter')
+                  span.fa-stack.fa-lg
+                    i.fa.fa-circle.fa-stack-2x
+                    i.fab.fa-twitter.fa-stack-1x.fa-inverse
+              li
+                a(href='https://linkedin.com/in/ahelwer' title='LinkedIn')
+                  span.fa-stack.fa-lg
+                    i.fa.fa-circle.fa-stack-2x
+                    i.fab.fa-linkedin.fa-stack-1x.fa-inverse
+              li
+                a(href='https://keybase.io/ahelwer' title='Keybase')
+                  span.fa-stack.fa-lg
+                    i.fa.fa-circle.fa-stack-2x
+                    i.fab.fa-keybase.fa-stack-1x.fa-inverse
+              li
+                a(href='https://ahelwer.ca/index.xml' title='RSS')
+                  span.fa-stack.fa-lg
+                    i.fa.fa-circle.fa-stack-2x
+                    i.fa.fa-rss.fa-stack-1x.fa-inverse
+            p.credits.copyright.text-muted
+              | Andrew Helwer  •  2019  • 
+
+              a(href='https://ahelwer.ca/') Andrew Helwer
+            p.credits.theme-by.text-muted
+              a(href='http://gohugo.io') Hugo v0.62.0
+              |  powered  •  Theme by
+              a(href='http://deanattali.com/beautiful-jekyll/') Beautiful Jekyll
+              |  adapted to
+              a(href='https://github.com/halogenica/beautifulhugo') Beautiful Hugo
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js' integrity='sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1' crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js' integrity='sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx' crossorigin='anonymous')
+    script(src='https://code.jquery.com/jquery-1.12.4.min.js' integrity='sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=' crossorigin='anonymous')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js' integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa' crossorigin='anonymous')
+    script(src='https://ahelwer.ca/js/main.js')
+    script(src='https://ahelwer.ca/js/highlight.min.js')
+    script hljs.initHighlightingOnLoad();
+    script renderMathInElement(document.body);

@@ -1,0 +1,1177 @@
+doctype html
+html(lang='en')
+  head
+    meta(name='google-site-verification' content='X5sd8PEDJqYLSR98RKgSozn-0RNpknXFlGoA-UXe5K0')
+    meta(name='viewport' content='width=device-width,initial-scale=1')
+    meta(name='theme-color' content='#d33a2c')
+    meta(property='fb:pages' content='45576747489')
+    meta(name='flattr:id' content='glyg5e')
+    link(rel='icon' type='image/png' href='/images/favicon/favicon.png')
+    link(rel='icon' href='/images/favicon/favicon.ico' type='image/x-icon')
+    link(rel='apple-touch-icon' href='/images/favicon/apple-touch-icon-iphone-60x60.png')
+    link(rel='apple-touch-icon' sizes='60x60' href='/images/favicon/apple-touch-icon-ipad-76x76.png')
+    link(rel='apple-touch-icon' sizes='114x114' href='/images/favicon/apple-touch-icon-iphone-retina-120x120.png')
+    link(rel='apple-touch-icon' sizes='144x144' href='/images/favicon/apple-touch-icon-ipad-retina-152x152.png')
+    link(rel='apple-touch-icon' sizes='256x256' href='/images/favicon/app-icon-256x256.png')
+    link(rel='apple-touch-icon' sizes='512x512' href='/images/favicon/app-icon-512x512.png')
+    link(rel='manifest' href='/manifest.json')
+    meta(name='description' content='Skipping servers and using the JAMstack to build and deliver websites and apps can save time, money, and headache by allowing us to deliver only static assets on a CDN. But the trade-off of ditching traditional server-based deployments means that standard approaches to dynamic, asynchronous interactions in our sites and apps aren’t available anymore.<br /><br />Does that mean that JAMstack sites can’t handle dynamic interactions? Definitely not!<br /><br />JAMstack sites are great for creating highly dynamic, asynchronous interactions. With some small adjustments to how we think about our code, we can create fun, immersive interactions using only static assets!')
+    meta(name='robots' content='noodp')
+    link(rel='canonical' href='https://www.smashingmagazine.com/2019/12/dynamic-async-functionality-jamsstack-websites/')
+    meta(property='og:locale' content='en_US')
+    meta(property='og:type' content='article')
+    meta(property='og:title' content='Adding Dynamic And Async Functionality To JAMstack Sites — Smashing Magazine')
+    meta(property='og:description' content='Skipping servers and using the JAMstack to build and deliver websites and apps can save time, money, and headache by allowing us to deliver only static assets on a CDN. But the trade-off of ditching traditional server-based deployments means that standard approaches to dynamic, asynchronous interactions in our sites and apps aren’t available anymore. Does that mean that JAMstack sites can’t handle dynamic interactions? Definitely not! JAMstack sites are great for creating highly dynamic, asynchronous interactions. With some small adjustments to how we think about our code, we can create fun, immersive interactions using only static assets!')
+    meta(property='og:url' content='https://www.smashingmagazine.com/2019/12/dynamic-async-functionality-jamsstack-websites/')
+    meta(property='og:site_name' content='Smashing Magazine')
+    meta(property='article:publisher' content='https://www.facebook.com/smashmag')
+    meta(property='article:author' content='https://www.smashingmagazine.com/author/jason-lengstorf/')
+    meta(property='article:tag' content)
+    meta(property='article:section' content='General')
+    meta(property='article:published_time' content='2019-12-18 11:30:00 +0000 UTC')
+    meta(property='article:modified_time' content='2019-12-18 11:30:00 +0000 UTC')
+    meta(property='og:updated_time' content='2019-12-18 11:30:00 +0000 UTC')
+    meta(property='og:image' content='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/84fd618a-f675-4a4a-b85a-147097bc1d34/dynamic-async-functionality-jamsstack-websites.png')
+    meta(name='twitter:card' content='summary_large_image')
+    meta(name='twitter:description' content='Skipping servers and using the JAMstack to build and deliver websites and apps can save time, money, and headache by allowing us to deliver only static assets on a CDN. But the trade-off of ditching traditional server-based deployments means that standard approaches to dynamic, asynchronous interactions in our sites and apps aren’t available anymore. Does that mean that JAMstack sites can’t handle dynamic interactions? Definitely not! JAMstack sites are great for creating highly dynamic, asynchronous interactions. With some small adjustments to how we think about our code, we can create fun, immersive interactions using only static assets!')
+    meta(name='twitter:title' content='Adding Dynamic And Async Functionality To JAMstack Sites — Smashing Magazine')
+    meta(name='twitter:site' content='@smashingmag')
+    meta(name='twitter:image' content='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/84fd618a-f675-4a4a-b85a-147097bc1d34/dynamic-async-functionality-jamsstack-websites.png')
+    meta(property='DC.date.issued' content='2019-12-18 11:30:00 +0000 UTC')
+    link(rel='dns-prefetch' href='https://www.gravatar.com/')
+    link(rel='dns-prefetch' href='https://cloud.netlifyusercontent.com/')
+    link(rel='dns-prefetch' href='https://smashingcomments.netlify.com/')
+    link(rel='dns-prefetch' href='https://d33wubrfki0l68.cloudfront.net/')
+    link(rel='dns-prefetch' href='https://consent.cookiebot.com/')
+    link(rel='dns-prefetch' href='https://consentcdn.cookiebot.com')
+    link(rel='dns-prefetch' href='https://www.google-analytics.com/')
+    link(rel='dns-prefetch' href='https://res.cloudinary.com/')
+    link(rel='dns-prefetch' href='https://delivery.smashing.services/')
+    link(rel='dns-prefetch' href='https://smashingconf.com/')
+    link(rel='dns-prefetch' href='https://smashed.by/')
+    link(rel='preconnect' href='https://www.gravatar.com/')
+    link(rel='preconnect' href='https://smashingcomments.netlify.com/')
+    link(rel='preconnect' href='https://cloud.netlifyusercontent.com/')
+    link(rel='preconnect' href='https://d33wubrfki0l68.cloudfront.net/')
+    link(rel='preconnect' href='https://consent.cookiebot.com/')
+    link(rel='preconnect' href='https://consentcdn.cookiebot.com')
+    link(rel='preconnect' href='https://www.google-analytics.com/')
+    link(rel='preconnect' href='https://res.cloudinary.com/')
+    link(rel='preconnect' href='https://delivery.smashing.services/')
+    link(rel='preconnect' href='https://smashingconf.com/')
+    link(rel='preconnect' href='https://smashed.by/')
+    title Adding Dynamic And Async Functionality To JAMstack Sites — Smashing Magazine
+    link(rel='alternate' type='application/rss+xml' title='Smashing Magazine &raquo; Feed' href='https://www.smashingmagazine.com/feed/')
+    style @font-face{font-family:ElenaInitial;src:url("https://d33wubrfki0l68.cloudfront.net/a978f759fa0230c1e590d1bdb5a1c03ceb538cec/fed6b/fonts/elenawebregular/elenawebregular.woff2") format("woff2"),url("https://d33wubrfki0l68.cloudfront.net/9c2752fab289f61c6ed3a1f78ab60fb2034103b7/bf691/fonts/elenawebregular/elenawebregular.woff") format("woff")}@font-face{font-family:Elena;src:url("https://d33wubrfki0l68.cloudfront.net/a978f759fa0230c1e590d1bdb5a1c03ceb538cec/fed6b/fonts/elenawebregular/elenawebregular.woff2") format("woff2"),url("https://d33wubrfki0l68.cloudfront.net/9c2752fab289f61c6ed3a1f78ab60fb2034103b7/bf691/fonts/elenawebregular/elenawebregular.woff") format("woff")}@font-face{font-family:Elena;src:url("https://d33wubrfki0l68.cloudfront.net/151446eb4ad2f20af89f3132f66d03cc92c856f4/74612/fonts/elenawebregularitalic/elenawebregularitalic.woff2") format("woff2"),url("https://d33wubrfki0l68.cloudfront.net/a6275674bf99f00da2e019547d61933d074f2ae7/51beb/fonts/elenawebregularitalic/elenawebregularitalic.woff") format("woff");font-style:italic}@font-face{font-family:Elena;src:url("https://d33wubrfki0l68.cloudfront.net/a7cc92a2d6ae8ea43370e14b53d2ce89a2b2b5ab/7cca9/fonts/elenawebbold/elenawebbold.woff2") format("woff2"),url("https://d33wubrfki0l68.cloudfront.net/c2ebb4866cc6ce6d5ffdb22b616cb3dde4274107/c6bc6/fonts/elenawebbold/elenawebbold.woff") format("woff");font-weight:700}@font-face{font-family:Elena;src:url("https://d33wubrfki0l68.cloudfront.net/bbc71fd1b91cc1a4ede7ea378a8bf30b9e32173e/93eeb/fonts/elenawebbolditalic/elenawebbolditalic.woff2") format("woff2"),url("https://d33wubrfki0l68.cloudfront.net/56129334a763b7d04f2f34cbbd3b4f68f72bb6d7/8045a/fonts/elenawebbolditalic/elenawebbolditalic.woff") format("woff");font-weight:700;font-style:italic}@font-face{font-family:MijaInitial;src:url("https://d33wubrfki0l68.cloudfront.net/ac1833dce386eb55d8e105248ef9126622e8e3e9/03f2d/fonts/mijaregular/mija_regular-webfont.woff2") format("woff2"),url("https://d33wubrfki0l68.cloudfront.net/0e0910ceb0e2f9adffd9db31665dafa4ec5c10ff/7214b/fonts/mijaregular/mija_regular-webfont.woff") format("woff")}@font-face{font-family:Mija;src:url("https://d33wubrfki0l68.cloudfront.net/ac1833dce386eb55d8e105248ef9126622e8e3e9/03f2d/fonts/mijaregular/mija_regular-webfont.woff2") format("woff2"),url("https://d33wubrfki0l68.cloudfront.net/0e0910ceb0e2f9adffd9db31665dafa4ec5c10ff/7214b/fonts/mijaregular/mija_regular-webfont.woff") format("woff")}@font-face{font-family:Mija;src:url("https://d33wubrfki0l68.cloudfront.net/94691bb5497213e09480b17ef68446d2b85667e9/d58ec/fonts/mijabold/mija_bold-webfont.woff2") format("woff2"),url("https://d33wubrfki0l68.cloudfront.net/1d162cc7792bc1f04919a5a344b4082087b9e012/855b4/fonts/mijabold/mija_bold-webfont.woff") format("woff");font-weight:700}
+    script.
+      var fontsInServiceWorker=sessionStorage.foutFontsStage1Loaded&&sessionStorage.foutFontsStage2Loaded||('serviceWorker'in navigator&&navigator.serviceWorker.controller!==null&&navigator.serviceWorker.controller.state==='activated')
+      if(!fontsInServiceWorker&&'fonts'in document){function fetchFonts(fonts){return Promise.all(fonts.map(function(font){return document.fonts.load(font);}));}
+      fetchFonts(['1em ElenaInitial','1em MijaInitial']).then(function(){var docEl=document.documentElement;docEl.classList.add('wf-loaded-stage1');sessionStorage.foutFontsStage1Loaded=true;fetchFonts(['1em Elena','700 1em Elena','italic 1em Elena','italic 700 1em Elena','1em Mija','700 1em Mija']).then(function(){docEl.classList.add('wf-loaded-stage2');sessionStorage.foutFontsStage2Loaded=true;});});}
+    style @charset "UTF-8";article,header,nav{display:block}strong{font-weight:inherit}strong{font-weight:bolder;letter-spacing:.25px}.c-garfield-the-cat figcaption a:not(.btn){color:#666;background-image:-webkit-gradient(linear,left top,left bottom,from(#666),to(#666));background-image:linear-gradient(#666,#666)}@media all and (min-width:1100px){@supports(grid-row-gap:0){.c-garfield-the-cat{display:grid;grid-template-columns:11rem repeat(12,1fr) 15rem;grid-row-gap:calc(1em + .5vw);margin:0 auto}.c-garfield-the-cat>h3{margin-top:calc(1.5 * (1em + .5vw));margin-bottom:0}.c-garfield-the-cat>h4{margin-top:calc(1em + .5vw);margin-bottom:calc(-1 * (1em + .5vw)/2)}.c-garfield-the-cat>*{grid-column-start:3;grid-column-end:13;margin-top:0;margin-bottom:0}.c-garfield-the-cat>table{margin-bottom:calc(1em + .5vw)}.c-garfield-the-cat .c-garfield-bio{grid-column-start:1;grid-column-end:2;grid-row:span 3;align-self:start}.c-garfield-the-cat .c-garfield-header{grid-column-end:15}.c-garfield-the-cat .c-garfield-aside--newsletter{grid-column-start:14;grid-column-end:15;grid-row-start:3;grid-row-end:11;align-self:start}.c-garfield-the-cat .c-garfield-aside--meta{grid-column-start:14;grid-column-end:15;grid-row-start:2;grid-row-end:4;align-self:start;margin:0;overflow:hidden}.c-garfield-the-cat>.break-out{grid-column-start:1;grid-column-end:15;max-width:50em;margin-left:auto;margin-right:auto;width:100%}.c-garfield-the-cat>.break-out img{margin:0 auto}.c-garfield-the-cat>.break-out figcaption{max-width:50em}.article__content .c-garfield-the-cat figcaption{padding-top:calc((1em + .5vw)/2);padding-bottom:0;margin:0 auto}.c-garfield-the-cat>ul li{margin-bottom:calc((1em + .5vw)/2)}.c-garfield-the-cat .c-garfield-native-panel{grid-column-start:1;grid-column-end:2;grid-row-start:4;grid-row-end:10;align-self:start;text-align:center;margin-top:-2em}.c-garfield-the-cat .c-garfield-native-panel__below{grid-row-start:15;grid-row-end:20}.c-garfield-aside--newsletter{display:block}}}strong{letter-spacing:0}figcaption a{color:inherit}.article h1,.article h2,.article h3,.article h4{position:relative}.article__content figure:not(.bio-image),.article__image{padding:0;margin:1em auto}.article__content figure:not(.bio-image) img,.article__image img{display:block;width:auto;max-width:100%;margin:0 auto;height:auto}.article__content figure:not(.bio-image)>a,.article__image>a{display:block;background:0 0;position:relative;z-index:99}.article__content figure:not(.bio-image) figcaption,.article__image figcaption{color:#666;font-size:calc(.8em + .2vw);font-style:italic;padding:.75em 2em .75em 0;display:table}.article__content figure:not(.bio-image) figcaption a,.article__image figcaption a{color:#666}.article__content figure:not(.bio-image) figcaption::before,.article__image figcaption::before{content:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNyAxMy4wOSI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNjMmMyYzJ9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmNhbWVyYTwvdGl0bGU+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNOC41IDUuNDRhMi4yMSAyLjIxLjAgMSAwIDIuMjEgMi4yMUEyLjIxIDIuMjEuMCAwIDAgOC41IDUuNDR6TTE0Ljc5IDIuMjFoLTIuNTVhMi4yMSAyLjIxLjAgMCAwLTIuMjQtMi4yMWgtM2EyLjIxIDIuMjEuMCAwIDAtMi4yNCAyLjIxaC0yLjU1YTIuMjEgMi4yMS4wIDAgMC0yLjIxIDIuMjF2Ni40NmEyLjIxIDIuMjEuMCAwIDAgMi4yMSAyLjIxaDEyLjU4YTIuMjEgMi4yMS4wIDAgMCAyLjIxLTIuMjF2LTYuNDZhMi4yMSAyLjIxLjAgMCAwLTIuMjEtMi4yMXptLTYuMjkgOS4zNWEzLjkxIDMuOTEuMCAxIDEgMy45MS0zLjkxIDMuOTEgMy45MS4wIDAgMS0zLjkxIDMuOTF6Ii8+PC9zdmc+);display:inline-block;height:18px;width:18px;height:1em;width:1.5em;padding-right:.6em;display:table-cell;vertical-align:baseline;position:relative;top:.05em}table{width:100%;border-collapse:collapse;margin-bottom:calc(2em + 2vw);clear:both;font-size:calc(.9em + .05vw)}tr{border-bottom:1px solid #ddd}td{padding:1em 1.5em;border:none;text-align:left}tbody td{text-align:left;color:#000;font-family:AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif}.wf-loaded-stage1 tbody td{font-family:ElenaInitial}.wf-loaded-stage2 tbody td{font-family:Elena}.tablesaw td{line-height:150%;text-align:left;vertical-align:middle}.tablesaw td{vertical-align:middle;font-size:calc(.9em + .05vw)}tbody tr:nth-child(2n) td{background-color:#f7f7f7}html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,header,nav,section{display:block}figcaption,figure,main{display:block}figure{margin:0}a{background-color:transparent;-webkit-text-decoration-skip:objects}img{border-style:none}svg:not(:root){overflow:hidden}button,input{font:inherit;margin:0}button{text-transform:none}[type=submit],button{-webkit-appearance:button}[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.sr-only{display:inline-block;height:0;width:0;line-height:0;overflow:hidden}.hidden{display:none!important}.container{width:calc(100% - .5em);max-width:1440px;margin:0 auto}.container::after{content:'';display:table;clear:both}@media screen and (min-width:40em){.container{width:92vw}}@media screen and (min-width:48em){.container{width:85vw}}@media screen and (min-width:64em){.container{width:94vw}}.c-garfield-the-cat>p:first-of-type{font-size:1.1em;line-height:1.55em}@media(max-width:1024px){.col{width:100%!important;padding:0 1em}.row{margin-left:0;margin-right:0}.article__content{float:none;margin-top:50px}.article__content::before{display:none}}body,html{min-height:100%;overflow-x:hidden}#main{position:relative;z-index:1;background-color:#fff}.c-garfield-header{clear:both}.c-garfield-the-cat a:not(.btn){color:#006fc6}.c-promo-box{font-size:.9em;border-radius:11px}.c-promo-box a:not(.btn){color:#006fc6}.c-promo-box--ad::before{display:block;white-space:pre-wrap;padding:0 0 1.5em;font-size:.75em;font-style:italic;color:#666}.c-garfield-the-cat .author__desc{font-size:calc(.8em + .15vw);color:#555}.article__summary::before{content:'Quick summary ↬ ';display:inline;font-style:normal;letter-spacing:2px;font-size:.75em;margin:0;font-weight:600;color:#d33a2c;text-transform:uppercase}.c-promo-box--wide::before{margin-top:1em;border-top:8px solid #eee;padding:2em 0 3em;content:'Our friends and supporters. You know, they help us pay the bills ↓';text-align:center}.c-promo-box--wide{padding:0;background:0 0;margin:0 auto}.c-promo-box--ad ul{padding-left:0;margin:0}.bnnr-list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;text-align:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-direction:row;flex-direction:row}.sponsors.c-promo-box:not(.c-promo-box--wide) .bnnr-list{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.c-garfield-the-cat{padding:0 1em}.c-garfield-aside--newsletter{display:none}@media all and (min-width:1100px){@supports(grid-row-gap:0){.c-garfield-the-cat{display:grid;grid-template-columns:11rem repeat(12,1fr) 15rem;grid-row-gap:calc(1em + .5vw);margin:0 auto}.c-garfield-the-cat>h3{margin-top:calc(1.5 * (1em + .5vw));margin-bottom:0}.c-garfield-the-cat>*{grid-column-start:3;grid-column-end:13;margin-top:0;margin-bottom:0}.c-garfield-the-cat .c-garfield-bio{grid-column-start:1;grid-column-end:2;grid-row:span 3;align-self:start}.c-garfield-the-cat .c-garfield-header{grid-column-end:15}.c-garfield-the-cat .c-garfield-aside--newsletter{grid-column-start:14;grid-column-end:15;grid-row-start:3;grid-row-end:11;align-self:start}.c-garfield-the-cat .c-garfield-aside--meta{grid-column-start:14;grid-column-end:15;grid-row-start:2;grid-row-end:4;align-self:start;margin:0;overflow:hidden}.c-garfield-the-cat .c-garfield-native-panel{grid-column-start:1;grid-column-end:2;grid-row-start:4;grid-row-end:10;align-self:start;text-align:center;margin-top:-2em}.c-garfield-aside--newsletter{display:block}}}@media screen and (min-width:80em){.c-garfield-the-cat{display:grid;grid-template-columns:15rem repeat(12,1fr) 17.5rem}}body{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;background-color:#fff}body.articlepage{background-color:#fff}img{max-width:100%}:focus{outline:#811d15 dotted 3px!important}[class*=col-]{float:left;padding:0 1em}.row::after,.row::before{content:' ';display:table}.row::after{clear:both}.col-12{width:100%}.clearfix:after,.clearfix:before{content:' ';display:table;clear:both}*,::after,::before{-webkit-box-sizing:border-box;box-sizing:border-box}.mbl{margin-bottom:20px!important}.main-header{padding:1em 0;background:#d33a2c;position:relative;min-height:6.2375rem}@media all and (max-width:901px){.main-header{padding:1em 0 0 .5em}}.header__head{width:100%;padding:0 2em;position:relative;color:#fff}@media(max-width:64em){.header__head{padding:0 1em}}.header__head:after,.header__head:before{content:' ';display:table;clear:both}a.skip-main{left:-999px;position:absolute;top:auto;width:1px;height:1px;overflow:hidden;z-index:-999}body{-webkit-font-feature-settings:'onum' 1;font-feature-settings:'onum' 1;color:#333;overflow:hidden;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif}.wf-loaded-stage1 body{font-family:ElenaInitial}.wf-loaded-stage2 body{font-family:Elena}body{font-size:1.125em}@media screen and (min-width:48em){body{font-size:calc(.35842vw + .95296em)}}body .form__field__label,body figcaption,body li,body p{line-height:calc(1.5em + .2vw);word-break:break-word}body h1,body h2,body h3{line-height:1.2}body h4{line-height:calc(1.3em + (1.5 - 1.3) * ((100vw - 21em)/(35 - 21)))}@supports(-ms-ime-align:auto){.article__content figure:not(.bio-image) figcaption,.article__image figcaption{display:inline-block}.article__content figure:not(.bio-image) figcaption::before,.article__image figcaption::before{display:inline-block}body{-webkit-font-feature-settings:normal;font-feature-settings:normal}}::-webkit-input-placeholder{color:#666}:-moz-placeholder{color:#666}::-moz-placeholder{color:#666}:-ms-input-placeholder{color:#666}time{font-size:.8em;color:#666;text-transform:lowercase;-webkit-font-feature-settings:'smcp' 1,'c2sc' 1;font-feature-settings:'smcp' 1,'c2sc' 1;letter-spacing:1px;font-variant:small-caps;text-transform:lowercase;background-position:50% 72%;font-family:AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif}.wf-loaded-stage1 time{font-family:ElenaInitial}.wf-loaded-stage2 time{font-family:Elena}p{margin:calc(1em + .5vw) 0}figure{margin:0;padding:0}figure:after,figure:before{content:' ';display:table;clear:both}a{text-decoration:none;padding:10px 0;background-image:-webkit-gradient(linear,left top,left bottom,from(currentColor),to(currentColor));background-image:linear-gradient(currentColor,currentColor);background-repeat:no-repeat;background-size:100% 1.5px;background-position:center bottom 29%;background-origin:padding-box;text-shadow:3px 0 #fff,2px 0 #fff,1px 0 #fff,-1px 0 #fff,-2px 0 #fff,-3px 0 #fff;color:#006fc6}@supports(-ms-ime-align:auto){a{text-shadow:none}}h1{font-size:calc(1.625rem + 1.6vw);margin:0;font-family:Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif}.wf-loaded-stage1 h1{font-family:MijaInitial}.wf-loaded-stage2 h1{font-family:Mija}.h2,h2{font-size:calc(1.375rem + 1.6vw);margin:0;font-family:Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif}.wf-loaded-stage1 .h2,.wf-loaded-stage1 h2{font-family:MijaInitial}.wf-loaded-stage2 .h2,.wf-loaded-stage2 h2{font-family:Mija}h3{font-size:calc(1.5rem + .25vw);margin:2em 0 .75em;text-transform:capitalize;color:#333;font-family:AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif}.wf-loaded-stage1 h3{font-family:ElenaInitial}.wf-loaded-stage2 h3{font-family:Elena}h4{font-size:calc(1.125rem + .25vw);text-transform:uppercase;letter-spacing:1px;margin-top:2em;margin-bottom:1em;color:#333}@media all and (min-width:1550px){h1{font-size:2.13894em}.h2,h2{font-size:2.14857em}}.article h1,.article h2,.article h3{position:relative}ul{padding:0;margin:1em 0;max-width:100%}ul{list-style:none;padding-left:calc(1.4em + .7vw);list-style-image:url("https://d33wubrfki0l68.cloudfront.net/5242cdc0f8a0d710a02b6dcdd43ef5002bf5ae89/77199/images/bullet.svg")}ul>li{margin-bottom:.5em;padding-left:.25em}ul>li p{margin-top:0}.main-nav__dropdown{position:relative;float:left;width:80%;width:calc(100% - 18em)}@media all and (max-width:1349px){.main-nav__dropdown{width:80%;width:calc(100% - 10em)}}@media all and (max-width:900px){.main-nav__dropdown{width:80%}}@media(max-width:48em){.main-nav__dropdown{width:75%}}.main-nav{margin:0;overflow:hidden;text-align:center}.main-nav:after,.main-nav:before{content:' ';display:table;clear:both}.main-nav__list{overflow:hidden;list-style:none;margin:0;padding:0;display:inline-block;text-align:center;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around}@media(max-width:40em){.main-nav__dropdown{width:100%;float:none;clear:both}.main-nav__list{display:block}}.main-nav__item{padding:0;-webkit-box-flex:9999;-ms-flex:9999;flex:9999}@media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none){.main-nav__item{width:18%!important}}@media all and (min-width:850px){.main-nav__item{width:20%}}.main-nav__item a{display:block;padding:0}.enhanced .closed{max-height:0}.enhanced .closed .main-nav__item{opacity:1;-webkit-transform:none;transform:none}@media all and (max-width:901px){.enhanced .closed .main-nav__item{opacity:0}}.enhanced .closed .main-nav__item .main-nav__icon{-webkit-transform:none;transform:none}@media all and (max-width:880px){.enhanced .closed .main-nav__item .main-nav__icon{-webkit-transform:translateY(-.25em);transform:translateY(-.25em)}}.open .main-nav__item{display:inline-block;text-align:center;margin-bottom:-4px;padding:.5em;opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}@media all and (min-width:1600px){.open .main-nav__item{font-size:1.2em}}@media all and (max-width:1100px){.open .main-nav__item{margin:0;text-align:center;padding:.5em}}@media all and (max-width:640px){.open .main-nav__item{width:50%;margin-right:0;float:left;font-size:1.1em}.open .main-nav__item a{display:block;width:100%;height:100%}.open .main-nav__item:nth-of-type(3n+1){background-color:#bc3428}.open .main-nav__item:nth-of-type(3n+2){background-color:#d7372a}.open .main-nav__item:nth-of-type(3n+3){background-color:#c13125}}.open .main-nav__item:last-of-type{width:100%;margin-top:1em;-webkit-font-feature-settings:'smcp' 1,'c2sc' 1;font-feature-settings:'smcp' 1,'c2sc' 1;letter-spacing:1px;font-variant:small-caps;text-transform:lowercase;background-position:50% 72%;display:none}.open .main-nav__item:last-of-type a{background-position:50% 72%}.open .main-nav__item:last-of-type a{color:#000;display:inline-block;border-bottom:1px solid;padding:0}.open .main-nav__item .main-nav__icon{display:block;margin:0 auto;position:relative;-webkit-transform:translateY(0);transform:translateY(0);width:1.5em;margin-bottom:.25em}.open .main-nav__item .main-nav__icon::before{display:block;content:'';height:90%;width:160%;position:absolute;background-image:url(https://d33wubrfki0l68.cloudfront.net/10f9f40f8856e393ab4525a46bd8e60af9580324/0ab7a/images/shadow.png);background-size:100%;background-repeat:no-repeat;top:89%;left:-30%;right:0;-webkit-transform-origin:30% 50%;transform-origin:30% 50%}.open .main-nav__item .main-nav__icon::before{top:65%;width:120%;left:-15%;height:10px}.open .main-nav__item .main-nav__icon img{will-change:transform;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:rotate(-11deg);transform:rotate(-11deg)}@media(max-width:40em){.main-nav__item a{padding:.5em 0}.open .main-nav__item .main-nav__icon{display:none!important}}.open .main-nav__item figure{margin:0;padding:0}.open .main-nav__item a{background:0 0;text-shadow:none;color:#fff}.open .main-nav__item.active a{color:#390c09;text-shadow:none}.open .main-nav__item.active h2{text-shadow:none}.open .main-nav__item figcaption h2{font-size:calc(.8em + .6vw);color:inherit;text-shadow:1px 1px 1px rgba(0,0,0,.25);white-space:nowrap}.open .main-nav__item figcaption p{font-style:italic;font-size:calc(.7em + .15vw);margin-top:.5em;display:none;max-width:100%;margin:.2em auto;display:none}@media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none){.open .main-nav__item figcaption p{font-size:16px!important;letter-spacing:-.5px!important}}@media all and (min-width:1000px){.open .main-nav__item figcaption p{display:block;opacity:0;position:absolute}}@media all and (min-width:901px){.enhanced .slideUp.main-nav{max-height:10em}}.btn{display:inline-block;border-radius:11px;padding:.5em 1em;text-align:center;color:#fff;border:none;font-weight:700;background:0 0;background-color:#d33a2c;background-image:-webkit-gradient(linear,left top,left bottom,from(#f88040),to(#d33a2c));background-image:linear-gradient(to bottom,#f88040,#d33a2c);font-size:.9em;outline:0;font-family:Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif}.wf-loaded-stage1 .btn{font-family:MijaInitial}.wf-loaded-stage2 .btn{font-family:Mija}.btn span{color:#811d15;font-size:.8em;margin-left:5px;margin-top:.5em;line-height:1}.btn span.ladda-label{color:inherit;font-size:inherit;margin:0;line-height:inherit}.btn--green{background-color:#41b14f;background-image:-webkit-gradient(linear,left top,left bottom,from(#9ec14c),to(#41b14f));background-image:linear-gradient(#9ec14c,#41b14f);color:#fff}.btn--green span{color:rgba(0,0,0,.5)}.btn.btn--medium{font-size:calc(.9em + .1vw);padding:.75em 1em}.menu-trigger{background:0 0;text-shadow:none;color:inherit;padding:0;border:3px solid #fff;font-size:calc(.9em + .1vw);font-weight:700;color:#fff;float:right;border-radius:8px;padding:calc(.4em + .2vw) .5em calc(.4em + .2vw) .7em;width:6.25em;position:relative;z-index:1;margin-top:.3em;white-space:nowrap;text-shadow:1px 1px 1px rgba(0,0,0,.25);display:none;font-family:Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif}.wf-loaded-stage1 .menu-trigger{font-family:MijaInitial}.wf-loaded-stage2 .menu-trigger{font-family:Mija}@media all and (max-width:900px){.menu-trigger{position:absolute;top:0;right:1em;width:5.5em}}@media all and (min-width:900px){.menu-trigger{margin-top:calc(1.5em + .2vw)}}@media all and (min-width:1101px){.open .main-nav__item{min-height:8.35rem}.open .main-nav__item figcaption p{opacity:1;position:static;white-space:nowrap}.menu-trigger{margin-top:calc(1.5em + .7vw)}}.enhanced .menu-trigger{display:inline-block}@supports(display:flex){.enhanced .menu-trigger{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.enhanced .menu-trigger svg{position:relative;margin-top:-1px;margin-right:10px}}.header__topics{text-align:center;display:none;clear:both;width:100%;margin:0 auto}@media(max-width:48em){.header__topics{width:100%}}.enhanced .closed .header__topics{max-height:0;overflow:hidden;display:block;height:0}.header__topics__title{color:#fff;font-size:.9em;margin:3.5em 0 2.5em}.header__topics__list{padding:0}.header__topics__list:after,.header__topics__list:before{content:' ';display:table;clear:both}.closed .header__topics__list,.closed .header__topics__title{opacity:0;-webkit-transform:translateY(2em);transform:translateY(2em)}.search-topics-dropdown{overflow:hidden;clear:both;max-width:calc(900px + 15vw);margin:0 auto}.header__search{padding:0 0 calc(.5em + .5vw)}.header__search{width:100%;margin:calc(.5em + 3vh) 50px 0 0}@media(max-width:64em){.header__search{margin-right:5px;margin-right:5vw}}.header__search input[type=search]{border:none;display:block;width:100%;font-size:calc(1em + .2vw);color:#333;background-color:#fff;padding:.8em 1em;padding-left:2.5em;background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgaGVpZ2h0PSIyNCIgd2lkdGg9IjI0Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjIyLjMxIiB5MT0iMjMuNjIiIHgyPSIzLjczIiB5Mj0iMy4wNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2U5MzcyMiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2Y4NmYyNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjx0aXRsZT5NYWduaWZpZXI8L3RpdGxlPjxwYXRoIGZpbGw9InVybCgjbGluZWFyLWdyYWRpZW50KSIgZD0iTTIzLjMzIDIwLjFsLTQuNzMtNC43NGExMC4wNiAxMC4wNi4wIDEgMC0zLjIzIDMuMjNsNC43NCA0Ljc0YTIuMjkgMi4yOS4wIDEgMCAzLjIyLTMuMjN6bS0xNy40OC01Ljg0YTUuOTQgNS45NC4wIDEgMSA4LjQyLjAgNiA2IDAgMCAxLTguNDIuMHoiLz48L3N2Zz4=);background-repeat:no-repeat;background-size:1em;background-position:.75em;border-radius:11px;outline:0}@media all and (max-width:480px){.header__search{margin-right:0}.header__search input[type=search]{padding:.5em .5em .5em 1.75em;background-position:.5em;font-size:.7em;padding:.9em 1.2em;padding-left:2.5em;background-position:.8em}}.header__search input[type=search]::-ms-clear{display:none}.header__search input[type=search]::-webkit-input-placeholder{color:#666}.header__search input[type=search]::-moz-placeholder{color:#666}.header__search input[type=search]:-ms-input-placeholder{color:#666}.header__search input[type=submit]{width:0;height:0;padding:0}.enhanced .header__search input[type=submit]{display:none}@media screen and (-webkit-min-device-pixel-ratio:0){.header__search input[type=search]{font-size:calc(1em + .2vw)}}.search-input-wrapper{position:relative}.search-clear-button{background:0 0;border:none;padding:0 .5em 0 .75em;position:absolute;right:13px;top:30%;-webkit-transform:translateY(5px);transform:translateY(5px);opacity:0}.closed .header__search{opacity:0;-webkit-transform:translateY(2em);transform:translateY(2em)}.no-js .closed .header__search{opacity:1;-webkit-transform:none;transform:none}.header__search-logo{margin-top:.8em;clear:both}.header__search-logo img{float:right;height:16px;width:130px}.logo{font-size:1em;float:left;line-height:0;width:3em;position:relative;z-index:1}@media all and (min-width:900px){.logo{margin-top:1em}}@media all and (min-width:1350px){.logo{width:10.5em;margin-top:1.5em}}.logo a{display:block;background:0 0;outline:0;padding:0;color:transparent;text-shadow:none}.logo a picture{display:block}.logo img{height:3.75em}a.back-to-top{display:block;background:0 0;width:50px;height:50px;opacity:.7;text-shadow:none;border-radius:11px;padding:12.5px;-webkit-transform-origin:bottom left;transform-origin:bottom left;will-change:transform;-webkit-transform:rotate(-11deg);transform:rotate(-11deg);background-color:#282634;background-color:#666}a.back-to-top svg{display:block}.back-to-top-wrapper{width:50px;height:50px;display:none;position:relative;position:fixed;bottom:1em;right:1em;z-index:9}.back-to-top-wrapper::before{display:block;content:'';height:90%;width:160%;position:absolute;background-image:url(https://d33wubrfki0l68.cloudfront.net/10f9f40f8856e393ab4525a46bd8e60af9580324/0ab7a/images/shadow.png);background-size:100%;background-repeat:no-repeat;top:89%;left:-30%;right:0;-webkit-transform-origin:30% 50%;transform-origin:30% 50%}@media(min-height:600px){.back-to-top-wrapper{display:block}}label{max-width:100%}.form__field{display:block;font-size:.9em;width:100%;margin-bottom:1.5em}.form__field__input,input[type=email]{background:#fff;border:1px solid #bbb;background-position:right 1.35em center;background-size:.25em .25em;background-repeat:no-repeat;margin-bottom:5px;border-radius:11px;padding:1.35em 2em .6em 1em;display:block;width:100%;outline:0;font-family:AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif}.wf-loaded-stage1 .form__field__input,.wf-loaded-stage1 input[type=email]{font-family:ElenaInitial}.wf-loaded-stage2 .form__field__input,.wf-loaded-stage2 input[type=email]{font-family:Elena}.form__field__label{display:block;margin-bottom:.5em}input{border-color:#aaa}.enhanced .form__field--floating{position:relative}.enhanced .form__field--floating .form__field__label{position:absolute;top:8px;left:1.25em;color:#aaa;font-size:calc(.8em + .1vw);padding:8px 0;z-index:1}.back-to-top-wrapper{will-change:transform;-webkit-backface-visibility:hidden;backface-visibility:hidden}.cookies{background-color:#fff;border-radius:11px;position:fixed;width:calc(10em + 1vw);padding:1em;z-index:99;-webkit-box-shadow:0 6px 40px rgba(0,0,0,.3);box-shadow:0 6px 40px rgba(0,0,0,.3);bottom:1em;left:1em}.cookies p{margin-top:0;font-size:.75em}@media screen and (max-width:420px){.cookies{right:0;left:0;width:100%;border-radius:0;bottom:0}.cookies p{margin-top:1em}}@media screen and (max-width:380px){.cookies p{margin-top:0}}.cookies--image{display:none;margin:0 auto;max-width:100px;float:left;margin-right:1em;margin-bottom:1em}.cookies--btn{width:100%}.cookies--btn:first-of-type{margin-bottom:.5em}.sponsors ul{padding-left:0;text-align:center}.sponsors__lead{position:relative}.sponsors__lead::before{position:absolute;padding-bottom:10px;border-bottom:8px solid #eee;left:0;-webkit-transform:translate(0,-100%);transform:translate(0,-100%);top:-12px;content:'Caution: shameless plug ahead! Continue reading below ↓';font-size:.7em;color:#666;padding-bottom:10px;width:100%;font-family:Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif}.wf-loaded-stage1 .sponsors__lead::before{font-family:MijaInitial}.wf-loaded-stage2 .sponsors__lead::before{font-family:Mija}.sponsors.sponsors__lead{width:100%;grid-column-start:2;grid-column-end:14;margin:4.5em auto 2em}img{position:relative}img::before{height:2.5em;display:block;top:2em;content:' ';width:100%;z-index:2;left:0}img::after{content:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJtYXJnaW4tcmlnaHQ6MTBweCI+PHBhdGggZmlsbD0iIzc3NyIgZD0iTTI2IDI4SDZ2LTRsNi0xMCA4LjIxOSAxMEwyNiAyMHY4eiIvPjxwYXRoIGZpbGw9IiM3NzciIGQ9Ik0yNiAxNWMwIDEuNjU3LTEuMzQzIDMtMyAzcy0zLTEuMzQzLTMtMyAxLjM0My0zIDMtM2MxLjY1Ny4wIDMgMS4zNDMgMyAzeiIvPjxwYXRoIGZpbGw9IiM3NzciIGQ9Ik0yOC42ODEgNy4xNTljLS42OTQtLjk0Ny0xLjY2Mi0yLjA1My0yLjcyNC0zLjExNnMtMi4xNjktMi4wMy0zLjExNi0yLjcyNGMtMS42MTItMS4xODItMi4zOTMtMS4zMTktMi44NDEtMS4zMTlINC41Yy0xLjM3OC4wLTIuNSAxLjEyMS0yLjUgMi41djI3QzIgMzAuODc4IDMuMTIyIDMyIDQuNSAzMmgyM2MxLjM3OC4wIDIuNS0xLjEyMiAyLjUtMi41VjEwYzAtLjQ0OC0uMTM3LTEuMjMtMS4zMTktMi44NDF6TTI0LjU0MyA1LjQ1N2MuOTU5Ljk1OSAxLjcxMiAxLjgyNSAyLjI2OCAyLjU0M0gyMlYzLjE4OWMuNzE4LjU1NiAxLjU4NCAxLjMwOSAyLjU0MyAyLjI2OHpNMjggMjkuNWMwIC4yNzEtLjIyOS41LS41LjVoLTIzYy0uMjcxLjAtLjUtLjIyOS0uNS0uNXYtMjdjMC0uMjcxLjIyOS0uNS41LS41LjAuMCAxNS40OTkuMCAxNS41LjB2N2MwIC41NTIuNDQ4IDEgMSAxaDd2MTkuNXoiLz48L3N2Zz4=) " " attr(alt);font-size:.9em;display:block;color:#666;line-height:1.5;position:absolute;font-style:italic;z-index:2;top:calc(2em - 35px);text-align:center;left:0;width:104%;left:-2%;padding:2.25em 1em;text-shadow:none;background-color:#eee;border-radius:11px}.ladda-button{position:relative}.ladda-button .ladda-spinner{position:absolute;z-index:2;display:inline-block;width:32px;height:32px;top:50%;margin-top:0;opacity:0}.ladda-button .ladda-label{position:relative;z-index:3}.ladda-button[data-style=expand-right] .ladda-spinner{right:-6px}.btn span.nl__form__arrow{color:inherit;margin-left:.35em;margin-right:.25em}.author__desc{padding:0!important}@media screen and (min-width:40em){.author__desc{margin-left:1em}}.author__desc{font-size:.8em;position:relative;font-style:normal!important;color:#333;font-family:AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif}.wf-loaded-stage1 .author__desc{font-family:ElenaInitial}.wf-loaded-stage2 .author__desc{font-family:Elena}.author__desc p{margin:1em 0}.author__desc__title{color:#666;text-transform:uppercase;letter-spacing:2px;font-size:.9em;margin:0;font-weight:400;font-family:AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif}.wf-loaded-stage1 .author__desc__title{font-family:ElenaInitial}.wf-loaded-stage2 .author__desc__title{font-family:Elena}.author__desc{padding-left:0}@media(max-width:40em){.author__desc{width:100%}}.l-author-bio{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.l-author-bio-image{-ms-flex-preferred-size:178px;flex-basis:178px;-ms-flex-negative:0;flex-shrink:0;-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0}.l-author-bio-content{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-negative:1;flex-shrink:1;-ms-flex-preferred-size:300px;flex-basis:300px}.feature-panel-container{grid-column-start:1;grid-column-end:15;margin-top:3.5em;margin-bottom:2.5em}@media(min-width:800px){.feature-panel-container{margin-top:5em}}.article{padding-top:calc(.5em + 3vw)}.c-garfield-the-cat .article__summary{position:initial}.article__summary{-ms-flex-item-align:center;align-self:center;font-size:1.15em;margin-top:0}.article__summary{line-height:1.55em;color:#666;font-style:italic;position:relative;padding-bottom:1.5em;border-bottom:3px solid #e5e5e5;margin-bottom:.5em}@media all and (max-width:420px){.article__content{margin-top:0}}.article__content [data-src],[data-src]{display:block;width:100%}.article__content [data-src]:not([data-component]){min-height:350px}.article__content{line-height:1.5;padding:0}.article__content a:not(.btn){color:#006fc6}.drop-caps+p::first-line{font-weight:700;font-variant:all-small-caps;text-transform:lowercase;letter-spacing:.5px;font-size:1.1em}.drop-caps{width:calc(96px + 1vw);height:calc(120px + 4vw);float:left;margin-right:1.5em;position:relative;left:calc(-1.3em - .5vw);top:.5vw}@media all and (min-width:500px){.drop-caps{width:150px;height:186px;min-width:100px;margin-left:0}}@media screen and (min-width:64em){.author__desc{margin-left:0}.drop-caps{display:none}}.drop-caps img{max-width:100%}.drop-caps img:nth-of-type(2){position:absolute;bottom:0;right:-40px;width:75%}@media all and (min-height:500px){body.articlepage{overflow:initial}}::-moz-range-track,::-ms-track{background-color:#3f91e5;width:100%}.form__field__label--extra{display:inline}@media(max-width:64em){a.back-to-top{opacity:.3}.form__field__label--extra{display:none}}.hidden{display:none}.article-header{margin:0 0 .5em}@media all and (max-width:1099px){.sponsors:not(.sponsors__lead):not(.sponsors-leaderboard):not(#sponsors-article-end):not(.sponsors__mobile){display:none}.article-header--title{margin-bottom:1em}}.article-header--meta{display:-webkit-box;display:-ms-flexbox;display:flex;list-style:none;padding:0;margin:0;margin:1em 0;font-family:Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif}.wf-loaded-stage1 .article-header--meta{font-family:MijaInitial}.wf-loaded-stage2 .article-header--meta{font-family:Mija}.article-header--meta li{padding:0;margin:0;margin-right:0}.article-header--meta li::before{display:none}.article-header--meta li::after{content:'•';font-size:.8em;color:#d33a2c;display:inline-block;margin:0 .4em}.article-header--meta li:last-of-type::after{display:none}.article-header--date{color:#666;font-size:inherit;font-family:inherit}.article-header--meta-item{font-size:.9em;font-family:inherit;display:-webkit-box;display:-ms-flexbox;display:flex}.article-header--comments{font-size:.9em}.meta-box{background:#f6f6f6;padding:1em;margin:0 0 2em;list-style:none;width:100%;border-radius:11px;font-size:.8em;font-family:Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif}.wf-loaded-stage1 .meta-box{font-family:MijaInitial}.wf-loaded-stage2 .meta-box{font-family:Mija}.meta-box li,.meta-box--item{line-height:1.4;padding-left:calc(1em + .5em);background-size:auto 1em;background-repeat:no-repeat;background-position:0 0;margin-bottom:.5em}.meta-box li:last-child{margin-bottom:0}.meta-box--item:last-child{margin-bottom:0}.meta-box--tags{background-image:url(https://www.smashingmagazine.com/images/icons/tags.svg)}.meta-box--share{background-image:url(//res.cloudinary.com/indysigner/image/upload/v1530815949/bird_j6gn7w.svg)}.meta-box--published{background-image:url(https://www.smashingmagazine.com/images/icons/published.svg)}.article__content .meta-box{margin-bottom:2em}.meta-box a{text-shadow:3px 0 #f6f6f6,2px 0 #f6f6f6,1px 0 #f6f6f6,-1px 0 #f6f6f6,-2px 0 #f6f6f6,-3px 0 #f6f6f6}@media all and (max-width:640px){.enhanced .form__field--floating .form__field__label{font-size:.8em;padding:10px 0}.meta-box{margin-bottom:2em}}.promo-newsletter{position:relative;display:inline-block;background:#f6f6f6;padding:1.25em;margin-top:50%;padding-top:50%;width:100%;border-radius:11px}.promo-newsletter-image-wrapper{position:absolute;left:50%;top:0;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);width:80%}.promo-newsletter-image-link{position:relative;display:block;width:100%;padding-top:calc(100% * 1.25);background:0 0}.promo-newsletter-image{position:absolute;top:0;left:0;height:100%;width:100%;-o-object-fit:contain;object-fit:contain}.promo-newsletter-title{margin-top:20px;font-size:calc(1.25em + .5vw)}.promo-newsletter--article{grid-column-start:2;grid-column-end:14;margin:calc(((1.25/2) * 200px) - 1.5em) auto}@media screen and (max-width:1099px){.promo-newsletter--article{max-width:30em}}.btn--promo-newsletter{display:block;width:100%;text-shadow:1px 1px 1px rgba(0,0,0,.25)}.promo-newsletter-description a{text-shadow:3px 0 #f6f6f6,2px 0 #f6f6f6,1px 0 #f6f6f6,-1px 0 #f6f6f6,-2px 0 #f6f6f6,-3px 0 #f6f6f6}.bio-image{--bio-image-border-color:#d33a2c;--bio-image-border-width:5px}.bio-image,.bio-image *,.bio-image :after,.bio-image :before{-webkit-box-sizing:border-box;box-sizing:border-box}.bio-image{padding:0;margin:0;display:block;position:relative}.bio-image::before{display:block;content:'';height:90%;width:160%;position:absolute;background-image:url(https://d33wubrfki0l68.cloudfront.net/10f9f40f8856e393ab4525a46bd8e60af9580324/0ab7a/images/shadow.png);background-size:100%;background-repeat:no-repeat;top:89%;left:-30%;right:0;-webkit-transform-origin:30% 50%;transform-origin:30% 50%}@media screen and (min-width:40em){.bio-image{display:-webkit-box;display:-ms-flexbox;display:flex}}@media screen and (min-width:64em){.bio-image{--bio-image-border-width:8px;display:block}}.bio-image-wrapper{background:var(--bio-image-background-color,var(--bio-image-border-color,#d33a2c));border:solid var(--bio-image-border-width,8px) var(--bio-image-border-color,#d33a2c);border-radius:var(--bio-image-border-radius,22px);-webkit-transform:scale(.84) translateX(15%) rotateZ(calc(-1 * (11 * 1deg)));transform:scale(.84) translateX(15%) rotateZ(calc(-1 * (11 * 1deg)));-webkit-transform-origin:0 100%;transform-origin:0 100%;overflow:hidden}.bio-image-image{width:100%;-o-object-fit:cover;object-fit:cover;display:block;-webkit-transform:scale(1.2) rotateZ(calc(11 * 1deg));transform:scale(1.2) rotateZ(calc(11 * 1deg))}a.bio-image-link{background:0 0;text-shadow:none;color:inherit;padding:0;display:block;width:100%}.bio-image-image[data-src]{min-height:0!important;padding-top:100%}
+    script.
+      (function(w){"use strict";var loadCSS=function(href,before,media){var doc=w.document;var ss=doc.createElement("link");var newMedia=media||"all";var ref;if(before){ref=before}else{var refs=(doc.body||doc.getElementsByTagName("head")[0]).childNodes;ref=refs[refs.length-1]}
+      var sheets=doc.styleSheets;ss.rel="stylesheet";ss.href=href;ss.media="only x";function ready(cb){if(doc.body){return cb()}
+      setTimeout(function(){ready(cb)})}
+      ready(function(){ref.parentNode.insertBefore(ss,before?ref:ref.nextSibling)});var onloadcssdefined=function(cb){var resolvedHref=ss.href;var i=sheets.length;while(i--){if(sheets[i].href===resolvedHref){return cb()}}
+      setTimeout(function(){onloadcssdefined(cb)})};if(ss.addEventListener){ss.addEventListener("load",function(){this.media=newMedia})}
+      ss.onloadcssdefined=onloadcssdefined;onloadcssdefined(function(){if(ss.media!==newMedia){ss.media=newMedia}});return ss};if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}else{w.loadCSS=loadCSS}})(typeof global!=="undefined"?global:this);loadCSS('/css/main.css');
+    noscript <link rel="stylesheet" href="https://d33wubrfki0l68.cloudfront.net/css/4c10ba1b4246afd8617cda67961eb522af71ed6d/css/main.css">
+    script.
+      if(sessionStorage.foutFontsStage1Loaded&&sessionStorage.foutFontsStage2Loaded||('serviceWorker'in navigator&&navigator.serviceWorker.controller!==null&&navigator.serviceWorker.controller.state==='activated')){var docEl=document.documentElement;docEl.classList.add('wf-loaded-stage1');docEl.classList.add('wf-loaded-stage2');}
+      if('serviceWorker'in navigator&&!localStorage.getItem('no_sw')){navigator.serviceWorker.register('/sw.js').then(function(reg){window.sw=reg
+      window.caches.keys().then(function(cacheNames){cacheName=cacheNames.filter(function(cacheName){return cacheName.indexOf("smashing-mag")!==-1;})[0]
+      caches.open(cacheName).then(function(cache){return cache.keys().then(function(requests){var urls=requests.filter(function(request){return request.url.match(/[0-9]{4}\/[0-9]{2}\/[^images].*\//);}).slice(0,5).map(function(request){return request.url;});return urls.sort();})}).then(function(cachedArticles){if(cachedArticles.length){var listItem=document.createElement('li')
+      var innerList=cachedArticles.map(function(url){return '<li><a href="'+url+'">'+url+'</a></li>'}).join('')
+      listItem.innerHTML="Recently viewed aritcles: <ul>"+innerList+"</ul>"
+      var list=document.querySelector('.offline-articles-list')
+      list&&list.appendChild(listItem)}})})}).catch(function(err){console.error('Failed to load service worker')});}
+      if(!('querySelector')in document&&"addEventListener"in window&&"getComputedStyle"in window){window.document.documentElement.className+=" no-js";}
+      window.document.documentElement.className+=" enhanced js";window.TablesawConfig={i18n:{swipePreviousColumn:'',swipeNextColumn:''}}
+  body.no-js.articlepage
+    #top(data-handler='PreLoad')
+    a.skip-main(href='#main') Skip to main content
+    a.skip-main(href='#article__content') Start reading the article
+    a.skip-main(href='/articles') Jump to list of all articles
+    header.main-header.block(data-handler='MenuButton')
+      .container--header
+        .header__head(role='navigation')
+          .logo
+            a(href='/' title='← Back to the homepage')
+              picture
+                source(media='(min-width: 1350px)' srcset='https://d33wubrfki0l68.cloudfront.net/81fa290218cedc39d32be7b1f1aba58a25829ebe/0a05f/images/logo--full.svg')
+                img(src='https://d33wubrfki0l68.cloudfront.net/3fbf6ef77e5e00aea7a22423087373169b52ae7e/413ff/images/logo/logo.svg' alt='Smashing Magazine')
+          .menu-button-and-menu
+            a.menu-trigger#menu-button(href='#footer' aria-controls='main-nav' role='button' aria-expanded='false')
+              svg(tabindex='-1' viewBox='0 0 24 24' height='.85em' width='.85em' style='position:relative;margin-right:8px')
+                title Search
+                path(fill='#fff' d='M23.33 20.1l-4.73-4.74a10.06 10.06.0 1 0-3.23 3.23l4.74 4.74a2.29 2.29.0 1 0 3.22-3.23zm-17.48-5.84a5.94 5.94.0 1 1 8.42.0 6 6 0 0 1-8.42.0z')
+              | Topics
+
+              script(type='text/javascript').
+                var menuButton=document.getElementById('menu-button');function makeLinksUnfocusable(links){links&&Array.from(links).forEach(function(link){link.setAttribute('tabindex','-1');});}
+                function makeLinksFocusable(links){links&&Array.from(links).forEach(function(link){link.removeAttribute('tabindex');});}
+                menuButton.addEventListener('click',function(){let expanded=this.getAttribute('aria-expanded')==='true'?true:false;if(expanded){makeLinksUnfocusable();}else{makeLinksFocusable();}
+                this.setAttribute('aria-expanded',(!expanded).toString());});function menuButtonTextHandler(){var navigation=document.getElementById('main-nav');var navigationLinks=navigation.querySelectorAll('a');if(window.matchMedia("(min-width: 901px)").matches){menuButton.innerHTML='<svg viewBox="0 0 24 24" height=".85em" width=".85em" style="position: relative; margin-right: 8px;"><title>Search</title><path fill="#fff" d="M23.33 20.1l-4.73-4.74a10.06 10.06 0 1 0-3.23 3.23l4.74 4.74a2.29 2.29 0 1 0 3.22-3.23zm-17.48-5.84a5.94 5.94 0 1 1 8.42 0 6 6 0 0 1-8.42 0z"/></svg> Topics';makeLinksFocusable(navigationLinks);}
+                else{menuButton.innerHTML='<svg viewBox="0 0 24 24" height=".85em" width=".85em" style="position: relative; margin-right: 8px;"><title>Search</title><path fill="#fff" d="M23.33 20.1l-4.73-4.74a10.06 10.06 0 1 0-3.23 3.23l4.74 4.74a2.29 2.29 0 1 0 3.22-3.23zm-17.48-5.84a5.94 5.94 0 1 1 8.42 0 6 6 0 0 1-8.42 0z"/></svg> Menu';makeLinksUnfocusable(navigationLinks);}}
+                window.addEventListener('DOMContentLoaded',menuButtonTextHandler,false);window.addEventListener('resize',menuButtonTextHandler,false);
+            .main-nav__dropdown.clearfix#menu
+              nav.main-nav.closed.slideUp#main-nav(role='presentation')
+                ul.main-nav__list.open#js-main-nav__list
+                  li.main-nav__item.active
+                    a(href='/articles/')
+                      figure(role='presentation')
+                        span.main-nav__icon
+                          img(src='https://d33wubrfki0l68.cloudfront.net/2bc30327ebf529a249e825447d86f18546a1d6db/36b19/images/nav-icons/articles.svg' alt width='39' height='44')
+                        figcaption(role='presentation')
+                          h2.main-nav__item__title(role='presentation')
+                            span
+                              | Articles
+                              span.sr-only .
+                          p Design & development
+                  li.main-nav__item
+                    a(href='/printed-books/')
+                      figure(role='presentation')
+                        span.main-nav__icon
+                          img(src='https://d33wubrfki0l68.cloudfront.net/9b4ab044835dfde9adcfb5433a36be21a66cee4c/5b489/images/nav-icons/books.svg' alt width='39' height='44')
+                        figcaption(role='presentation')
+                          h2.main-nav__item__title(role='presentation')
+                            span
+                              | Books
+                              span.sr-only .
+                          p.main-nav__figcaption Physical & digital books
+                  li.main-nav__item
+                    a(href='/events/')
+                      figure(role='presentation')
+                        span.main-nav__icon
+                          img(src='https://d33wubrfki0l68.cloudfront.net/5831a43ae2230e30a035539e7c2b831561d2d2fd/86bab/images/nav-icons/events.svg' alt width='39' height='44')
+                        figcaption(role='presentation')
+                          h2.main-nav__item__title(role='presentation')
+                            span
+                              | Events
+                              span.sr-only .
+                          p.main-nav__item__figcaption Conferences & workshops
+                  li.main-nav__item
+                    a(href='/jobs')
+                      figure(role='presentation')
+                        span.main-nav__icon
+                          img(src='https://d33wubrfki0l68.cloudfront.net/0b5647613c9ac6cfb7358e2c12d2912daa78af4f/15c46/images/nav-icons/jobs.svg' alt width='39' height='44')
+                        figcaption(role='presentation')
+                          h2.main-nav__item__title(role='presentation')
+                            span
+                              | Jobs
+                              span.sr-only .
+                          p.main-nav__item__figcaption Find work & employees
+                  li.main-nav__item
+                    a(href='/membership')
+                      figure(role='presentation')
+                        span.main-nav__icon
+                          img(src='https://d33wubrfki0l68.cloudfront.net/75778fbc97d23f2fca1610f78b2d7226b137fbfc/acdc3/images/nav-icons/membership.svg' alt width='39' height='44')
+                        figcaption(role='presentation')
+                          h2.main-nav__item__title(role='presentation')
+                            span
+                              | Membership
+                              span.sr-only .
+                          p.main-nav__item__figcaption Webinars & early-birds
+                  li.main-nav__item
+                    a#js-topics-fallback(href='#topics') Browse All Topics
+          .search-topics-dropdown.container--header.closed#header-dropdown
+            .header__search
+              form#js-search-form.search-form(data-handler='Search' method='get' action='https://www.google.com/webhp?q=site:smashingmagazine.com')
+                label(for='js-search-input')
+                .search-input-wrapper
+                  input#js-search-input(type='search' name='q' autocomplete='off' placeholder='Search Smashing...' aria-label='Search Smashing')
+                  input(type='hidden' name='sitesearch' value='smashingmagazine.com')
+                  a#js-search-clear-button.search-clear-button(tabindex='-1' role='button')
+                    svg(xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15.35 15.36' width='16' height='16' tabind='-1')
+                      title Clear Search
+                      path(fill='#e33b2a' d='M8.38 11.41c-.5-.5-.78-.52-1.33.0l-3.05 3.08c-1.18 1.18-1.7 1.18-3-.16s-1.18-2-.18-3l3.18-3.19a.69.69.0 0 0-.07-1.14l-3-3c-1-1-1.13-1.81.0-3s1.9-1.21 3.13.0l2.94 3a.66.66.0 0 0 1.11.0c.63-.65 2.49-2.51 3.28-3.35a1.46 1.46.0 0 1 2.3-.15c.24.24.47.42.89.84.86.86.94 1.57.05 2.46l-3.27 3.26c-.36.34-.52.58-.16.94l3.27 3.27c1.1 1.1 1.23 1.7.05 2.88l-.58.58a1.59 1.59.0 0 1-2.46-.21z')
+                input.btn#js-search-submit(type='submit' name='submit' value='Search')
+              .header__search-logo
+                a(href='https://www.algolia.com/')
+                  img(src='https://d33wubrfki0l68.cloudfront.net/11a5e7690621ea3c342176fe395f8ab04e74b963/24691/images/search-by-algolia-white.svg' alt='Search powered by our good friends at Algolia')
+            div(data-component='SearchResults' data-lite='true')
+            .header__topics#topics-list
+              h4.header__topics__title Browse All Topics
+              ul.header__topics__list
+                li.header__topics__item
+                  a(href='/category/accessibility' tabindex='-1') Accessibility
+                li.header__topics__item
+                  a(href='/category/android' tabindex='-1') Android
+                li.header__topics__item
+                  a(href='/category/animation' tabindex='-1') Animation
+                li.header__topics__item
+                  a(href='/category/apps' tabindex='-1') Apps
+                li.header__topics__item
+                  a(href='/category/css' tabindex='-1') CSS
+                li.header__topics__item
+                  a(href='/category/design' tabindex='-1') Design
+                li.header__topics__item
+                  a(href='/category/design-patterns' tabindex='-1') Design Patterns
+                li.header__topics__item
+                  a(href='/category/design-systems' tabindex='-1') Design Systems
+                li.header__topics__item
+                  a(href='/category/e-commerce' tabindex='-1') E-Commerce
+                li.header__topics__item
+                  a(href='/category/freebies' tabindex='-1') Freebies
+                li.header__topics__item
+                  a(href='/category/graphics' tabindex='-1') Graphics
+                li.header__topics__item
+                  a(href='/category/html' tabindex='-1') HTML
+                li.header__topics__item
+                  a(href='/category/illustrator' tabindex='-1') Illustrator
+                li.header__topics__item
+                  a(href='/category/inspiration' tabindex='-1') Inspiration
+                li.header__topics__item
+                  a(href='/category/ios' tabindex='-1') iOS
+                li.header__topics__item
+                  a(href='/category/javascript' tabindex='-1') JavaScript
+                li.header__topics__item
+                  a(href='/category/mobile' tabindex='-1') Mobile
+                li.header__topics__item
+                  a(href='/category/pattern-libraries' tabindex='-1') Pattern Libraries
+                li.header__topics__item
+                  a(href='/category/performance' tabindex='-1') Performance
+                li.header__topics__item
+                  a(href='/category/photoshop' tabindex='-1') Photoshop
+                li.header__topics__item
+                  a(href='/category/plugins' tabindex='-1') Plugins
+                li.header__topics__item
+                  a(href='/category/react' tabindex='-1') React
+                li.header__topics__item
+                  a(href='/category/responsive-web-design' tabindex='-1') Responsive Web Design
+                li.header__topics__item
+                  a(href='/category/service-workers' tabindex='-1') Service Workers
+                li.header__topics__item
+                  a(href='/category/sketch' tabindex='-1') Sketch
+                li.header__topics__item
+                  a(href='/category/typography' tabindex='-1') Typography
+                li.header__topics__item
+                  a(href='/category/ui' tabindex='-1') UI
+                li.header__topics__item
+                  a(href='/category/usability' tabindex='-1') Usability
+                li.header__topics__item
+                  a(href='/category/user-experience' tabindex='-1') User Experience
+                li.header__topics__item
+                  a(href='/category/wallpapers' tabindex='-1') Wallpapers
+                li.header__topics__item
+                  a(href='/category/web-design' tabindex='-1') Web Design
+                li.header__topics__item
+                  a(href='/category/wordpress' tabindex='-1') WordPress
+                li.header__topics__item
+                  a(href='/category/workflow' tabindex='-1') Workflow
+    main#main(tabindex='-1')
+      script#gotell(type='application/json') {"created_at":"2019-12-18T11:30:00Z"}
+      article.block.article(role='main')
+        .container.article-container
+          .row
+            .col.col-12.article__content#article__content
+              .c-garfield-the-cat
+                .c-garfield-bio
+                  .l-author-bio
+                    .l-author-bio-image.mbl
+                      figure.bio-image(role='presentation')
+                        a.bio-image-link(href='/author/jason-lengstorf')
+                          .bio-image-wrapper
+                            .bio-image-image(data-size='400' data-src='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/271a73ed-7280-4eaa-9a95-793f55f1c971/jason-lengstorf-200px.jpg' data-alt='Jason Lengstorf')
+                    .l-author-bio-content.author__desc#author__desc
+                      h3.author__desc__title About The Author
+                      p
+                        | Jason Lengstorf is a principal developer experience engineer at
+                        a(href='https://netlify.com/?utm_source=bio-jl&utm_medium=smashing&utm_campaign=devex') Netlify
+                        |  and the host of
+                        em
+                          a(href='https://learnwithjason.dev/') Learn With Jason
+                        | , a live-streamed video show where he pairs with people …
+
+                        a.show-more-link(href='/author/jason-lengstorf')
+                          | More about
+
+                          span.
+                            Jason
+
+                          | …
+                .c-garfield-header
+                  header.article-header
+                    ul.article-header--meta
+                      li.article-header--meta-item
+                        time.article-header--date(datetime='2019-12-18') December 18, 2019
+                      li.article-header--meta-item
+                        span.article-header--comments
+                          a(href='#comments-dynamic-async-functionality-jamsstack-websites')
+                            span(data-component='CommentsCount' data-insert='true' data-thread='/2019/12/dynamic-async-functionality-jamsstack-websites/' data-article='articles/2019-12-18-dynamic-async-functionality-jamsstack-websites.md') Leave a comment
+                    h1.article-header--title Adding Dynamic And Async Functionality To JAMstack Sites
+                    div(data-component='EditButton' data-collection='articles' data-path='articles/2019-12-18-dynamic-async-functionality-jamsstack-websites.md')
+                .c-garfield-aside--meta
+                  ul.meta-box.meta-box--article
+                    li.meta-box--item.meta-box--published 20 min read
+                    li.meta-box--item.meta-box--tags
+                      a(href='/category/coding') Coding
+                      | ,
+
+                      a(href='/category/workflow') Workflow
+                    li.meta-box--item.meta-box--share
+                      section
+                        | Share on
+                        a(href='https://TwItTeR.CoM/intent/tweet?text=Adding%20Dynamic%20And%20Async%20Functionality%20To%20JAMstack%20Sites&url=https%3A%2F%2Fwww.smashingmagazine.com%2f2019%2f12%2fdynamic-async-functionality-jamsstack-websites%2f&via=smashingmag') Twitter
+                        |  or 
+                        a(href='https://delivery.smashing.services/ball?uri=//www.linkedin.com/shareArticle?url=https://www.smashingmagazine.com%2f2019%2f12%2fdynamic-async-functionality-jamsstack-websites%2f&title=Adding%20Dynamic%20And%20Async%20Functionality%20To%20JAMstack%20Sites') LinkedIn
+                .c-garfield-aside--newsletter
+                  .c-promo-box.c-promo-box--newsletter
+                    .promo-newsletter--article
+                      .promo-newsletter
+                        .promo-newsletter-image-wrapper
+                          a.promo-newsletter-image-link(href='/the-smashing-newsletter/')
+                            img.promo-newsletter-image(src='https://d33wubrfki0l68.cloudfront.net/1dbc465f56f3a812f09666f522fa226efd947cfa/a4d9f/images/smashing-cat/newsletter-fish-cat.svg' width='224' height='290' loading='lazy' alt='A postcat. Sign up for our Smashing Newsletter.')
+                        h2.h2.promo-newsletter-title Smashing Newsletter
+                        p.promo-newsletter-description
+                          | Upgrade your inbox and get our editors’ picks 2× a month — delivered right into your inbox.
+                          a(href='https://www.smashingmagazine.com/the-smashing-newsletter/') Earlier issues.
+                        .promo-newsletter-form-wrapper
+                          .nl__form-wrapper
+                            form.nl__form(method='post' action='//smashingmagazine.us1.list-manage.com/subscribe/post?u=16b832d9ad4b28edf261f34df&id=a1666656e0')
+                              .input-wrapper
+                                label.form__field.js-form-field.form__field--floating.nl__form__content(for='email')
+                                  span.form__field__label
+                                    | Your
+                                    span.form__field__label--extra (smashing)
+                                    |  email
+                                  input.form__field__input#email(autocomplete='off' type='email' pattern='(.+)@(.+){2,}\.(.+){2,}' name='EMAIL' required)
+                                button.btn.btn--medium.btn--green.btn--promo-newsletter.ladda-button.ladda-button--fixed(data-event-category='Button' data-event-action='click' data-event-label='Newsletter Box' type='submit' data-style='expand-right' onclick='this.form&&this.form.submit()' value='Submit')
+                                  span.ladda-label
+                                    | Subscribe
+                                    span.nl__form__arrow →
+                                    wbr
+                                  span.ladda-spinner
+                .c-garfield-native-panel
+                  .c-promo-box.c-promo-box--ad.sponsors.sponsors__native(data-audience='non-subscriber' data-remove='true' data-rendered='true')
+                    ul.bnnr-list
+                .c-garfield-native-panel.c-garfield-native-panel__below
+                  .c-promo-box.c-promo-box--ad.sponsors.sponsors__native(data-audience='non-subscriber' data-remove='true' data-rendered='true')
+                    ul.bnnr-list
+                .c-garfield-summary
+                  section.article__summary(aria-label='quick summary')
+                    | Skipping servers and using the JAMstack to build and deliver websites and apps can save time, money, and headache by allowing us to deliver only static assets on a CDN. But the trade-off of ditching traditional server-based deployments means that standard approaches to dynamic, asynchronous interactions in our sites and apps aren’t available anymore.
+                    br
+                    br
+                    | Does that mean that JAMstack sites can’t handle dynamic interactions? Definitely not!
+                    br
+                    br
+                    | JAMstack sites are great for creating highly dynamic, asynchronous interactions. With some small adjustments to how we think about our code, we can create fun, immersive interactions using only static assets!
+                .drop-caps(aria-hidden='true')
+                  img(src='https://d33wubrfki0l68.cloudfront.net/c75c03ae4ee130ff7dae25b82c01373bb2d82dce/c21c0/images/drop-caps/i.svg' alt)
+                  img(src='https://d33wubrfki0l68.cloudfront.net/6ea8caf7fa93ed0cf46bc13e25a99da88b43593e/2fd96/images/drop-caps/character-13.svg' alt)
+                p
+                  | It’s increasingly common to see websites built using the JAMstack — that is, websites that can be served as static HTML files built from JavaScript, Markup, and APIs. Companies love the JAMstack because it reduces infrastructure costs, speeds up delivery, and lowers the barriers for performance and security improvements because shipping static assets removes the need for scaling servers or keeping databases highly available (which also means there are no servers or databases that can be hacked). Developers like the JAMstack because it cuts down on the complexity of getting a website live on the internet: there are no servers to manage or deploy; we can write front-end code and it just
+                  em goes live
+                  | , like
+                  em magic
+                  | .
+                p
+                  | (“Magic” in this case is automated static deployments, which are available for free from a number of companies, including
+                  a(href='https://netlify.com/?utm_source=dynamic-jamstack-jl&utm_medium=smashing&utm_campaign=devex') Netlify
+                  | , where I work.)
+                p But if you spend a lot of time talking to developers about the JAMstack, the question of whether or not the JAMstack can handle Serious Web Applications™ will come up. After all, JAMstack sites are static sites, right? And aren’t static sites super limited in what they can do?
+                p This is a really common misconception, and in this article we’re going to dive into where the misconception comes from, look at the capabilities of the JAMstack, and walk through several examples of using the JAMstack to build Serious Web Applications™.
+                .c-felix-the-cat
+                  h4 JAMstack Fundamentals
+                  p
+                    | Phil Hawksworth explains what JAMStack actually means and when it makes sense to use it in your projects, as well as how it affects tooling and front-end architecture.
+                    a.btn.btn--small.btn--white.btn--white--bordered(href='https://www.smashingmagazine.com/2019/06/jamstack-fundamentals-what-what-how/') Read article →
+                .feature-panel-container.hidden(data-component='FeaturePanel' data-audience='non-subscriber' data-remove='true')
+                h3#what-makes-a-jamstack-site-static What Makes A JAMstack Site “Static”?
+                p Web browsers today load HTML, CSS, and JavaScript files, just like they did back in the 90s.
+                p
+                  strong A JAMstack site, at its core, is a folder full of HTML, CSS, and JavaScript files.
+                p
+                  | These are “static assets”, meaning we don’t need an intermediate step to generate them (for example, PHP projects like WordPress need a server to
+                  em generate
+                  |  the HTML on every request).
+                p
+                  strong That’s the true power of the JAMstack: it doesn’t require any specialized infrastructure to work.
+                  |  You can run a JAMstack site on your local computer, by putting it on your preferred content delivery network (CDN), hosting it with services like GitHub Pages — you can even drag-and-drop the folder into your favorite FTP client to upload it to shared hosting.
+                h3#static-assets-don-t-necessarily-mean-static-experiences Static Assets Don’t Necessarily Mean Static Experiences
+                p
+                  | Because JAMstack sites are made of static files, it’s easy to assume that the experience on those sites is, y’know,
+                  em static
+                  | . But that’s not the case!
+                p JavaScript is capable of doing a whole lot of dynamic stuff. After all, modern JavaScript frameworks are static files after we get through the build step — and there are hundreds of examples of incredibly dynamic website experiences powered by them.
+                p There is a common misconception that “static” means inflexible or fixed. But all that “static” really means in the context of “static sites” is that browsers don’t need any help delivering their content — they’re able to use them natively without a server handling a processing step first.
+                p Or, put in another way:
+                blockquote.pull-quote
+                  p
+                    a.pull-quote__link(aria-label='Share on Twitter' href='http://twitter.com/share?text=%e2%80%9cStatic%20assets%e2%80%9d%20does%20not%20mean%20static%20apps;%20it%20means%20no%20server%20required.%0a&url=https://smashingmagazine.com%2f2019%2f12%2fdynamic-async-functionality-jamsstack-websites%2f') “Static assets” does not mean static apps; it means no server required.
+                  .pull-quote__quotation
+                    .pull-quote__bg
+                      span.pull-quote__symbol “
+                h3#can-the-jamstack-do-that Can The JAMstack Do That?
+                p If someone asks about building a new app, it’s common to see suggestions for JAMstack approaches such as Gatsby, Eleventy, Nuxt, and other similar tools. It’s equally common to see objections arise: “static site generators can’t do _______”, where _______ is something dynamic.
+                p
+                  | But — as we touched on in the previous section — JAMstack sites
+                  em can
+                  |  handle dynamic content and interactions!
+                p Here’s an incomplete list of things that I’ve repeatedly heard people claim the JAMstack can’t handle that it definitely can:
+                ul
+                  li Load data asynchronously
+                  li Handle processing files, such as manipulating images
+                  li Read from and write to a database
+                  li Handle user authentication and protect content behind a login
+                p In the following sections, we’ll look at how to implement each of these workflows on a JAMstack site.
+                p
+                  | If you can’t wait to see the dynamic JAMstack in action, you can
+                  a(href='https://dynamic-jamstack-examples.netlify.com/') check out the demos
+                  |  first, then come back and learn how they work.
+                blockquote
+                  strong A note about the demos
+                  | :
+                  br
+                  br
+                  | These demos are written without any frameworks. They are only HTML, CSS, and standard JavaScript. They were built with modern browsers (e.g. Chrome, Firefox, Safari, Edge) in mind and take advantage of newer features like
+                  a(href='https://caniuse.com/#feat=es6-module') JavaScript modules
+                  | ,
+                  a(href='https://caniuse.com/#feat=template') HTML templates
+                  | , and the
+                  a(href='ttps://caniuse.com/#feat=fetch') Fetch API
+                  | . No polyfills were added, so if you’re using an unsupported browser, the demos will probably fail.
+                .sponsors__lead-place
+                h3#load-data-from-a-third-party-api-asynchronously Load Data From A Third-Party API Asynchronously
+                p “What if I need to get new data after my static files are built?”
+                p
+                  | In the JAMstack, we can take advantage of numerous asynchronous request libraries, including the built-in
+                  a(href='https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API') Fetch API
+                  | , to load data using JavaScript at any point.
+                h4#demo-search-a-third-party-api-from-a-jamstack-site Demo: Search A Third-Party API From A JAMstack Site
+                p
+                  | A common scenario that requires asynchronous loading is when the content we need depends on user input. For example, if we build a search page for the
+                  em
+                    a(href='https://rickandmortyapi.com/') Rick & Morty API
+                  | , we don’t know what content to display until someone has entered a search term.
+                p To handle that, we need to:
+                ol
+                  li Create a form where people can type in their search term,
+                  li Listen for a form submission,
+                  li Get the search term from the form submission,
+                  li Send an asynchronous request to the Rick & Morty API using the search term,
+                  li Display the request results on the page.
+                p First, we need to create a form and an empty element that will contain our search results, which looks like this:
+                pre
+                  code.language-html.
+                    <form>
+                      <label for="name">Find characters by name</label>
+                      <input type="text" id="name" name="name" required />
+                      <button type="submit">Search</button>
+                    </form>
+
+                    <ul id="search-results"></ul>
+
+                p Next, we need to write a function that handles form submissions. This function will:
+                ul
+                  li Prevent the default form submission behavior
+                  li Get the search term from the form input
+                  li Use the Fetch API to send a request to the Rick & Morty API using the search term
+                  li Call a helper function that displays the search results on the page
+                p We also need to add an event listener on the form for the submit event that calls our handler function.
+                p Here’s what that code looks like altogether:
+                .break-out
+                  pre
+                    code.language-html.
+                      <script type="module">
+                       import showResults from './show-results.js';
+
+                       const form = document.querySelector('form');
+
+                       const handleSubmit = async event => {
+                         event.preventDefault();
+
+                         // get the search term from the form input
+                         const name = form.elements['name'].value;
+
+                         // send a request to the Rick & Morty API based on the user input
+                         const characters = await fetch(
+                           `https://rickandmortyapi.com/api/character/?name=${name}`,
+                         )
+                           .then(response => response.json())
+                           .catch(error => console.error(error));
+
+                         // add the search results to the DOM
+                         showResults(characters.results);
+                       };
+
+                       form.addEventListener('submit', handleSubmit);
+                      </script>
+
+                p
+                  strong Note:
+                  |  to stay focused on dynamic JAMstack behaviors, we will not be discussing how utility functions like showResults are written. The code is thoroughly commented, though, so
+                  a(href='https://github.com/jlengstorf/dynamic-jamstack-examples/tree/master/examples/01-async-request') check out the source
+                  |  to learn how it works!
+                p With this code in place, we can load our site in a browser and we’ll see the empty form with no results showing:
+                figure.break-out.article__image
+                  a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/961f740d-5943-4f7c-a7b1-bba614dbdffd/01-form-empty.png')
+                    img(srcset='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/961f740d-5943-4f7c-a7b1-bba614dbdffd/01-form-empty.png 400w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_800/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/961f740d-5943-4f7c-a7b1-bba614dbdffd/01-form-empty.png 800w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1200/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/961f740d-5943-4f7c-a7b1-bba614dbdffd/01-form-empty.png 1200w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/961f740d-5943-4f7c-a7b1-bba614dbdffd/01-form-empty.png 1600w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_2000/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/961f740d-5943-4f7c-a7b1-bba614dbdffd/01-form-empty.png 2000w' src='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/961f740d-5943-4f7c-a7b1-bba614dbdffd/01-form-empty.png' sizes='100vw' alt='Empty search form')
+                  figcaption.op-vertical-bottom
+                    | The empty search form (
+                    a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/961f740d-5943-4f7c-a7b1-bba614dbdffd/01-form-empty.png') Large preview
+                    | )
+                p If we enter a character name (e.g. “rick”) and click “search”, we see a list of characters whose names contain “rick” displayed:
+                figure.break-out.article__image
+                  a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8a69aaf2-6aa7-457b-b6f5-7e317d5d601b/02-search-results.png')
+                    img(srcset='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8a69aaf2-6aa7-457b-b6f5-7e317d5d601b/02-search-results.png 400w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_800/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8a69aaf2-6aa7-457b-b6f5-7e317d5d601b/02-search-results.png 800w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1200/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8a69aaf2-6aa7-457b-b6f5-7e317d5d601b/02-search-results.png 1200w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8a69aaf2-6aa7-457b-b6f5-7e317d5d601b/02-search-results.png 1600w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_2000/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8a69aaf2-6aa7-457b-b6f5-7e317d5d601b/02-search-results.png 2000w' src='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8a69aaf2-6aa7-457b-b6f5-7e317d5d601b/02-search-results.png' sizes='100vw' alt='Search form filled with “rick” with characters named “Rick” displayed below.')
+                  figcaption.op-vertical-bottom
+                    | We see search results after the form is filled out. (
+                    a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8a69aaf2-6aa7-457b-b6f5-7e317d5d601b/02-search-results.png') Large preview
+                    | )
+                p Hey! Did that static site just dynamically load data? Holy buckets!
+                p
+                  | You can try this out for yourself on the
+                  a(href='https://dynamic-jamstack-examples.netlify.com/01-async-request/') live demo
+                  | , or
+                  a(href='https://github.com/jlengstorf/dynamic-jamstack-examples/tree/master/examples/01-async-request') check out the full source code
+                  |  for more details.
+                h3#handle-expensive-computing-tasks-off-the-user-s-device Handle Expensive Computing Tasks Off the User’s Device
+                p
+                  | In many apps, we need to do things that are pretty resource-intensive, such as processing an image. While some of these kinds of operations are
+                  em possible
+                  |  using client-side JavaScript only, it’s not necessarily a great idea to make your users’ devices do all that work. If they’re on a low-powered device or trying to stretch out their last 5% of battery life, making their device do a bunch of work is probably going to be a frustrating experience for them.
+                p So does that mean that JAMstack apps are out of luck? Not at all!
+                p The “A” in JAMstack stands for APIs. This means we can send off that work to an API and avoid spinning our users’ computer fans up to the “hover” setting.
+                p “But wait,” you might say. “If our app needs to do custom work, and that work requires an API, doesn’t that just mean we’re building a server?”
+                p Thanks to the power of serverless functions, we don’t have to!
+                p Serverless functions (also called “lambda functions”) are a sort of API without any server boilerplate required. We get to write a plain old JavaScript function, and all of the work of deploying, scaling, routing, and so on is offloaded to our serverless provider of choice.
+                blockquote.pull-quote
+                  p
+                    a.pull-quote__link(aria-label='Share on Twitter' href='http://twitter.com/share?text=Using%20serverless%20functions%20doesn%e2%80%99t%20mean%20there%e2%80%99s%20not%20a%20server;%20it%20just%20means%20that%20we%20don%e2%80%99t%20need%20to%20think%20about%20a%20server.%0a&url=https://smashingmagazine.com%2f2019%2f12%2fdynamic-async-functionality-jamsstack-websites%2f') Using serverless functions doesn’t mean there’s not a server; it just means that we don’t need to think about a server.
+                  .pull-quote__quotation
+                    .pull-quote__bg
+                      span.pull-quote__symbol “
+                p Serverless functions are the peanut butter to our JAMstack: they unlock a whole world of high-powered, dynamic functionality without ever asking us to deal with server code or devops.
+                h4#demo-convert-an-image-to-grayscale Demo: Convert An Image To Grayscale
+                p Let’s assume we have an app that needs to:
+                ul
+                  li Download an image from a URL
+                  li Convert that image to grayscale
+                  li Upload the converted image to a GitHub repo
+                p As far as I know, there’s no way to do image conversions like that entirely in the browser — and even if there was, it’s a fairly resource-intensive thing to do, so we probably don’t want to put that load on our users’ devices.
+                p Instead, we can submit the URL to be converted to a serverless function, which will do the heavy lifting for us and send back a URL to a converted image.
+                p
+                  | For our serverless function, we’ll be using
+                  a(href='https://www.netlify.com/products/functions/?utm_source=dynamic-jamstack-jl&utm_medium=smashingmag&utm_campaign=devex') Netlify Functions
+                  | . In our site’s code, we add a folder at the root level called “functions” and create a new file called “convert-image.js” inside. Then we write what’s called a handler, which is what receives and — as you may have guessed —
+                  em handles
+                  |  requests to our serverless function.
+                .sponsors__lead-place
+                p To convert an image, it looks like this:
+                pre
+                  code.language-javascript.
+                    exports.handler = async event => {
+                     // only try to handle POST requests
+                     if (event.httpMethod !== 'POST') {
+                       return { statusCode: 404, body: '404 Not Found' };
+                     }
+
+                     try {
+                       // get the image URL from the POST submission
+                       const { imageURL } = JSON.parse(event.body);
+
+                       // use a temporary directory to avoid intermediate file cruft
+                       // see https://www.npmjs.com/package/tmp
+                       const tmpDir = tmp.dirSync();
+
+                       const convertedPath = await convertToGrayscale(imageURL, tmpDir);
+
+                       // upload the processed image to GitHub
+                       const response = await uploadToGitHub(convertedPath, tmpDir.name);
+
+                       return {
+                         statusCode: 200,
+                         body: JSON.stringify({
+                           url: response.data.content.download_url,
+                         }),
+                       };
+                     } catch (error) {
+                       return {
+                         statusCode: 500,
+                         body: JSON.stringify(error.message),
+                       };
+                     }
+                    };
+
+                p This function does the following:
+                ol
+                  li Checks to make sure the request was sent using the HTTP POST method
+                  li Grabs the image URL from the POST body
+                  li Creates a temporary directory for storing files that will be cleaned up once the function is done executing
+                  li Calls a helper function that converts the image to grayscale
+                  li Calls a helper function that uploads the converted image to GitHub
+                  li Returns a response object with an HTTP 200 status code and the newly uploaded image’s URL
+                p
+                  strong Note
+                  | :
+                  em
+                    | We won’t go over how the helper functions for image conversion or uploading to GitHub work, but the
+                    a(href='https://github.com/jlengstorf/dynamic-jamstack-examples/blob/master/functions/convert-image.js') source code
+                    |  is well commented so you can see how it works.
+                p Next, we need to add a form that will be used to submit URLs for processing and a place to show the before and after:
+                pre
+                  code.language-html.
+                    <form
+                     id="image-form"
+                     action="/.netlify/functions/convert-image"
+                     method="POST"
+                    >
+                     <label for="imageURL">URL of an image to convert</label>
+                     <input type="url" name="imageURL" required />
+                     <button type="submit">Convert</button>
+                    </form>
+
+                    <div id="converted"></div>
+
+                p Finally, we need to add an event listener to the form so we can send off the URLs to our serverless function for processing:
+                .break-out
+                  pre
+                    code.language-html.
+                      <script type="module">
+                       import showResults from './show-results.js';
+
+                       const form = document.querySelector('form');
+                       form.addEventListener('submit', event => {
+                         event.preventDefault();
+
+                         // get the image URL from the form
+                         const imageURL = form.elements['imageURL'].value;
+
+                         // send the image off for processing
+                         const promise = fetch('/.netlify/functions/convert-image', {
+                           method: 'POST',
+                           headers: { 'Content-Type': 'application/json' },
+                           body: JSON.stringify({ imageURL }),
+                         })
+                           .then(result => result.json())
+                           .catch(error => console.error(error));
+
+                         // do the work to show the result on the page
+                         showResults(imageURL, promise);
+                       });
+                      </script>
+
+                p
+                  | After deploying the site (along with its new “functions” folder) to Netlify and/or starting up
+                  a(href='https://www.netlify.com/products/dev/?utm_source=dynamic-jamstack-jl&utm_medium=smashingmag&utm_campaign=devex') Netlify Dev
+                  |  in our CLI, we can see the form in our browser:
+                figure.break-out.article__image
+                  a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/76de146a-5ff7-4549-a889-5ebc908e00c4/03-convert-image-form.png')
+                    img(srcset='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/76de146a-5ff7-4549-a889-5ebc908e00c4/03-convert-image-form.png 400w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_800/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/76de146a-5ff7-4549-a889-5ebc908e00c4/03-convert-image-form.png 800w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1200/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/76de146a-5ff7-4549-a889-5ebc908e00c4/03-convert-image-form.png 1200w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/76de146a-5ff7-4549-a889-5ebc908e00c4/03-convert-image-form.png 1600w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_2000/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/76de146a-5ff7-4549-a889-5ebc908e00c4/03-convert-image-form.png 2000w' src='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/76de146a-5ff7-4549-a889-5ebc908e00c4/03-convert-image-form.png' sizes='100vw' alt='Empty image conversion form')
+                  figcaption.op-vertical-bottom
+                    | An empty form that accepts an image URL (
+                    a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/76de146a-5ff7-4549-a889-5ebc908e00c4/03-convert-image-form.png') Large preview
+                    | )
+                p If we add an image URL to the form and click “convert”, we’ll see “processing…” for a moment while the conversion is happening, then we’ll see the original image and its newly created grayscale counterpart:
+                figure.break-out.article__image
+                  a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a6dcc97a-b054-4068-9ff4-aa9cd850cebc/04-before-and-after.png')
+                    img(srcset='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a6dcc97a-b054-4068-9ff4-aa9cd850cebc/04-before-and-after.png 400w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_800/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a6dcc97a-b054-4068-9ff4-aa9cd850cebc/04-before-and-after.png 800w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1200/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a6dcc97a-b054-4068-9ff4-aa9cd850cebc/04-before-and-after.png 1200w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a6dcc97a-b054-4068-9ff4-aa9cd850cebc/04-before-and-after.png 1600w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_2000/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a6dcc97a-b054-4068-9ff4-aa9cd850cebc/04-before-and-after.png 2000w' src='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a6dcc97a-b054-4068-9ff4-aa9cd850cebc/04-before-and-after.png' sizes='100vw' alt='Form filled with an image URL, showing the original image below on the left and the converted image to the right')
+                  figcaption.op-vertical-bottom
+                    | The image is converted from full color to grayscale. (
+                    a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a6dcc97a-b054-4068-9ff4-aa9cd850cebc/04-before-and-after.png') Large preview
+                    | )
+                p Oh dang! Our JAMstack site just handled some pretty serious business and we didn’t have to think about servers once or drain our users’ batteries!
+                h3#use-a-database-to-store-and-retrieve-entries Use A Database To Store And Retrieve Entries
+                p In many apps, we’re inevitably going to need the ability to save user input. And that means we need a database.
+                p You may be thinking, “So that’s it, right? The jig is up? Surely a JAMstack site — which you’ve told us is just a collection of files in a folder — can’t be connected to a database!”
+                p
+                  em Au contraire.
+                p As we saw in the previous section, serverless functions give us the ability to do all sorts of powerful things without needing to create our own servers.
+                p
+                  | Similarly, we can use database-as-a-service (DBaaS) tools (such as
+                  a(href='https://fauna.com/') Fauna
+                  | ) to read and write to a database without having to set one up or host it ourselves.
+                p
+                  | DBaaS tools massively simplify the process of setting up databases for websites: creating a new database is as straightforward as defining the types of data we want to store. The tools automatically generate all of the code to manage create, read, update, and delete (CRUD) operations and make it available for us to use via API, so we don’t have to actually
+                  em manage
+                  |  a database; we just get to
+                  em use
+                  |  it.
+                h4#demo-create-a-petition-page Demo: Create a Petition Page
+                p If we want to create a small app to collect digital signatures for a petition, we need to set up a database to store those signatures and allow the page to read them out for display.
+                p For this demo we’ll use Fauna as our DBaaS provider. We won’t go deep into how Fauna works, but in the interest of demonstrating the small amount of effort required to set up a database, let’s list each step and click to get a ready-to-use database:
+                ol
+                  li
+                    | Create a Fauna account at
+                    a(href='https://fauna.com') https://fauna.com
+                  li Click “create a new database”
+                  li Give the database a name (e.g. “dynamic-jamstack-demos”)
+                  li Click “create”
+                  li Click “security” in the left-hand menu on the next page
+                  li Click “new key”
+                  li Change the role dropdown to “Server”
+                  li Add a name for the key (e.g. “Dynamic JAMstack Demos”)
+                  li Store the key somewhere secure for use with the app
+                  li Click “save”
+                  li Click “GraphQL” in the left-hand menu
+                  li Click “import schema”
+                  li
+                    | Upload a file called
+                    code db-schema.gql
+                    |  that contains the following code:
+                pre
+                  code.language-css.
+                    type Signature {
+                     name: String!
+                    }
+
+                    type Query {
+                     signatures: [Signature!]!
+                    }
+
+                p Once we upload the schema, our database is ready to use. (Seriously.)
+                p Thirteen steps is a lot, but with those thirteen steps, we just got a database, a GraphQL API, automatic management of capacity, scaling, deployment, security, and more — all handled by database experts. For free. What a time to be alive!
+                p To try it out, the “GraphQL” option in the left-hand menu gives us a GraphQL explorer with documentation on the available queries and mutations that allow us to perform CRUD operations.
+                p
+                  strong Note
+                  | :
+                  em
+                    | We won’t go into details about GraphQL queries and mutations in this post, but Eve Porcello wrote an excellent
+                    a(href='https://dev.to/eveporcello/fetching-data-from-a-graphql-api-3adh') intro to sending GraphQL queries and mutations
+                    |  if you want a primer on how it works.
+                p With the database ready to go, we can create a serverless function that stores new signatures in the database:
+                .break-out
+                  pre
+                    code.language-javascript.
+                      const qs = require('querystring');
+                      const graphql = require('./util/graphql');
+
+                      exports.handler = async event => {
+                       try {
+                         // get the signature from the POST data
+                         const { signature } = qs.parse(event.body);
+
+                         const ADD_SIGNATURE = `
+                           mutation($signature: String!) {
+                             createSignature(data: { name: $signature }) {
+                               _id
+                             }
+                           }
+                         `;
+
+                         // store the signature in the database
+                         await graphql(ADD_SIGNATURE, { signature });
+
+                         // send people back to the petition page
+                         return {
+                           statusCode: 302,
+                           headers: {
+                             Location: '/03-store-data/',
+                           },
+                           // body is unused in 3xx codes, but required in all function responses
+                           body: 'redirecting...',
+                         };
+                       } catch (error) {
+                         return {
+                           statusCode: 500,
+                           body: JSON.stringify(error.message),
+                         };
+                       }
+                      };
+
+                p This function does the following:
+                ol
+                  li
+                    | Grabs the signature value from the form
+                    code POST
+                    |  data
+                  li Calls a helper function that stores the signature in the database
+                  li Defines a GraphQL mutation to write to the database
+                  li Sends off the mutation using a GraphQL helper function
+                  li Redirects back to the page that submitted the data
+                p Next, we need a serverless function to read out all of the signatures from the database so we can show how many people support our petition:
+                pre
+                  code.language-javascript.
+                    const graphql = require('./util/graphql');
+
+                    exports.handler = async () => {
+                     const { signatures } = await graphql(`
+                       query {
+                         signatures {
+                           data {
+                             name
+                           }
+                         }
+                       }
+                     `);
+
+                     return {
+                       statusCode: 200,
+                       body: JSON.stringify(signatures.data),
+                     };
+                    };
+
+                p This function sends off a query and returns it.
+                blockquote
+                  strong An important note about sensitive keys and JAMstack apps
+                  | :
+                  br
+                  br
+                  | One thing to note about this app is that we’re using serverless functions to make these calls because we need to pass a private server key to Fauna that proves we have read and write access to this database. We cannot put this key into client-side code, because that would mean anyone could find it in the source code and use it to perform CRUD operations against our database. Serverless functions are critical for keeping private keys private in JAMstack apps.
+                p Once we have our serverless functions set up, we can add a form that submits to the function for adding a signature, an element to show existing signatures, and a little bit of JS to call the function to get signatures and put them into our display element:
+                .break-out
+                  pre
+                    code.language-html.
+                      <form action="/.netlify/functions/add-signature" method="POST">
+                       <label for="signature">Your name</label>
+                       <input type="text" name="signature" required />
+                       <button type="submit">Sign</button>
+                      </form>
+
+                      <ul class="signatures"></ul>
+
+                      <script>
+                       fetch('/.netlify/functions/get-signatures')
+                         .then(res => res.json())
+                         .then(names => {
+                           const signatures = document.querySelector('.signatures');
+
+                           names.forEach(({ name }) => {
+                             const li = document.createElement('li');
+                             li.innerText = name;
+                             signatures.appendChild(li);
+                           });
+                         });
+                      </script>
+
+                p If we load this in the browser, we’ll see our petition form with signatures below it:
+                figure.break-out.article__image
+                  a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a083928f-fd7b-4ca3-b739-03e89d1621ea/05-petition-empty.png')
+                    img(srcset='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a083928f-fd7b-4ca3-b739-03e89d1621ea/05-petition-empty.png 400w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_800/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a083928f-fd7b-4ca3-b739-03e89d1621ea/05-petition-empty.png 800w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1200/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a083928f-fd7b-4ca3-b739-03e89d1621ea/05-petition-empty.png 1200w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a083928f-fd7b-4ca3-b739-03e89d1621ea/05-petition-empty.png 1600w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_2000/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a083928f-fd7b-4ca3-b739-03e89d1621ea/05-petition-empty.png 2000w' src='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a083928f-fd7b-4ca3-b739-03e89d1621ea/05-petition-empty.png' sizes='100vw' alt='Empty petition form with a list of signatures below')
+                  figcaption.op-vertical-bottom
+                    | An empty form that accepts a digital signature (
+                    a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a083928f-fd7b-4ca3-b739-03e89d1621ea/05-petition-empty.png') Large preview
+                    | )
+                p Then, if we add our signature…
+                figure.break-out.article__image
+                  a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/abbc0481-0953-42bd-856c-f5a81840dbff/06-petition-form-filled.png')
+                    img(srcset='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/abbc0481-0953-42bd-856c-f5a81840dbff/06-petition-form-filled.png 400w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_800/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/abbc0481-0953-42bd-856c-f5a81840dbff/06-petition-form-filled.png 800w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1200/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/abbc0481-0953-42bd-856c-f5a81840dbff/06-petition-form-filled.png 1200w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/abbc0481-0953-42bd-856c-f5a81840dbff/06-petition-form-filled.png 1600w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_2000/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/abbc0481-0953-42bd-856c-f5a81840dbff/06-petition-form-filled.png 2000w' src='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/abbc0481-0953-42bd-856c-f5a81840dbff/06-petition-form-filled.png' sizes='100vw' alt='Petition form with a name in the field, but not submitted yet')
+                  figcaption.op-vertical-bottom
+                    | The petition form with a name filled in (
+                    a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/abbc0481-0953-42bd-856c-f5a81840dbff/06-petition-form-filled.png') Large preview
+                    | )
+                p …and submit it, we’ll see our name appended to the bottom of the list:
+                figure.break-out.article__image
+                  a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fb20ea43-a69b-4a48-85a1-107509e569b8/07-petition-submitted.png')
+                    img(srcset='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fb20ea43-a69b-4a48-85a1-107509e569b8/07-petition-submitted.png 400w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_800/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fb20ea43-a69b-4a48-85a1-107509e569b8/07-petition-submitted.png 800w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1200/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fb20ea43-a69b-4a48-85a1-107509e569b8/07-petition-submitted.png 1200w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fb20ea43-a69b-4a48-85a1-107509e569b8/07-petition-submitted.png 1600w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_2000/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fb20ea43-a69b-4a48-85a1-107509e569b8/07-petition-submitted.png 2000w' src='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fb20ea43-a69b-4a48-85a1-107509e569b8/07-petition-submitted.png' sizes='100vw' alt='Empty petition form with the new signature at the bottom of the list')
+                  figcaption.op-vertical-bottom
+                    | The petition form clears and the new signature is added to the bottom of the list. (
+                    a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fb20ea43-a69b-4a48-85a1-107509e569b8/07-petition-submitted.png') Large preview
+                    | )
+                p Hot diggity dog! We just wrote a full-on database-powered JAMstack app with about 75 lines of code and 7 lines of database schema!
+                h3#protect-content-with-user-authentication Protect Content With User Authentication
+                p
+                  | “Okay, you’re
+                  em for sure
+                  |  stuck this time,” you may be thinking. “There is
+                  em no way
+                  |  a JAMstack site can handle user authentication. How the heck would that work, even?!”
+                p
+                  | I’ll
+                  em tell
+                  |  you how it works, my friend: with our trusty serverless functions and OAuth.
+                p OAuth is a widely-adopted standard for allowing people to give apps limited access to their account info rather than sharing their passwords. If you’ve ever logged into a service using another service (for example, “sign in with your Google account”), you’ve used OAuth before.
+                p
+                  strong Note:
+                  |
+                  em
+                    | We won’t go deep into how OAuth works, but Aaron Parecki wrote a solid
+                    a(href='https://aaronparecki.com/oauth-2-simplified/') overview of OAuth
+                    |  that covers the details and workflow.
+                p In JAMstack apps, we can take advantage of OAuth, and the JSON Web Tokens (JWTs) that it provides us with for identifying users, to protect content and only allow logged-in users to view it.
+                h4#demo-require-login-to-view-protected-content Demo: Require Login to View Protected Content
+                p If we need to build a site that only shows content to logged-in users, we need a few things:
+                ol
+                  li An identity provider that manages users and the sign-in flow
+                  li UI elements to manage logging in and logging out
+                  li A serverless function that checks for a logged-in user using JWTs and returns protected content if one is provided
+                p
+                  | For this example, we’ll use
+                  a(href='https://docs.netlify.com/visitor-access/identity/?utm_source=dynamic-jamstack-jl&utm_medium=smashingmag&utm_campaign=devex') Netlify Identity
+                  | , which gives us a really pleasant developer experience for adding authentication and provides a drop-in widget for managing login and logout actions.
+                p To enable it:
+                ul
+                  li
+                    | Visit
+                    a(href='https://app.netlify.com/sites?utm_source=dynamic-jamstack-jl&utm_medium=smashingmag&utm_campaign=devex') your Netlify dashboard
+                  li Choose the site that needs auth from your sites list
+                  li Click “identity” in the top nav
+                  li Click the “Enable Identity” button
+                p We can add Netlify Identity to our site by adding markup that shows logged out content and adds an element to show protected content after logging in:
+                .break-out
+                  pre
+                    code.language-html.
+                      <div class="content logged-out">
+                        <h1>Super Secret Stuff!</h1>
+                        <p>🔐 only my bestest friends can see this content</p>
+                        <button class="login">log in / sign up to be my best friend</button>
+                      </div>
+                      <div class="content logged-in">
+                        <div class="secret-stuff"></div>
+                        <button class="logout">log out</button>
+                      </div>
+
+                p
+                  | This markup
+                  a(href='https://github.com/jlengstorf/dynamic-jamstack-examples/blob/master/examples/04-authentication/style.css#L9-L22') relies on CSS
+                  |  to show content based on whether the user is logged in or not. However, we can’t rely on that to actually protect the content — anyone could view the source code and steal our secrets!
+                p Instead, we created an empty div that will contain our protected content, but we’ll need to make a request to a serverless function to actually get that content. We’ll dig into how that works shortly.
+                p Next, we need to add code to make our login button work, load the protected content, and show it on screen:
+                .break-out
+                  pre
+                    code.language-html.
+                      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+                      <script>
+                       const login = document.querySelector('.login');
+                       login.addEventListener('click', () => {
+                         netlifyIdentity.open();
+                       });
+
+                       const logout = document.querySelector('.logout');
+                       logout.addEventListener('click', () => {
+                         netlifyIdentity.logout();
+                       });
+
+                       netlifyIdentity.on('logout', () => {
+                         document.querySelector('body').classList.remove('authenticated');
+                       });
+
+                       netlifyIdentity.on('login', async () => {
+                         document.querySelector('body').classList.add('authenticated');
+
+                         const token = await netlifyIdentity.currentUser().jwt();
+
+                         const response = await fetch('/.netlify/functions/get-secret-content', {
+                           headers: {
+                             Authorization: `Bearer ${token}`,
+                           },
+                         }).then(res => res.text());
+
+                         document.querySelector('.secret-stuff').innerHTML = response;
+                       });
+                      </script>
+
+                p Here’s what this code does:
+                ol
+                  li
+                    | Loads the
+                    a(href='https://github.com/netlify/netlify-identity-widget') Netlify Identity widget
+                    | , which is a helper library that creates a login modal, handles the OAuth workflow with Netlify Identity, and gives our app access to the logged-in user’s info
+                  li Adds an event listener to the login button that triggers the Netlify Identity login modal to open
+                  li Adds an event listener to the logout button that calls the Netlify Identity logout method
+                  li Adds an event handler for logging out to remove the authenticated class on logout, which hides the logged-in content and shows the logged-out content
+                  li
+                    | Adds an event handler for logging in that:
+                    ol
+                      li Adds the authenticated class to show the logged-in content and hide the logged-out content
+                      li Grabs the logged-in user’s JWT
+                      li Calls a serverless function to load protected content, sending the JWT in the Authorization header
+                      li Puts the secret content in the secret-stuff div so logged-in users can see it
+                p Right now the serverless function we’re calling in that code doesn’t exist. Let’s create it with the following code:
+                pre
+                  code.language-javascript.
+                    exports.handler = async (_event, context) => {
+                      try {
+                        const { user } = context.clientContext;
+
+                        if (!user) throw new Error('Not Authorized');
+
+                        return {
+                          statusCode: 200,
+                          headers: {
+                            'Content-Type': 'text/html',
+                          },
+                          body: `
+
+                            h1 You're Invited, ${user.user_metadata.full_name}!
+                            |
+
+                            p If you can read this it means we're best friends.
+                            |
+
+                            p
+                              | Here are the secret details for my birthday party:
+                              br
+                              |
+
+                              a(href='https://jason.af/party') jason.af/party
+                              |
+
+                            | `,
+                          };
+                        } catch (error) {
+                          return {
+                            statusCode: 401,
+                            body: 'Not Authorized',
+                          };
+                        }
+                      };
+
+                p This function does the following:
+                ol
+                  li Checks for a user in the serverless function’s context argument
+                  li Throws an error if no user is found
+                  li Returns secret content after ensuring that a logged-in user requested it
+                p Netlify Functions will detect Netlify Identity JWTs in Authorization headers and automatically put that information into context — this means we can check for a valid JWTs without needing to write code to validate JWTs!
+                p When we load this page in our browser, we’ll see the logged out page first:
+                figure.break-out.article__image
+                  a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/31c9589e-c67e-4abd-abf4-38e58aa7d766/08-logged-out.png')
+                    img(srcset='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/31c9589e-c67e-4abd-abf4-38e58aa7d766/08-logged-out.png 400w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_800/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/31c9589e-c67e-4abd-abf4-38e58aa7d766/08-logged-out.png 800w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1200/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/31c9589e-c67e-4abd-abf4-38e58aa7d766/08-logged-out.png 1200w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/31c9589e-c67e-4abd-abf4-38e58aa7d766/08-logged-out.png 1600w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_2000/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/31c9589e-c67e-4abd-abf4-38e58aa7d766/08-logged-out.png 2000w' src='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/31c9589e-c67e-4abd-abf4-38e58aa7d766/08-logged-out.png' sizes='100vw' alt='Logged out view showing information about logging in or creating an account')
+                  figcaption.op-vertical-bottom
+                    | When logged out, we can only see information about logging in. (
+                    a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/31c9589e-c67e-4abd-abf4-38e58aa7d766/08-logged-out.png') Large preview
+                    | )
+                p If we click the button to log in, we’ll see the Netlify Identity widget:
+                figure.break-out.article__image
+                  a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0043aaaf-b52e-42f6-b462-fb08cd8e2aba/09-login-form.png')
+                    img(srcset='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0043aaaf-b52e-42f6-b462-fb08cd8e2aba/09-login-form.png 400w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_800/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0043aaaf-b52e-42f6-b462-fb08cd8e2aba/09-login-form.png 800w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1200/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0043aaaf-b52e-42f6-b462-fb08cd8e2aba/09-login-form.png 1200w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0043aaaf-b52e-42f6-b462-fb08cd8e2aba/09-login-form.png 1600w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_2000/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0043aaaf-b52e-42f6-b462-fb08cd8e2aba/09-login-form.png 2000w' src='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0043aaaf-b52e-42f6-b462-fb08cd8e2aba/09-login-form.png' sizes='100vw' alt='A modal window showing sign up and login tabs with a login form displayed')
+                  figcaption.op-vertical-bottom
+                    | The Netlify Identity Widget provides the whole login/sign up experience. (
+                    a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0043aaaf-b52e-42f6-b462-fb08cd8e2aba/09-login-form.png') Large preview
+                    | )
+                p After logging in (or signing up), we can see the protected content:
+                figure.break-out.article__image
+                  a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d2d164d5-4ff6-45ef-b7af-d7d4312856ca/10-logged-in.png')
+                    img(srcset='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d2d164d5-4ff6-45ef-b7af-d7d4312856ca/10-logged-in.png 400w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_800/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d2d164d5-4ff6-45ef-b7af-d7d4312856ca/10-logged-in.png 800w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1200/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d2d164d5-4ff6-45ef-b7af-d7d4312856ca/10-logged-in.png 1200w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_1600/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d2d164d5-4ff6-45ef-b7af-d7d4312856ca/10-logged-in.png 1600w, https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_2000/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d2d164d5-4ff6-45ef-b7af-d7d4312856ca/10-logged-in.png 2000w' src='https://res.cloudinary.com/indysigner/image/fetch/f_auto,q_auto/w_400/https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d2d164d5-4ff6-45ef-b7af-d7d4312856ca/10-logged-in.png' sizes='100vw' alt='Logged in view showing information about a birthday party')
+                  figcaption.op-vertical-bottom
+                    | After logging in, we can see protected content. (
+                    a(href='https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d2d164d5-4ff6-45ef-b7af-d7d4312856ca/10-logged-in.png') Large preview
+                    | )
+                p Wowee! We just added user login and protected content to a JAMstack app!
+                h3#what-to-do-next What To Do Next
+                p The JAMstack is much more than “just static sites” — we can respond to user interactions, store data, handle user authentication, and just about anything else we want to do on a modern website. And all without the need to provision, configure, or deploy a server!
+                p
+                  | What do you want to build with the JAMstack? Is there anything you’re still not convinced the JAMstack can handle? I’d love to hear about it — hit me up
+                  a(href='https://twitter.com/jlengstorf') on Twitter
+                  |  or in the comments!
+                .signature
+                  img(src='https://www.smashingmagazine.com/images/logo/logo--red.png' alt='Smashing Editorial')
+                  span (dm, il)
+          .c-promo-box.sponsors.sponsors__lead.hidden.sponsors__external(data-audience='non-subscriber' data-remove='true' data-amount='1')
+          .c-promo-box.sponsors.sponsors__lead.hidden.sponsors__external(data-audience='non-subscriber' data-remove='true' data-amount='1')
+          #sponsors-article-end.c-promo-box.c-promo-box--ad.c-promo-box--wide.sponsors.sponsors__row.hidden.sponsors__external(data-impression='true' data-audience='non-subscriber' data-remove='true')
+          #comments-dynamic-async-functionality-jamsstack-websites(data-component='CommentsArea' data-thread='/2019/12/dynamic-async-functionality-jamsstack-websites/' data-date='2019-12-18 11:30:00 +0000 UTC')
+    footer.main-footer
+      .container
+        .col-12
+          .footer__topics.open
+            h4.footer__topics__title#topics Browse All Smashing Magazine Topics
+            ul.footer__topics__list
+              li.footer__topics__item
+                a(href='/category/accessibility') Accessibility
+              li.footer__topics__item
+                a(href='/category/android') Android
+              li.footer__topics__item
+                a(href='/category/animation') Animation
+              li.footer__topics__item
+                a(href='/category/apps') Apps
+              li.footer__topics__item
+                a(href='/category/css') CSS
+              li.footer__topics__item
+                a(href='/category/design') Design
+              li.footer__topics__item
+                a(href='/category/design-patterns') Design Patterns
+              li.footer__topics__item
+                a(href='/category/design-systems') Design Systems
+              li.footer__topics__item
+                a(href='/category/e-commerce') E-Commerce
+              li.footer__topics__item
+                a(href='/category/freebies') Freebies
+              li.footer__topics__item
+                a(href='/category/graphics') Graphics
+              li.footer__topics__item
+                a(href='/category/html') HTML
+              li.footer__topics__item
+                a(href='/category/illustrator') Illustrator
+              li.footer__topics__item
+                a(href='/category/inspiration') Inspiration
+              li.footer__topics__item
+                a(href='/category/ios') iOS
+              li.footer__topics__item
+                a(href='/category/javascript') JavaScript
+              li.footer__topics__item
+                a(href='/category/mobile') Mobile
+              li.footer__topics__item
+                a(href='/category/pattern-libraries') Pattern Libraries
+              li.footer__topics__item
+                a(href='/category/performance') Performance
+              li.footer__topics__item
+                a(href='/category/photoshop') Photoshop
+              li.footer__topics__item
+                a(href='/category/plugins') Plugins
+              li.footer__topics__item
+                a(href='/category/react') React
+              li.footer__topics__item
+                a(href='/category/responsive-web-design') Responsive Web Design
+              li.footer__topics__item
+                a(href='/category/service-workers') Service Workers
+              li.footer__topics__item
+                a(href='/category/sketch') Sketch
+              li.footer__topics__item
+                a(href='/category/typography') Typography
+              li.footer__topics__item
+                a(href='/category/ui') UI
+              li.footer__topics__item
+                a(href='/category/usability') Usability
+              li.footer__topics__item
+                a(href='/category/user-experience') User Experience
+              li.footer__topics__item
+                a(href='/category/wallpapers') Wallpapers
+              li.footer__topics__item
+                a(href='/category/web-design') Web Design
+              li.footer__topics__item
+                a(href='/category/wordpress') WordPress
+              li.footer__topics__item
+                a(href='/category/workflow') Workflow
+        .col-12
+          .footer__notes
+            p With a commitment to quality content for the design community.
+            p
+              | Founded by Vitaly Friedman and Sven Lennartz.
+              span.lining-figures 2006–2019
+              | .
+            p
+              | Smashing is proudly running on
+              a(href='https://www.netlify.com/?utm_source=link&utm_medium=parter&utm_campaign=sm-footer') Netlify
+              | .
+            p
+              | Fonts by
+              a(href='http://latinotype.com/') Latinotype
+              | .
+          ul.footer__links
+            li
+              | ✎
+              a(href='/write-for-us/') Write for us
+            li
+              a(href='/contact/') Contact us
+            li
+              a(href='/about/') About us (Impressum)
+            li
+              a(href='/privacy-policy') Privacy policy
+            li
+              a(href='/auth/') Membership login
+            li
+              a(href='/delivery-times/') Delivery times
+            li
+              a(href='mailto:advertising@smashingmagazine.com?subject=Let’s talk about advertising') Advertise
+      .back-to-top-wrapper#back_top
+        a.back-to-top(href='#top' data-scroll='#top' title='Back to top')
+          svg(viewBox='0 0 100 100' width='25' height='25' tabindex='-1' role='img' aria-labelledby='title')
+            title#title Back to top
+            path(d='M10 50l50 50L70 90 30 50 70 10 60 0z' transform='translate(0 0) rotate(90 50 50)' fill='#fff' stroke='#fff')
+            image(src='https://d33wubrfki0l68.cloudfront.net/a0a37998d83f76d320162750bc965f3ee67980be/820d5/images/back-to-top-arrow.png' alt='Back to top arrow' width='100%' height='100%')
+      #cart.cart-wrapper(data-component='MiniCart')
+    div(data-handler='PostLoad')
+    script.js-additional(defer src='https://d33wubrfki0l68.cloudfront.net/bundles/f0ae4af05bd8264cd62236ab5de1ac95b8e959f2.js')
+    script window.PRERELEASES={}
+    script(defer src='https://d33wubrfki0l68.cloudfront.net/js/0168fc817a6f0b3578c87e09587b5ad21ae3b0ed/js/ga.js')
+    script(defer type='text/plain' data-cookieconsent='statistics' src='https://www.google-analytics.com/analytics.js')
+    script(defer src='https://d33wubrfki0l68.cloudfront.net/js/2bc7c01f150300f305fb811a5a9a42c262b0ff73/js/app.js')
+    link(rel='stylesheet' type='text/css' media='print' href='https://d33wubrfki0l68.cloudfront.net/css/8e0b415a616601de68977c65c7ea449e881aec16/css/print.css')
+    script.
+      function CookiebotCallback_OnLoad(){Cookiebot&&Cookiebot.runScripts()}
+      function CookiebotCallback_OnAccept(){Cookiebot&&Cookiebot.runScripts()}
+    script#Cookiebot(defer src='https://consent.cookiebot.com/uc.js' importance='low' data-cbid='477cf258-f4e3-42e2-811d-73547904d716' type='text/javascript')
+    script.js-additional(defer src='https://d33wubrfki0l68.cloudfront.net/bundles/f0ae4af05bd8264cd62236ab5de1ac95b8e959f2.js')

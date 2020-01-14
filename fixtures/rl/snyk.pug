@@ -1,0 +1,658 @@
+doctype html
+html(lang='en-US')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible' content='ie=edge')
+    meta(name='viewport' content='width=device-width,initial-scale=1,shrink-to-fit=no')
+    title Why npm lockfiles can be a security blindspot for injecting malicious modules | Snyk
+    //  This site is optimized with the Yoast SEO plugin v12.0 - https://yoast.com/wordpress/plugins/seo/
+    meta(name='description' content='I recently started playing around with the idea of threat modeling packages on the npm ecosystem. Can an event-stream incident happen again? How about')
+    link(rel='canonical' href='https://snyk.io/blog/why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules/')
+    meta(property='og:locale' content='en_US')
+    meta(property='og:type' content='article')
+    meta(property='og:title' content='Why npm lockfiles can be a security blindspot for injecting malicious modules | Snyk')
+    meta(property='og:description' content='I recently started playing around with the idea of threat modeling packages on the npm ecosystem. Can an event-stream incident happen again? How about')
+    meta(property='og:url' content='https://snyk.io/blog/why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules/')
+    meta(property='og:site_name' content='Snyk')
+    meta(property='article:publisher' content='https://www.facebook.com/snyksec/')
+    meta(property='article:section' content='Application Security')
+    meta(property='article:published_time' content='2019-09-24T18:35:39+00:00')
+    meta(property='article:modified_time' content='2019-10-08T10:05:25+00:00')
+    meta(property='og:updated_time' content='2019-10-08T10:05:25+00:00')
+    meta(property='og:image' content='https://snyk.io/wp-content/uploads/NPM-Inject-feature.png')
+    meta(property='og:image:secure_url' content='https://snyk.io/wp-content/uploads/NPM-Inject-feature.png')
+    meta(property='og:image:width' content='1006')
+    meta(property='og:image:height' content='597')
+    meta(name='twitter:card' content='summary_large_image')
+    meta(name='twitter:description' content='I recently started playing around with the idea of threat modeling packages on the npm ecosystem. Can an event-stream incident happen again? How about')
+    meta(name='twitter:title' content='Why npm lockfiles can be a security blindspot for injecting malicious modules | Snyk')
+    meta(name='twitter:site' content='@snyksec')
+    meta(name='twitter:image' content='https://snyk.io/wp-content/uploads/NPM-Inject-feature.png')
+    meta(name='twitter:creator' content='@liran_tal')
+    script.yoast-schema-graph.yoast-schema-graph--main(type='application/ld+json') {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://snyk.io/#website","url":"https://snyk.io/","name":"Snyk","potentialAction":{"@type":"SearchAction","target":"https://snyk.io/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://snyk.io/blog/why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules/#primaryimage","url":"https://snyk.io/wp-content/uploads/NPM-Inject-feature.png","width":1006,"height":597,"caption":"injecting malicious module to npm package"},{"@type":"WebPage","@id":"https://snyk.io/blog/why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules/#webpage","url":"https://snyk.io/blog/why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules/","inLanguage":"en-US","name":"Why npm lockfiles can be a security blindspot for injecting malicious modules | Snyk","isPartOf":{"@id":"https://snyk.io/#website"},"primaryImageOfPage":{"@id":"https://snyk.io/blog/why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules/#primaryimage"},"datePublished":"2019-09-24T18:35:39+00:00","dateModified":"2019-10-08T10:05:25+00:00","author":{"@id":"https://snyk.io/#/schema/person/541ec62a7e02484e9ec475fe849f4d92"},"description":"I recently started playing around with the idea of threat modeling packages on the npm ecosystem. Can an event-stream incident happen again? How about"},{"@type":["Person"],"@id":"https://snyk.io/#/schema/person/541ec62a7e02484e9ec475fe849f4d92","name":"Liran Tal","image":{"@type":"ImageObject","@id":"https://snyk.io/#authorlogo","url":"https://secure.gravatar.com/avatar/6a4d9fabbcb06769dbe07525c2a7edf5?s=96&d=mm&r=g","caption":"Liran Tal"},"sameAs":["https://twitter.com/liran_tal"]}]}
+    //  / Yoast SEO plugin.
+    link(rel='dns-prefetch' href='//s.w.org')
+    link#wp-block-library-css(rel='stylesheet' href='https://snyk.io/wp-includes/css/dist/block-library/style.min.css?ver=5.2.5' type='text/css' media='all')
+    link#sage/main.css-css(rel='stylesheet' href='https://snyk.io/wp-content/themes/snyk_v2_etyhadar/dist/styles/main-0412-1.css' type='text/css' media='all')
+    script(type='text/javascript' defer src='https://snyk.io/wp-content/themes/snyk_v2_etyhadar/resources/assets/scripts/jquery3.4.1.min.js?ver=5.2.5')
+    script(type='text/javascript') document.documentElement.className += " js";
+    script(type='text/javascript' src='//script.crazyegg.com/pages/scripts/0082/5698.js' async)
+    style(type='text/css') .recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+    //
+       Development code
+         <script type="text/javascript">
+           !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
+              analytics.load("pRQuOq7SrSoNjrbbCHUCGpc61OqsPluA");
+                analytics.page();
+            }}();
+        </script>
+
+    script(type='text/javascript').
+
+      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
+              analytics.load("rrZlYpGGcdrLvloIXwGTqX8ZAQNsB9A0");
+                analytics.page();
+            }}();
+
+  body.post-template-default.single.single-post.postid-12822.single-format-standard.why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules.app-data.index-data.singular-data.single-data.single-post-data.single-post-why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules-data
+    header.banner#header
+      section#cookie-disclaimer
+        .promo-content
+          p.banner-text We use cookies to ensure you get the best experience on our website.
+          .content-first.row
+            a.promo-link.col.col-md-12#cookie-link(href='javascript:void(0);' data-ga-event='button-cookie_accept-accept' data-ga-category='content' data-ga-label='Got it').
+
+              Got it
+
+            a.read-more.col.col-md-12(href='/policies/privacy/' data-ga-event='link-cookie_accept-read_more' data-ga-category='content' data-ga-label='Read more').
+
+              Read more
+
+          .clearfix
+      .container
+        .row.justify-content-between.align-items-lg-center
+          .col-6.col-lg-1.p-0.width-helper-logo
+            a.brand(href='https://snyk.io/' title='Open Source Security Platform' alt='Snyk|Open Source Security Platform')
+              img.brand__logo(src='https://snyk.io/wp-content/themes/snyk_v2_etyhadar/dist/images/svg/snyk-wordmark.svg' alt='Snyk|Open Source Security Platform')
+              img.brand__logo-fixed.lozad(src data-src='https://snyk.io/wp-content/themes/snyk_v2_etyhadar/dist/images/svg/snyk-wordmark-fixed.svg' alt='Snyk|Open Source Security Platform')
+          .hidden-planshet.col-lg-7.p-0
+            nav.nav-primary
+              .menu-main-navigation-menu-container
+                ul#menu-main-navigation-menu.nav
+                  li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children
+                    a(href='#') Product
+                    ul.sub-menu
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/product/')
+                          | Snyk Open Source
+                          .sub Enabling developers to easily find and automatically fix open source vulnerabilities
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/product/container-vulnerability-management/')
+                          | Snyk Container
+                          .sub Find and fix vulnerabilities in container images and Kubernetes applications
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/product/vulnerability-database/')
+                          | Snyk vulnerability database
+                          .sub Comprehensive and actionable open source and container vulnerability data
+                  li.menu-item.menu-item-type-custom.menu-item-object-custom
+                    a(href='https://snyk.io/vuln') Vulnerability DB
+                  li.menu-item.menu-item-type-post_type.menu-item-object-page
+                    a(href='https://snyk.io/plans/') Pricing
+                  li.menu-item.menu-item-type-post_type.menu-item-object-page
+                    a(href='https://snyk.io/test/') Test
+                  li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children
+                    a(href='#') Resources
+                    ul.sub-menu
+                      li.menu-item.menu-item-type-custom.menu-item-object-custom
+                        a(href='https://support.snyk.io/hc/en-us') Docs
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/security-resources/') Security resources
+                      li.d-sm-none.menu-item.menu-item-type-post_type.menu-item-object-page.current_page_parent
+                        a(href='https://snyk.io/blog/') Blog
+                      li.menu-blog-dropdown.menu-item.menu-item-type-custom.menu-item-object-custom
+                        a(href='https://snyk.io/blog/') From the blog
+                        .sub
+                          a(href='https://snyk.io/blog/')
+                            .sub Recent posts
+                          ul.recent-posts
+                            a(href='https://snyk.io/blog/').
+
+
+                            li
+                              a(href='https://snyk.io/blog/').
+
+
+                              a.recent-post(href='https://snyk.io/blog/building-security-into-your-azure-devops-pipeline/').
+
+                                Building security into your Azure DevOps Pipeline
+
+                            li
+                              a.recent-post(href='https://snyk.io/blog/integrating-actionable-security-in-your-ci-cd-workflow-and-build-systems-with-snyk-tests/').
+
+                                Integrating actionable security in your CI/CD workflow and build systems with Snyk tests
+
+                            li
+                              a.recent-post(href='https://snyk.io/blog/snyk-receives-best-ceo-award/').
+
+                                Snyk Receives “Best CEO” Award
+
+                  li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children
+                    a(href='#') Company
+                    ul.sub-menu
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/about/') About
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/customers/') Customers
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/partners/') Partners
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/jobs/')
+                          | Jobs at Snyk
+                          b We are hiring
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/contact-us/') Contact us
+          .col-6.col-lg-4.d-flex.justify-content-end.login-box
+            a.login.hidden-planshet(href='https://snyk.io/login' title='Log in' data-ga-event='link-log_in-top_nav' data-ga-category='login' data-ga-label='Log in' role='button').
+              Log in
+
+            a.btn.schedule.hidden-planshet(href='/schedule-a-demo' title='Schedule a Demo' data-ga-event='button-schedule_demo-top_nav' data-ga-category='contact' data-ga-label='SCHEDULE A DEMO' role='button').
+              SCHEDULE A DEMO
+
+            a.btn.btn-small.singup.hidden-planshet(href='https://snyk.io/signup' title='Sign up' data-ga-event='button-signup-top_nav' data-ga-category='onboarding' data-ga-label='QUICK START' role='button') QUICK START
+            span.burger.open-planshet
+              span.burger__line.line1
+              span.burger__line.line2
+              span.burger__line.line3
+              span.burger__line.line4
+          .mobile-menu
+            nav.nav-primary
+              .menu-main-navigation-menu-container
+                ul#menu-main-navigation-menu-1.nav
+                  li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children
+                    a(href='#') Product
+                    ul.sub-menu
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/product/')
+                          | Snyk Open Source
+                          .sub Enabling developers to easily find and automatically fix open source vulnerabilities
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/product/container-vulnerability-management/')
+                          | Snyk Container
+                          .sub Find and fix vulnerabilities in container images and Kubernetes applications
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/product/vulnerability-database/')
+                          | Snyk vulnerability database
+                          .sub Comprehensive and actionable open source and container vulnerability data
+                  li.menu-item.menu-item-type-custom.menu-item-object-custom
+                    a(href='https://snyk.io/vuln') Vulnerability DB
+                  li.menu-item.menu-item-type-post_type.menu-item-object-page
+                    a(href='https://snyk.io/plans/') Pricing
+                  li.menu-item.menu-item-type-post_type.menu-item-object-page
+                    a(href='https://snyk.io/test/') Test
+                  li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children
+                    a(href='#') Resources
+                    ul.sub-menu
+                      li.menu-item.menu-item-type-custom.menu-item-object-custom
+                        a(href='https://support.snyk.io/hc/en-us') Docs
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/security-resources/') Security resources
+                      li.d-sm-none.menu-item.menu-item-type-post_type.menu-item-object-page.current_page_parent
+                        a(href='https://snyk.io/blog/') Blog
+                      li.menu-blog-dropdown.menu-item.menu-item-type-custom.menu-item-object-custom
+                        a(href='https://snyk.io/blog/') From the blog
+                        .sub
+                          a(href='https://snyk.io/blog/')
+                            .sub Recent posts
+                          ul.recent-posts
+                            a(href='https://snyk.io/blog/').
+
+
+                            li
+                              a(href='https://snyk.io/blog/').
+
+
+                              a.recent-post(href='https://snyk.io/blog/building-security-into-your-azure-devops-pipeline/').
+
+                                Building security into your Azure DevOps Pipeline
+
+                            li
+                              a.recent-post(href='https://snyk.io/blog/integrating-actionable-security-in-your-ci-cd-workflow-and-build-systems-with-snyk-tests/').
+
+                                Integrating actionable security in your CI/CD workflow and build systems with Snyk tests
+
+                            li
+                              a.recent-post(href='https://snyk.io/blog/snyk-receives-best-ceo-award/').
+
+                                Snyk Receives “Best CEO” Award
+
+                  li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children
+                    a(href='#') Company
+                    ul.sub-menu
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/about/') About
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/customers/') Customers
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/partners/') Partners
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/jobs/')
+                          | Jobs at Snyk
+                          b We are hiring
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/contact-us/') Contact us
+            .regisstration-box.login-box
+              a.btn-transparent.login.hidden-sm.hidden-lg(href='https://snyk.io/login' title='Log in' data-ga-event='link-log_in-top_nav' data-ga-category='header-btn' data-ga-label='Log in').
+
+                Log in
+              a.btn.schedule(href='/schedule-a-demo' title='Schedule a Demo' data-ga-event='button-schedule_demo-top_nav' data-ga-category='contact' data-ga-label='SCHEDULE A DEMO' role='button') SCHEDULE A DEMO
+              a.btn-small.singup.hidden-sm.hidden-lg(href='https://snyk.io/signup' title='Sign up' data-ga-event='button-signup-top_nav' data-ga-category='header-btn' data-ga-label='QUICK START').
+
+                QUICK START
+    .wrap(role='document')
+      .content
+        main.main.disclaimer
+          article.post-12822.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-application-security.category-open-source.category-vulnerabilities
+            header.blog-header
+              .img-header
+                img.header-img(width='2375' height='597' src='https://snyk.io/wp-content/uploads/NPM-Inject.png' alt='injecting malicious module to npm package' srcset='https://snyk.io/wp-content/uploads/NPM-Inject.png 2375w, https://snyk.io/wp-content/uploads/NPM-Inject-150x38.png 150w, https://snyk.io/wp-content/uploads/NPM-Inject-300x75.png 300w, https://snyk.io/wp-content/uploads/NPM-Inject-768x193.png 768w, https://snyk.io/wp-content/uploads/NPM-Inject-1240x312.png 1240w' sizes='(max-width: 2375px) 100vw, 2375px')
+              .blog-header__content
+                .form-box(role='form')
+                  .form
+                    //
+                      [if lte IE 8]>
+                                          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+                                          <![endif]
+                    script(charset='utf-8' type='text/javascript' src='//js.hsforms.net/forms/v2.js')
+                    script.
+
+                      hbspt.forms.create({
+                                                  portalId: "1699665",
+                                                  formId: "58ba0d4b-160b-4760-90e7-ff84e98a46d0",
+                                                  css: "",
+                                                  onFormSubmit: function($form) {
+                                                      jQuery('.form').hide();
+                                                      jQuery('.after-form').html('<div class="submit-email"><span>Thank you!</span></div>'
+                                                          +'<div class="submit-button"></div>');
+                                                      window.analytics.track(' button-newsletter_signup-header', {
+                                                          category: 'contact',
+                                                          label: jQuery('.hs-button').val(),
+                                                      });
+                                                  },
+                                              });
+
+                  .after-form
+              .social-box
+                ul.soc
+                  li.soc-link.soc-link-tw
+                    a(title='Twitter' href='https://twitter.com/share?text=Checkout%20Why npm lockfiles can be a security blindspot for injecting malicious modules&url=https://snyk.io/blog/why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules/&via=snyksec' data-show-count='false')
+                      span.fa.fa-twitter(aria-hidden='true')
+                    script(async src='https://platform.twitter.com/widgets.js' charset='utf-8')
+                  li.soc-link.soc-link-linkd
+                    a(title='Linkedin' href='https://www.linkedin.com/shareArticle?mini=true&url=https://snyk.io/blog/why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules/&title=Why npm lockfiles can be a security blindspot for injecting malicious modules&summary=I recently started playing around with the idea of threat modeling packages on the npm ecosystem. Can an event-stream incident happen again? How about other supply chain attacks? What will be the next vector of attack that we haven’t seen yet and might it be entirely preventable? And then, one day I had a eureka! &hellip; Continued&source=snyk.io')
+                      span.fa.fa-linkedin(aria-hidden='true')
+                  li.soc-link.soc-link-fb
+                    a#share(href='https://www.facebook.com/sharer.php?u=https://snyk.io/blog/why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules/')
+                      span.fa.fa-facebook(aria-hidden='true')
+            .container
+              .post-content-wrapp
+                h1.text Why npm lockfiles can be a security blindspot for injecting malicious modules
+                .updated
+                  .avatar-wrap
+                    span.avatar
+                      img.attachment-full.size-full(width='1192' height='1230' src='https://snyk.io/wp-content/uploads/Screen-Shot-2018-12-05-at-10.06.22.png' alt srcset='https://snyk.io/wp-content/uploads/Screen-Shot-2018-12-05-at-10.06.22.png 1192w, https://snyk.io/wp-content/uploads/Screen-Shot-2018-12-05-at-10.06.22-145x150.png 145w, https://snyk.io/wp-content/uploads/Screen-Shot-2018-12-05-at-10.06.22-291x300.png 291w, https://snyk.io/wp-content/uploads/Screen-Shot-2018-12-05-at-10.06.22-768x792.png 768w' sizes='(max-width: 1192px) 100vw, 1192px')
+                  .date-category-info
+                    span.date September 24, 2019
+                    span.pipe |
+                    span.category-post
+                      | in
+
+                      a(href='https://snyk.io/blog/category/application-security/')
+                        span.color-category
+                          | Application Security
+                          span ,
+                      a(href='https://snyk.io/blog/category/open-source/')
+                        span.color-category
+                          | Open Source
+                          span ,
+                      a(href='https://snyk.io/blog/category/vulnerabilities/')
+                        span.color-category
+                          | Vulnerabilities
+                          span
+                  .author-info
+                    span.pipe.pipe-second |
+                    span.author-box
+                      | By
+                      span.author.
+                        Liran Tal
+                .social-box.social-box-mobile
+                  ul.soc
+                    li.soc-link.soc-link-tw
+                      a(title='Twitter' href='https://twitter.com/share?text=Checkout%20Why npm lockfiles can be a security blindspot for injecting malicious modules&url=https://snyk.io/blog/why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules/&via=snyksec' data-show-count='false')
+                        span.fa.fa-twitter(aria-hidden='true')
+                      script(async src='https://platform.twitter.com/widgets.js' charset='utf-8')
+                    li.soc-link.soc-link-linkd
+                      a(title='Linkedin' href='https://www.linkedin.com/shareArticle?mini=true&url=https://snyk.io/blog/why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules/&title=Why npm lockfiles can be a security blindspot for injecting malicious modules&summary=I recently started playing around with the idea of threat modeling packages on the npm ecosystem. Can an event-stream incident happen again? How about other supply chain attacks? What will be the next vector of attack that we haven’t seen yet and might it be entirely preventable? And then, one day I had a eureka! &hellip; Continued&source=snyk.io')
+                        span.fa.fa-linkedin(aria-hidden='true')
+                    li.soc-link.soc-link-fb
+                      a#share(href='https://www.facebook.com/sharer.php?u=https://snyk.io/blog/why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules/')
+                        span.fa.fa-facebook(aria-hidden='true')
+                .entry-content
+                  p
+                    | I recently started playing around with the idea of threat modeling packages on the npm ecosystem. Can an
+                    a(href='https://snyk.io/blog/a-post-mortem-of-the-malicious-event-stream-backdoor/') event-stream incident
+                    |  happen again? How about other supply chain attacks? What will be the next vector of attack that we haven’t seen yet and might it be entirely preventable?
+                  p And then, one day I had a eureka! 🎉 Let me show you how easy it is to introduce back doors that are easily missed by project owners… leaving your code insecure.
+                  p The following picture shows how I injected a malicious package through a pull request I made on an open source package on npm. 
+                  p Take a closer look and see if you can spot it:
+                  figure.wp-block-image
+                    img.wp-image-12826(src='https://snyk.io/wp-content/uploads/lockfile-blog-image2-1240x807.png' alt='yarn lockfile diff on github' srcset='https://snyk.io/wp-content/uploads/lockfile-blog-image2-1240x807.png 1240w, https://snyk.io/wp-content/uploads/lockfile-blog-image2-150x98.png 150w, https://snyk.io/wp-content/uploads/lockfile-blog-image2-300x195.png 300w, https://snyk.io/wp-content/uploads/lockfile-blog-image2-768x500.png 768w, https://snyk.io/wp-content/uploads/lockfile-blog-image2.png 1364w' sizes='(max-width: 1240px) 100vw, 1240px')
+                  p Now, when I go through my pull request review checklist for this PR, this is how it looks: 
+                  ul
+                    li
+                      | The packages I introduced are known in the ecosystem and are
+                      a(href='https://snyk.io/product/') vulnerabilities free
+                      |  – check.
+                    li There are no typosquatting attempts in these package names – check.
+                    li These are valid versions of those packages and aren’t malicious in and of themselves – check.
+                  p Looks good to me. Let’s go ahead and merge!
+                  p But wait. Did you carefully review that lockfile? Of course not, and I don’t blame you. It’s not at all obvious, considering these restraints:
+                  ul
+                    li GitHub’s interface defaults to folding diffs whenever they are larger than a couple hundred lines of code in length.
+                    li What’s the point in reviewing this file? It’s machine-generated and it’s also not very reader-friendly.
+                  p
+                    br
+                    | Regardless of these restraints, what could go wrong really?
+                  p Let’s expand the diff and take a look at what’s inside:
+                  figure.wp-block-image
+                    img.wp-image-12827(src='https://snyk.io/wp-content/uploads/lockfile-blog-image3-1240x860.png' alt='yarn lockfile metadata resolvers' srcset='https://snyk.io/wp-content/uploads/lockfile-blog-image3-1240x860.png 1240w, https://snyk.io/wp-content/uploads/lockfile-blog-image3-150x104.png 150w, https://snyk.io/wp-content/uploads/lockfile-blog-image3-300x208.png 300w, https://snyk.io/wp-content/uploads/lockfile-blog-image3-768x533.png 768w, https://snyk.io/wp-content/uploads/lockfile-blog-image3.png 1247w' sizes='(max-width: 1240px) 100vw, 1240px')
+                  p
+                    | When a lockfile is present, whether that is Yarn’s
+                    code yarn.lock
+                    |  or npm’s
+                    code package-lock.json
+                    | , an install will consult the lockfile as the primary source of truth for package versions and their sources for dependencies installation.
+                  p
+                    | See what I meant before? A 500-line change on a lockfile is actually a pretty low number. I’ve seen thousands of line changes applied to an npm package-lock.json or a Yarn
+                    strong yarn.lock
+                    |  file. I mean, who
+                    em really
+                    |  reviews thousands of lines of character changes? To make matters worse, in this lockfile we’ve seen dependency version changes and metadata updates– nothing really out of the ordinary all in all.
+                  p If we scroll a bit further down to review the rest of the changes applied to this file we find this gem:
+                  figure.wp-block-image
+                    img.wp-image-12825(src='https://snyk.io/wp-content/uploads/lockfile-blog-image1-1240x821.png' alt='yarn lockfile shows injection of malicious npm module' srcset='https://snyk.io/wp-content/uploads/lockfile-blog-image1.png 1240w, https://snyk.io/wp-content/uploads/lockfile-blog-image1-150x99.png 150w, https://snyk.io/wp-content/uploads/lockfile-blog-image1-300x199.png 300w, https://snyk.io/wp-content/uploads/lockfile-blog-image1-768x508.png 768w' sizes='(max-width: 1240px) 100vw, 1240px')
+                  p What becomes clear when you look closer, is that I replaced the original ms npm package to resolve it with my own version, which is stored in my GitHub repository. I should have gotten it from the official npm registry, just as was originally set in the lockfile of the project.
+                  p This project uses a few different semvers of ms, while I only changed ms@2.1.1 to use my own customized rendition:
+                  pre.wp-block-code
+                    code.
+                      yarn list --pattern ms
+                      yarn list v1.17.3
+                      ├─ @babel/helper-module-transforms@7.4.4
+                      ├─ debug@2.6.9
+                      │  └─ ms@2.0.0
+                      ├─ express@4.17.1
+                      │  └─ ms@2.1.1
+                      ├─ ms@2.1.2
+                      ├─ send@0.16.2
+                      │  └─ ms@2.0.0
+                      ├─ serve-static@1.14.1
+                      │  └─ ms@2.1.1
+                      ✨  Done in 0.49s.
+                  p It’s pretty hard to remember to review on such a granular level – and it’s no wonder so few actually review lockfile changes character-by-character! 
+                  p
+                    | So, what does my own version of
+                    strong
+                      em ms@2.1.1
+                    |  do?
+                  p
+                    | When this pull request gets merged, I inject my malicious version of
+                    strong
+                      em ms@2.1.1
+                    |  into the code in order to control its behavior during runtime.
+                  p
+                    | In this way, I could introduce a backdoor, alter the logic of the ms module or I could run some postinstall scripts. Additionally, the hosting URL at
+                    a(href='https://github.com/lirantal/ms/tarball/master') https://github.com/lirantal/ms/tarball/master
+                    |  is obviously alarming for this experiment but would it be easy for you to spot it if I were to buy a typosquatting domain to host it under https://registry.npmgs.org/ms/ ?
+                  p
+                    | For the sake of this experiment, my ms-hosted package has a simple postinstall script that outputs some text and writes to a file so that if you were to install the package itself, you could then confirm that the post-install event simply executes upon a
+                    code yarn install
+                    | :
+                  pre.wp-block-code
+                    code.
+                      "scripts": {
+                         "postinstall": "echo im installed && echo hello > /tmp/world.txt",
+                      }
+                  p For project-based applications, lockfile security is critical and is susceptible to the type of malicious injection attacks as this article outlines.
+                  p Lockfiles being used in packages as libraries however, are solely designed for use within the development workflow of the package itself. For that reason, when the project (package) is installed as a dependency in another project, its lockfile isn’t used. This means that lockfile injection would primarily compromise and risk project maintainers and collaborators as far as libraries are concerned.
+                  h2 What can we do to increase lockfile security?
+                  p Because lockfiles are meant to be read by machines it means that they are easy to process automatically. That makes it the perfect job for a linter and some preset policies!
+                  p
+                    | As a countermeasure against the above attack vector, I built
+                    a(href='https://github.com/lirantal/lockfile-lint') lockfile-lint
+                    |  to help with this task. I added the file as another short step of the static code analysis that you can run on a CI server such as Travis CI or Circle CI.
+                  p At the very least, you should validate all resources that are served:
+                  ul
+                    li over HTTPS
+                    li from a trusted source
+                  p As an example, to run those checks in CI for a Yarn project, it’s as simple as:
+                  pre.wp-block-code
+                    code $ npx lockfile-lint --path yarn.lock --type yarn --validate-https --allowed-hosts yarnpkg.org
+                  p Here’s an example showing common errors detected while linting a project’s lockfile:
+                  figure.wp-block-image
+                    img.wp-image-13161(src='https://snyk.io/wp-content/uploads/lockfile-lint-example-1240x656.png' alt='lockfile lint example for npm project' srcset='https://snyk.io/wp-content/uploads/lockfile-lint-example-1240x656.png 1240w, https://snyk.io/wp-content/uploads/lockfile-lint-example-150x79.png 150w, https://snyk.io/wp-content/uploads/lockfile-lint-example-300x159.png 300w, https://snyk.io/wp-content/uploads/lockfile-lint-example-768x406.png 768w, https://snyk.io/wp-content/uploads/lockfile-lint-example.png 1312w' sizes='(max-width: 1240px) 100vw, 1240px')
+                  h2 Summary
+                  p Attacks can manifest in many different forms and types… even from lockfiles!
+                  p
+                    | With the
+                    a(href='https://snyk.io/blog/a-post-mortem-of-the-malicious-event-stream-backdoor/') event-stream incident
+                    |  we’ve seen the first successful launch of a social engineering attack on open source project maintainers. This was perhaps one of the most sophisticated attacks we’ve seen on software supply-chain security in the npm and JavaScript ecosystem to date.
+                  p A lockfile injection could attack in a similar fashion, and so you should have proper practices in place to mitigate this issue, or at least reduce the risk. Consider the following:
+                  ul
+                    li
+                      | Carefully review changes to lockfiles (
+                      a(href='https://github.com/lirantal/lockfile-lint') lockfile-lint
+                      |  can help with that).
+                    li Allow lockfile changes from core maintainers and not sporadic contributors.
+                    li Avoid the use of lockfiles entirely for libraries.
+                  p
+                    | If you’re interested to read more about lockfiles and how they are used, I wrote in depth about
+                    a(href='https://snyk.io/blog/making-sense-of-package-lock-files-in-the-npm-ecosystem/') making sense of package lockfiles in the npm ecosystem
+                    | .
+            footer.
+
+
+          br
+          .container.trendemon-post-widget
+            #trd-articleslideshow.col-md-8.col-xl-10.mx-auto
+          br
+    footer.footer.content-info
+      .footer__top
+        .container
+          .row
+            .col-lg-8
+              span.img-wrapper
+                a.brand(href='https://snyk.io/' title='Open Source Security Platform')
+                  img(src='https://snyk.io/wp-content/themes/snyk_v2_etyhadar/dist/images/svg/logo.svg' alt='Snyk|Open Source Security Platform')
+              span.text-block
+                span.title-h.
+
+                  Ready to get started?
+
+                span.text-f.
+
+                  Snyk helps you use open source and stay secure.
+
+            .col-lg-4
+              .links-box
+                a.btn-big.sing_up(href='https://snyk.io/signup' data-ga-event='button-quickstart-footer' data-ga-category='onboarding' data-ga-label='Sign up for free')
+                  span.btn-text
+                    | Sign up for free
+
+                    span.btn-icon
+                a.btn-transparent.btn-no-bg(href='/schedule-a-demo' title='Schedule a demo' data-ga-event='button-schedule_demo-footer' data-ga-category='contact' data-ga-label='Schedule a demo' role='button').
+                  Schedule a demo
+
+      .footer__center
+        .container
+          .row
+            .col-6.col-lg-9
+              .row
+                .col-12.col-lg-2
+                  h4.title-h Product
+                  .menu-footer-menu-product-container
+                    ul#menu-footer-menu-product.menu
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/partners/') Partners
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/product/product-v1/') Developers & DevOps Features
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/product/enterprise/') Enterprise Features
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/plans/') Pricing
+                      li.menu-item.menu-item-type-custom.menu-item-object-custom
+                        a(href='https://snyk.io/test#github-repo') Test with GitHub
+                      li.menu-item.menu-item-type-custom.menu-item-object-custom
+                        a(href='https://snyk.io/test#local-project') Test with CLI
+                      li.menu-item.menu-item-type-custom.menu-item-object-custom
+                        a(href='https://snyk.statuspage.io/') API Status
+                .hidden-planshet.col-lg-2
+                  h4.title-h Resources
+                  .menu-footer-menu-resources-container
+                    ul#menu-footer-menu-resources.menu
+                      li.menu-item.menu-item-type-custom.menu-item-object-custom
+                        a(href='https://snyk.io/vuln') Vulnerability DB
+                      li.menu-item.menu-item-type-custom.menu-item-object-custom
+                        a(href='https://snyk.io/blog') Blog
+                      li.menu-item.menu-item-type-custom.menu-item-object-custom
+                        a(href='https://support.snyk.io/hc/en-us') Documentation
+                      li.menu-item.menu-item-type-custom.menu-item-object-custom
+                        a(href='https://snyk.docs.apiary.io') Snyk API
+                      li.menu-item.menu-item-type-custom.menu-item-object-custom
+                        a(href='https://snyk.io/research') Research
+                      li.menu-item.menu-item-type-custom.menu-item-object-custom
+                        a(href='https://support.snyk.io/') FAQs
+                      li.menu-item.menu-item-type-post_type.menu-item-object-post
+                        a(href='https://snyk.io/blog/opensourcesecurity-2019/') Security Report 2019
+                .col-12.col-lg-2
+                  h4.title-h Company
+                  .menu-footer-menu-company-container
+                    ul#menu-footer-menu-company.menu
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/about/') About
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/customers/') Customers
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/jobs/') Jobs at Snyk
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/policies/terms-of-service/') Legal Terms
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/policies/privacy/') Privacy
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/press-kit/') Press Kit
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/events/') Events
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/security/') Secure by Design
+                .hidden-planshet.col-lg-3
+                  h4.title-h Connect
+                  .menu-footer-menu-contact-us-container
+                    ul#menu-footer-menu-contact-us.menu
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/schedule-a-demo/') Schedule a demo
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/contact-us/') Contact us
+                      li.menu-item.menu-item-type-custom.menu-item-object-custom
+                        a(href='https://support.snyk.io/hc/en-us') Support
+                      li.menu-item.menu-item-type-post_type.menu-item-object-page
+                        a(href='https://snyk.io/vulnerability-disclosure/') Report a new vuln
+            .col-6.col-lg-3
+              .resources-list-mobile.open-planshet
+                h4.title-h Resources
+                .menu-footer-menu-resources-container
+                  ul#menu-footer-menu-resources-1.menu
+                    li.menu-item.menu-item-type-custom.menu-item-object-custom
+                      a(href='https://snyk.io/vuln') Vulnerability DB
+                    li.menu-item.menu-item-type-custom.menu-item-object-custom
+                      a(href='https://snyk.io/blog') Blog
+                    li.menu-item.menu-item-type-custom.menu-item-object-custom
+                      a(href='https://support.snyk.io/hc/en-us') Documentation
+                    li.menu-item.menu-item-type-custom.menu-item-object-custom
+                      a(href='https://snyk.docs.apiary.io') Snyk API
+                    li.menu-item.menu-item-type-custom.menu-item-object-custom
+                      a(href='https://snyk.io/research') Research
+                    li.menu-item.menu-item-type-custom.menu-item-object-custom
+                      a(href='https://support.snyk.io/') FAQs
+                    li.menu-item.menu-item-type-post_type.menu-item-object-post
+                      a(href='https://snyk.io/blog/opensourcesecurity-2019/') Security Report 2019
+              h4.title-h.title-soc Find us online
+              ul.soc
+                li.soc-link.soc-link-analytics
+                  a(title='Twitter' href='https://twitter.com/snyksec')
+                    img.lozad.soc-icon(data-src='https://res.cloudinary.com/snyk/image/upload/v1534843258/twitter-inverse-footer-2_d1smis.svg' alt='Twitter icon')
+                li.soc-link.soc-link-analytics
+                  a(title='YouTube' href='https://www.youtube.com/channel/UCh4dJzctb0NhSibjU-e2P6w')
+                    img.lozad.soc-icon(data-src='https://res.cloudinary.com/snyk/image/upload/v1534843260/youtube-inverse-footer-1_jzcsep.svg' alt='Youtube icon')
+                li.soc-link.soc-link-analytics
+                  a(title='Facebook' href='https://www.facebook.com/snyksec')
+                    img.lozad.soc-icon(data-src='https://res.cloudinary.com/snyk/image/upload/v1534843261/facebook-inverse-footer-1_scrnv5.svg' alt='facebook icon')
+                li.soc-link.soc-link-analytics
+                  a(title='LinkedIn' href='https://www.linkedin.com/company/snyk')
+                    img.lozad.soc-icon(data-src='https://res.cloudinary.com/snyk/image/upload/v1534843262/linkedin-inverse-footer-1_icczzi.svg' alt='LInkedin icon')
+              h4.title-h.title-soc Track our development
+              ul.soc
+                li.soc-link.dev-link
+                  a(title='GitHub' href='https://github.com/snyk/' data-ga-event='link-external-footer_social' data-ga-category='test')
+                    img.lozad.repo-icon(data-src='https://res.cloudinary.com/snyk/image/upload/v1534843171/github-inverse-1_wwo8xx.svg' alt='GitHub icon')
+                li.soc-link.dev-link
+                  a(title='npm' href='https://www.npmjs.com/snyk' data-ga-event='link-external-footer_social' data-ga-category='test')
+                    img.lozad.repo-icon(data-src='https://res.cloudinary.com/snyk/image/upload/v1534799298/npm-inverse-1_ma5d2p.svg' alt)
+              .footer-banner
+                a(href='https://www.thesecuredeveloper.com/' data-ga-event='link-secure_developer' data-ga-category='content' data-ga-label='footer-banner' target='_blank')
+                  img.lozad.footer-banner-img(data-src='https://snyk.io/wp-content/uploads/banner.png' alt='the secure developer')
+      .footer__bottom
+        .container
+          .footer__bottom-content
+            span.logo
+              a.brand(href='https://snyk.io/' title='Open Source Security Platform')
+                img(src='https://snyk.io/wp-content/themes/snyk_v2_etyhadar/dist/images/svg/snyk-wordmark.svg' alt='Snyk|Open Source Security Platform')
+            span.copyright © 2019 Snyk Ltd.
+      //
+
+
+    //  TrenDemon Code
+    script#trd-flame-load(type='text/javascript').
+
+      (function (w, d) {
+               function go() {
+                  var trdti = setInterval(function () {
+                  if (document.readyState === "complete") {
+                      var bi = document.createElement("script"); bi.type = "text/javascript"; bi.async = true;
+                      bi.src = "https://assets.trendemon.com/scripts/2025/main.js";
+                      bi.id  = "trdflame";
+                      var s  = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(bi, s);
+                      clearTimeout(trdti);
+                      }
+                 }, 500);
+              };
+              go();
+           }(window, document));
+
+    //  End of TrenDemon Code
+    script.
+
+      window._6si = window._6si || []; window._6si.push(['enableEventTracking', true]); window._6si.push(['setToken', '50d389da3b3e04f03e03d1239ba98024']); window._6si.push(['setEndpoint', 'b.6sc.co']);
+          (function() {
+              var gd = document.createElement('script');
+              gd.type = 'text/javascript';
+              gd.async = true;
+              gd.src = '//j.6sc.co/6si.min.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gd, s);
+          })();
+
+    script(type='text/javascript').
+
+      /* <![CDATA[ */
+      var ajax = {"url":"https:\/\/snyk.io\/wp-admin\/admin-ajax.php","nonce":"8a685c2f97"};
+      /* ]]> */
+
+    script(type='text/javascript' defer src='https://snyk.io/wp-content/themes/snyk_v2_etyhadar/dist/scripts/main-1211-2.js')
+    script(type='text/javascript' defer src='https://snyk.io/wp-includes/js/wp-embed.min.js?ver=5.2.5')

@@ -1,0 +1,9 @@
+footer
+  nav
+    div.logo
+    ul
+      each val in [1, 2, 3, 4, 5]
+        li #[a(href='#') This is Link #{val}]
+    ul
+      each val in ['About', 'Team', 'Contact', 'Jobs', 'Legal Terms', 'Privacy Policy']
+        li #[a(href=`/${val.toLowerCase()}`) #{val}]
