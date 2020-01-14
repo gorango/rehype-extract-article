@@ -1,6 +1,6 @@
 {
   "name": "@n6/chae",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Clean HTML Article Extraction",
   "main": "src/index.js",
   "repository": "https://github.com/n5e/chae",
