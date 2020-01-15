@@ -1,9 +1,9 @@
 {
-  "name": "@n6/chae",
+  "name": "rehype-extract-article",
   "version": "0.1.0",
   "description": "Clean HTML Article Extraction",
   "main": "src/index.js",
-  "repository": "https://github.com/n5e/chae",
+  "repository": "https://github.com/gorango/rehype-extract-article",
   "author": {
     "name": "Goran Spasojevic",
     "email": "gospaso@gmail.com"
