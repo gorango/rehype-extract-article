@@ -1,0 +1,702 @@
+{
+  "meta": {
+    "title": "uBlock Origin available soon in new Firefox for Android Nightly",
+    "date": "\n        \n          Feb        \n        \n          6        \n        \n          2020        \n      ",
+    "author": null,
+    "publisher": "Mozilla Add-ons Blog",
+    "description": "Last fall, we announced our intention to support add-ons in Mozilla’s reinvented Firefox for Android browser. This new, high-performance browser for Android has been rebuilt ...",
+    "image": "https://blog.mozilla.org/addons/files/2019/10/Firefox-Preview-252x252.png",
+    "keywords": [],
+    "lang": "en-US",
+    "url": "https://blog.mozilla.org/addons/2020/02/06/ublock-origin-for-firefox-android-nightly/"
+  },
+  "summary": "\n  \n\n  \n        Last fall, we announced our intention to support add-ons in Mozilla’s reinvented Firefox for Android browser. This new, high-performance browser for Android has been rebuilt from the ground up using GeckoView, Mozilla’s mobile browser engine and has been available",
+  "body": {
+    "type": "element",
+    "tagName": "article",
+    "properties": {},
+    "children": [
+      {
+        "type": "text",
+        "value": "\n  ",
+        "position": {
+          "start": {
+            "line": 1782,
+            "column": 252,
+            "offset": 88192
+          },
+          "end": {
+            "line": 1783,
+            "column": 3,
+            "offset": 88195
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n  ",
+        "position": {
+          "start": {
+            "line": 1811,
+            "column": 36,
+            "offset": 89581
+          },
+          "end": {
+            "line": 1813,
+            "column": 3,
+            "offset": 89585
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n    ",
+        "position": {
+          "start": {
+            "line": 1813,
+            "column": 30,
+            "offset": 89612
+          },
+          "end": {
+            "line": 1814,
+            "column": 5,
+            "offset": 89617
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "    ",
+        "position": {
+          "start": {
+            "line": 1814,
+            "column": 437,
+            "offset": 90049
+          },
+          "end": {
+            "line": 1814,
+            "column": 441,
+            "offset": 90053
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Last fall, we announced our ",
+            "position": {
+              "start": {
+                "line": 1814,
+                "column": 444,
+                "offset": 90056
+              },
+              "end": {
+                "line": 1814,
+                "column": 472,
+                "offset": 90084
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://blog.mozilla.org/addons/2019/10/23/fx-preview-geckoview-add-ons-support/"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "intention to support add-ons",
+                "position": {
+                  "start": {
+                    "line": 1814,
+                    "column": 563,
+                    "offset": 90175
+                  },
+                  "end": {
+                    "line": 1814,
+                    "column": 591,
+                    "offset": 90203
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1814,
+                "column": 472,
+                "offset": 90084
+              },
+              "end": {
+                "line": 1814,
+                "column": 595,
+                "offset": 90207
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " in Mozilla’s reinvented Firefox for Android browser. This new, high-performance browser for Android has been rebuilt from the ground up using GeckoView, Mozilla’s mobile browser engine and has been available for early testing as ",
+            "position": {
+              "start": {
+                "line": 1814,
+                "column": 595,
+                "offset": 90207
+              },
+              "end": {
+                "line": 1814,
+                "column": 825,
+                "offset": 90437
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://play.google.com/store/apps/details?id=org.mozilla.fenix&referrer=adjust_reftag%3DcUOSaSSMKQPMc%26utm_source%3DProduct%2BMarketing%26utm_campaign%3DComms%26utm_content%3D1.15.19_NightlyBlog"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Firefox Preview",
+                "position": {
+                  "start": {
+                    "line": 1814,
+                    "column": 1036,
+                    "offset": 90648
+                  },
+                  "end": {
+                    "line": 1814,
+                    "column": 1051,
+                    "offset": 90663
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1814,
+                "column": 825,
+                "offset": 90437
+              },
+              "end": {
+                "line": 1814,
+                "column": 1055,
+                "offset": 90667
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". A few weeks ago, Firefox Preview ",
+            "position": {
+              "start": {
+                "line": 1814,
+                "column": 1055,
+                "offset": 90667
+              },
+              "end": {
+                "line": 1814,
+                "column": 1090,
+                "offset": 90702
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://blog.mozilla.org/futurereleases/2020/01/17/a-brand-new-browsing-experience-arrives-in-firefox-for-android-nightly/"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "moved into the Firefox for Android Nightly pre-release channel",
+                "position": {
+                  "start": {
+                    "line": 1814,
+                    "column": 1223,
+                    "offset": 90835
+                  },
+                  "end": {
+                    "line": 1814,
+                    "column": 1285,
+                    "offset": 90897
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1814,
+                "column": 1090,
+                "offset": 90702
+              },
+              "end": {
+                "line": 1814,
+                "column": 1289,
+                "offset": 90901
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", starting a new chapter of the Firefox experience on Android.",
+            "position": {
+              "start": {
+                "line": 1814,
+                "column": 1289,
+                "offset": 90901
+              },
+              "end": {
+                "line": 1814,
+                "column": 1351,
+                "offset": 90963
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1814,
+            "column": 441,
+            "offset": 90053
+          },
+          "end": {
+            "line": 1814,
+            "column": 1355,
+            "offset": 90967
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 1814,
+            "column": 1355,
+            "offset": 90967
+          },
+          "end": {
+            "line": 1815,
+            "column": 1,
+            "offset": 90968
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "In the next few weeks, ",
+            "position": {
+              "start": {
+                "line": 1815,
+                "column": 4,
+                "offset": 90971
+              },
+              "end": {
+                "line": 1815,
+                "column": 27,
+                "offset": 90994
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://addons.mozilla.org/addon/ublock-origin/"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "uBlock Origin",
+                "position": {
+                  "start": {
+                    "line": 1815,
+                    "column": 85,
+                    "offset": 91052
+                  },
+                  "end": {
+                    "line": 1815,
+                    "column": 98,
+                    "offset": 91065
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1815,
+                "column": 27,
+                "offset": 90994
+              },
+              "end": {
+                "line": 1815,
+                "column": 102,
+                "offset": 91069
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " will be the first add-on to become available in ",
+            "position": {
+              "start": {
+                "line": 1815,
+                "column": 102,
+                "offset": 91069
+              },
+              "end": {
+                "line": 1815,
+                "column": 151,
+                "offset": 91118
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://app.adjust.com/l9d3h1w"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Firefox for Android Nightly",
+                "position": {
+                  "start": {
+                    "line": 1815,
+                    "column": 192,
+                    "offset": 91159
+                  },
+                  "end": {
+                    "line": 1815,
+                    "column": 219,
+                    "offset": 91186
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1815,
+                "column": 151,
+                "offset": 91118
+              },
+              "end": {
+                "line": 1815,
+                "column": 223,
+                "offset": 91190
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". As one of the most popular extensions in our ",
+            "position": {
+              "start": {
+                "line": 1815,
+                "column": 223,
+                "offset": 91190
+              },
+              "end": {
+                "line": 1815,
+                "column": 270,
+                "offset": 91237
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://support.mozilla.org/en-US/kb/recommended-extensions-program"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Recommended Extensions",
+                "position": {
+                  "start": {
+                    "line": 1815,
+                    "column": 348,
+                    "offset": 91315
+                  },
+                  "end": {
+                    "line": 1815,
+                    "column": 370,
+                    "offset": 91337
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1815,
+                "column": 270,
+                "offset": 91237
+              },
+              "end": {
+                "line": 1815,
+                "column": 374,
+                "offset": 91341
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " program, uBlock Origin helps millions of users gain control of their web experience by blocking intrusive ads and improving page load times.",
+            "position": {
+              "start": {
+                "line": 1815,
+                "column": 374,
+                "offset": 91341
+              },
+              "end": {
+                "line": 1815,
+                "column": 515,
+                "offset": 91482
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1815,
+            "column": 1,
+            "offset": 90968
+          },
+          "end": {
+            "line": 1815,
+            "column": 519,
+            "offset": 91486
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 1815,
+            "column": 519,
+            "offset": 91486
+          },
+          "end": {
+            "line": 1816,
+            "column": 1,
+            "offset": 91487
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "As GeckoView builds more support for WebExtensions APIs, we will continue to enable other Recommended Extensions to work in the new Firefox for Android.",
+            "position": {
+              "start": {
+                "line": 1816,
+                "column": 4,
+                "offset": 91490
+              },
+              "end": {
+                "line": 1816,
+                "column": 156,
+                "offset": 91642
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1816,
+            "column": 1,
+            "offset": 91487
+          },
+          "end": {
+            "line": 1816,
+            "column": 160,
+            "offset": 91646
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 1816,
+            "column": 160,
+            "offset": 91646
+          },
+          "end": {
+            "line": 1817,
+            "column": 1,
+            "offset": 91647
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "We want to ensure that any add-on supported in the new Firefox for Android provides an exceptional, secure mobile experience to our users. To this end, we are prioritizing Recommended Extensions that are optimized for different screen sizes and cover common mobile use cases. For these reasons, it’s possible that not all the add-ons you have previously installed in Firefox for Android will be supported in the near future. When an add-on you previously installed becomes supported, we will notify you.",
+            "position": {
+              "start": {
+                "line": 1817,
+                "column": 4,
+                "offset": 91650
+              },
+              "end": {
+                "line": 1817,
+                "column": 507,
+                "offset": 92153
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1817,
+            "column": 1,
+            "offset": 91647
+          },
+          "end": {
+            "line": 1817,
+            "column": 511,
+            "offset": 92157
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 1817,
+            "column": 511,
+            "offset": 92157
+          },
+          "end": {
+            "line": 1818,
+            "column": 1,
+            "offset": 92158
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "When we have more information about how we plan to support add-ons in Firefox for Android beyond our near-term goals, we will post them on this blog. We hope you stay tuned!",
+            "position": {
+              "start": {
+                "line": 1818,
+                "column": 4,
+                "offset": 92161
+              },
+              "end": {
+                "line": 1818,
+                "column": 177,
+                "offset": 92334
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1818,
+            "column": 1,
+            "offset": 92158
+          },
+          "end": {
+            "line": 1818,
+            "column": 181,
+            "offset": 92338
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n      ",
+        "position": {
+          "start": {
+            "line": 1818,
+            "column": 181,
+            "offset": 92338
+          },
+          "end": {
+            "line": 1819,
+            "column": 7,
+            "offset": 92345
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n  ",
+        "position": {
+          "start": {
+            "line": 1819,
+            "column": 36,
+            "offset": 92374
+          },
+          "end": {
+            "line": 1821,
+            "column": 3,
+            "offset": 92378
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 1824,
+            "column": 34,
+            "offset": 93126
+          },
+          "end": {
+            "line": 1825,
+            "column": 1,
+            "offset": 93127
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "line": 1782,
+        "column": 7,
+        "offset": 87947
+      },
+      "end": {
+        "line": 1825,
+        "column": 11,
+        "offset": 93137
+      }
+    }
+  }
+}

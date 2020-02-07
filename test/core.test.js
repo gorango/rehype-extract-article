@@ -1,36 +1,30 @@
-const test = require('tape')
 const fs = require('fs')
-const pug = require('pug')
-const toHtml = require('hast-util-to-html')
-const pretty = require('pretty')
+const path = require('path')
+const test = require('tape')
+const vfile = require('vfile')
 
 const chae = require('../src')
 
-const fixtures = [
-  'input.pug',
-  'rl/ahelwer.pug',
-  'rl/elemental.medium.pug',
-  'rl/gen.medium.pug',
-  'rl/github.pug',
-  'rl/plain-w-comments.pug',
-  'rl/smashingmag.pug',
-  'rl/snyk.pug',
-  'rl/some-wordpress.pug',
-  'rl/techcrunch.pug',
-  'rl/thenextweb.pug',
-]
+test('Fixtures', function(t) {
+  const root = path.join(__dirname, '../fixtures')
 
-test('Real world articles', t => {
-  for (const fixture of fixtures) {
-    const path = `fixtures/${fixture}`
-    const contents = pug.renderFile(path)
-    const result = chae({ path, contents })
+  fs.readdirSync(root)
+    .forEach(function(fixture) {
+      const input = path.join(root, fixture, 'input.html')
+      const output = path.join(root, fixture, 'output.json')
+      const file = vfile(fs.readFileSync(input))
+      const actual = chae({ contents: file })
+      let expected
 
-    const actual = Object.keys(result)
-    const expected = ['meta', 'summary', 'body']
+      try {
+        expected = JSON.parse(fs.readFileSync(output))
+      } catch (error) {
+        fs.writeFileSync(output, JSON.stringify(actual, null, 2) + '\n')
+        return
+      }
 
-    t.deepEqual(actual, expected)
-  }
+      t.deepEqual(actual, expected, 'should work on `' + fixture + '`')
+    })
 
   t.end()
 })

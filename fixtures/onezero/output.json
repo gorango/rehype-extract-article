@@ -1,0 +1,4373 @@
+{
+  "meta": {
+    "title": "Inside Google's Efforts to Engineer Its Food for Healthiness",
+    "date": "2020-02-06T18:00:33.739Z",
+    "author": "Jane Black",
+    "publisher": "Medium",
+    "description": "The tech giant is engineering a way to encourage its employees to eat healthier —and it might just help the rest of the country.",
+    "image": "https://miro.medium.com/focal/1200/632/48/30/1*YCCwHrmUZK8IdDtdzaFngQ.jpeg",
+    "keywords": [],
+    "lang": "en",
+    "url": "https://onezero.medium.com/how-google-got-its-employees-to-eat-their-vegetables-a2206820d90d"
+  },
+  "summary": "Tina Williams eats greens for breakfast every day. She didn’t always. There was a time when the only vegetables she regularly ate were canned corn or potatoes. But Williams works at Google in New York City, where the food is free and her favorite kale-quinoa-avocado salad is avai",
+  "body": {
+    "type": "element",
+    "tagName": "article",
+    "properties": {},
+    "children": [
+      {
+        "type": "element",
+        "tagName": "h1",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "How Google Got Its Employees to Eat Their Vegetables",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 12155,
+                "offset": 26750
+              },
+              "end": {
+                "line": 9,
+                "column": 12207,
+                "offset": 26802
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 12104,
+            "offset": 26699
+          },
+          "end": {
+            "line": 9,
+            "column": 12212,
+            "offset": 26807
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The tech giant is engineering a way to encourage its employees to eat healthier — and it might just help the rest of the country",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 12348,
+                "offset": 26943
+              },
+              "end": {
+                "line": 9,
+                "column": 12476,
+                "offset": 27071
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 12298,
+            "offset": 26893
+          },
+          "end": {
+            "line": 9,
+            "column": 12481,
+            "offset": 27076
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "T",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 16547,
+                "offset": 31142
+              },
+              "end": {
+                "line": 9,
+                "column": 16548,
+                "offset": 31143
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "ina Williams eats greens for breakfast every day. She didn’t always. There was a time when the only vegetables she regularly ate were canned corn or potatoes. But Williams works at Google in New York City, where the food is free and her favorite kale-quinoa-avocado salad is available starting at 8 a.m. each workday.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 16562,
+                "offset": 31157
+              },
+              "end": {
+                "line": 9,
+                "column": 16879,
+                "offset": 31474
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 16169,
+            "offset": 30764
+          },
+          "end": {
+            "line": 9,
+            "column": 16883,
+            "offset": 31478
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Growing up, Williams would never have believed that she would one day eat salad for breakfast. Her middle-class family lived outside of Boston, and she remembers feeling sorry for the kid she knew whose mom always bought whole-wheat bread. But over nine years at Google, where she eats breakfast and lunch five days a week, she has learned to like bok choy, a vegetable she previously wouldn’t have recognized in the supermarket, and Brussels sprouts, of which she says, “It turns out I really like when they are well-prepared.”",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 16986,
+                "offset": 31581
+              },
+              "end": {
+                "line": 9,
+                "column": 17514,
+                "offset": 32109
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 16883,
+            "offset": 31478
+          },
+          "end": {
+            "line": 9,
+            "column": 17518,
+            "offset": 32113
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Williams, who is 35, tall, and fit, now feels good about how she eats. But she knows that her healthier diet depends in large part on Google. When she took maternity leave a few years ago, she didn’t have time to prep greens every morning — never mind that despite multiple attempts, her version of the kale-quinoa salad never turns out quite right.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 17621,
+                "offset": 32216
+              },
+              "end": {
+                "line": 9,
+                "column": 17970,
+                "offset": 32565
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": " ",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 17992,
+                    "offset": 32587
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 17993,
+                    "offset": 32588
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 17970,
+                "offset": 32565
+              },
+              "end": {
+                "line": 9,
+                "column": 18002,
+                "offset": 32597
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "mark",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "“That’s what I fear if I lose my job,” Williams told me. “The food implications! Which is nuts.”",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 18025,
+                    "offset": 32620
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 18121,
+                    "offset": 32716
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 18002,
+                "offset": 32597
+              },
+              "end": {
+                "line": 9,
+                "column": 18128,
+                "offset": 32723
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 17518,
+            "offset": 32113
+          },
+          "end": {
+            "line": 9,
+            "column": 18132,
+            "offset": 32727
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Google’s free food is a well-known perk, both in and beyond Silicon Valley. The company’s first chef, Charlie Ayers, won his job in 1999 by cooking a meal for Google’s then 40-some employees that included, among other dishes, Sri Lankan chicken curry with roasted pumpkin. It wasn’t long before every ambitious Silicon Valley company was compelled to compete with the legend of Google’s food. A 2014 headline from nerd-food site ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 18235,
+                "offset": 32830
+              },
+              "end": {
+                "line": 9,
+                "column": 18664,
+                "offset": 33259
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Serious Eats",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 18679,
+                    "offset": 33274
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 18691,
+                    "offset": 33286
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 18664,
+                "offset": 33259
+              },
+              "end": {
+                "line": 9,
+                "column": 18696,
+                "offset": 33291
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " summed up its reputation: “",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 18696,
+                "offset": 33291
+              },
+              "end": {
+                "line": 9,
+                "column": 18724,
+                "offset": 33319
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.seriouseats.com/2014/01/lunch-at-google-insanely-awesome-as-you-thought.html",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Lunch at Google HQ Is as Insanely Awesome as You Thought",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 18889,
+                    "offset": 33484
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 18945,
+                    "offset": 33540
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 18724,
+                "offset": 33319
+              },
+              "end": {
+                "line": 9,
+                "column": 18949,
+                "offset": 33544
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ".”",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 18949,
+                "offset": 33544
+              },
+              "end": {
+                "line": 9,
+                "column": 18951,
+                "offset": 33546
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 18132,
+            "offset": 32727
+          },
+          "end": {
+            "line": 9,
+            "column": 18955,
+            "offset": 33550
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "For some time now, Google has been quietly adding a (virtuous) new wrinkle to its food program: It’s no longer enough just to keep its employees happy; it’s trying to make them healthy, too. Over the past five years, the company has taken a typically Google-ish approach to the food it serves — methodical, iterative — to create the largest and most ambitious real-world test of how to nudge people to make healthier choices at mealtime. The campaign isn’t changing just the food itself, but how it’s presented. Google’s tactics include limiting portion sizes for meat and desserts and redesigning its premises to lead its “users” to choose water and fruit over soda and M&M’s. The goal, says Michiel Bakker, Google’s director of global workplace programs, is to make the healthy choice the easy choice and, as in the case of Tina Williams, the preferred one.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 19058,
+                "offset": 33653
+              },
+              "end": {
+                "line": 9,
+                "column": 19921,
+                "offset": 34516
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 18955,
+            "offset": 33550
+          },
+          "end": {
+            "line": 9,
+            "column": 19925,
+            "offset": 34520
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The company’s grand experiment matters because getting Americans to eat healthfully has long flummoxed scientists, public health advocates, corporations, and schools, all of which are desperately seeking ways to improve the American diet.",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 20063,
+                    "offset": 34658
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 20301,
+                    "offset": 34896
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 20038,
+                "offset": 34633
+              },
+              "end": {
+                "line": 9,
+                "column": 20305,
+                "offset": 34900
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 19925,
+            "offset": 34520
+          },
+          "end": {
+            "line": 9,
+            "column": 20324,
+            "offset": 34919
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The results, though limited, are impressive. In the kitchens of Google’s New York offices alone, which feed more than 10,000 people daily, the company serves 2,300 breakfast salads every day, up from zero two years ago. Seafood consumption jumped 85% between 2017 and 2018, from 13 to 24 pounds per person, even though the company focuses on more sustainable but less popular species such as trout, octopus, fluke, and shellfish. While soda consumption has remained flat at an average of 20 cans per person per year, water consumption has jumped sharply. In 2018, New York Googlers drank nearly five times more bottled water than bottled sugary drinks — and that doesn’t include the water drunk in cups and free reusable water bottles that Google provides to cut back on its use of plastic.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 20427,
+                "offset": 35022
+              },
+              "end": {
+                "line": 9,
+                "column": 21217,
+                "offset": 35812
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 20324,
+            "offset": 34919
+          },
+          "end": {
+            "line": 9,
+            "column": 21221,
+            "offset": 35816
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Good for Google, critics may scoff, but can it be replicated?",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 21324,
+                "offset": 35919
+              },
+              "end": {
+                "line": 9,
+                "column": 21385,
+                "offset": 35980
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": " ",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 21407,
+                    "offset": 36002
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 21408,
+                    "offset": 36003
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 21385,
+                "offset": 35980
+              },
+              "end": {
+                "line": 9,
+                "column": 21417,
+                "offset": 36012
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "After all, Google’s parent company, Alphabet, is valued at nearly $1 trillion, and Google has an unusually educated, motivated, and sophisticated workforce. But the company’s grand experiment matters because getting Americans to eat healthfully has long flummoxed scientists, public health advocates, corporations, and schools, all of which are desperately seeking ways to improve the American diet. Obesity affects almost one in five children and one in three adults in the United States, putting them at risk for chronic diseases such as diabetes, heart disease, and cancer.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 21417,
+                "offset": 36012
+              },
+              "end": {
+                "line": 9,
+                "column": 21993,
+                "offset": 36588
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": " ",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 22015,
+                    "offset": 36610
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 22016,
+                    "offset": 36611
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 21993,
+                "offset": 36588
+              },
+              "end": {
+                "line": 9,
+                "column": 22025,
+                "offset": 36620
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "And no effort to reverse it has worked.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 22025,
+                "offset": 36620
+              },
+              "end": {
+                "line": 9,
+                "column": 22064,
+                "offset": 36659
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 21221,
+            "offset": 35816
+          },
+          "end": {
+            "line": 9,
+            "column": 22068,
+            "offset": 36663
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The traditional public health campaigns, which specialize in telling people what they should",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 22171,
+                "offset": 36766
+              },
+              "end": {
+                "line": 9,
+                "column": 22263,
+                "offset": 36858
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": " ",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 22278,
+                    "offset": 36873
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 22279,
+                    "offset": 36874
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 22263,
+                "offset": 36858
+              },
+              "end": {
+                "line": 9,
+                "column": 22284,
+                "offset": 36879
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "do, routinely fail to alter behavior. Since the early 1990s, agencies including the National Cancer Institute and the Centers for Disease Control and Prevention have been pushing “",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 22284,
+                "offset": 36879
+              },
+              "end": {
+                "line": 9,
+                "column": 22464,
+                "offset": 37059
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.health.harvard.edu/staying-healthy/getting-your-five-a-day",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "five a day",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 22611,
+                    "offset": 37206
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 22621,
+                    "offset": 37216
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 22464,
+                "offset": 37059
+              },
+              "end": {
+                "line": 9,
+                "column": 22625,
+                "offset": 37220
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "” initiatives to encourage Americans to get five daily servings of fruits and vegetables, but today, only 13% of Americans ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 22625,
+                "offset": 37220
+              },
+              "end": {
+                "line": 9,
+                "column": 22748,
+                "offset": 37343
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.cdc.gov/media/releases/2017/p1116-fruit-vegetable-consumption.html",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "eat the recommended servings",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 22903,
+                    "offset": 37498
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 22931,
+                    "offset": 37526
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 22748,
+                "offset": 37343
+              },
+              "end": {
+                "line": 9,
+                "column": 22935,
+                "offset": 37530
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " of fruit, and just 9% eat enough vegetables. The feckless corporate wellness industry",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 22935,
+                "offset": 37530
+              },
+              "end": {
+                "line": 9,
+                "column": 23021,
+                "offset": 37616
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": " ",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 23043,
+                    "offset": 37638
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 23044,
+                    "offset": 37639
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 23021,
+                "offset": 37616
+              },
+              "end": {
+                "line": 9,
+                "column": 23053,
+                "offset": 37648
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "— which offers health and fitness programs and incentives to corporate employees — has grown into an $8 billion behemoth ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 23053,
+                "offset": 37648
+              },
+              "end": {
+                "line": 9,
+                "column": 23174,
+                "offset": 37769
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.rand.org/pubs/research_reports/RR254.html",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "without making much difference",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 23304,
+                    "offset": 37899
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 23334,
+                    "offset": 37929
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 23174,
+                "offset": 37769
+              },
+              "end": {
+                "line": 9,
+                "column": 23338,
+                "offset": 37933
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " in the health of American workers or reducing corporate health care costs. And the dieting industry? The most successful results it generates are its $66 billion in annual revenue.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 23338,
+                "offset": 37933
+              },
+              "end": {
+                "line": 9,
+                "column": 23519,
+                "offset": 38114
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 22068,
+            "offset": 36663
+          },
+          "end": {
+            "line": 9,
+            "column": 23523,
+            "offset": 38118
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Google’s strategy, in contrast, is",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 23626,
+                "offset": 38221
+              },
+              "end": {
+                "line": 9,
+                "column": 23660,
+                "offset": 38255
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": " ",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 23682,
+                    "offset": 38277
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 23683,
+                    "offset": 38278
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 23660,
+                "offset": 38255
+              },
+              "end": {
+                "line": 9,
+                "column": 23692,
+                "offset": 38287
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "simple, subtle, and replicable. With the exception of the panoramic city views, the Google cafés I visited at the company’s New York offices looked a lot like the coffee bars, fast-casual burrito shops, made-to-order salad bars, and buffets you’ll find anywhere else. But the small changes make big differences. The plates on the buffet line",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 23692,
+                "offset": 38287
+              },
+              "end": {
+                "line": 9,
+                "column": 24033,
+                "offset": 38628
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": " ",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 24055,
+                    "offset": 38650
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 24056,
+                    "offset": 38651
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 24033,
+                "offset": 38628
+              },
+              "end": {
+                "line": 9,
+                "column": 24065,
+                "offset": 38660
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "are only eight to 10 inches wide, versus a standard 12 inches, which effectively limits serving sizes. Vegetables always come first on the line, so by the time you get to the meat or the snickerdoodles and chocolate tarts, there’s not much space on your plate. “Spa water,” bobbing with strawberries or cucumbers or lemons, is everywhere — and deliberately more accessible than sugary drinks or even bottled water. A burrito at Google weighed in at about 10 ounces — 60% smaller than the whopping one-pound nine-ounce log filled with similar ingredients that I picked up at a Chipotle near my home in Washington, D.C.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 24065,
+                "offset": 38660
+              },
+              "end": {
+                "line": 9,
+                "column": 24682,
+                "offset": 39277
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 23523,
+            "offset": 38118
+          },
+          "end": {
+            "line": 9,
+            "column": 24686,
+            "offset": 39281
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "In other words, it’s a vision of what sensible eating could look like. Through small, intentional choices, Google has conjured a world for its employees where there are no 20-ounce Caramel Frappuccinos, no Triple Whoppers, and no “endless” shrimp, pasta, and breadsticks. “What Google is attempting here is culture change,” says David Katz, MD, MPH, founding director of Yale University’s Prevention Research Center and president of the ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 24789,
+                "offset": 39384
+              },
+              "end": {
+                "line": 9,
+                "column": 25226,
+                "offset": 39821
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.truehealthinitiative.org/",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "True Health Initiative",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 25340,
+                    "offset": 39935
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 25362,
+                    "offset": 39957
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 25226,
+                "offset": 39821
+              },
+              "end": {
+                "line": 9,
+                "column": 25366,
+                "offset": 39961
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". “And that’s the level we have to reach to transform behaviors and health for a lifetime.”",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 25366,
+                "offset": 39961
+              },
+              "end": {
+                "line": 9,
+                "column": 25457,
+                "offset": 40052
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 24686,
+            "offset": 39281
+          },
+          "end": {
+            "line": 9,
+            "column": 25461,
+            "offset": 40056
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "hr",
+        "properties": {},
+        "children": [],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 25483,
+            "offset": 40078
+          },
+          "end": {
+            "line": 9,
+            "column": 25528,
+            "offset": 40123
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "G",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 25991,
+                "offset": 40586
+              },
+              "end": {
+                "line": 9,
+                "column": 25992,
+                "offset": 40587
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "oogle didn’t set out to build an algorithm for healthy eating when it launched its food program in 1999, though its food has always been about more than just food. Co-founder Larry Page initiated the food program in the hopes of orchestrating “casual collisions,” conversations over meals that might not otherwise happen and could lead to new ideas and products. Over the next 15 years, however, the number of employees at Google ballooned; the company was expanding its food service from Athens to Singapore. Google needed more than just talented chefs. It needed an expert operator.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 26006,
+                "offset": 40601
+              },
+              "end": {
+                "line": 9,
+                "column": 26590,
+                "offset": 41185
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 25613,
+            "offset": 40208
+          },
+          "end": {
+            "line": 9,
+            "column": 26594,
+            "offset": 41189
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "In 2012,",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 26697,
+                "offset": 41292
+              },
+              "end": {
+                "line": 9,
+                "column": 26705,
+                "offset": 41300
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": " ",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 26727,
+                    "offset": 41322
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 26728,
+                    "offset": 41323
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 26705,
+                "offset": 41300
+              },
+              "end": {
+                "line": 9,
+                "column": 26737,
+                "offset": 41332
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "Michiel Bakker was living in Brussels when he got the call from Google’s recruiter to oversee its corporate “canteens.” His first reaction was to laugh. For 15 years, Bakker opened and managed restaurants in glamorous hotels around the world, including St. Regis properties in San Francisco, Park City, and Bora Bora. But he listened, as so many do when it’s Google on the phone, and he says he ultimately found the pitch compelling. “The role was to think through how to take food to the next level, to define what that next level would be.”",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 26737,
+                "offset": 41332
+              },
+              "end": {
+                "line": 9,
+                "column": 27279,
+                "offset": 41874
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 26594,
+            "offset": 41189
+          },
+          "end": {
+            "line": 9,
+            "column": 27283,
+            "offset": 41878
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Bakker’s first step was to make Page’s “casual collisions” a little more comfortable. That meant remaking the sterile cafeterias so they looked more like restaurants, with good lighting, comfy banquettes, and new concepts like a chef’s table where employees could watch their food being prepared in an open kitchen.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 27386,
+                "offset": 41981
+              },
+              "end": {
+                "line": 9,
+                "column": 27701,
+                "offset": 42296
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": " ",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 27723,
+                    "offset": 42318
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 27724,
+                    "offset": 42319
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 27701,
+                "offset": 42296
+              },
+              "end": {
+                "line": 9,
+                "column": 27733,
+                "offset": 42328
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "His team then spent about a year deciding what to do next. And it’s no surprise that their new focus reflected a major debate roiling the food world: how to move Americans to a healthier diet.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 27733,
+                "offset": 42328
+              },
+              "end": {
+                "line": 9,
+                "column": 27925,
+                "offset": 42520
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 27283,
+            "offset": 41878
+          },
+          "end": {
+            "line": 9,
+            "column": 27929,
+            "offset": 42524
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "“The younger generation doesn’t know food,” Bakker told me the first time we met, in 2014. “They grew up in situations where family meals were not part of their daily lives, because both parents worked or for any number of other reasons. Even people who want to make great food choices don’t know how. So, the",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 28032,
+                "offset": 42627
+              },
+              "end": {
+                "line": 9,
+                "column": 28341,
+                "offset": 42936
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": " ",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 28363,
+                    "offset": 42958
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 28364,
+                    "offset": 42959
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 28341,
+                "offset": 42936
+              },
+              "end": {
+                "line": 9,
+                "column": 28373,
+                "offset": 42968
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "question was what we can do to help people make better choices — if they choose to do so?”",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 28373,
+                "offset": 42968
+              },
+              "end": {
+                "line": 9,
+                "column": 28463,
+                "offset": 43058
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 27929,
+            "offset": 42524
+          },
+          "end": {
+            "line": 9,
+            "column": 28467,
+            "offset": 43062
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Bakker’s first instinct was to work with researchers on ways to get employees to crave better food, even meeting with one Dutch scientist studying “flavor rules” that might empirically make healthy foods taste better. But Bakker eventually concluded that the effort was hopeless. Put a hamburger next to healthy whole grains, and our lizard brains will choose the burger nearly every time. So, instead of merely changing the food, Bakker changed the foodscape, ensuring that nearly every option at Google is healthy — or at least healthyish — and that the options that weren’t stayed out of sight and out of mind.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 28570,
+                "offset": 43165
+              },
+              "end": {
+                "line": 9,
+                "column": 29183,
+                "offset": 43778
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 28467,
+            "offset": 43062
+          },
+          "end": {
+            "line": 9,
+            "column": 29187,
+            "offset": 43782
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Case in point: snacks.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 29290,
+                "offset": 43885
+              },
+              "end": {
+                "line": 9,
+                "column": 29312,
+                "offset": 43907
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 29187,
+            "offset": 43782
+          },
+          "end": {
+            "line": 9,
+            "column": 29316,
+            "offset": 43911
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "It takes roughly 40 seconds for the machine in the Google kitchen to brew a fresh cup of coffee. And for anyone who would prefer not to gain a few extra pounds, this represents 40 very dangerous seconds. While waiting for their coffee, workers had the opportunity to indulge in fruit, cookies, and a wide variety of candy available in Google’s well-stocked break rooms, known as microkitchens in Googlespeak. According to ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 29419,
+                "offset": 44014
+              },
+              "end": {
+                "line": 9,
+                "column": 29841,
+                "offset": 44436
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "http://www.acrwebsite.org/volumes/v38/acr_v38_15908.pdf",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "one study",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 29973,
+                    "offset": 44568
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 29982,
+                    "offset": 44577
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 29841,
+                "offset": 44436
+              },
+              "end": {
+                "line": 9,
+                "column": 29986,
+                "offset": 44581
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", people experiencing a “high cognitive load” — a fair description of many Googlers — are significantly more likely to choose an unhealthy snack (cake) over a healthy one (fruit) when hungry.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 29986,
+                "offset": 44581
+              },
+              "end": {
+                "line": 9,
+                "column": 30177,
+                "offset": 44772
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 29316,
+            "offset": 43911
+          },
+          "end": {
+            "line": 9,
+            "column": 30181,
+            "offset": 44776
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "With this in mind, Bakker decided to conduct a simple but radical experiment. He moved the snacks farther from the coffee machine. Instead of the usual 6.5 feet, the snack table was placed 17 feet away. That distance, a mere four or five extra steps, ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 30284,
+                "offset": 44879
+              },
+              "end": {
+                "line": 9,
+                "column": 30535,
+                "offset": 45130
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.ncbi.nlm.nih.gov/pubmed/27112315",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "reduced the likelihood of snacking",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 30656,
+                    "offset": 45251
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 30690,
+                    "offset": 45285
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 30535,
+                "offset": 45130
+              },
+              "end": {
+                "line": 9,
+                "column": 30694,
+                "offset": 45289
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " by as much as 23% for men and 17% for women. For a man who drinks three cups of coffee a day — and the vast majority of Google employees are men — this could be the difference between maintaining a healthy weight and developing a middle-aged paunch.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 30694,
+                "offset": 45289
+              },
+              "end": {
+                "line": 9,
+                "column": 30944,
+                "offset": 45539
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 30181,
+            "offset": 44776
+          },
+          "end": {
+            "line": 9,
+            "column": 30948,
+            "offset": 45543
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Since then, Google has remade its 1,450 microkitchens. The unhealthy snacks — now limited for the most part to M&M’s and gummy bears — are well away from the coffee machine, hidden in opaque canisters or in a drawer. At the same time, a big bowl of fresh fruit sits alluringly in the center of the counter nearest the coffee machine.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 31051,
+                "offset": 45646
+              },
+              "end": {
+                "line": 9,
+                "column": 31388,
+                "offset": 45983
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 30948,
+            "offset": 45543
+          },
+          "end": {
+            "line": 9,
+            "column": 31392,
+            "offset": 45987
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Bakker’s team also applied the same theory to sugary drinks. The bottom half of the kitchen refrigerators’ glass doors are now frosted, allowing Googlers to see the plain water, flavored waters, carrot sticks, and yogurt, while hiding the sweetened teas and sodas. It’s not that the employees don’t know that those items are there — “We’re not dumb,” said Tina Williams with a laugh — but not seeing them reduces her temptation to indulge. David Carlsson, an engineering manager in the Cloud division in New York, told me that not seeing or eating processed snacks at work has carried over to his outside life. He’s simply fallen into the habit of reaching for something else.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 31495,
+                "offset": 46090
+              },
+              "end": {
+                "line": 9,
+                "column": 32171,
+                "offset": 46766
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 31392,
+            "offset": 45987
+          },
+          "end": {
+            "line": 9,
+            "column": 32175,
+            "offset": 46770
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "This is not to say that all Google employees appreciate the effort. The company has a ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 32278,
+                "offset": 46873
+              },
+              "end": {
+                "line": 9,
+                "column": 32364,
+                "offset": 46959
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.wired.com/story/inside-google-three-years-misery-happiest-company-tech/",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "famously open culture",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 32524,
+                    "offset": 47119
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 32545,
+                    "offset": 47140
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 32364,
+                "offset": 46959
+              },
+              "end": {
+                "line": 9,
+                "column": 32549,
+                "offset": 47144
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " — albeit one that has ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 32549,
+                "offset": 47144
+              },
+              "end": {
+                "line": 9,
+                "column": 32572,
+                "offset": 47167
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "rel": [
+                "noopener"
+              ],
+              "href": "https://onezero.medium.com/googlers-rally-in-san-francisco-over-companys-attempt-to-silence-workers-4cee4982cf88"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "faced recent challenges",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 32752,
+                    "offset": 47347
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 32775,
+                    "offset": 47370
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 32572,
+                "offset": 47167
+              },
+              "end": {
+                "line": 9,
+                "column": 32779,
+                "offset": 47374
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " — that encourages employees to speak up, whether it’s about Google’s controversial artificial intelligence contract ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 32779,
+                "offset": 47374
+              },
+              "end": {
+                "line": 9,
+                "column": 32896,
+                "offset": 47491
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://gizmodo.com/google-plans-not-to-renew-its-contract-for-project-mave-1826488620",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Project Maven",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 33059,
+                    "offset": 47654
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 33072,
+                    "offset": 47667
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 32896,
+                "offset": 47491
+              },
+              "end": {
+                "line": 9,
+                "column": 33076,
+                "offset": 47671
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " or the decision to serve less meat. And Googlers do complain about the food. They snub the small glasses at the juice and smoothie bars. (Apparently, if you want more, it’s too much trouble to carry two glasses.) Google eventually caved to a very vocal contingent’s demand that the company start serving Red Bull in its New York office.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 33076,
+                "offset": 47671
+              },
+              "end": {
+                "line": 9,
+                "column": 33413,
+                "offset": 48008
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 32175,
+            "offset": 46770
+          },
+          "end": {
+            "line": 9,
+            "column": 33417,
+            "offset": 48012
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Bakker remembers a petition one Googler started to ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 33520,
+                "offset": 48115
+              },
+              "end": {
+                "line": 9,
+                "column": 33571,
+                "offset": 48166
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "rel": [
+                "noopener"
+              ],
+              "href": "https://onezero.medium.com/how-fake-meat-could-save-the-planet-70e23b937e7b"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "“cancel meat,”",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 33714,
+                    "offset": 48309
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 33728,
+                    "offset": 48323
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 33571,
+                "offset": 48166
+              },
+              "end": {
+                "line": 9,
+                "column": 33732,
+                "offset": 48327
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " which was quickly followed by another petition to “stop cancel meat” and then another to “stop serving kale” — which may or may not have been a joke. For his part, Bakker goes out of the way not to be seen as the food police. “As the employer, we are investing in the program, and we are dealing with your health care and your long-term health and well-being. But we very much believe in freedom of choice,” he said. “So, we’re not taking things away. There is no prescriptive: Thou shalt eat carrots.” It’s just that the environment has been subtly engineered to make carrots more appealing.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 33732,
+                "offset": 48327
+              },
+              "end": {
+                "line": 9,
+                "column": 34325,
+                "offset": 48920
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 33417,
+            "offset": 48012
+          },
+          "end": {
+            "line": 9,
+            "column": 34329,
+            "offset": 48924
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "hr",
+        "properties": {},
+        "children": [],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 34351,
+            "offset": 48946
+          },
+          "end": {
+            "line": 9,
+            "column": 34396,
+            "offset": 48991
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "T",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 34859,
+                "offset": 49454
+              },
+              "end": {
+                "line": 9,
+                "column": 34860,
+                "offset": 49455
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "he idea of altering the environment to shift behavior is not new. Choice architecture, as it is known, is one of the foundations of behavioral science. In their 2008 book, ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 34874,
+                "offset": 49469
+              },
+              "end": {
+                "line": 9,
+                "column": 35046,
+                "offset": 49641
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.amazon.com/Nudge-Improving-Decisions-Health-Happiness/dp/014311526X",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
+                    "position": {
+                      "start": {
+                        "line": 9,
+                        "column": 35217,
+                        "offset": 49812
+                      },
+                      "end": {
+                        "line": 9,
+                        "column": 35279,
+                        "offset": 49874
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 35202,
+                    "offset": 49797
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 35284,
+                    "offset": 49879
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 35046,
+                "offset": 49641
+              },
+              "end": {
+                "line": 9,
+                "column": 35288,
+                "offset": 49883
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", Cass Sunstein, a legal scholar, and Richard Thaler, a behavioral economist who won a Nobel Prize in 2017 for his work, demonstrated why people don’t always make rational choices, such as signing up for an employee-sponsored 401(k) plan, and how “nudges,” such as making enrollment the default, help them make better choices.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 35288,
+                "offset": 49883
+              },
+              "end": {
+                "line": 9,
+                "column": 35614,
+                "offset": 50209
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 34481,
+            "offset": 49076
+          },
+          "end": {
+            "line": 9,
+            "column": 35618,
+            "offset": 50213
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Food choices, though, are infinitely more complicated than one-off decisions like whether to enroll in a 401(k). What you decide to eat is intimate, complex, cultural, and mostly unconscious. It depends on your personal tastes, your budget, what you pass on your way to work, whether your kids or spouse are picky eaters, and what your peers deem socially acceptable. Most essentially, it’s driven by habits, which, as we know, are hard to break.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 35721,
+                "offset": 50316
+              },
+              "end": {
+                "line": 9,
+                "column": 36167,
+                "offset": 50762
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 35618,
+            "offset": 50213
+          },
+          "end": {
+            "line": 9,
+            "column": 36171,
+            "offset": 50766
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "As if the challenge of changing habits wasn’t daunting enough, the field of food-choice architecture took a hit in 2018: Brian Wansink, its leading researcher, had more than a dozen papers retracted and was forced to resign from Cornell for academic misconduct. As much as anyone, Wansink was the public face of these ideas — his book ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 36274,
+                "offset": 50869
+              },
+              "end": {
+                "line": 9,
+                "column": 36609,
+                "offset": 51204
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Mindless Eating",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 36624,
+                    "offset": 51219
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 36639,
+                    "offset": 51234
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 36609,
+                "offset": 51204
+              },
+              "end": {
+                "line": 9,
+                "column": 36644,
+                "offset": 51239
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " was a perennial bestseller — and his downfall allowed critics to dismiss tactics, like shining a light on a bowl of fruit in a cafeteria line to increase sales, that frankly can sound a little gimmicky.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 36644,
+                "offset": 51239
+              },
+              "end": {
+                "line": 9,
+                "column": 36847,
+                "offset": 51442
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 36171,
+            "offset": 50766
+          },
+          "end": {
+            "line": 9,
+            "column": 36851,
+            "offset": 51446
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "But for Bakker, Wansink’s transgression doesn’t invalidate the science. “In a data-driven environment like the one at Google, we still think it’s the right thing,” he says. “Anecdotally, you can see it. You can feel it.” And so Google has plunged ahead, working with researchers to refine behavior science to address more complex scenarios.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 36954,
+                "offset": 51549
+              },
+              "end": {
+                "line": 9,
+                "column": 37294,
+                "offset": 51889
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 36851,
+            "offset": 51446
+          },
+          "end": {
+            "line": 9,
+            "column": 37298,
+            "offset": 51893
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "“Early choice architecture focused specifically on the process,” said Ravi Dhar, a professor at Yale and the director of the school’s Center for Customer Insights, which partners with Google on food research. “You didn’t change the set of alternatives, but you rearranged them.” So, if the goal was to get people to eat more vegetables, you would make the salad bar the first thing people see in a cafeteria — hungry people usually grab the first food they see — and leave it at that. But it turns out that’s not enough. You also have to make the vegetables more abundant and more compelling — and do the opposite for meat.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 37401,
+                "offset": 51996
+              },
+              "end": {
+                "line": 9,
+                "column": 38024,
+                "offset": 52619
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 37298,
+            "offset": 51893
+          },
+          "end": {
+            "line": 9,
+            "column": 38028,
+            "offset": 52623
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "“What we do know is that we’re doing more by trying than not doing anything at all.”",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 38166,
+                    "offset": 52761
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 38250,
+                    "offset": 52845
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 38141,
+                "offset": 52736
+              },
+              "end": {
+                "line": 9,
+                "column": 38254,
+                "offset": 52849
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 38028,
+            "offset": 52623
+          },
+          "end": {
+            "line": 9,
+            "column": 38273,
+            "offset": 52868
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "I watched Googlers file through the buffet at Hemispheres, a café at the company’s New York offices, during a busy lunch hour this summer. There was a parade of Indian dishes, and the smell of curry hugged the room. More than half the Googlers stopped at the salad station, which is placed just inside the entrance. The hot buffet line overflowed with vegetarian dishes: an okra-coconut curry, followed by roasted cauliflower with cashews, paneer cheese with tomato and peppers, and a spicy tofu vindaloo. The only meat dish was lamb korma. Abundance? Check.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 38376,
+                "offset": 52971
+              },
+              "end": {
+                "line": 9,
+                "column": 38934,
+                "offset": 53529
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 38273,
+            "offset": 52868
+          },
+          "end": {
+            "line": 9,
+            "column": 38938,
+            "offset": 53533
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The majority of Googlers, seemingly on autopilot, filled their plates before they even arrived at the lamb. Only a handful deliberately kept their plates empty so they could pile on the meat. It was, admittedly, an unscientific sampling. But as Bakker likes to say, “What we do know is that we’re doing more by trying than not doing anything at all.”",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 39041,
+                "offset": 53636
+              },
+              "end": {
+                "line": 9,
+                "column": 39391,
+                "offset": 53986
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 38938,
+            "offset": 53533
+          },
+          "end": {
+            "line": 9,
+            "column": 39395,
+            "offset": 53990
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "But the lesson that took Google longest to learn is also the most maddeningly obvious: The vegetables actually have to taste good. Because what motivates people to engage and stick with virtuous patterns of behavior has less to do with all the logical reasons they should and more to do with how much the person ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 39498,
+                "offset": 54093
+              },
+              "end": {
+                "line": 9,
+                "column": 39810,
+                "offset": 54405
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://faculty.chicagobooth.edu/ayelet.fishbach/research/WF%20JCR%20Harnessing.pdf",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "enjoys",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 39970,
+                    "offset": 54565
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 39976,
+                    "offset": 54571
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 39810,
+                "offset": 54405
+              },
+              "end": {
+                "line": 9,
+                "column": 39980,
+                "offset": 54575
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": " ",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 39995,
+                    "offset": 54590
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 39996,
+                    "offset": 54591
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 39980,
+                "offset": 54575
+              },
+              "end": {
+                "line": 9,
+                "column": 40001,
+                "offset": 54596
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "doing that virtuous thing — whether that’s going to the gym or eating their vegetables.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 40001,
+                "offset": 54596
+              },
+              "end": {
+                "line": 9,
+                "column": 40088,
+                "offset": 54683
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 39395,
+            "offset": 53990
+          },
+          "end": {
+            "line": 9,
+            "column": 40092,
+            "offset": 54687
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "It was this truth, both obvious and profound, that led Bakker down a new path to make vegetables taste better — one that began not with neuroscientists and behavioral experts, but with cooks.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 40195,
+                "offset": 54790
+              },
+              "end": {
+                "line": 9,
+                "column": 40386,
+                "offset": 54981
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 40092,
+            "offset": 54687
+          },
+          "end": {
+            "line": 9,
+            "column": 40390,
+            "offset": 54985
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "hr",
+        "properties": {},
+        "children": [],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 40412,
+            "offset": 55007
+          },
+          "end": {
+            "line": 9,
+            "column": 40457,
+            "offset": 55052
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "C",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 40920,
+                "offset": 55515
+              },
+              "end": {
+                "line": 9,
+                "column": 40921,
+                "offset": 55516
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "lassical restaurant kitchens are organized according to the brigade system. At the top is the ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 40935,
+                "offset": 55530
+              },
+              "end": {
+                "line": 9,
+                "column": 41029,
+                "offset": 55624
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "chef de cuisine",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 41044,
+                    "offset": 55639
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 41059,
+                    "offset": 55654
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 41029,
+                "offset": 55624
+              },
+              "end": {
+                "line": 9,
+                "column": 41064,
+                "offset": 55659
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", or executive chef, followed by the ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 41064,
+                "offset": 55659
+              },
+              "end": {
+                "line": 9,
+                "column": 41101,
+                "offset": 55696
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "sous chef ",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 41116,
+                    "offset": 55711
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 41126,
+                    "offset": 55721
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 41101,
+                "offset": 55696
+              },
+              "end": {
+                "line": 9,
+                "column": 41131,
+                "offset": 55726
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "and various ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 41131,
+                "offset": 55726
+              },
+              "end": {
+                "line": 9,
+                "column": 41143,
+                "offset": 55738
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "chefs de partie",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 41158,
+                    "offset": 55753
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 41173,
+                    "offset": 55768
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 41143,
+                "offset": 55738
+              },
+              "end": {
+                "line": 9,
+                "column": 41178,
+                "offset": 55773
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", each in charge of one specific part of the plate — sauces, fish, grilled meats, fried foods, roasts, and so on. Established by Georges-Auguste Escoffier in the 19th century, it was based on military hierarchies with the goal of establishing clear lines of responsibility and the efficiency that was required to produce Escoffier’s elaborate à la carte menus.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 41178,
+                "offset": 55773
+              },
+              "end": {
+                "line": 9,
+                "column": 41538,
+                "offset": 56133
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 40542,
+            "offset": 55137
+          },
+          "end": {
+            "line": 9,
+            "column": 41542,
+            "offset": 56137
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Among the lowest ranks in an Escoffier kitchen was the ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 41645,
+                "offset": 56240
+              },
+              "end": {
+                "line": 9,
+                "column": 41700,
+                "offset": 56295
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "legumier",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 41715,
+                    "offset": 56310
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 41723,
+                    "offset": 56318
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 41700,
+                "offset": 56295
+              },
+              "end": {
+                "line": 9,
+                "column": 41728,
+                "offset": 56323
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", the vegetable chef.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 41728,
+                "offset": 56323
+              },
+              "end": {
+                "line": 9,
+                "column": 41749,
+                "offset": 56344
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 41542,
+            "offset": 56137
+          },
+          "end": {
+            "line": 9,
+            "column": 41753,
+            "offset": 56348
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "At the time, this made sense. Meat was expensive, and so only the most skilled chefs were permitted to prepare it. Rookies began with turnips and worked their way up to tenderloins. Escoffier’s system endures in some form in many high-end restaurants — as does the lowly status of the vegetable cook. Mark Erickson, provost of the Culinary Institute of America (CIA), says his first job at the elite Greenbrier Hotel was at the vegetable station. “You could screw up the vegetables and no one cared, probably because nobody ate them because they were cooked so badly,” he said. “Not all that much has changed today.”",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 41856,
+                "offset": 56451
+              },
+              "end": {
+                "line": 9,
+                "column": 42472,
+                "offset": 57067
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 41753,
+            "offset": 56348
+          },
+          "end": {
+            "line": 9,
+            "column": 42476,
+            "offset": 57071
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "That vegetables are an afterthought in classical cooking should not have been Bakker’s concern. But in 2016, Google decided, for health and environmental reasons, to steer its offerings in a more “plant-forward” direction. “We told our food operators, ‘Go forth and cook vegetables!’ But not much happened,” he says. Chefs either ignored the directive or served up what Bakker calls a “tofu party,” the obligatory ’70s-style vegetarian option that no one wanted to eat.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 42579,
+                "offset": 57174
+              },
+              "end": {
+                "line": 9,
+                "column": 43048,
+                "offset": 57643
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 42476,
+            "offset": 57071
+          },
+          "end": {
+            "line": 9,
+            "column": 43052,
+            "offset": 57647
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "One year passed, then another. The problem, as Bakker learned, was twofold. First, making vegetables delicious is more labor intensive than cooking meat. You have to peel, chop, stew, and puree to coax out flavor. Second, serving vegetables — especially the uninspired dishes the cooks knew how to make — didn’t win the cooks the same kudos as when they served meat. Like many of us, chefs thrive on praise, Bakker said. From their perspective, serving vegetables was a lose-lose.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 43155,
+                "offset": 57750
+              },
+              "end": {
+                "line": 9,
+                "column": 43635,
+                "offset": 58230
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 43052,
+            "offset": 57647
+          },
+          "end": {
+            "line": 9,
+            "column": 43639,
+            "offset": 58234
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "By 2018, Bakker was running out of patience, so he turned to the CIA’s Erickson for help. Google is one of the CIA’s larger corporate funders; all told, it has spent more than $1 million supporting plant-forward initiatives at the CIA.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 43742,
+                "offset": 58337
+              },
+              "end": {
+                "line": 9,
+                "column": 43977,
+                "offset": 58572
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": " ",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 43999,
+                    "offset": 58594
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 44000,
+                    "offset": 58595
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 43977,
+                "offset": 58572
+              },
+              "end": {
+                "line": 9,
+                "column": 44009,
+                "offset": 58604
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "Together, they created a plant-based cooking curriculum that Erickson believes is “likely going to become the way we think about and teach food and cooking in the future.” Instead of learning how to braise, roast, fry, and sauté meat, cooks will be taught to braise, roast, fry, and sauté heads of cauliflower, broccoli crowns, Brussels sprouts, and carrots. They’ll be instructed in how to make perfect hummus or stuffed grape leaves or roasted plantains. The 75-hour online course rolls out this month and will be required for all chefs in Google cafés.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 44009,
+                "offset": 58604
+              },
+              "end": {
+                "line": 9,
+                "column": 44564,
+                "offset": 59159
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 43639,
+            "offset": 58234
+          },
+          "end": {
+            "line": 9,
+            "column": 44568,
+            "offset": 59163
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "It’s a roundabout plan: A tech company helps to underwrite a cooking curriculum, which then must be followed by literally thousands of chefs, many of whom will inevitably leave their jobs and be replaced by new cooks, who then must be schooled in the art of vegetable cookery. This may well be the future of professional cooking, but it’s awfully difficult to pinpoint the direct payoff to Google. Normally, this would worry Erickson; after all, most corporations want to see concrete returns on their investments. But, Erickson says, Google is different: “Google didn’t set explicit goals at the beginning, because they are willing to see what happens. They know what they don’t know.”",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 44671,
+                "offset": 59266
+              },
+              "end": {
+                "line": 9,
+                "column": 45357,
+                "offset": 59952
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 44568,
+            "offset": 59163
+          },
+          "end": {
+            "line": 9,
+            "column": 45361,
+            "offset": 59956
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Which, if you’re delving into the murky world of healthy eating, is a good dictum to keep in mind.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 45464,
+                "offset": 60059
+              },
+              "end": {
+                "line": 9,
+                "column": 45562,
+                "offset": 60157
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 45361,
+            "offset": 59956
+          },
+          "end": {
+            "line": 9,
+            "column": 45566,
+            "offset": 60161
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "hr",
+        "properties": {},
+        "children": [],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 45588,
+            "offset": 60183
+          },
+          "end": {
+            "line": 9,
+            "column": 45633,
+            "offset": 60228
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "To",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 46097,
+                "offset": 60692
+              },
+              "end": {
+                "line": 9,
+                "column": 46099,
+                "offset": 60694
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " put it bluntly, food studies suck. Here’s why: Most food studies are small and, in an attempt to connect specific foods to specific health problems, reach ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 46113,
+                "offset": 60708
+              },
+              "end": {
+                "line": 9,
+                "column": 46269,
+                "offset": 60864
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://academic.oup.com/ajcn/article/97/1/127/4576988",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "misleading and contradictory conclusions",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 46400,
+                    "offset": 60995
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 46440,
+                    "offset": 61035
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 46269,
+                "offset": 60864
+              },
+              "end": {
+                "line": 9,
+                "column": 46444,
+                "offset": 61039
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". Nutrition studies also largely rely on participants to report what they eat, which is notoriously unreliable, because people either don’t remember accurately or they lie. After all, can you remember what you had for dinner two weeks ago?",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 46444,
+                "offset": 61039
+              },
+              "end": {
+                "line": 9,
+                "column": 46683,
+                "offset": 61278
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 45718,
+            "offset": 60313
+          },
+          "end": {
+            "line": 9,
+            "column": 46687,
+            "offset": 61282
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "In a perfect world, nutrition researchers would put their subjects in a lab, controlling precisely what they ate. But proper nutrition studies take years, so good luck finding study subjects willing to live and eat in a bubble for that long. The result is that a lot of food data is ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 46790,
+                "offset": 61385
+              },
+              "end": {
+                "line": 9,
+                "column": 47073,
+                "offset": 61668
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://newfoodeconomy.org/implicit-bias-food-nutrition-studies/",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "skewed to the point of uselessness",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 47214,
+                    "offset": 61809
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 47248,
+                    "offset": 61843
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 47073,
+                "offset": 61668
+              },
+              "end": {
+                "line": 9,
+                "column": 47252,
+                "offset": 61847
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". A review of four decades of results from the National Health and Nutrition Examination Survey, the big government database on diet, showed that the majority of people surveyed ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 47252,
+                "offset": 61847
+              },
+              "end": {
+                "line": 9,
+                "column": 47430,
+                "offset": 62025
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://newfoodeconomy.org/dietary-guidelines-nutrition-faulty-research-surveys/",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "would have starved",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 47587,
+                    "offset": 62182
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 47605,
+                    "offset": 62200
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 47430,
+                "offset": 62025
+              },
+              "end": {
+                "line": 9,
+                "column": 47609,
+                "offset": 62204
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " if they ate as little as they said they did. A controversial ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 47609,
+                "offset": 62204
+              },
+              "end": {
+                "line": 9,
+                "column": 47671,
+                "offset": 62266
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://annals.org/aim/fullarticle/2752328/unprocessed-red-meat-processed-meat-consumption-dietary-guideline-recommendations-from",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "study",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 47877,
+                    "offset": 62472
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 47882,
+                    "offset": 62477
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 47671,
+                "offset": 62266
+              },
+              "end": {
+                "line": 9,
+                "column": 47886,
+                "offset": 62481
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " published in September concluded it was not possible to validate decades of warnings that red and processed meat are bad for human health, because the data was simply too unreliable.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 47886,
+                "offset": 62481
+              },
+              "end": {
+                "line": 9,
+                "column": 48069,
+                "offset": 62664
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 46687,
+            "offset": 61282
+          },
+          "end": {
+            "line": 9,
+            "column": 48073,
+            "offset": 62668
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Google has built a living experiment that, through multiple meals a day, five days a week, creates a new normal for more than 195,000 people.",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 48211,
+                    "offset": 62806
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 48352,
+                    "offset": 62947
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 48186,
+                "offset": 62781
+              },
+              "end": {
+                "line": 9,
+                "column": 48356,
+                "offset": 62951
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 48073,
+            "offset": 62668
+          },
+          "end": {
+            "line": 9,
+            "column": 48375,
+            "offset": 62970
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Food studies all try to reduce a head-wrecking system of biological, cultural, and individual desires to a single, pithy conclusion or nugget of advice. Eat less fat. Eat more protein. Slash sodium and sugar. This endless quest for a silver bullet is at the heart of the failure to make meaningful change in the way Americans eat.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 48478,
+                "offset": 63073
+              },
+              "end": {
+                "line": 9,
+                "column": 48808,
+                "offset": 63403
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 48375,
+            "offset": 62970
+          },
+          "end": {
+            "line": 9,
+            "column": 48812,
+            "offset": 63407
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The virtue of Bakker’s approach at Google is that it begins with the assumption that there are no easy, one-size-fits-all solutions to our dietary challenges. Google has built a living experiment that, through multiple meals a day, five days a week, creates a new normal for more than 195,000 people — a world in which spa water is everywhere, cookies are smaller than the palm of your hand, and kale salads, not a burger and fries, are the go-to. Think of it as an American version of a ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 48915,
+                "offset": 63510
+              },
+              "end": {
+                "line": 9,
+                "column": 49403,
+                "offset": 63998
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.bluezones.com/",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "blue zone",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 49506,
+                    "offset": 64101
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 49515,
+                    "offset": 64110
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 49403,
+                "offset": 63998
+              },
+              "end": {
+                "line": 9,
+                "column": 49519,
+                "offset": 64114
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", those areas in the world — like Sardinia; Okinawa, Japan; and the Greek island of Icaria — where the food and culture support a long, healthy life.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 49519,
+                "offset": 64114
+              },
+              "end": {
+                "line": 9,
+                "column": 49668,
+                "offset": 64263
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 48812,
+            "offset": 63407
+          },
+          "end": {
+            "line": 9,
+            "column": 49672,
+            "offset": 64267
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Google does not brand its food program as “corporate wellness,” but its holistic approach could be a new model for such programs. ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 49775,
+                "offset": 64370
+              },
+              "end": {
+                "line": 9,
+                "column": 49905,
+                "offset": 64500
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://elemental.medium.com/the-self-care-paradox-1480eaf72977",
+              "rel": [
+                "noopener"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "The wellness industry has largely focused on specific interventions ",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 50036,
+                    "offset": 64631
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 50104,
+                    "offset": 64699
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 49905,
+                "offset": 64500
+              },
+              "end": {
+                "line": 9,
+                "column": 50108,
+                "offset": 64703
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "— discounted gym memberships or weight management classes — with the fundamental goal of reducing employers’ health care costs, rather than making employees healthier. The results have been underwhelming at best. A ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 50108,
+                "offset": 64703
+              },
+              "end": {
+                "line": 9,
+                "column": 50323,
+                "offset": 64918
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://jamanetwork.com/journals/jama/article-abstract/2730614",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "study",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 50462,
+                    "offset": 65057
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 50467,
+                    "offset": 65062
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 50323,
+                "offset": 64918
+              },
+              "end": {
+                "line": 9,
+                "column": 50471,
+                "offset": 65066
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " published last year in the ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 50471,
+                "offset": 65066
+              },
+              "end": {
+                "line": 9,
+                "column": 50499,
+                "offset": 65094
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Journal of American Medicine",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 50514,
+                    "offset": 65109
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 50542,
+                    "offset": 65137
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 50499,
+                "offset": 65094
+              },
+              "end": {
+                "line": 9,
+                "column": 50547,
+                "offset": 65142
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " that tracked more than 32,000 employees at a large U.S. warehouse retail company found that the company’s wellness program failed to do almost everything it set out to do: cut costs, reduce absenteeism, and improve workers’ health. Steven Aldana, CEO of WellSteps, a wellness vendor, insists that Google is unique in its ability to offer employees such extensive benefits but agrees that “to really improve health, you have to change behaviors long term, and to change behaviors long term, it takes a holistic, cultural approach.”",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 50547,
+                "offset": 65142
+              },
+              "end": {
+                "line": 9,
+                "column": 51078,
+                "offset": 65673
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 49672,
+            "offset": 64267
+          },
+          "end": {
+            "line": 9,
+            "column": 51082,
+            "offset": 65677
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The good news is that there are plenty of institutions that could follow Google’s lead. That starts in Silicon Valley, where free food is the norm. But there also are ways this could seep into the wider world. For one, Google isn’t figuring it out alone. Compass, a firm that procures food, writes recipes, and employs cooks who work at Google, is the largest food-service company in the world. It runs food operations in corporations, museums, hospitals, stadiums, concert halls, universities, even public schools — and it is beginning to apply Google’s strategies throughout its network. “Google’s research on the behavioral economics of naming plant-based menu items has directly influenced the guidance we give chefs throughout all our locations,” said Maisie Ganzler, chief strategy and brand officer for Bon Appétit Management, a Compass subsidiary that operates food service at the Google mothership in Mountain View, California.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 51185,
+                "offset": 65780
+              },
+              "end": {
+                "line": 9,
+                "column": 52121,
+                "offset": 66716
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 51082,
+            "offset": 65677
+          },
+          "end": {
+            "line": 9,
+            "column": 52125,
+            "offset": 66720
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Meanwhile, the Culinary Institute of America also plans to use the plant-based curriculum it developed for Google as the first in a series of specialized continuing education certifications, which the CIA’s Erickson believes will help individuals and companies “strategically respond to consumer demand for delicious, healthy, and sustainable food choices.”",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 52228,
+                "offset": 66823
+              },
+              "end": {
+                "line": 9,
+                "column": 52585,
+                "offset": 67180
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 52125,
+            "offset": 66720
+          },
+          "end": {
+            "line": 9,
+            "column": 52589,
+            "offset": 67184
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Similar behavior-change strategies are turning up in school cafeterias and in the U.S. military. Motivated by projections that by 2030, 64% of potential recruits would not qualify for service because of their weight, the military created a one-year demonstration program at 14 pilot sites. Called the Healthy Base Initiative, the program retrained cooks, deployed menu labels, and experimented with moving the location of healthy and unhealthy foods. A",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 52692,
+                "offset": 67287
+              },
+              "end": {
+                "line": 9,
+                "column": 53144,
+                "offset": 67739
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://bipartisanpolicy.org/report/healthy-base-initiative/",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": " final assessment",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 53281,
+                    "offset": 67876
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 53298,
+                    "offset": 67893
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 53144,
+                "offset": 67739
+              },
+              "end": {
+                "line": 9,
+                "column": 53302,
+                "offset": 67897
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " of the initiative recorded notable improvements in healthy eating but warned that widespread implementation would be challenging due to complex procurement and chains of command.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 53302,
+                "offset": 67897
+              },
+              "end": {
+                "line": 9,
+                "column": 53481,
+                "offset": 68076
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 52589,
+            "offset": 67184
+          },
+          "end": {
+            "line": 9,
+            "column": 53485,
+            "offset": 68080
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "It won’t be easy to turn the world into one giant Google cafeteria, because we’re talking about a grand bid to ",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 53588,
+                "offset": 68183
+              },
+              "end": {
+                "line": 9,
+                "column": 53699,
+                "offset": 68294
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "rel": [
+                "noopener"
+              ],
+              "href": "https://onezero.medium.com/in-2069-your-food-will-shop-for-you-8c5c2df5df9c"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "remake the future of America’s food culture",
+                "position": {
+                  "start": {
+                    "line": 9,
+                    "column": 53842,
+                    "offset": 68437
+                  },
+                  "end": {
+                    "line": 9,
+                    "column": 53885,
+                    "offset": 68480
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 53699,
+                "offset": 68294
+              },
+              "end": {
+                "line": 9,
+                "column": 53889,
+                "offset": 68484
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " into one where big isn’t always better and kale really is cool. But it’s not impossible. There are plenty of countries where, whether you’re rich, poor, educated or not, healthy and fresh food is an essential cultural value. But getting there, if we get there at all, could take a generation or more. And it will require a concerted effort, especially in schools and universities, to train young people to enjoy healthy food and demand it in the broader marketplace.",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 53889,
+                "offset": 68484
+              },
+              "end": {
+                "line": 9,
+                "column": 54356,
+                "offset": 68951
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 53485,
+            "offset": 68080
+          },
+          "end": {
+            "line": 9,
+            "column": 54360,
+            "offset": 68955
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "It’s the timeline that worries Tina Williams. Sure, she could find another tech job if she had to. But she doesn’t want to ejected, Lucifer-like, out of the heaven of Google food. “I remember before I worked here,” she says, “every day at lunch, you’d have this decision to make: Do I want the $1 hot dog, the $3 pizza, a $10 sandwich, or a $14 salad? That’s the spectrum if you don’t want to spend time doing the food prep yourself.” Or, to put it another way, she doesn’t want to be at the mercy of the American way of eating. And who can blame her?",
+            "position": {
+              "start": {
+                "line": 9,
+                "column": 54463,
+                "offset": 69058
+              },
+              "end": {
+                "line": 9,
+                "column": 55014,
+                "offset": 69609
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 9,
+            "column": 54360,
+            "offset": 68955
+          },
+          "end": {
+            "line": 9,
+            "column": 55018,
+            "offset": 69613
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "line": 9,
+        "column": 10731,
+        "offset": 25326
+      },
+      "end": {
+        "line": 9,
+        "column": 55056,
+        "offset": 69651
+      }
+    }
+  }
+}

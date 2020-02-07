@@ -1,0 +1,4621 @@
+{
+  "meta": {
+    "title": "Guide to Internal Communication, the Basecamp Way",
+    "date": null,
+    "author": null,
+    "publisher": null,
+    "description": "Trusted by millions, Basecamp puts everything you need to get work done in one place. It’s the calm, organized way to manage projects, work with clients, and communicate company-wide.",
+    "image": null,
+    "keywords": [],
+    "lang": "en",
+    "url": "https://basecamp.com/guides/how-we-communicate"
+  },
+  "summary": "\n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  Guide to Internal Communication, the Basecamp Way\n\n\n\n  \n\n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \n    \n      \n\n        \n\n\t\n\tThe how, where, why, and when we communicate. Long form asynchronous? Real-time chat? In-person? Vid",
+  "body": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "value": "\n\n",
+        "position": {
+          "start": {
+            "line": 3,
+            "column": 2538,
+            "offset": 2630
+          },
+          "end": {
+            "line": 5,
+            "column": 1,
+            "offset": 2632
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 5,
+            "column": 40,
+            "offset": 2671
+          },
+          "end": {
+            "line": 10,
+            "column": 1,
+            "offset": 2676
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 10,
+            "column": 61,
+            "offset": 2736
+          },
+          "end": {
+            "line": 11,
+            "column": 1,
+            "offset": 2737
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n  ",
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 59,
+            "offset": 2795
+          },
+          "end": {
+            "line": 15,
+            "column": 3,
+            "offset": 2801
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n  ",
+        "position": {
+          "start": {
+            "line": 15,
+            "column": 137,
+            "offset": 2935
+          },
+          "end": {
+            "line": 17,
+            "column": 3,
+            "offset": 2939
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 17,
+            "column": 137,
+            "offset": 3073
+          },
+          "end": {
+            "line": 23,
+            "column": 1,
+            "offset": 3079
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 23,
+            "column": 190,
+            "offset": 3268
+          },
+          "end": {
+            "line": 24,
+            "column": 1,
+            "offset": 3269
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 24,
+            "column": 196,
+            "offset": 3464
+          },
+          "end": {
+            "line": 25,
+            "column": 1,
+            "offset": 3465
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 25,
+            "column": 187,
+            "offset": 3651
+          },
+          "end": {
+            "line": 26,
+            "column": 1,
+            "offset": 3652
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n",
+        "position": {
+          "start": {
+            "line": 26,
+            "column": 193,
+            "offset": 3844
+          },
+          "end": {
+            "line": 29,
+            "column": 1,
+            "offset": 3847
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 29,
+            "column": 111,
+            "offset": 3957
+          },
+          "end": {
+            "line": 36,
+            "column": 1,
+            "offset": 3964
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 36,
+            "column": 95,
+            "offset": 4058
+          },
+          "end": {
+            "line": 37,
+            "column": 1,
+            "offset": 4059
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 37,
+            "column": 95,
+            "offset": 4153
+          },
+          "end": {
+            "line": 38,
+            "column": 1,
+            "offset": 4154
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 38,
+            "column": 84,
+            "offset": 4237
+          },
+          "end": {
+            "line": 39,
+            "column": 1,
+            "offset": 4238
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n  ",
+        "position": {
+          "start": {
+            "line": 39,
+            "column": 77,
+            "offset": 4314
+          },
+          "end": {
+            "line": 43,
+            "column": 3,
+            "offset": 4320
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Guide to Internal Communication, the Basecamp Way",
+        "position": {
+          "start": {
+            "line": 43,
+            "column": 10,
+            "offset": 4327
+          },
+          "end": {
+            "line": 43,
+            "column": 59,
+            "offset": 4376
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n  ",
+        "position": {
+          "start": {
+            "line": 43,
+            "column": 67,
+            "offset": 4384
+          },
+          "end": {
+            "line": 47,
+            "column": 3,
+            "offset": 4390
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n\n  \n    ",
+        "position": {
+          "start": {
+            "line": 47,
+            "column": 222,
+            "offset": 4609
+          },
+          "end": {
+            "line": 53,
+            "column": 5,
+            "offset": 4621
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n  \n\n\n\n\n\n\n\n\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 53,
+            "column": 81,
+            "offset": 4697
+          },
+          "end": {
+            "line": 66,
+            "column": 1,
+            "offset": 4712
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 66,
+            "column": 106,
+            "offset": 4817
+          },
+          "end": {
+            "line": 67,
+            "column": 1,
+            "offset": 4818
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n",
+        "position": {
+          "start": {
+            "line": 67,
+            "column": 37,
+            "offset": 4854
+          },
+          "end": {
+            "line": 69,
+            "column": 1,
+            "offset": 4856
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n",
+        "position": {
+          "start": {
+            "line": 91,
+            "column": 10,
+            "offset": 5525
+          },
+          "end": {
+            "line": 93,
+            "column": 1,
+            "offset": 5527
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n",
+        "position": {
+          "start": {
+            "line": 105,
+            "column": 10,
+            "offset": 5873
+          },
+          "end": {
+            "line": 108,
+            "column": 1,
+            "offset": 5876
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 108,
+            "column": 44,
+            "offset": 5919
+          },
+          "end": {
+            "line": 109,
+            "column": 1,
+            "offset": 5920
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 109,
+            "column": 71,
+            "offset": 5990
+          },
+          "end": {
+            "line": 110,
+            "column": 1,
+            "offset": 5991
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 110,
+            "column": 57,
+            "offset": 6047
+          },
+          "end": {
+            "line": 115,
+            "column": 1,
+            "offset": 6052
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n",
+        "position": {
+          "start": {
+            "line": 115,
+            "column": 209,
+            "offset": 6260
+          },
+          "end": {
+            "line": 117,
+            "column": 1,
+            "offset": 6262
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n  ",
+        "position": {
+          "start": {
+            "line": 117,
+            "column": 36,
+            "offset": 6297
+          },
+          "end": {
+            "line": 119,
+            "column": 3,
+            "offset": 6301
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n  ",
+        "position": {
+          "start": {
+            "line": 139,
+            "column": 9,
+            "offset": 9844
+          },
+          "end": {
+            "line": 141,
+            "column": 3,
+            "offset": 9848
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n    ",
+        "position": {
+          "start": {
+            "line": 141,
+            "column": 44,
+            "offset": 9889
+          },
+          "end": {
+            "line": 142,
+            "column": 5,
+            "offset": 9894
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n      ",
+        "position": {
+          "start": {
+            "line": 142,
+            "column": 30,
+            "offset": 9919
+          },
+          "end": {
+            "line": 143,
+            "column": 7,
+            "offset": 9926
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n        ",
+        "position": {
+          "start": {
+            "line": 143,
+            "column": 56,
+            "offset": 9975
+          },
+          "end": {
+            "line": 145,
+            "column": 9,
+            "offset": 9985
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 145,
+            "column": 54,
+            "offset": 10030
+          },
+          "end": {
+            "line": 147,
+            "column": 2,
+            "offset": 10033
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h1",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The Basecamp Guide to Internal Communication",
+            "position": {
+              "start": {
+                "line": 147,
+                "column": 22,
+                "offset": 10053
+              },
+              "end": {
+                "line": 147,
+                "column": 66,
+                "offset": 10097
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 147,
+            "column": 2,
+            "offset": 10033
+          },
+          "end": {
+            "line": 147,
+            "column": 71,
+            "offset": 10102
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\t",
+        "position": {
+          "start": {
+            "line": 147,
+            "column": 71,
+            "offset": 10102
+          },
+          "end": {
+            "line": 148,
+            "column": 2,
+            "offset": 10104
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The how, where, why, and when we communicate. Long form asynchronous? Real-time chat? In-person? Video? Verbal? Written? Via email? In Basecamp? How do we keep everyone in the loop without everyone getting tangled in everyone else's business? It's all in here.",
+            "position": {
+              "start": {
+                "line": 148,
+                "column": 19,
+                "offset": 10121
+              },
+              "end": {
+                "line": 148,
+                "column": 279,
+                "offset": 10381
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 148,
+            "column": 2,
+            "offset": 10104
+          },
+          "end": {
+            "line": 148,
+            "column": 283,
+            "offset": 10385
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n",
+        "position": {
+          "start": {
+            "line": 148,
+            "column": 283,
+            "offset": 10385
+          },
+          "end": {
+            "line": 150,
+            "column": 1,
+            "offset": 10387
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n",
+        "position": {
+          "start": {
+            "line": 150,
+            "column": 7,
+            "offset": 10393
+          },
+          "end": {
+            "line": 152,
+            "column": 1,
+            "offset": 10395
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "hr",
+        "properties": {},
+        "children": [],
+        "position": {
+          "start": {
+            "line": 152,
+            "column": 1,
+            "offset": 10395
+          },
+          "end": {
+            "line": 152,
+            "column": 77,
+            "offset": 10471
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n",
+        "position": {
+          "start": {
+            "line": 152,
+            "column": 77,
+            "offset": 10471
+          },
+          "end": {
+            "line": 154,
+            "column": 1,
+            "offset": 10473
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 154,
+            "column": 46,
+            "offset": 10518
+          },
+          "end": {
+            "line": 156,
+            "column": 2,
+            "offset": 10521
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Rules of thumb, and general philosophy",
+            "position": {
+              "start": {
+                "line": 156,
+                "column": 6,
+                "offset": 10525
+              },
+              "end": {
+                "line": 156,
+                "column": 44,
+                "offset": 10563
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 156,
+            "column": 2,
+            "offset": 10521
+          },
+          "end": {
+            "line": 156,
+            "column": 49,
+            "offset": 10568
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\t",
+        "position": {
+          "start": {
+            "line": 156,
+            "column": 49,
+            "offset": 10568
+          },
+          "end": {
+            "line": 157,
+            "column": 2,
+            "offset": 10570
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Below you'll find a collection of general principles we try to keep in mind at Basecamp when communicating with teammates, within departments, across the company, and with the public. They aren't requirements, but they serve to create boundaries and shared practices to draw upon when we do the one thing that affects everything else we do: communicate.",
+            "position": {
+              "start": {
+                "line": 157,
+                "column": 5,
+                "offset": 10573
+              },
+              "end": {
+                "line": 157,
+                "column": 358,
+                "offset": 10926
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 157,
+            "column": 2,
+            "offset": 10570
+          },
+          "end": {
+            "line": 157,
+            "column": 362,
+            "offset": 10930
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 157,
+            "column": 362,
+            "offset": 10930
+          },
+          "end": {
+            "line": 159,
+            "column": 2,
+            "offset": 10933
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "ol",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 159,
+                "column": 27,
+                "offset": 10958
+              },
+              "end": {
+                "line": 160,
+                "column": 3,
+                "offset": 10961
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "You can not not communicate. Not discussing the elephant in the room is communicating. Few things are as important to study, practice, and perfect as clear communication.",
+                "position": {
+                  "start": {
+                    "line": 160,
+                    "column": 7,
+                    "offset": 10965
+                  },
+                  "end": {
+                    "line": 160,
+                    "column": 177,
+                    "offset": 11135
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 160,
+                "column": 3,
+                "offset": 10961
+              },
+              "end": {
+                "line": 160,
+                "column": 182,
+                "offset": 11140
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 160,
+                "column": 182,
+                "offset": 11140
+              },
+              "end": {
+                "line": 161,
+                "column": 3,
+                "offset": 11143
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Real-time sometimes, asynchronous most of the time.",
+                "position": {
+                  "start": {
+                    "line": 161,
+                    "column": 7,
+                    "offset": 11147
+                  },
+                  "end": {
+                    "line": 161,
+                    "column": 58,
+                    "offset": 11198
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 161,
+                "column": 3,
+                "offset": 11143
+              },
+              "end": {
+                "line": 161,
+                "column": 63,
+                "offset": 11203
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 161,
+                "column": 63,
+                "offset": 11203
+              },
+              "end": {
+                "line": 162,
+                "column": 3,
+                "offset": 11206
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Internal communication based on long-form writing, rather than a verbal tradition of meetings, speaking, and chatting, leads to a welcomed reduction in meetings, video conferences, calls, or other real-time opportunities to interrupt and be interrupted.",
+                "position": {
+                  "start": {
+                    "line": 162,
+                    "column": 7,
+                    "offset": 11210
+                  },
+                  "end": {
+                    "line": 162,
+                    "column": 260,
+                    "offset": 11463
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 162,
+                "column": 3,
+                "offset": 11206
+              },
+              "end": {
+                "line": 162,
+                "column": 265,
+                "offset": 11468
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 162,
+                "column": 265,
+                "offset": 11468
+              },
+              "end": {
+                "line": 163,
+                "column": 3,
+                "offset": 11471
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Give meaningful discussions a meaningful amount of time to develop and unfold. Rushing to judgement, or demanding immediate responses, only serves to increase the odds of poor decision making.",
+                "position": {
+                  "start": {
+                    "line": 163,
+                    "column": 7,
+                    "offset": 11475
+                  },
+                  "end": {
+                    "line": 163,
+                    "column": 199,
+                    "offset": 11667
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 163,
+                "column": 3,
+                "offset": 11471
+              },
+              "end": {
+                "line": 163,
+                "column": 204,
+                "offset": 11672
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 163,
+                "column": 204,
+                "offset": 11672
+              },
+              "end": {
+                "line": 164,
+                "column": 3,
+                "offset": 11675
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Meetings are the last resort, not the first option.",
+                "position": {
+                  "start": {
+                    "line": 164,
+                    "column": 7,
+                    "offset": 11679
+                  },
+                  "end": {
+                    "line": 164,
+                    "column": 58,
+                    "offset": 11730
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 164,
+                "column": 3,
+                "offset": 11675
+              },
+              "end": {
+                "line": 164,
+                "column": 63,
+                "offset": 11735
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 164,
+                "column": 63,
+                "offset": 11735
+              },
+              "end": {
+                "line": 165,
+                "column": 3,
+                "offset": 11738
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Writing solidifies, chat dissolves. Substantial decisions start and end with an exchange of complete thoughts, not one-line-at-a-time jousts. If it's important, critical, or fundamental, write it up, don't chat it down.",
+                "position": {
+                  "start": {
+                    "line": 165,
+                    "column": 7,
+                    "offset": 11742
+                  },
+                  "end": {
+                    "line": 165,
+                    "column": 226,
+                    "offset": 11961
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 165,
+                "column": 3,
+                "offset": 11738
+              },
+              "end": {
+                "line": 165,
+                "column": 231,
+                "offset": 11966
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 165,
+                "column": 231,
+                "offset": 11966
+              },
+              "end": {
+                "line": 166,
+                "column": 3,
+                "offset": 11969
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Speaking only helps who’s in the room, writing helps everyone. This includes people who couldn't make it, or future employees who join years from now.",
+                "position": {
+                  "start": {
+                    "line": 166,
+                    "column": 7,
+                    "offset": 11973
+                  },
+                  "end": {
+                    "line": 166,
+                    "column": 157,
+                    "offset": 12123
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 166,
+                "column": 3,
+                "offset": 11969
+              },
+              "end": {
+                "line": 166,
+                "column": 162,
+                "offset": 12128
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 166,
+                "column": 162,
+                "offset": 12128
+              },
+              "end": {
+                "line": 167,
+                "column": 3,
+                "offset": 12131
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "If your words can be perceived in different ways, they'll be understood in the way which does the most harm.",
+                "position": {
+                  "start": {
+                    "line": 167,
+                    "column": 7,
+                    "offset": 12135
+                  },
+                  "end": {
+                    "line": 167,
+                    "column": 115,
+                    "offset": 12243
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 167,
+                "column": 3,
+                "offset": 12131
+              },
+              "end": {
+                "line": 167,
+                "column": 120,
+                "offset": 12248
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 167,
+                "column": 120,
+                "offset": 12248
+              },
+              "end": {
+                "line": 168,
+                "column": 3,
+                "offset": 12251
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Never expect or require someone to get back to you immediately unless it’s a true emergency. The expectation of immediate response is toxic.",
+                "position": {
+                  "start": {
+                    "line": 168,
+                    "column": 7,
+                    "offset": 12255
+                  },
+                  "end": {
+                    "line": 168,
+                    "column": 147,
+                    "offset": 12395
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 168,
+                "column": 3,
+                "offset": 12251
+              },
+              "end": {
+                "line": 168,
+                "column": 152,
+                "offset": 12400
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 168,
+                "column": 152,
+                "offset": 12400
+              },
+              "end": {
+                "line": 169,
+                "column": 3,
+                "offset": 12403
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "If you have to repeat yourself, you weren’t clear enough the first time. However, if you're talking about something brand new, you may have to repeat yourself for years before you're heard. Pick your repeats wisely.",
+                "position": {
+                  "start": {
+                    "line": 169,
+                    "column": 7,
+                    "offset": 12407
+                  },
+                  "end": {
+                    "line": 169,
+                    "column": 222,
+                    "offset": 12622
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 169,
+                "column": 3,
+                "offset": 12403
+              },
+              "end": {
+                "line": 169,
+                "column": 227,
+                "offset": 12627
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 169,
+                "column": 227,
+                "offset": 12627
+              },
+              "end": {
+                "line": 170,
+                "column": 3,
+                "offset": 12630
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Poor communication creates more work.",
+                "position": {
+                  "start": {
+                    "line": 170,
+                    "column": 7,
+                    "offset": 12634
+                  },
+                  "end": {
+                    "line": 170,
+                    "column": 44,
+                    "offset": 12671
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 170,
+                "column": 3,
+                "offset": 12630
+              },
+              "end": {
+                "line": 170,
+                "column": 49,
+                "offset": 12676
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 170,
+                "column": 49,
+                "offset": 12676
+              },
+              "end": {
+                "line": 171,
+                "column": 3,
+                "offset": 12679
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Companies don't have communication problems, they have miscommunication problems. The smaller the company, group, or team, the fewer opportunities for miscommunication.",
+                "position": {
+                  "start": {
+                    "line": 171,
+                    "column": 7,
+                    "offset": 12683
+                  },
+                  "end": {
+                    "line": 171,
+                    "column": 175,
+                    "offset": 12851
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 171,
+                "column": 3,
+                "offset": 12679
+              },
+              "end": {
+                "line": 171,
+                "column": 180,
+                "offset": 12856
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 171,
+                "column": 180,
+                "offset": 12856
+              },
+              "end": {
+                "line": 172,
+                "column": 3,
+                "offset": 12859
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Five people in a room for an hour isn't a one hour meeting, it's a five hour meeting. Be mindful of the tradeoffs.",
+                "position": {
+                  "start": {
+                    "line": 172,
+                    "column": 7,
+                    "offset": 12863
+                  },
+                  "end": {
+                    "line": 172,
+                    "column": 121,
+                    "offset": 12977
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 172,
+                "column": 3,
+                "offset": 12859
+              },
+              "end": {
+                "line": 172,
+                "column": 126,
+                "offset": 12982
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 172,
+                "column": 126,
+                "offset": 12982
+              },
+              "end": {
+                "line": 173,
+                "column": 3,
+                "offset": 12985
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Be proactive about \"wait, what?\" questions by providing factual context and spacial context. Factual are the things people also need to know. Spacial is where the communication happens (for example, if it's about a specific to-do, discuss it right under the to-do, not somewhere else).",
+                "position": {
+                  "start": {
+                    "line": 173,
+                    "column": 7,
+                    "offset": 12989
+                  },
+                  "end": {
+                    "line": 173,
+                    "column": 292,
+                    "offset": 13274
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 173,
+                "column": 3,
+                "offset": 12985
+              },
+              "end": {
+                "line": 173,
+                "column": 297,
+                "offset": 13279
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 173,
+                "column": 297,
+                "offset": 13279
+              },
+              "end": {
+                "line": 174,
+                "column": 3,
+                "offset": 13282
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Communication shouldn't require schedule synchronization. Calendars have nothing to do with communication. Writing, rather than speaking or meeting, is independent of schedule and far more direct.",
+                "position": {
+                  "start": {
+                    "line": 174,
+                    "column": 7,
+                    "offset": 13286
+                  },
+                  "end": {
+                    "line": 174,
+                    "column": 203,
+                    "offset": 13482
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 174,
+                "column": 3,
+                "offset": 13282
+              },
+              "end": {
+                "line": 174,
+                "column": 208,
+                "offset": 13487
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 174,
+                "column": 208,
+                "offset": 13487
+              },
+              "end": {
+                "line": 175,
+                "column": 3,
+                "offset": 13490
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\"Now\" is often the wrong time to say what just popped into your head. It's better to let it filter it through the sieve of time. What's left is the part worth saying.",
+                "position": {
+                  "start": {
+                    "line": 175,
+                    "column": 7,
+                    "offset": 13494
+                  },
+                  "end": {
+                    "line": 175,
+                    "column": 173,
+                    "offset": 13660
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 175,
+                "column": 3,
+                "offset": 13490
+              },
+              "end": {
+                "line": 175,
+                "column": 178,
+                "offset": 13665
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 175,
+                "column": 178,
+                "offset": 13665
+              },
+              "end": {
+                "line": 176,
+                "column": 3,
+                "offset": 13668
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Ask yourself if others will feel compelled to rush their response if you rush your approach.",
+                "position": {
+                  "start": {
+                    "line": 176,
+                    "column": 7,
+                    "offset": 13672
+                  },
+                  "end": {
+                    "line": 176,
+                    "column": 99,
+                    "offset": 13764
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 176,
+                "column": 3,
+                "offset": 13668
+              },
+              "end": {
+                "line": 176,
+                "column": 104,
+                "offset": 13769
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 176,
+                "column": 104,
+                "offset": 13769
+              },
+              "end": {
+                "line": 177,
+                "column": 3,
+                "offset": 13772
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The end of the day has a way of convincing you what you’ve done is good, but the next morning has a way of telling you the truth. If you aren't sure, sleep on it before saying it.",
+                "position": {
+                  "start": {
+                    "line": 177,
+                    "column": 7,
+                    "offset": 13776
+                  },
+                  "end": {
+                    "line": 177,
+                    "column": 186,
+                    "offset": 13955
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 177,
+                "column": 3,
+                "offset": 13772
+              },
+              "end": {
+                "line": 177,
+                "column": 191,
+                "offset": 13960
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 177,
+                "column": 191,
+                "offset": 13960
+              },
+              "end": {
+                "line": 178,
+                "column": 3,
+                "offset": 13963
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "If you want an answer, you have to ask a question. People typically have a lot to say, but they'll volunteer little. Automatic questions on a regular schedule help people practice sharing, writing, and communicating.",
+                "position": {
+                  "start": {
+                    "line": 178,
+                    "column": 7,
+                    "offset": 13967
+                  },
+                  "end": {
+                    "line": 178,
+                    "column": 223,
+                    "offset": 14183
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 178,
+                "column": 3,
+                "offset": 13963
+              },
+              "end": {
+                "line": 178,
+                "column": 228,
+                "offset": 14188
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 178,
+                "column": 228,
+                "offset": 14188
+              },
+              "end": {
+                "line": 179,
+                "column": 3,
+                "offset": 14191
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Occasionally pick random words, sentences, or paragraphs and hit delete. Did it matter?",
+                "position": {
+                  "start": {
+                    "line": 179,
+                    "column": 7,
+                    "offset": 14195
+                  },
+                  "end": {
+                    "line": 179,
+                    "column": 94,
+                    "offset": 14282
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 179,
+                "column": 3,
+                "offset": 14191
+              },
+              "end": {
+                "line": 179,
+                "column": 99,
+                "offset": 14287
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 179,
+                "column": 99,
+                "offset": 14287
+              },
+              "end": {
+                "line": 180,
+                "column": 3,
+                "offset": 14290
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Urgency is overrated, ASAP is poison.",
+                "position": {
+                  "start": {
+                    "line": 180,
+                    "column": 7,
+                    "offset": 14294
+                  },
+                  "end": {
+                    "line": 180,
+                    "column": 44,
+                    "offset": 14331
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 180,
+                "column": 3,
+                "offset": 14290
+              },
+              "end": {
+                "line": 180,
+                "column": 49,
+                "offset": 14336
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 180,
+                "column": 49,
+                "offset": 14336
+              },
+              "end": {
+                "line": 181,
+                "column": 3,
+                "offset": 14339
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "If something's going to be difficult to hear or share, invite questions at the end. Ending without the invitation will lead to public silence but private conjecture. This is where rumors breed.",
+                "position": {
+                  "start": {
+                    "line": 181,
+                    "column": 7,
+                    "offset": 14343
+                  },
+                  "end": {
+                    "line": 181,
+                    "column": 200,
+                    "offset": 14536
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 181,
+                "column": 3,
+                "offset": 14339
+              },
+              "end": {
+                "line": 181,
+                "column": 205,
+                "offset": 14541
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 181,
+                "column": 205,
+                "offset": 14541
+              },
+              "end": {
+                "line": 182,
+                "column": 3,
+                "offset": 14544
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Where you put something, and what you call it, matters. When titling something, lead with the most important information. Keep in mind that many technical systems truncate long text or titles.",
+                "position": {
+                  "start": {
+                    "line": 182,
+                    "column": 7,
+                    "offset": 14548
+                  },
+                  "end": {
+                    "line": 182,
+                    "column": 199,
+                    "offset": 14740
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 182,
+                "column": 3,
+                "offset": 14544
+              },
+              "end": {
+                "line": 182,
+                "column": 204,
+                "offset": 14745
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 182,
+                "column": 204,
+                "offset": 14745
+              },
+              "end": {
+                "line": 183,
+                "column": 3,
+                "offset": 14748
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Write at the right time. Sharing something at 5pm may keep someone at work longer. You may have some spare time on a Sunday afternoon to write something, but putting it out there on Sunday may pull people back into work on the weekends. Early Monday morning communication may be buried by other things. There may not be a perfect time, but there's certainly a wrong time. Keep that in mind when you hit send.",
+                "position": {
+                  "start": {
+                    "line": 183,
+                    "column": 7,
+                    "offset": 14752
+                  },
+                  "end": {
+                    "line": 183,
+                    "column": 415,
+                    "offset": 15160
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 183,
+                "column": 3,
+                "offset": 14748
+              },
+              "end": {
+                "line": 183,
+                "column": 420,
+                "offset": 15165
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 183,
+                "column": 420,
+                "offset": 15165
+              },
+              "end": {
+                "line": 184,
+                "column": 3,
+                "offset": 15168
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Great news delivered on the heels of bad news makes both bits worse. The bad news feels like it's being buried, the good news feels like it's being injected to change the mood. Be honest with each by giving them adequate space.",
+                "position": {
+                  "start": {
+                    "line": 184,
+                    "column": 7,
+                    "offset": 15172
+                  },
+                  "end": {
+                    "line": 184,
+                    "column": 234,
+                    "offset": 15399
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 184,
+                "column": 3,
+                "offset": 15168
+              },
+              "end": {
+                "line": 184,
+                "column": 239,
+                "offset": 15404
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 184,
+                "column": 239,
+                "offset": 15404
+              },
+              "end": {
+                "line": 185,
+                "column": 3,
+                "offset": 15407
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Time is on your side, rushing makes conversations worse.",
+                "position": {
+                  "start": {
+                    "line": 185,
+                    "column": 7,
+                    "offset": 15411
+                  },
+                  "end": {
+                    "line": 185,
+                    "column": 63,
+                    "offset": 15467
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 185,
+                "column": 3,
+                "offset": 15407
+              },
+              "end": {
+                "line": 185,
+                "column": 68,
+                "offset": 15472
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 185,
+                "column": 68,
+                "offset": 15472
+              },
+              "end": {
+                "line": 186,
+                "column": 3,
+                "offset": 15475
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Communication is lossy, especially verbal communication. Every  hearsay hop adds static and chips at fidelity. Whenever possible, communicate directly with those you're addressing rather than passing the message through intermediaries.",
+                "position": {
+                  "start": {
+                    "line": 186,
+                    "column": 7,
+                    "offset": 15479
+                  },
+                  "end": {
+                    "line": 186,
+                    "column": 242,
+                    "offset": 15714
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 186,
+                "column": 3,
+                "offset": 15475
+              },
+              "end": {
+                "line": 186,
+                "column": 247,
+                "offset": 15719
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 186,
+                "column": 247,
+                "offset": 15719
+              },
+              "end": {
+                "line": 187,
+                "column": 3,
+                "offset": 15722
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Ask if things are clear. Ask what you left out. Ask if there was anything someone was expecting that you didn't cover. Address the gaps before they widen with time.",
+                "position": {
+                  "start": {
+                    "line": 187,
+                    "column": 7,
+                    "offset": 15726
+                  },
+                  "end": {
+                    "line": 187,
+                    "column": 171,
+                    "offset": 15890
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 187,
+                "column": 3,
+                "offset": 15722
+              },
+              "end": {
+                "line": 187,
+                "column": 176,
+                "offset": 15895
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 187,
+                "column": 176,
+                "offset": 15895
+              },
+              "end": {
+                "line": 188,
+                "column": 3,
+                "offset": 15898
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Consider where you put things. The right communication in the wrong place might as well not exist at all. When someone relies on search to find something it’s often because it wasn’t where they expected something to be.",
+                "position": {
+                  "start": {
+                    "line": 188,
+                    "column": 7,
+                    "offset": 15902
+                  },
+                  "end": {
+                    "line": 188,
+                    "column": 226,
+                    "offset": 16121
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 188,
+                "column": 3,
+                "offset": 15898
+              },
+              "end": {
+                "line": 188,
+                "column": 231,
+                "offset": 16126
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t\t",
+            "position": {
+              "start": {
+                "line": 188,
+                "column": 231,
+                "offset": 16126
+              },
+              "end": {
+                "line": 189,
+                "column": 3,
+                "offset": 16129
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Communication often interrupts, so good communication is often about saying the right thing at the right time in the right way with the fewest side effects.",
+                "position": {
+                  "start": {
+                    "line": 189,
+                    "column": 7,
+                    "offset": 16133
+                  },
+                  "end": {
+                    "line": 189,
+                    "column": 163,
+                    "offset": 16289
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 189,
+                "column": 3,
+                "offset": 16129
+              },
+              "end": {
+                "line": 189,
+                "column": 168,
+                "offset": 16294
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n\t",
+            "position": {
+              "start": {
+                "line": 189,
+                "column": 168,
+                "offset": 16294
+              },
+              "end": {
+                "line": 190,
+                "column": 2,
+                "offset": 16296
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 159,
+            "column": 2,
+            "offset": 10933
+          },
+          "end": {
+            "line": 190,
+            "column": 7,
+            "offset": 16301
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 190,
+            "column": 7,
+            "offset": 16301
+          },
+          "end": {
+            "line": 192,
+            "column": 2,
+            "offset": 16304
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "hr",
+        "properties": {},
+        "children": [],
+        "position": {
+          "start": {
+            "line": 192,
+            "column": 2,
+            "offset": 16304
+          },
+          "end": {
+            "line": 192,
+            "column": 6,
+            "offset": 16308
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 192,
+            "column": 6,
+            "offset": 16308
+          },
+          "end": {
+            "line": 194,
+            "column": 2,
+            "offset": 16311
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Communicating day-to-day",
+            "position": {
+              "start": {
+                "line": 194,
+                "column": 6,
+                "offset": 16315
+              },
+              "end": {
+                "line": 194,
+                "column": 30,
+                "offset": 16339
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 194,
+            "column": 2,
+            "offset": 16311
+          },
+          "end": {
+            "line": 194,
+            "column": 35,
+            "offset": 16344
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 194,
+            "column": 35,
+            "offset": 16344
+          },
+          "end": {
+            "line": 196,
+            "column": 2,
+            "offset": 16347
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "This section includes specific examples of how we apply our philosophy day-to-day across the company. Since communication often interrupts, valuing each other's time and attention is a critical consideration. Keeping people in the loop is important, but asking them to follow along with everything is a distraction. That's why we follow reliable, predictable methods to share the right kind of information at the right time in the right place.",
+            "position": {
+              "start": {
+                "line": 196,
+                "column": 5,
+                "offset": 16350
+              },
+              "end": {
+                "line": 196,
+                "column": 448,
+                "offset": 16793
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 196,
+            "column": 2,
+            "offset": 16347
+          },
+          "end": {
+            "line": 196,
+            "column": 452,
+            "offset": 16797
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 196,
+            "column": 452,
+            "offset": 16797
+          },
+          "end": {
+            "line": 198,
+            "column": 2,
+            "offset": 16800
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Basic toolset",
+            "position": {
+              "start": {
+                "line": 198,
+                "column": 6,
+                "offset": 16804
+              },
+              "end": {
+                "line": 198,
+                "column": 19,
+                "offset": 16817
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 198,
+            "column": 2,
+            "offset": 16800
+          },
+          "end": {
+            "line": 198,
+            "column": 24,
+            "offset": 16822
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\t",
+        "position": {
+          "start": {
+            "line": 198,
+            "column": 24,
+            "offset": 16822
+          },
+          "end": {
+            "line": 199,
+            "column": 2,
+            "offset": 16824
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "98% of our internal communication happens inside Basecamp. That means all company-wide discussions, social chatter, project-related work, sharing of ideas, internal debates, ",
+            "position": {
+              "start": {
+                "line": 199,
+                "column": 5,
+                "offset": 16827
+              },
+              "end": {
+                "line": 199,
+                "column": 179,
+                "offset": 17001
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://basecamp.com/features/checkins"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "automatic check-ins",
+                "position": {
+                  "start": {
+                    "line": 199,
+                    "column": 228,
+                    "offset": 17050
+                  },
+                  "end": {
+                    "line": 199,
+                    "column": 247,
+                    "offset": 17069
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 199,
+                "column": 179,
+                "offset": 17001
+              },
+              "end": {
+                "line": 199,
+                "column": 251,
+                "offset": 17073
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", status updates, policy updates, and all official decisions and announcements all happen in Basecamp. A single centralized tool keeps everything together and creates a single source of truth for everyone across the company. We don't use email internally (we do externally), we don't use separate chat tools like Slack or Teams, and we rarely have in-person meetings. We do use Zoom or Skype for the occasional video conference between two or three people. And we occasionally discuss a pull request in GitHub.",
+            "position": {
+              "start": {
+                "line": 199,
+                "column": 251,
+                "offset": 17073
+              },
+              "end": {
+                "line": 199,
+                "column": 761,
+                "offset": 17583
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 199,
+            "column": 2,
+            "offset": 16824
+          },
+          "end": {
+            "line": 199,
+            "column": 765,
+            "offset": 17587
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 199,
+            "column": 765,
+            "offset": 17587
+          },
+          "end": {
+            "line": 201,
+            "column": 2,
+            "offset": 17590
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Automatic daily: \"What did you work on today?",
+            "position": {
+              "start": {
+                "line": 201,
+                "column": 6,
+                "offset": 17594
+              },
+              "end": {
+                "line": 201,
+                "column": 51,
+                "offset": 17639
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 201,
+            "column": 2,
+            "offset": 17590
+          },
+          "end": {
+            "line": 201,
+            "column": 56,
+            "offset": 17644
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\t",
+        "position": {
+          "start": {
+            "line": 201,
+            "column": 56,
+            "offset": 17644
+          },
+          "end": {
+            "line": 202,
+            "column": 2,
+            "offset": 17646
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Every workday at 16:30, Basecamp (the product) automatically asks every employee “What did you work on today?” Whatever people write up is shared with everyone in the company. Everyone’s responses are displayed on a single page, grouped by date, so anyone who’s curious about what’s happening across the company can simply read from top to bottom. And if you have a question about anything, you can comment on anyone’s “what did you work on today?” check-in to keep the conversation in context.",
+            "position": {
+              "start": {
+                "line": 202,
+                "column": 5,
+                "offset": 17649
+              },
+              "end": {
+                "line": 202,
+                "column": 499,
+                "offset": 18143
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 202,
+            "column": 2,
+            "offset": 17646
+          },
+          "end": {
+            "line": 202,
+            "column": 503,
+            "offset": 18147
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 202,
+            "column": 503,
+            "offset": 18147
+          },
+          "end": {
+            "line": 204,
+            "column": 2,
+            "offset": 18150
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "This routine is about loose accountability and strong reflection. Writing up what you did every day is a great way to think back about what you accomplished and how you spent your time.",
+            "position": {
+              "start": {
+                "line": 204,
+                "column": 5,
+                "offset": 18153
+              },
+              "end": {
+                "line": 204,
+                "column": 190,
+                "offset": 18338
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 204,
+            "column": 2,
+            "offset": 18150
+          },
+          "end": {
+            "line": 204,
+            "column": 194,
+            "offset": 18342
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 204,
+            "column": 194,
+            "offset": 18342
+          },
+          "end": {
+            "line": 206,
+            "column": 2,
+            "offset": 18345
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Some people just jot down a few bullets. Others write multi-paragraph stories to share - and document - the thinking behind their work. There are no requirements here. We just ask everyone to write in their own style.",
+            "position": {
+              "start": {
+                "line": 206,
+                "column": 5,
+                "offset": 18348
+              },
+              "end": {
+                "line": 206,
+                "column": 222,
+                "offset": 18565
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 206,
+            "column": 2,
+            "offset": 18345
+          },
+          "end": {
+            "line": 206,
+            "column": 226,
+            "offset": 18569
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 206,
+            "column": 226,
+            "offset": 18569
+          },
+          "end": {
+            "line": 208,
+            "column": 2,
+            "offset": 18572
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Automatic weekly: \"What will you be working on this week?\"",
+            "position": {
+              "start": {
+                "line": 208,
+                "column": 6,
+                "offset": 18576
+              },
+              "end": {
+                "line": 208,
+                "column": 64,
+                "offset": 18634
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 208,
+            "column": 2,
+            "offset": 18572
+          },
+          "end": {
+            "line": 208,
+            "column": 69,
+            "offset": 18639
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\t",
+        "position": {
+          "start": {
+            "line": 208,
+            "column": 69,
+            "offset": 18639
+          },
+          "end": {
+            "line": 209,
+            "column": 2,
+            "offset": 18641
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Every Monday morning, Basecamp automatically asks everyone “What will you be working on this week?” This is a chance for everyone to lay out the big picture of their week. It’s not about regurgitating individual tasks, or diving headlong into the minutia of the week. It’s generally just your 10,000 foot view of the week ahead. The big picture items, the general themes. It sets your mind up for the work ahead, and, collectively, it gives everyone a good sense of what's happening across the company this week.",
+            "position": {
+              "start": {
+                "line": 209,
+                "column": 5,
+                "offset": 18644
+              },
+              "end": {
+                "line": 209,
+                "column": 517,
+                "offset": 19156
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 209,
+            "column": 2,
+            "offset": 18641
+          },
+          "end": {
+            "line": 209,
+            "column": 521,
+            "offset": 19160
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 209,
+            "column": 521,
+            "offset": 19160
+          },
+          "end": {
+            "line": 211,
+            "column": 2,
+            "offset": 19163
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Automatic occasionally: \"Social questions\"",
+            "position": {
+              "start": {
+                "line": 211,
+                "column": 6,
+                "offset": 19167
+              },
+              "end": {
+                "line": 211,
+                "column": 48,
+                "offset": 19209
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 211,
+            "column": 2,
+            "offset": 19163
+          },
+          "end": {
+            "line": 211,
+            "column": 53,
+            "offset": 19214
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\t",
+        "position": {
+          "start": {
+            "line": 211,
+            "column": 53,
+            "offset": 19214
+          },
+          "end": {
+            "line": 212,
+            "column": 2,
+            "offset": 19216
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Every few weeks, or once a month, Basecamp will automatically ask everyone a social-style question. “What books are you reading?” Or “Try anything new lately?” Or “Anything inspire you lately?” Or “Seen any great design recently?” Or “What did you do this weekend?” These entirely optional questions are meant to shake loose some stuff that you’d love to share with everyone else, but you hadn’t had an opportunity to do so. This kind of internal communication helps grease the social gears. This is especially useful for remote teams, like ours. When we know each other a little better, we work a little better together.",
+            "position": {
+              "start": {
+                "line": 212,
+                "column": 5,
+                "offset": 19219
+              },
+              "end": {
+                "line": 212,
+                "column": 626,
+                "offset": 19840
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 212,
+            "column": 2,
+            "offset": 19216
+          },
+          "end": {
+            "line": 212,
+            "column": 630,
+            "offset": 19844
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 212,
+            "column": 630,
+            "offset": 19844
+          },
+          "end": {
+            "line": 214,
+            "column": 2,
+            "offset": 19847
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "← Reflect every 6 weeks: Heartbeats",
+            "position": {
+              "start": {
+                "line": 214,
+                "column": 6,
+                "offset": 19851
+              },
+              "end": {
+                "line": 214,
+                "column": 41,
+                "offset": 19886
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 214,
+            "column": 2,
+            "offset": 19847
+          },
+          "end": {
+            "line": 214,
+            "column": 46,
+            "offset": 19891
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\t",
+        "position": {
+          "start": {
+            "line": 214,
+            "column": 46,
+            "offset": 19891
+          },
+          "end": {
+            "line": 215,
+            "column": 2,
+            "offset": 19893
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Heartbeats summarize the last ~6-weeks of work for a given team, department, or individual (if that person is a department of one). They're written by the lead of the group, and they're meant for everyone in the company to read. They summarize the big picture accomplishments, they detail the little things that mattered, and they generally highlight the importance of the work. They'll also shine a light on challenges and difficulties along the way. They're a good reminder that it's not all sunshine all the time. On balance, Heartbeats are wonderful to write, fun to read, and they help everyone - including those not directly involved with the work - reflect on jobs well done and progress well made.",
+            "position": {
+              "start": {
+                "line": 215,
+                "column": 5,
+                "offset": 19896
+              },
+              "end": {
+                "line": 215,
+                "column": 710,
+                "offset": 20601
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 215,
+            "column": 2,
+            "offset": 19893
+          },
+          "end": {
+            "line": 215,
+            "column": 714,
+            "offset": 20605
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 215,
+            "column": 714,
+            "offset": 20605
+          },
+          "end": {
+            "line": 217,
+            "column": 2,
+            "offset": 20608
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "→ Project every 6 weeks: Kickoffs",
+            "position": {
+              "start": {
+                "line": 217,
+                "column": 6,
+                "offset": 20612
+              },
+              "end": {
+                "line": 217,
+                "column": 39,
+                "offset": 20645
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 217,
+            "column": 2,
+            "offset": 20608
+          },
+          "end": {
+            "line": 217,
+            "column": 44,
+            "offset": 20650
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\t",
+        "position": {
+          "start": {
+            "line": 217,
+            "column": 44,
+            "offset": 20650
+          },
+          "end": {
+            "line": 218,
+            "column": 2,
+            "offset": 20652
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Kickoffs are essentially the opposites of Heartbeats. Rather than reflect, they project. They're all about what the team plans on taking on over the next 6 weeks. Projects, initiatives, revamps, whatever it might be, if it's on the slate, it gets summarized in the Kickoff. While Kickoffs detail specific work for a specific group, they're also meant for full-company consumption. Like Heartbeats, they're written by the team lead. Kickoffs are broad in scope, so they don't cover all the details in the work ahead - the teams doing the work are the ones that wade into those weeds. We don't want to overwhelm everyone with details that don't matter. If anyone's curious about something included in a Kickoff, they're free to post a comment and ask a question.",
+            "position": {
+              "start": {
+                "line": 218,
+                "column": 5,
+                "offset": 20655
+              },
+              "end": {
+                "line": 218,
+                "column": 765,
+                "offset": 21415
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 218,
+            "column": 2,
+            "offset": 20652
+          },
+          "end": {
+            "line": 218,
+            "column": 769,
+            "offset": 21419
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 218,
+            "column": 769,
+            "offset": 21419
+          },
+          "end": {
+            "line": 220,
+            "column": 2,
+            "offset": 21422
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Whenever relevant: Announcements",
+            "position": {
+              "start": {
+                "line": 220,
+                "column": 6,
+                "offset": 21426
+              },
+              "end": {
+                "line": 220,
+                "column": 38,
+                "offset": 21458
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 220,
+            "column": 2,
+            "offset": 21422
+          },
+          "end": {
+            "line": 220,
+            "column": 43,
+            "offset": 21463
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\t",
+        "position": {
+          "start": {
+            "line": 220,
+            "column": 43,
+            "offset": 21463
+          },
+          "end": {
+            "line": 221,
+            "column": 2,
+            "offset": 21465
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Occasionally we update an internal policy. Something about vacation time, or a new benefit, or reiterating that 40 hour weeks means 40 hour weeks. When we have something to announce company-wide, we don't send an email. Email is decentralized and there's no permanent record in a permanent place everyone can see. Instead, we post it either to the Basecamp HQ message board or as a comment on an existing policy document stored in Basecamp. This means everyone sees the same thing, everyone hears the same thing, and everyone knows the same thing - including future employees who are yet to join Basecamp. We now have a shared truth.",
+            "position": {
+              "start": {
+                "line": 221,
+                "column": 5,
+                "offset": 21468
+              },
+              "end": {
+                "line": 221,
+                "column": 638,
+                "offset": 22101
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 221,
+            "column": 2,
+            "offset": 21465
+          },
+          "end": {
+            "line": 221,
+            "column": 642,
+            "offset": 22105
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 221,
+            "column": 642,
+            "offset": 22105
+          },
+          "end": {
+            "line": 223,
+            "column": 2,
+            "offset": 22108
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Day-to-day project work: In context",
+            "position": {
+              "start": {
+                "line": 223,
+                "column": 6,
+                "offset": 22112
+              },
+              "end": {
+                "line": 223,
+                "column": 41,
+                "offset": 22147
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 223,
+            "column": 2,
+            "offset": 22108
+          },
+          "end": {
+            "line": 223,
+            "column": 46,
+            "offset": 22152
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\t",
+        "position": {
+          "start": {
+            "line": 223,
+            "column": 46,
+            "offset": 22152
+          },
+          "end": {
+            "line": 224,
+            "column": 2,
+            "offset": 22154
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Effective communication requires context. Saying the right thing in the wrong place, or without proper detail, leads to double work and messages being missed. That's why we spin up a separate Basecamp project for every project we work on. Everything related to that project is communicated inside that project. All the tasks, all the discussions, all the documents, all the debates, and all the decisions happen inside those walls. Everyone who needs access, has access. Every Basecamp project is a capsule of everything someone needs to know about that work project.",
+            "position": {
+              "start": {
+                "line": 224,
+                "column": 5,
+                "offset": 22157
+              },
+              "end": {
+                "line": 224,
+                "column": 572,
+                "offset": 22724
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 224,
+            "column": 2,
+            "offset": 22154
+          },
+          "end": {
+            "line": 224,
+            "column": 576,
+            "offset": 22728
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 224,
+            "column": 576,
+            "offset": 22728
+          },
+          "end": {
+            "line": 226,
+            "column": 2,
+            "offset": 22731
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Further, we take spacial context seriously. If we're discussing a specific task, we discuss it in the comment section below the task itself. If we're talking about a specific document, we discuss it in the comments attached to the document. Communications stay attached to the thing we're discussing. This provides the full story in one reliable place. The alternative is terrible - communication detached from the original source material, discussions all over the place, fragmented conversations missing entire chunks of time and detail, etc. Basecamp's \"everything is commentable\" feature is what makes this possible for us.",
+            "position": {
+              "start": {
+                "line": 226,
+                "column": 5,
+                "offset": 22734
+              },
+              "end": {
+                "line": 226,
+                "column": 632,
+                "offset": 23361
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 226,
+            "column": 2,
+            "offset": 22731
+          },
+          "end": {
+            "line": 226,
+            "column": 636,
+            "offset": 23365
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 226,
+            "column": 636,
+            "offset": 23365
+          },
+          "end": {
+            "line": 228,
+            "column": 2,
+            "offset": 23368
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "hr",
+        "properties": {},
+        "children": [],
+        "position": {
+          "start": {
+            "line": 228,
+            "column": 2,
+            "offset": 23368
+          },
+          "end": {
+            "line": 228,
+            "column": 6,
+            "offset": 23372
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 228,
+            "column": 6,
+            "offset": 23372
+          },
+          "end": {
+            "line": 230,
+            "column": 2,
+            "offset": 23375
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Other resources",
+            "position": {
+              "start": {
+                "line": 230,
+                "column": 6,
+                "offset": 23379
+              },
+              "end": {
+                "line": 230,
+                "column": 21,
+                "offset": 23394
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 230,
+            "column": 2,
+            "offset": 23375
+          },
+          "end": {
+            "line": 230,
+            "column": 26,
+            "offset": 23399
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 230,
+            "column": 26,
+            "offset": 23399
+          },
+          "end": {
+            "line": 232,
+            "column": 2,
+            "offset": 23402
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "We've detailed the pros and cons of chat vs. long form writing in our infamous \"",
+            "position": {
+              "start": {
+                "line": 232,
+                "column": 5,
+                "offset": 23405
+              },
+              "end": {
+                "line": 232,
+                "column": 85,
+                "offset": 23485
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://basecamp.com/guides/group-chat-problems"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Group Chat: Group Stress",
+                "position": {
+                  "start": {
+                    "line": 232,
+                    "column": 143,
+                    "offset": 23543
+                  },
+                  "end": {
+                    "line": 232,
+                    "column": 167,
+                    "offset": 23567
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 232,
+                "column": 85,
+                "offset": 23485
+              },
+              "end": {
+                "line": 232,
+                "column": 171,
+                "offset": 23571
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\" guide. We definitely recommend checking it out.",
+            "position": {
+              "start": {
+                "line": 232,
+                "column": 171,
+                "offset": 23571
+              },
+              "end": {
+                "line": 232,
+                "column": 220,
+                "offset": 23620
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 232,
+            "column": 2,
+            "offset": 23402
+          },
+          "end": {
+            "line": 232,
+            "column": 224,
+            "offset": 23624
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 232,
+            "column": 224,
+            "offset": 23624
+          },
+          "end": {
+            "line": 234,
+            "column": 2,
+            "offset": 23627
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "You'll also find a detailed explanation of how our teams work day-to-day on software projects in \"",
+            "position": {
+              "start": {
+                "line": 234,
+                "column": 5,
+                "offset": 23630
+              },
+              "end": {
+                "line": 234,
+                "column": 103,
+                "offset": 23728
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://basecamp.com/shapeup"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Shape Up: Stop Running in Circles and Ship Work that Matters",
+                "position": {
+                  "start": {
+                    "line": 234,
+                    "column": 142,
+                    "offset": 23767
+                  },
+                  "end": {
+                    "line": 234,
+                    "column": 202,
+                    "offset": 23827
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 234,
+                "column": 103,
+                "offset": 23728
+              },
+              "end": {
+                "line": 234,
+                "column": 206,
+                "offset": 23831
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\".",
+            "position": {
+              "start": {
+                "line": 234,
+                "column": 206,
+                "offset": 23831
+              },
+              "end": {
+                "line": 234,
+                "column": 208,
+                "offset": 23833
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 234,
+            "column": 2,
+            "offset": 23627
+          },
+          "end": {
+            "line": 234,
+            "column": 212,
+            "offset": 23837
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 234,
+            "column": 212,
+            "offset": 23837
+          },
+          "end": {
+            "line": 236,
+            "column": 2,
+            "offset": 23840
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Basecamp-exclusive ",
+            "position": {
+              "start": {
+                "line": 236,
+                "column": 5,
+                "offset": 23843
+              },
+              "end": {
+                "line": 236,
+                "column": 24,
+                "offset": 23862
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://basecamp.com/features/hill-charts"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Hill Charts",
+                "position": {
+                  "start": {
+                    "line": 236,
+                    "column": 76,
+                    "offset": 23914
+                  },
+                  "end": {
+                    "line": 236,
+                    "column": 87,
+                    "offset": 23925
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 236,
+                "column": 24,
+                "offset": 23862
+              },
+              "end": {
+                "line": 236,
+                "column": 91,
+                "offset": 23929
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " help us see where projects really stand without having to rely on inefficient status meetings, daily standups, or regular in-person check-ins.",
+            "position": {
+              "start": {
+                "line": 236,
+                "column": 91,
+                "offset": 23929
+              },
+              "end": {
+                "line": 236,
+                "column": 234,
+                "offset": 24072
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 236,
+            "column": 2,
+            "offset": 23840
+          },
+          "end": {
+            "line": 236,
+            "column": 238,
+            "offset": 24076
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 236,
+            "column": 238,
+            "offset": 24076
+          },
+          "end": {
+            "line": 238,
+            "column": 2,
+            "offset": 24079
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The ",
+            "position": {
+              "start": {
+                "line": 238,
+                "column": 5,
+                "offset": 24082
+              },
+              "end": {
+                "line": 238,
+                "column": 9,
+                "offset": 24086
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://basecamp.com/handbook"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Basecamp Company Handbook",
+                "position": {
+                  "start": {
+                    "line": 238,
+                    "column": 49,
+                    "offset": 24126
+                  },
+                  "end": {
+                    "line": 238,
+                    "column": 74,
+                    "offset": 24151
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 238,
+                "column": 9,
+                "offset": 24086
+              },
+              "end": {
+                "line": 238,
+                "column": 78,
+                "offset": 24155
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " is also worth checking out. It explaines how we're structured, how we define titles and roles, our full benefits package, our company values, the responsibilities of individual contributors, managers, and executives, and other essential bits.",
+            "position": {
+              "start": {
+                "line": 238,
+                "column": 78,
+                "offset": 24155
+              },
+              "end": {
+                "line": 238,
+                "column": 321,
+                "offset": 24398
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 238,
+            "column": 2,
+            "offset": 24079
+          },
+          "end": {
+            "line": 238,
+            "column": 325,
+            "offset": 24402
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 238,
+            "column": 325,
+            "offset": 24402
+          },
+          "end": {
+            "line": 240,
+            "column": 2,
+            "offset": 24405
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "hr",
+        "properties": {},
+        "children": [],
+        "position": {
+          "start": {
+            "line": 240,
+            "column": 2,
+            "offset": 24405
+          },
+          "end": {
+            "line": 240,
+            "column": 6,
+            "offset": 24409
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\t",
+        "position": {
+          "start": {
+            "line": 240,
+            "column": 6,
+            "offset": 24409
+          },
+          "end": {
+            "line": 242,
+            "column": 2,
+            "offset": 24412
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Anything else?",
+            "position": {
+              "start": {
+                "line": 242,
+                "column": 6,
+                "offset": 24416
+              },
+              "end": {
+                "line": 242,
+                "column": 20,
+                "offset": 24430
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 242,
+            "column": 2,
+            "offset": 24412
+          },
+          "end": {
+            "line": 242,
+            "column": 25,
+            "offset": 24435
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\t",
+        "position": {
+          "start": {
+            "line": 242,
+            "column": 25,
+            "offset": 24435
+          },
+          "end": {
+            "line": 243,
+            "column": 2,
+            "offset": 24437
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "We hope this guide was useful, but we're sure we're missing something. What questions do you still have? What did you hope to learn that you didn't? Was anything more confusing than clarifying? What would have made this guide more helpful? It's a work in progress, and we'll update as necessary based on your feedback. Please send questions, suggestions, and thoughts directly to the author, Jason Fried, at ",
+            "position": {
+              "start": {
+                "line": 243,
+                "column": 5,
+                "offset": 24440
+              },
+              "end": {
+                "line": 243,
+                "column": 413,
+                "offset": 24848
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "mailto:jason@basecamp.com"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "jason@basecamp.com",
+                "position": {
+                  "start": {
+                    "line": 243,
+                    "column": 449,
+                    "offset": 24884
+                  },
+                  "end": {
+                    "line": 243,
+                    "column": 467,
+                    "offset": 24902
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 243,
+                "column": 413,
+                "offset": 24848
+              },
+              "end": {
+                "line": 243,
+                "column": 471,
+                "offset": 24906
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". Thanks!",
+            "position": {
+              "start": {
+                "line": 243,
+                "column": 471,
+                "offset": 24906
+              },
+              "end": {
+                "line": 243,
+                "column": 480,
+                "offset": 24915
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 243,
+            "column": 2,
+            "offset": 24437
+          },
+          "end": {
+            "line": 243,
+            "column": 484,
+            "offset": 24919
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n",
+        "position": {
+          "start": {
+            "line": 243,
+            "column": 484,
+            "offset": 24919
+          },
+          "end": {
+            "line": 245,
+            "column": 1,
+            "offset": 24921
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n        ",
+        "position": {
+          "start": {
+            "line": 245,
+            "column": 7,
+            "offset": 24927
+          },
+          "end": {
+            "line": 249,
+            "column": 9,
+            "offset": 24939
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n          ",
+        "position": {
+          "start": {
+            "line": 249,
+            "column": 67,
+            "offset": 24997
+          },
+          "end": {
+            "line": 250,
+            "column": 11,
+            "offset": 25008
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "a",
+        "properties": {
+          "href": "https://basecamp.com/"
+        },
+        "children": [
+          {
+            "type": "element",
+            "tagName": "img",
+            "properties": {
+              "src": "./input_files/gold-hero-4a6eac1ea9754bb8984d30534fa03a39e2374d222a76ea9e9cd186eef6c7a579.png",
+              "alt": "Basecamp running on a laptop"
+            },
+            "children": [],
+            "position": {
+              "start": {
+                "line": 250,
+                "column": 72,
+                "offset": 25069
+              },
+              "end": {
+                "line": 250,
+                "column": 421,
+                "offset": 25418
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 250,
+            "column": 11,
+            "offset": 25008
+          },
+          "end": {
+            "line": 250,
+            "column": 425,
+            "offset": 25422
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n          ",
+        "position": {
+          "start": {
+            "line": 250,
+            "column": 425,
+            "offset": 25422
+          },
+          "end": {
+            "line": 251,
+            "column": 11,
+            "offset": 25433
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n            ",
+        "position": {
+          "start": {
+            "line": 251,
+            "column": 45,
+            "offset": 25467
+          },
+          "end": {
+            "line": 252,
+            "column": 13,
+            "offset": 25480
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Tried Basecamp lately?",
+            "position": {
+              "start": {
+                "line": 252,
+                "column": 50,
+                "offset": 25517
+              },
+              "end": {
+                "line": 252,
+                "column": 72,
+                "offset": 25539
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 252,
+            "column": 13,
+            "offset": 25480
+          },
+          "end": {
+            "line": 252,
+            "column": 77,
+            "offset": 25544
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n            ",
+        "position": {
+          "start": {
+            "line": 252,
+            "column": 77,
+            "offset": 25544
+          },
+          "end": {
+            "line": 253,
+            "column": 13,
+            "offset": 25557
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Used an earlier version, but moved on? Heard of it, but never signed up? Today's Basecamp will surprise you! It's all-new, thoroughly modern, and unlike anything else. Now you can ditch Slack, Asana, Trello, Jira, Dropbox, or some other messy jumble of products. Simplify and centralize around Basecamp instead. It's all you need for project management and internal communication. ",
+            "position": {
+              "start": {
+                "line": 253,
+                "column": 45,
+                "offset": 25589
+              },
+              "end": {
+                "line": 253,
+                "column": 426,
+                "offset": 25970
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://basecamp.com/signup"
+            },
+            "children": [
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Try it free today",
+                    "position": {
+                      "start": {
+                        "line": 253,
+                        "column": 472,
+                        "offset": 26016
+                      },
+                      "end": {
+                        "line": 253,
+                        "column": 489,
+                        "offset": 26033
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 253,
+                    "column": 464,
+                    "offset": 26008
+                  },
+                  "end": {
+                    "line": 253,
+                    "column": 498,
+                    "offset": 26042
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 253,
+                "column": 426,
+                "offset": 25970
+              },
+              "end": {
+                "line": 253,
+                "column": 502,
+                "offset": 26046
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " and see what you've been missing.",
+            "position": {
+              "start": {
+                "line": 253,
+                "column": 502,
+                "offset": 26046
+              },
+              "end": {
+                "line": 253,
+                "column": 536,
+                "offset": 26080
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 253,
+            "column": 13,
+            "offset": 25557
+          },
+          "end": {
+            "line": 253,
+            "column": 540,
+            "offset": 26084
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n          ",
+        "position": {
+          "start": {
+            "line": 253,
+            "column": 540,
+            "offset": 26084
+          },
+          "end": {
+            "line": 254,
+            "column": 11,
+            "offset": 26095
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n        ",
+        "position": {
+          "start": {
+            "line": 254,
+            "column": 17,
+            "offset": 26101
+          },
+          "end": {
+            "line": 255,
+            "column": 9,
+            "offset": 26110
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n      ",
+        "position": {
+          "start": {
+            "line": 255,
+            "column": 15,
+            "offset": 26116
+          },
+          "end": {
+            "line": 257,
+            "column": 7,
+            "offset": 26124
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n    ",
+        "position": {
+          "start": {
+            "line": 257,
+            "column": 13,
+            "offset": 26130
+          },
+          "end": {
+            "line": 258,
+            "column": 5,
+            "offset": 26135
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n  ",
+        "position": {
+          "start": {
+            "line": 258,
+            "column": 15,
+            "offset": 26145
+          },
+          "end": {
+            "line": 259,
+            "column": 3,
+            "offset": 26148
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n",
+        "position": {
+          "start": {
+            "line": 259,
+            "column": 10,
+            "offset": 26155
+          },
+          "end": {
+            "line": 262,
+            "column": 1,
+            "offset": 26158
+          }
+        }
+      }
+    ],
+    "data": {
+      "quirksMode": false
+    },
+    "position": {
+      "start": {
+        "line": 1,
+        "column": 1,
+        "offset": 0
+      },
+      "end": {
+        "line": 262,
+        "column": 15,
+        "offset": 26172
+      }
+    }
+  }
+}

@@ -1,0 +1,1711 @@
+{
+  "meta": {
+    "title": "What Your Resting Heart Rate Says About You",
+    "date": "2020-02-06T12:01:02.773Z",
+    "author": "Mariana Lenharo",
+    "publisher": "Medium",
+    "description": "Could human lives be extended by slowing down our hearts? Triggered by the observation that mammals with a higher heart rate live shorter than those with a slower one, this is the question that Dr…",
+    "image": "https://miro.medium.com/focal/1200/632/41/53/1*Om3m6TkNp8-ys9KLHozFsg.jpeg",
+    "keywords": [],
+    "lang": "en",
+    "url": "https://elemental.medium.com/what-your-resting-heart-rate-tells-you-about-your-health-e6cf071c3d59"
+  },
+  "summary": "Could human lives be extended by slowing down our hearts? Triggered by the observation that mammals with a higher heart rate live shorter than those with a slower one, this is the question that Dr. Herbert J. Levine, an eminent cardiologist and professor emeritus at Tufts Univers",
+  "body": {
+    "type": "element",
+    "tagName": "article",
+    "properties": {},
+    "children": [
+      {
+        "type": "element",
+        "tagName": "h1",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "What Your Resting Heart Rate Says About You",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 5540,
+                "offset": 30099
+              },
+              "end": {
+                "line": 11,
+                "column": 5583,
+                "offset": 30142
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 5490,
+            "offset": 30049
+          },
+          "end": {
+            "line": 11,
+            "column": 5588,
+            "offset": 30147
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "It could hint at how long you’ll live",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 5724,
+                "offset": 30283
+              },
+              "end": {
+                "line": 11,
+                "column": 5761,
+                "offset": 30320
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 5674,
+            "offset": 30233
+          },
+          "end": {
+            "line": 11,
+            "column": 5766,
+            "offset": 30325
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "figure",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "figcaption",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Photo: KATERYNA KON/SCIENCE PHOTO LIBRARY/Getty Images",
+                "position": {
+                  "start": {
+                    "line": 11,
+                    "column": 10795,
+                    "offset": 35354
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 10849,
+                    "offset": 35408
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 10710,
+                "offset": 35269
+              },
+              "end": {
+                "line": 11,
+                "column": 10862,
+                "offset": 35421
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 9957,
+            "offset": 34516
+          },
+          "end": {
+            "line": 11,
+            "column": 10871,
+            "offset": 35430
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "C",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 11231,
+                "offset": 35790
+              },
+              "end": {
+                "line": 11,
+                "column": 11232,
+                "offset": 35791
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "ould human lives be extended by slowing down our hearts? Triggered by the observation that mammals with a higher heart rate live shorter than those with a slower one, this is the question that Dr. Herbert J. Levine, an eminent cardiologist and professor emeritus at Tufts University School of Medicine, asked in his 1997 ",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 11246,
+                "offset": 35805
+              },
+              "end": {
+                "line": 11,
+                "column": 11567,
+                "offset": 36126
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.ncbi.nlm.nih.gov/pubmed/9316546",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "article",
+                "position": {
+                  "start": {
+                    "line": 11,
+                    "column": 11687,
+                    "offset": 36246
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 11694,
+                    "offset": 36253
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 11567,
+                "offset": 36126
+              },
+              "end": {
+                "line": 11,
+                "column": 11698,
+                "offset": 36257
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " “Rest Heart Rate and Life Expectancy.”",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 11698,
+                "offset": 36257
+              },
+              "end": {
+                "line": 11,
+                "column": 11737,
+                "offset": 36296
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 10871,
+            "offset": 35430
+          },
+          "end": {
+            "line": 11,
+            "column": 11741,
+            "offset": 36300
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "To this day, his question has not been fully answered. But several recent studies have found important links between slower hearts and longer lives, elevating resting heart rate to the level of an important health indicator.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 11844,
+                "offset": 36403
+              },
+              "end": {
+                "line": 11,
+                "column": 12068,
+                "offset": 36627
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 11741,
+            "offset": 36300
+          },
+          "end": {
+            "line": 11,
+            "column": 12072,
+            "offset": 36631
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "With the increasing popularity of smartwatches and other tracking devices, people are more aware than ever of their own resting heart rates, a measure defined by the number of heartbeats per minute while at rest, like when you’re sitting or lying down, no sooner than two hours after exercising. But how exactly to interpret that number, and what to do with that information, might not be so clear.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 12175,
+                "offset": 36734
+              },
+              "end": {
+                "line": 11,
+                "column": 12573,
+                "offset": 37132
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 12072,
+            "offset": 36631
+          },
+          "end": {
+            "line": 11,
+            "column": 12577,
+            "offset": 37136
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "To complicate things further, resting heart rates can widely vary from person to person, as much as 70 beats per minute, according to a ",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 12680,
+                "offset": 37239
+              },
+              "end": {
+                "line": 11,
+                "column": 12816,
+                "offset": 37375
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0227709",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "new study",
+                "position": {
+                  "start": {
+                    "line": 11,
+                    "column": 12966,
+                    "offset": 37525
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 12975,
+                    "offset": 37534
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 12816,
+                "offset": 37375
+              },
+              "end": {
+                "line": 11,
+                "column": 12979,
+                "offset": 37538
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " that looked at the largest dataset of daily resting heart rates ever collected.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 12979,
+                "offset": 37538
+              },
+              "end": {
+                "line": 11,
+                "column": 13059,
+                "offset": 37618
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 12577,
+            "offset": 37136
+          },
+          "end": {
+            "line": 11,
+            "column": 13063,
+            "offset": 37622
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h1",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "What is known",
+                "position": {
+                  "start": {
+                    "line": 11,
+                    "column": 13184,
+                    "offset": 37743
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 13197,
+                    "offset": 37756
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 13165,
+                "offset": 37724
+              },
+              "end": {
+                "line": 11,
+                "column": 13206,
+                "offset": 37765
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 13063,
+            "offset": 37622
+          },
+          "end": {
+            "line": 11,
+            "column": 13211,
+            "offset": 37770
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The most established fact about resting heart rate is that it’s inversely associated with a person’s level of physical fitness. In other words: The fitter you are, the lower your resting heart rate (elite athletes, for example, tend to have notoriously low heart rates). This happens because, as you exercise, your heart muscle becomes stronger and requires fewer heartbeats to pump blood.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 13314,
+                "offset": 37873
+              },
+              "end": {
+                "line": 11,
+                "column": 13703,
+                "offset": 38262
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 13211,
+            "offset": 37770
+          },
+          "end": {
+            "line": 11,
+            "column": 13707,
+            "offset": 38266
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "When trying to figure out the reason why people with lower resting heart rates seem to live longer, researchers assumed that there wasn’t a direct, causal association. The main assumption among scientists was that people with a slower heartbeat just happened to be fitter and physical fitness is what made them live longer.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 13810,
+                "offset": 38369
+              },
+              "end": {
+                "line": 11,
+                "column": 14133,
+                "offset": 38692
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 13707,
+            "offset": 38266
+          },
+          "end": {
+            "line": 11,
+            "column": 14137,
+            "offset": 38696
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "“In general, when we talk about resting heart rate, there is pretty good evidence that lower is better.”",
+                "position": {
+                  "start": {
+                    "line": 11,
+                    "column": 14275,
+                    "offset": 38834
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 14379,
+                    "offset": 38938
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 14250,
+                "offset": 38809
+              },
+              "end": {
+                "line": 11,
+                "column": 14383,
+                "offset": 38942
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 14137,
+            "offset": 38696
+          },
+          "end": {
+            "line": 11,
+            "column": 14402,
+            "offset": 38961
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "That assumption was put to test by a study led by Dr. Magnus T. Jensen, head of the department of cardiology at the Copenhagen University Hospital Amager & Hvidovre. His team analyzed ",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 14505,
+                "offset": 39064
+              },
+              "end": {
+                "line": 11,
+                "column": 14693,
+                "offset": 39252
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://heart.bmj.com/content/99/12/882.full?sid=90e3623c-1250-4b94-928c-0a8f95c5b36b",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "data",
+                "position": {
+                  "start": {
+                    "line": 11,
+                    "column": 14855,
+                    "offset": 39414
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 14859,
+                    "offset": 39418
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 14693,
+                "offset": 39252
+              },
+              "end": {
+                "line": 11,
+                "column": 14863,
+                "offset": 39422
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " from almost 2,800 middle-aged men followed for 16 years in Copenhagen. “Every individual had had an assessment of VO2 max, which is a measure of fitness level,” Jensen says. That data allowed them to conclude that there was in fact a direct association, independent of physical fitness, between having a lower heart rate and a lower risk of mortality.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 14863,
+                "offset": 39422
+              },
+              "end": {
+                "line": 11,
+                "column": 15215,
+                "offset": 39774
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 14402,
+            "offset": 38961
+          },
+          "end": {
+            "line": 11,
+            "column": 15219,
+            "offset": 39778
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "“In general, when we talk about resting heart rate, there is pretty good evidence that lower is better,” says Barry A. Franklin, PhD, director of preventive cardiology & cardiac rehabilitation at Beaumont Health.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 15322,
+                "offset": 39881
+              },
+              "end": {
+                "line": 11,
+                "column": 15538,
+                "offset": 40097
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 15219,
+            "offset": 39778
+          },
+          "end": {
+            "line": 11,
+            "column": 15542,
+            "offset": 40101
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "So what’s considered a “normal” range for a resting heart rate?",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 15645,
+                "offset": 40204
+              },
+              "end": {
+                "line": 11,
+                "column": 15708,
+                "offset": 40267
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 15542,
+            "offset": 40101
+          },
+          "end": {
+            "line": 11,
+            "column": 15712,
+            "offset": 40271
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "According to the American Heart Association, a normal resting heart rate ranges from ",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 15815,
+                "offset": 40374
+              },
+              "end": {
+                "line": 11,
+                "column": 15900,
+                "offset": 40459
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "60–100 beats per minute",
+                "position": {
+                  "start": {
+                    "line": 11,
+                    "column": 16098,
+                    "offset": 40657
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 16121,
+                    "offset": 40680
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 15900,
+                "offset": 40459
+              },
+              "end": {
+                "line": 11,
+                "column": 16125,
+                "offset": 40684
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". Most experts agree with that statement, although it is not an absolute consensus, particularly on the higher end. “I respectfully disagree with calling 95 or 100 beats per minute normal,” Franklin says, adding that this range might already be linked to a lower life expectancy.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 16125,
+                "offset": 40684
+              },
+              "end": {
+                "line": 11,
+                "column": 16404,
+                "offset": 40963
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 15712,
+            "offset": 40271
+          },
+          "end": {
+            "line": 11,
+            "column": 16408,
+            "offset": 40967
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "This week’s comprehensive Scripps Research study published in ",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 16511,
+                "offset": 41070
+              },
+              "end": {
+                "line": 11,
+                "column": 16573,
+                "offset": 41132
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "PLOS",
+                "position": {
+                  "start": {
+                    "line": 11,
+                    "column": 16588,
+                    "offset": 41147
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 16592,
+                    "offset": 41151
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 16573,
+                "offset": 41132
+              },
+              "end": {
+                "line": 11,
+                "column": 16597,
+                "offset": 41156
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", showed that what is considered “normal” for one person may be abnormal for another. Individuals’ average resting heart rates were found to be as low as 40 and as high as 110 beats per minute. The researchers took data from wearable devices worn by more than 92,000 people over a median of 320 days.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 16597,
+                "offset": 41156
+              },
+              "end": {
+                "line": 11,
+                "column": 16897,
+                "offset": 41456
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 16408,
+            "offset": 40967
+          },
+          "end": {
+            "line": 11,
+            "column": 16901,
+            "offset": 41460
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The study also highlighted that an individual’s resting heart rate is pretty much consistent over time, and so deviations from the typical rate could be an important sign that something is wrong. “The variability of the resting heart rate may provide additional information, not only for cardiovascular health but also for pulmonary status, infectious disease detection, reproductive health, and possibly more,” says Giorgio Quer, first author of the study.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 17004,
+                "offset": 41563
+              },
+              "end": {
+                "line": 11,
+                "column": 17461,
+                "offset": 42020
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 16901,
+            "offset": 41460
+          },
+          "end": {
+            "line": 11,
+            "column": 17465,
+            "offset": 42024
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "One of the limitations of the research is that it only tracked the participant’s “normal” heart rate, without looking at their actual health. We do not have information on the health condition of the individuals, so we cannot say that “normal” also means healthy, says Quer.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 17568,
+                "offset": 42127
+              },
+              "end": {
+                "line": 11,
+                "column": 17842,
+                "offset": 42401
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 17465,
+            "offset": 42024
+          },
+          "end": {
+            "line": 11,
+            "column": 17846,
+            "offset": 42405
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h1",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "When and how to control your resting heart rate",
+                "position": {
+                  "start": {
+                    "line": 11,
+                    "column": 17967,
+                    "offset": 42526
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 18014,
+                    "offset": 42573
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 17948,
+                "offset": 42507
+              },
+              "end": {
+                "line": 11,
+                "column": 18023,
+                "offset": 42582
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 17846,
+            "offset": 42405
+          },
+          "end": {
+            "line": 11,
+            "column": 18028,
+            "offset": 42587
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "There are things you can do to slow it down to a healthier rate. One of the most important is exercising regularly. “Even a brisk walking program can lower the resting heart rate in 10–12 beats per minute,” says Franklin.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 18131,
+                "offset": 42690
+              },
+              "end": {
+                "line": 11,
+                "column": 18352,
+                "offset": 42911
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 18028,
+            "offset": 42587
+          },
+          "end": {
+            "line": 11,
+            "column": 18356,
+            "offset": 42915
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "If your resting heart rate is consistently above 100 beats per minute, with or without symptoms, you should be evaluated by a doctor.",
+                "position": {
+                  "start": {
+                    "line": 11,
+                    "column": 18494,
+                    "offset": 43053
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 18627,
+                    "offset": 43186
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 18469,
+                "offset": 43028
+              },
+              "end": {
+                "line": 11,
+                "column": 18631,
+                "offset": 43190
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 18356,
+            "offset": 42915
+          },
+          "end": {
+            "line": 11,
+            "column": 18650,
+            "offset": 43209
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "While there are drugs, such as beta-blockers, that can lower your resting heart rate, healthy people with a high resting heart rate but no actual symptoms such as shortness of breath or chest pain, shouldn’t take them unless advised by their health care provider. “We don’t know if intervening on heart rate with a drug would prolong these people’s lives. But we do have an astounding amount of information to prove that lifestyle interventions — weight loss, increasing fitness, lowering blood pressure — are associated with both a lower heart rate and longevity,” Jensen says.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 18753,
+                "offset": 43312
+              },
+              "end": {
+                "line": 11,
+                "column": 19331,
+                "offset": 43890
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 18650,
+            "offset": 43209
+          },
+          "end": {
+            "line": 11,
+            "column": 19335,
+            "offset": 43894
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "If your resting heart rate is consistently above 100 beats per minute, with or without symptoms such as shortness of breath, chest pain, or dizziness, you should be evaluated by a doctor, said Dr. Matthew Martinez, chair of the American College of Cardiology’s sports and exercise cardiology section.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 19438,
+                "offset": 43997
+              },
+              "end": {
+                "line": 11,
+                "column": 19738,
+                "offset": 44297
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 19335,
+            "offset": 43894
+          },
+          "end": {
+            "line": 11,
+            "column": 19742,
+            "offset": 44301
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "You should also pay attention to sudden changes. “Your heart rate will vary during a day, after caffeine ingestion, a stressful moment, and even from walking down the hallway,” says Martinez. “But rapid changes — of more than 20 beats per minute within a minute at rest — should be brought to the attention of a health care provider.”",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 19845,
+                "offset": 44404
+              },
+              "end": {
+                "line": 11,
+                "column": 20179,
+                "offset": 44738
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 19742,
+            "offset": 44301
+          },
+          "end": {
+            "line": 11,
+            "column": 20183,
+            "offset": 44742
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Although having a lower heart rate is generally considered a good thing, there are a few exceptions, Martinez notes. If you are neither an athlete nor a regular exerciser, and your heart is beating under 60 beats per minute (a condition called bradycardia), that may be a sign of specific medical conditions such as thyroid disease or a problem caused by abnormalities in the electrical conduction system, especially if symptoms such as dizziness and lightheadedness are present.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 20286,
+                "offset": 44845
+              },
+              "end": {
+                "line": 11,
+                "column": 20765,
+                "offset": 45324
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 20183,
+            "offset": 44742
+          },
+          "end": {
+            "line": 11,
+            "column": 20769,
+            "offset": 45328
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h1",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The pros and cons of heart rate trackers",
+                "position": {
+                  "start": {
+                    "line": 11,
+                    "column": 20890,
+                    "offset": 45449
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 20930,
+                    "offset": 45489
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 20871,
+                "offset": 45430
+              },
+              "end": {
+                "line": 11,
+                "column": 20939,
+                "offset": 45498
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 20769,
+            "offset": 45328
+          },
+          "end": {
+            "line": 11,
+            "column": 20944,
+            "offset": 45503
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Experts find it positive that people are more familiar with their heart rates. “It means that people are getting more engaged in their health,” says Seth S. Martin, director of the advanced lipid disorders program of the Ciccarone Center, Johns Hopkins Medicine. “By being better informed and taking a more active role in their health, they can prevent downstream problems.”",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 21047,
+                "offset": 45606
+              },
+              "end": {
+                "line": 11,
+                "column": 21421,
+                "offset": 45980
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 20944,
+            "offset": 45503
+          },
+          "end": {
+            "line": 11,
+            "column": 21425,
+            "offset": 45984
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Tracking your heart rate could also be useful for detecting certain heart rhythm disorders such as atrial fibrillation, which can be asymptomatic, according to Dr. Nino Isakadze, a clinical cardiology fellow at the Johns Hopkins Hospital. A recent study funded by Apple, the ",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 21528,
+                "offset": 46087
+              },
+              "end": {
+                "line": 11,
+                "column": 21803,
+                "offset": 46362
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.nejm.org/doi/full/10.1056/NEJMoa1901183",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Apple Heart Study",
+                "position": {
+                  "start": {
+                    "line": 11,
+                    "column": 21931,
+                    "offset": 46490
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 21948,
+                    "offset": 46507
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 21803,
+                "offset": 46362
+              },
+              "end": {
+                "line": 11,
+                "column": 21952,
+                "offset": 46511
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", concluded that an Apple Watch app was able to identify atrial fibrillation with an 84% accuracy.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 21952,
+                "offset": 46511
+              },
+              "end": {
+                "line": 11,
+                "column": 22050,
+                "offset": 46609
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 21425,
+            "offset": 45984
+          },
+          "end": {
+            "line": 11,
+            "column": 22054,
+            "offset": 46613
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "But it’s important not to get overly focused on the tracking. “There is a risk of information overload,” says Martinez. “I often advise patients about the anxiety that comes with that information and how to handle that data. It is an important indicator, but a fixation on the actual number is sometimes harmful too.” He advises his patients to check their resting heart rate no more than three or four times a week, always choosing different times of the day and no sooner than two hours after exercise and one hour after caffeine intake. Many tracking devices, such as the Apple Watch, show the average daily resting heart rate, which provides a more reliable picture of the speed of your heartbeat than checking it at any given moment of the day.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 22157,
+                "offset": 46716
+              },
+              "end": {
+                "line": 11,
+                "column": 22906,
+                "offset": 47465
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 22054,
+            "offset": 46613
+          },
+          "end": {
+            "line": 11,
+            "column": 22910,
+            "offset": 47469
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "“There is certainly a risk that tracking heart rate can create anxiety which can sometimes lead to elevated heart rate and unnecessary doctor visits and testing,” said Isakadze.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 23013,
+                "offset": 47572
+              },
+              "end": {
+                "line": 11,
+                "column": 23190,
+                "offset": 47749
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 22910,
+            "offset": 47469
+          },
+          "end": {
+            "line": 11,
+            "column": 23194,
+            "offset": 47753
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Interpreting the data can also be challenging. “There are lots of reasons why your heart rate can be abnormal, either high or low. Devices can identify abnormalities, but accuracy and utility are still yet to be determined. Identifying all this information without understanding what to do with the data can be potentially harmful,” Martinez said.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 23297,
+                "offset": 47856
+              },
+              "end": {
+                "line": 11,
+                "column": 23644,
+                "offset": 48203
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 23194,
+            "offset": 47753
+          },
+          "end": {
+            "line": 11,
+            "column": 23648,
+            "offset": 48207
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Jensen shared an anecdote of how people could use that information productively in their daily lives. When he asked his Uber driver in London if he was enjoying the heart rate feature of his Apple Watch, the man told him he had noticed an increase in his beats per minute after starting his own business and going through a high level of stress. That made him think about his well-being and lead him to take a few days off.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 23751,
+                "offset": 48310
+              },
+              "end": {
+                "line": 11,
+                "column": 24174,
+                "offset": 48733
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 23648,
+            "offset": 48207
+          },
+          "end": {
+            "line": 11,
+            "column": 24178,
+            "offset": 48737
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "If it is true that “God has given each of us just so many heartbeats,” as the late Dr. Levine was fond of ",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 24281,
+                "offset": 48840
+              },
+              "end": {
+                "line": 11,
+                "column": 24387,
+                "offset": 48946
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://now.tufts.edu/articles/old-school-doc",
+              "rel": [
+                "noopener",
+                "nofollow"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "saying",
+                "position": {
+                  "start": {
+                    "line": 11,
+                    "column": 24509,
+                    "offset": 49068
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 24515,
+                    "offset": 49074
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 24387,
+                "offset": 48946
+              },
+              "end": {
+                "line": 11,
+                "column": 24519,
+                "offset": 49078
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", then the slower we play them out, the longer we may live.",
+            "position": {
+              "start": {
+                "line": 11,
+                "column": 24519,
+                "offset": 49078
+              },
+              "end": {
+                "line": 11,
+                "column": 24578,
+                "offset": 49137
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 11,
+            "column": 24178,
+            "offset": 48737
+          },
+          "end": {
+            "line": 11,
+            "column": 24582,
+            "offset": 49141
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "line": 11,
+        "column": 5177,
+        "offset": 29736
+      },
+      "end": {
+        "line": 11,
+        "column": 24620,
+        "offset": 49179
+      }
+    }
+  }
+}

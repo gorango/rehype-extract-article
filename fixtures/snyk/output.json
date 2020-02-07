@@ -1,0 +1,2249 @@
+{
+  "meta": {
+    "title": "Kotlin overtakes Scala and Clojure, to become the 2nd most popular language on the JVM",
+    "date": "2020-02-05T14:45:11+00:00",
+    "author": null,
+    "publisher": "Snyk",
+    "description": "Welcome to our annual JVM ecosystem report! This report presents the results of the largest annual survey on the JVM ecosystem, showing results from the",
+    "image": "https://snyk.io/wp-content/uploads/jvm_2020_with_logos-feature.png",
+    "keywords": [],
+    "lang": "en-US",
+    "url": "https://snyk.io/blog/kotlin-overtakes-scala-and-clojure-to-become-the-2nd-most-popular-language-on-the-jvm/"
+  },
+  "summary": "\n    \n    \n        \n            \n            \n\n            \n\n            \n                \nDOWNLOAD THE JVM ECOSYSTEM 2020 REPORT!\n\n\nWhat is the main JVM language you use for your main application? \n\n\n\nWhile the variety of JVM languages grew over the last couple of years, the lar",
+  "body": {
+    "type": "element",
+    "tagName": "article",
+    "properties": {},
+    "children": [
+      {
+        "type": "text",
+        "value": "\n    ",
+        "position": {
+          "start": {
+            "line": 252,
+            "column": 165,
+            "offset": 23034
+          },
+          "end": {
+            "line": 253,
+            "column": 5,
+            "offset": 23039
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n    ",
+        "position": {
+          "start": {
+            "line": 307,
+            "column": 14,
+            "offset": 27080
+          },
+          "end": {
+            "line": 308,
+            "column": 5,
+            "offset": 27085
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n        ",
+        "position": {
+          "start": {
+            "line": 308,
+            "column": 28,
+            "offset": 27108
+          },
+          "end": {
+            "line": 309,
+            "column": 9,
+            "offset": 27117
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n            ",
+        "position": {
+          "start": {
+            "line": 309,
+            "column": 41,
+            "offset": 27149
+          },
+          "end": {
+            "line": 310,
+            "column": 13,
+            "offset": 27162
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h1",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Kotlin overtakes Scala and Clojure, to become the 2nd most popular language on the JVM",
+            "position": {
+              "start": {
+                "line": 310,
+                "column": 30,
+                "offset": 27179
+              },
+              "end": {
+                "line": 310,
+                "column": 116,
+                "offset": 27265
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 310,
+            "column": 13,
+            "offset": 27162
+          },
+          "end": {
+            "line": 310,
+            "column": 121,
+            "offset": 27270
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n            ",
+        "position": {
+          "start": {
+            "line": 310,
+            "column": 121,
+            "offset": 27270
+          },
+          "end": {
+            "line": 311,
+            "column": 13,
+            "offset": 27283
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n            ",
+        "position": {
+          "start": {
+            "line": 341,
+            "column": 19,
+            "offset": 29269
+          },
+          "end": {
+            "line": 343,
+            "column": 13,
+            "offset": 29283
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n            ",
+        "position": {
+          "start": {
+            "line": 363,
+            "column": 19,
+            "offset": 31326
+          },
+          "end": {
+            "line": 365,
+            "column": 13,
+            "offset": 31340
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n                ",
+        "position": {
+          "start": {
+            "line": 365,
+            "column": 40,
+            "offset": 31367
+          },
+          "end": {
+            "line": 366,
+            "column": 17,
+            "offset": 31384
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 378,
+            "column": 7,
+            "offset": 32978
+          },
+          "end": {
+            "line": 379,
+            "column": 1,
+            "offset": 32979
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://snyk.io/wp-content/uploads/jvm_2020.pdf"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "DOWNLOAD THE JVM ECOSYSTEM 2020 REPORT!",
+                "position": {
+                  "start": {
+                    "line": 379,
+                    "column": 134,
+                    "offset": 33112
+                  },
+                  "end": {
+                    "line": 379,
+                    "column": 173,
+                    "offset": 33151
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 379,
+                "column": 34,
+                "offset": 33012
+              },
+              "end": {
+                "line": 379,
+                "column": 177,
+                "offset": 33155
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 379,
+            "column": 1,
+            "offset": 32979
+          },
+          "end": {
+            "line": 379,
+            "column": 188,
+            "offset": 33166
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n",
+        "position": {
+          "start": {
+            "line": 379,
+            "column": 188,
+            "offset": 33166
+          },
+          "end": {
+            "line": 382,
+            "column": 1,
+            "offset": 33169
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "What is the main JVM language you use for your main application? ",
+            "position": {
+              "start": {
+                "line": 382,
+                "column": 5,
+                "offset": 33173
+              },
+              "end": {
+                "line": 382,
+                "column": 70,
+                "offset": 33238
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 382,
+            "column": 1,
+            "offset": 33169
+          },
+          "end": {
+            "line": 382,
+            "column": 75,
+            "offset": 33243
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 382,
+            "column": 75,
+            "offset": 33243
+          },
+          "end": {
+            "line": 386,
+            "column": 1,
+            "offset": 33247
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "While the variety of JVM languages grew over the last couple of years, the large majority of JVM users — nearly 9 out of 10 — still use Java as their main language. ",
+            "position": {
+              "start": {
+                "line": 386,
+                "column": 4,
+                "offset": 33250
+              },
+              "end": {
+                "line": 386,
+                "column": 169,
+                "offset": 33415
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 386,
+            "column": 1,
+            "offset": 33247
+          },
+          "end": {
+            "line": 386,
+            "column": 173,
+            "offset": 33419
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 386,
+            "column": 173,
+            "offset": 33419
+          },
+          "end": {
+            "line": 390,
+            "column": 1,
+            "offset": 33423
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "One of the reasons we see this consistently large\npercentage over the years, is the fact that Java",
+            "position": {
+              "start": {
+                "line": 390,
+                "column": 4,
+                "offset": 33426
+              },
+              "end": {
+                "line": 391,
+                "column": 49,
+                "offset": 33524
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "br",
+            "properties": {},
+            "children": [],
+            "position": {
+              "start": {
+                "line": 391,
+                "column": 49,
+                "offset": 33524
+              },
+              "end": {
+                "line": 391,
+                "column": 53,
+                "offset": 33528
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\nis constantly changing. Many of the language\nconstructs and paradigms that other JVM languages\nhave been using to differentiate themselves from\nJava, have been introduced and implemented in Java,\nsuch as local type inference, and lambdas, to name\njust a couple. The new Java release cycle also makes\nthese new features available to developers earlier\nthan before.\n",
+            "position": {
+              "start": {
+                "line": 391,
+                "column": 53,
+                "offset": 33528
+              },
+              "end": {
+                "line": 400,
+                "column": 1,
+                "offset": 33893
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 390,
+            "column": 1,
+            "offset": 33423
+          },
+          "end": {
+            "line": 400,
+            "column": 5,
+            "offset": 33897
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 400,
+            "column": 5,
+            "offset": 33897
+          },
+          "end": {
+            "line": 404,
+            "column": 1,
+            "offset": 33901
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "However, despite the strong preference for Java, the use of other JVM languages grew as well. Particularly Kotlin, a language developed by JetBrains, gained a lot of popularity over the last couple of years. In fact, Kotlin grew from 2.4%, according to last year’s report, to an impressive 5.5%. ",
+            "position": {
+              "start": {
+                "line": 404,
+                "column": 4,
+                "offset": 33904
+              },
+              "end": {
+                "line": 404,
+                "column": 306,
+                "offset": 34206
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 404,
+            "column": 1,
+            "offset": 33901
+          },
+          "end": {
+            "line": 404,
+            "column": 310,
+            "offset": 34210
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 404,
+            "column": 310,
+            "offset": 34210
+          },
+          "end": {
+            "line": 408,
+            "column": 1,
+            "offset": 34214
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": " ",
+            "position": {
+              "start": {
+                "line": 408,
+                "column": 4,
+                "offset": 34217
+              },
+              "end": {
+                "line": 408,
+                "column": 5,
+                "offset": 34218
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 408,
+            "column": 1,
+            "offset": 34214
+          },
+          "end": {
+            "line": 408,
+            "column": 9,
+            "offset": 34222
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 408,
+            "column": 9,
+            "offset": 34222
+          },
+          "end": {
+            "line": 412,
+            "column": 1,
+            "offset": 34226
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "figure",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "img",
+            "properties": {
+              "src": "https://snyk.io/wp-content/uploads/11.png",
+              "alt": ""
+            },
+            "children": [],
+            "position": {
+              "start": {
+                "line": 412,
+                "column": 32,
+                "offset": 34257
+              },
+              "end": {
+                "line": 412,
+                "column": 383,
+                "offset": 34608
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 412,
+            "column": 1,
+            "offset": 34226
+          },
+          "end": {
+            "line": 412,
+            "column": 392,
+            "offset": 34617
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 412,
+            "column": 392,
+            "offset": 34617
+          },
+          "end": {
+            "line": 416,
+            "column": 1,
+            "offset": 34621
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The growth of Kotlin adoption, among JVM users,\nis not surprising considering how seamlessly it\nintegrates with Java. Not to mention that, the\nadoption of Kotlin in frameworks like Spring Boot\nmade it easier to create production-grade systems\n",
+            "position": {
+              "start": {
+                "line": 416,
+                "column": 4,
+                "offset": 34624
+              },
+              "end": {
+                "line": 421,
+                "column": 1,
+                "offset": 34867
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 416,
+            "column": 1,
+            "offset": 34621
+          },
+          "end": {
+            "line": 421,
+            "column": 5,
+            "offset": 34871
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 421,
+            "column": 5,
+            "offset": 34871
+          },
+          "end": {
+            "line": 425,
+            "column": 1,
+            "offset": 34875
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "It is important to note that, the innovations\nKotlin tries to achieve flow back into the\ndevelopment of Java. Newer Java versions try to\nintegrate concepts that are popular and loved in\nlanguages like Kotlin. It is interesting to see how\nthis influences the future adoption of different\nJVM languages.\n",
+            "position": {
+              "start": {
+                "line": 425,
+                "column": 4,
+                "offset": 34878
+              },
+              "end": {
+                "line": 432,
+                "column": 1,
+                "offset": 35180
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 425,
+            "column": 1,
+            "offset": 34875
+          },
+          "end": {
+            "line": 432,
+            "column": 5,
+            "offset": 35184
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 432,
+            "column": 5,
+            "offset": 35184
+          },
+          "end": {
+            "line": 436,
+            "column": 1,
+            "offset": 35188
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Do you write or maintain any Java applications? For those who don’t use Java in their main application, do they use it at all? ",
+            "position": {
+              "start": {
+                "line": 436,
+                "column": 5,
+                "offset": 35192
+              },
+              "end": {
+                "line": 436,
+                "column": 138,
+                "offset": 35325
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 436,
+            "column": 1,
+            "offset": 35188
+          },
+          "end": {
+            "line": 436,
+            "column": 143,
+            "offset": 35330
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 436,
+            "column": 143,
+            "offset": 35330
+          },
+          "end": {
+            "line": 440,
+            "column": 1,
+            "offset": 35334
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Not every JVM developer uses Java as their main\nlanguage. Based on the responses to the previous\nquestion, JVM developers who predominantly use\nother languages in their application, account for\n13%. Out of this group of developers, the majority\n(70%) still uses Java in some capacity, during their\nregular work.\n",
+            "position": {
+              "start": {
+                "line": 440,
+                "column": 4,
+                "offset": 35337
+              },
+              "end": {
+                "line": 447,
+                "column": 1,
+                "offset": 35649
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 440,
+            "column": 1,
+            "offset": 35334
+          },
+          "end": {
+            "line": 447,
+            "column": 5,
+            "offset": 35653
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 447,
+            "column": 5,
+            "offset": 35653
+          },
+          "end": {
+            "line": 451,
+            "column": 1,
+            "offset": 35657
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "This means that 96% of overall respondents use Java, either as their main language or to a smaller extent, in their application. Only 4% of respondents run applications on the JVM that entirely use alternative JVM languages. ",
+            "position": {
+              "start": {
+                "line": 451,
+                "column": 4,
+                "offset": 35660
+              },
+              "end": {
+                "line": 451,
+                "column": 229,
+                "offset": 35885
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 451,
+            "column": 1,
+            "offset": 35657
+          },
+          "end": {
+            "line": 451,
+            "column": 233,
+            "offset": 35889
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 451,
+            "column": 233,
+            "offset": 35889
+          },
+          "end": {
+            "line": 455,
+            "column": 1,
+            "offset": 35893
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "figure",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "img",
+            "properties": {
+              "src": "https://snyk.io/wp-content/uploads/12.png",
+              "alt": ""
+            },
+            "children": [],
+            "position": {
+              "start": {
+                "line": 455,
+                "column": 32,
+                "offset": 35924
+              },
+              "end": {
+                "line": 455,
+                "column": 383,
+                "offset": 36275
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 455,
+            "column": 1,
+            "offset": 35893
+          },
+          "end": {
+            "line": 455,
+            "column": 392,
+            "offset": 36284
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 455,
+            "column": 392,
+            "offset": 36284
+          },
+          "end": {
+            "line": 459,
+            "column": 1,
+            "offset": 36288
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Are you using, or are you planning to use, Java modules in your Java applications? ",
+            "position": {
+              "start": {
+                "line": 459,
+                "column": 5,
+                "offset": 36292
+              },
+              "end": {
+                "line": 459,
+                "column": 88,
+                "offset": 36375
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 459,
+            "column": 1,
+            "offset": 36288
+          },
+          "end": {
+            "line": 459,
+            "column": 93,
+            "offset": 36380
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 459,
+            "column": 93,
+            "offset": 36380
+          },
+          "end": {
+            "line": 463,
+            "column": 1,
+            "offset": 36384
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The release of Java 9 introduced some major\narchitectural changes. The most famous and impactful\nchange was the introduction of the module system,\nformally known as the Java Platform Module System\n(JPMS). This new abstraction above packages make it\npossible to create a smaller, more fit-for-purpose JDK\n",
+            "position": {
+              "start": {
+                "line": 463,
+                "column": 4,
+                "offset": 36387
+              },
+              "end": {
+                "line": 469,
+                "column": 1,
+                "offset": 36691
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 463,
+            "column": 1,
+            "offset": 36384
+          },
+          "end": {
+            "line": 469,
+            "column": 5,
+            "offset": 36695
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 469,
+            "column": 5,
+            "offset": 36695
+          },
+          "end": {
+            "line": 473,
+            "column": 1,
+            "offset": 36699
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "But architectural changes of this magnitude are bound to have a large impact on older or legacy systems, if they are to be migrated. It’s important to note, however, that you are not forced to use the module system in Java 9 and higher. You are able to continue to use the classpath while the module system silently bundles all your jars into the unnamed module. ",
+            "position": {
+              "start": {
+                "line": 473,
+                "column": 4,
+                "offset": 36702
+              },
+              "end": {
+                "line": 473,
+                "column": 373,
+                "offset": 37071
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 473,
+            "column": 1,
+            "offset": 36699
+          },
+          "end": {
+            "line": 473,
+            "column": 377,
+            "offset": 37075
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 473,
+            "column": 377,
+            "offset": 37075
+          },
+          "end": {
+            "line": 477,
+            "column": 1,
+            "offset": 37079
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "When we asked developers whether they are using",
+            "position": {
+              "start": {
+                "line": 477,
+                "column": 4,
+                "offset": 37082
+              },
+              "end": {
+                "line": 477,
+                "column": 51,
+                "offset": 37129
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "br",
+            "properties": {},
+            "children": [],
+            "position": {
+              "start": {
+                "line": 477,
+                "column": 51,
+                "offset": 37129
+              },
+              "end": {
+                "line": 477,
+                "column": 55,
+                "offset": 37133
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\nor plan to use the module system, we got some\ninteresting results with only 7% of the respondents\nstating that they are already using it. The vast majority\nof the participants — over 6 out of 10 — do not use the\nJPMS while 29% plan to use it in the future.\n",
+            "position": {
+              "start": {
+                "line": 477,
+                "column": 55,
+                "offset": 37133
+              },
+              "end": {
+                "line": 483,
+                "column": 1,
+                "offset": 37391
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 477,
+            "column": 1,
+            "offset": 37079
+          },
+          "end": {
+            "line": 483,
+            "column": 5,
+            "offset": 37395
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 483,
+            "column": 5,
+            "offset": 37395
+          },
+          "end": {
+            "line": 487,
+            "column": 1,
+            "offset": 37399
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "figure",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "img",
+            "properties": {
+              "src": "https://snyk.io/wp-content/uploads/13.png",
+              "alt": ""
+            },
+            "children": [],
+            "position": {
+              "start": {
+                "line": 487,
+                "column": 32,
+                "offset": 37430
+              },
+              "end": {
+                "line": 487,
+                "column": 383,
+                "offset": 37781
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 487,
+            "column": 1,
+            "offset": 37399
+          },
+          "end": {
+            "line": 487,
+            "column": 392,
+            "offset": 37790
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 487,
+            "column": 392,
+            "offset": 37790
+          },
+          "end": {
+            "line": 491,
+            "column": 1,
+            "offset": 37794
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "How easy was it to adopt Java modules? ",
+            "position": {
+              "start": {
+                "line": 491,
+                "column": 5,
+                "offset": 37798
+              },
+              "end": {
+                "line": 491,
+                "column": 44,
+                "offset": 37837
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 491,
+            "column": 1,
+            "offset": 37794
+          },
+          "end": {
+            "line": 491,
+            "column": 49,
+            "offset": 37842
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 491,
+            "column": 49,
+            "offset": 37842
+          },
+          "end": {
+            "line": 495,
+            "column": 1,
+            "offset": 37846
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "When it comes to adopting Java modules, the\nopinions on the level of difficulty differs. While a\nquarter of the respondents found the adoption\nprocess to be neither hard or easy, a significant\npercentage (25%) found the JPMS adoption to be\nrather hard (7/10 or higher). The mean, median\nand modal averages were all 5/10. According to\nthese responses, it is safe to conclude that, while\nadopting Java modules takes time and effort, it’s\nnot rocket science!\n",
+            "position": {
+              "start": {
+                "line": 495,
+                "column": 4,
+                "offset": 37849
+              },
+              "end": {
+                "line": 505,
+                "column": 1,
+                "offset": 38311
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 495,
+            "column": 1,
+            "offset": 37846
+          },
+          "end": {
+            "line": 505,
+            "column": 5,
+            "offset": 38315
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 505,
+            "column": 5,
+            "offset": 38315
+          },
+          "end": {
+            "line": 509,
+            "column": 1,
+            "offset": 38319
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "figure",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "img",
+            "properties": {
+              "src": "https://snyk.io/wp-content/uploads/14.png",
+              "alt": ""
+            },
+            "children": [],
+            "position": {
+              "start": {
+                "line": 509,
+                "column": 32,
+                "offset": 38350
+              },
+              "end": {
+                "line": 509,
+                "column": 383,
+                "offset": 38701
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 509,
+            "column": 1,
+            "offset": 38319
+          },
+          "end": {
+            "line": 509,
+            "column": 392,
+            "offset": 38710
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 509,
+            "column": 392,
+            "offset": 38710
+          },
+          "end": {
+            "line": 513,
+            "column": 1,
+            "offset": 38714
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Did you adopt Java modules while writing new applications or while migrating older ones? ",
+            "position": {
+              "start": {
+                "line": 513,
+                "column": 5,
+                "offset": 38718
+              },
+              "end": {
+                "line": 513,
+                "column": 94,
+                "offset": 38807
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 513,
+            "column": 1,
+            "offset": 38714
+          },
+          "end": {
+            "line": 513,
+            "column": 99,
+            "offset": 38812
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 513,
+            "column": 99,
+            "offset": 38812
+          },
+          "end": {
+            "line": 517,
+            "column": 1,
+            "offset": 38816
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Adopting something new is considered easier",
+            "position": {
+              "start": {
+                "line": 517,
+                "column": 4,
+                "offset": 38819
+              },
+              "end": {
+                "line": 517,
+                "column": 47,
+                "offset": 38862
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "br",
+            "properties": {},
+            "children": [],
+            "position": {
+              "start": {
+                "line": 517,
+                "column": 47,
+                "offset": 38862
+              },
+              "end": {
+                "line": 517,
+                "column": 51,
+                "offset": 38866
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\nwhen you work on a greenfield project. Creating an\napplication from scratch, for the most part means that\nyou do not have to deal with the complicated evolution\nof a software project. When it comes to adopting Java\nmodules, though, this is not always the case. According\nto our survey, almost half of the respondents adopted\nJava modules while migrating older applications.\n",
+            "position": {
+              "start": {
+                "line": 517,
+                "column": 51,
+                "offset": 38866
+              },
+              "end": {
+                "line": 525,
+                "column": 1,
+                "offset": 39241
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 517,
+            "column": 1,
+            "offset": 38816
+          },
+          "end": {
+            "line": 525,
+            "column": 5,
+            "offset": 39245
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n\n",
+        "position": {
+          "start": {
+            "line": 525,
+            "column": 5,
+            "offset": 39245
+          },
+          "end": {
+            "line": 529,
+            "column": 1,
+            "offset": 39249
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "figure",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "img",
+            "properties": {
+              "src": "https://snyk.io/wp-content/uploads/15.png",
+              "alt": ""
+            },
+            "children": [],
+            "position": {
+              "start": {
+                "line": 529,
+                "column": 32,
+                "offset": 39280
+              },
+              "end": {
+                "line": 529,
+                "column": 384,
+                "offset": 39632
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 529,
+            "column": 1,
+            "offset": 39249
+          },
+          "end": {
+            "line": 529,
+            "column": 393,
+            "offset": 39641
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n\n\n",
+        "position": {
+          "start": {
+            "line": 529,
+            "column": 393,
+            "offset": 39641
+          },
+          "end": {
+            "line": 532,
+            "column": 1,
+            "offset": 39644
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "There’s more to this report! Which section do you want to read next? ",
+            "position": {
+              "start": {
+                "line": 532,
+                "column": 4,
+                "offset": 39647
+              },
+              "end": {
+                "line": 532,
+                "column": 78,
+                "offset": 39721
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 532,
+            "column": 1,
+            "offset": 39644
+          },
+          "end": {
+            "line": 532,
+            "column": 82,
+            "offset": 39725
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 532,
+            "column": 82,
+            "offset": 39725
+          },
+          "end": {
+            "line": 533,
+            "column": 1,
+            "offset": 39726
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "ol",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "\n",
+            "position": {
+              "start": {
+                "line": 533,
+                "column": 5,
+                "offset": 39730
+              },
+              "end": {
+                "line": 534,
+                "column": 1,
+                "offset": 39731
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://snyk.io/blog/jvm-ecosystem-report-2020"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "JVM ecosystem report 2020 – Introduction",
+                    "position": {
+                      "start": {
+                        "line": 534,
+                        "column": 62,
+                        "offset": 39792
+                      },
+                      "end": {
+                        "line": 534,
+                        "column": 108,
+                        "offset": 39838
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 534,
+                    "column": 5,
+                    "offset": 39735
+                  },
+                  "end": {
+                    "line": 534,
+                    "column": 112,
+                    "offset": 39842
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 534,
+                "column": 1,
+                "offset": 39731
+              },
+              "end": {
+                "line": 534,
+                "column": 117,
+                "offset": 39847
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n",
+            "position": {
+              "start": {
+                "line": 534,
+                "column": 117,
+                "offset": 39847
+              },
+              "end": {
+                "line": 535,
+                "column": 1,
+                "offset": 39848
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://snyk.io/blog/36-of-developers-switched-from-oracle-jdk-to-an-alternate-openjdk-distribution-over-the-last-year/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "36% of developers switched from Oracle JDK to an alternate OpenJDK distribution, over the last year",
+                    "position": {
+                      "start": {
+                        "line": 535,
+                        "column": 135,
+                        "offset": 39982
+                      },
+                      "end": {
+                        "line": 535,
+                        "column": 234,
+                        "offset": 40081
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 535,
+                    "column": 5,
+                    "offset": 39852
+                  },
+                  "end": {
+                    "line": 535,
+                    "column": 238,
+                    "offset": 40085
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 535,
+                "column": 1,
+                "offset": 39848
+              },
+              "end": {
+                "line": 535,
+                "column": 243,
+                "offset": 40090
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n",
+            "position": {
+              "start": {
+                "line": 535,
+                "column": 243,
+                "offset": 40090
+              },
+              "end": {
+                "line": 536,
+                "column": 1,
+                "offset": 40091
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://snyk.io/blog/developers-dont-want-to-leave-java-8-as-64-hold-firm-on-their-preferred-release/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "64% of developers report that Java 8 remains the most often used release",
+                    "position": {
+                      "start": {
+                        "line": 536,
+                        "column": 117,
+                        "offset": 40207
+                      },
+                      "end": {
+                        "line": 536,
+                        "column": 189,
+                        "offset": 40279
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 536,
+                    "column": 5,
+                    "offset": 40095
+                  },
+                  "end": {
+                    "line": 536,
+                    "column": 193,
+                    "offset": 40283
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 536,
+                "column": 1,
+                "offset": 40091
+              },
+              "end": {
+                "line": 536,
+                "column": 198,
+                "offset": 40288
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n",
+            "position": {
+              "start": {
+                "line": 536,
+                "column": 198,
+                "offset": 40288
+              },
+              "end": {
+                "line": 537,
+                "column": 1,
+                "offset": 40289
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Kotlin overtakes Scala and Clojure, to become the 2nd most popular language on the JVM",
+                "position": {
+                  "start": {
+                    "line": 537,
+                    "column": 5,
+                    "offset": 40293
+                  },
+                  "end": {
+                    "line": 537,
+                    "column": 91,
+                    "offset": 40379
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 537,
+                "column": 1,
+                "offset": 40289
+              },
+              "end": {
+                "line": 537,
+                "column": 96,
+                "offset": 40384
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n",
+            "position": {
+              "start": {
+                "line": 537,
+                "column": 96,
+                "offset": 40384
+              },
+              "end": {
+                "line": 538,
+                "column": 1,
+                "offset": 40385
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://snyk.io/blog/spring-dominates-the-java-ecosystem-with-60-using-it-for-their-main-applications/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Spring dominates the Java ecosystem with 60% using it for their main applications",
+                    "position": {
+                      "start": {
+                        "line": 538,
+                        "column": 118,
+                        "offset": 40502
+                      },
+                      "end": {
+                        "line": 538,
+                        "column": 199,
+                        "offset": 40583
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 538,
+                    "column": 5,
+                    "offset": 40389
+                  },
+                  "end": {
+                    "line": 538,
+                    "column": 203,
+                    "offset": 40587
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 538,
+                "column": 1,
+                "offset": 40385
+              },
+              "end": {
+                "line": 538,
+                "column": 208,
+                "offset": 40592
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n",
+            "position": {
+              "start": {
+                "line": 538,
+                "column": 208,
+                "offset": 40592
+              },
+              "end": {
+                "line": 539,
+                "column": 1,
+                "offset": 40593
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://snyk.io/blog/intellij-idea-dominates-the-ide-market-with-62-adoption-among-jvm-developers"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "IntelliJ IDEA dominates the IDE market with 62% adoption among JVM developers",
+                    "position": {
+                      "start": {
+                        "line": 539,
+                        "column": 113,
+                        "offset": 40705
+                      },
+                      "end": {
+                        "line": 539,
+                        "column": 190,
+                        "offset": 40782
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 539,
+                    "column": 5,
+                    "offset": 40597
+                  },
+                  "end": {
+                    "line": 539,
+                    "column": 194,
+                    "offset": 40786
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 539,
+                "column": 1,
+                "offset": 40593
+              },
+              "end": {
+                "line": 539,
+                "column": 199,
+                "offset": 40791
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "\n",
+            "position": {
+              "start": {
+                "line": 539,
+                "column": 199,
+                "offset": 40791
+              },
+              "end": {
+                "line": 540,
+                "column": 1,
+                "offset": 40792
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 533,
+            "column": 1,
+            "offset": 39726
+          },
+          "end": {
+            "line": 540,
+            "column": 6,
+            "offset": 40797
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 540,
+            "column": 6,
+            "offset": 40797
+          },
+          "end": {
+            "line": 541,
+            "column": 1,
+            "offset": 40798
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 541,
+            "column": 33,
+            "offset": 40830
+          },
+          "end": {
+            "line": 542,
+            "column": 1,
+            "offset": 40831
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://snyk.io/wp-content/uploads/jvm_2020.pdf"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "DOWNLOAD THE JVM ECOSYSTEM 2020 REPORT!",
+                "position": {
+                  "start": {
+                    "line": 542,
+                    "column": 134,
+                    "offset": 40964
+                  },
+                  "end": {
+                    "line": 542,
+                    "column": 173,
+                    "offset": 41003
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 542,
+                "column": 34,
+                "offset": 40864
+              },
+              "end": {
+                "line": 542,
+                "column": 177,
+                "offset": 41007
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 542,
+            "column": 1,
+            "offset": 40831
+          },
+          "end": {
+            "line": 542,
+            "column": 188,
+            "offset": 41018
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "            ",
+        "position": {
+          "start": {
+            "line": 542,
+            "column": 188,
+            "offset": 41018
+          },
+          "end": {
+            "line": 542,
+            "column": 200,
+            "offset": 41030
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n        ",
+        "position": {
+          "start": {
+            "line": 542,
+            "column": 206,
+            "offset": 41036
+          },
+          "end": {
+            "line": 543,
+            "column": 9,
+            "offset": 41045
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n    ",
+        "position": {
+          "start": {
+            "line": 543,
+            "column": 15,
+            "offset": 41051
+          },
+          "end": {
+            "line": 544,
+            "column": 5,
+            "offset": 41056
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n    ",
+        "position": {
+          "start": {
+            "line": 544,
+            "column": 11,
+            "offset": 41062
+          },
+          "end": {
+            "line": 545,
+            "column": 5,
+            "offset": 41067
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n",
+        "position": {
+          "start": {
+            "line": 547,
+            "column": 14,
+            "offset": 41098
+          },
+          "end": {
+            "line": 548,
+            "column": 1,
+            "offset": 41099
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "line": 252,
+        "column": 24,
+        "offset": 22893
+      },
+      "end": {
+        "line": 548,
+        "column": 11,
+        "offset": 41109
+      }
+    }
+  }
+}

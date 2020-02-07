@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "title": "Dutch university pays $220K in Bitcoin to alleged Russian hackers",
+    "date": "2020-02-07T11:27:06+00:00",
+    "author": "David Canellis",
+    "publisher": "Hard Fork | The Next Web",
+    "description": "The University of Maastricht has resorted to paying a Bitcoin ransom to hackers who'd taken its computer systems offline since Christmas.",
+    "image": "https://img-cdn.tnwcdn.com/image/hardfork?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2Fwannacryfake-blockchain-cryptocurrency-bitcoin-ransomware-encryption-theft-malware-emsisoft.jpg&signature=8551d79d3bee8901d7b0774a47cb5647",
+    "keywords": [],
+    "lang": "en-us",
+    "url": "https://thenextweb.com/hardfork/2020/02/07/bitcoin-ransom-ransomware-malware-cryptocurrency-maastricht-university-attack-hackers/"
+  },
+  "summary": "\n\n        \n    \n        \n    ",
+  "body": {
+    "type": "element",
+    "tagName": "article",
+    "properties": {},
+    "children": [
+      {
+        "type": "text",
+        "value": "\n\n        ",
+        "position": {
+          "start": {
+            "line": 292,
+            "column": 113,
+            "offset": 280142
+          },
+          "end": {
+            "line": 294,
+            "column": 9,
+            "offset": 280152
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n    \n        ",
+        "position": {
+          "start": {
+            "line": 459,
+            "column": 11,
+            "offset": 333348
+          },
+          "end": {
+            "line": 461,
+            "column": 9,
+            "offset": 333362
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "\n    ",
+        "position": {
+          "start": {
+            "line": 463,
+            "column": 11,
+            "offset": 333552
+          },
+          "end": {
+            "line": 464,
+            "column": 5,
+            "offset": 333557
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "line": 292,
+        "column": 5,
+        "offset": 280034
+      },
+      "end": {
+        "line": 464,
+        "column": 15,
+        "offset": 333567
+      }
+    }
+  }
+}

@@ -1,0 +1,2056 @@
+{
+  "meta": {
+    "title": "Latin America takes the global lead in VC directed to female co-founders",
+    "date": "4:08 am +07 • February 7, 2020",
+    "author": null,
+    "publisher": "TechCrunch",
+    "description": "Many studies have established that female-founded companies outperform their all-male counterparts.",
+    "image": "https://techcrunch.com/wp-content/uploads/2020/02/GettyImages-1140229510.jpg?w=600",
+    "keywords": [],
+    "lang": "en-US",
+    "url": "https://techcrunch.com/2020/02/06/latin-america-takes-the-global-lead-in-vc-directed-to-female-co-founders/"
+  },
+  "summary": "Close ScreenWhen Flavia Deutsch and Paula Crespi were raising a groundbreaking $1.7 million seed round for their parenting startup in Brazil, they had to turn away male investors.“The men were already writing us checks, but the women — we had to convince them,” Deutsch explained ",
+  "body": {
+    "type": "element",
+    "tagName": "article",
+    "properties": {},
+    "children": [
+      {
+        "type": "text",
+        "value": "Close Screen",
+        "position": {
+          "start": {
+            "line": 438,
+            "column": 446,
+            "offset": 120812
+          },
+          "end": {
+            "line": 438,
+            "column": 458,
+            "offset": 120824
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "img",
+        "properties": {
+          "alt": "Smiling businesswoman sending message on smart phone while working on office",
+          "src": "./input_files/GettyImages-1140229510.jpg"
+        },
+        "children": [],
+        "position": {
+          "start": {
+            "line": 438,
+            "column": 2065,
+            "offset": 122431
+          },
+          "end": {
+            "line": 438,
+            "column": 2741,
+            "offset": 123107
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "When Flavia Deutsch and Paula Crespi were raising a groundbreaking $1.7 million seed round for their parenting startup in Brazil, they had to turn away male investors.",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 734,
+                "offset": 125429
+              },
+              "end": {
+                "line": 439,
+                "column": 901,
+                "offset": 125596
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 708,
+            "offset": 125403
+          },
+          "end": {
+            "line": 439,
+            "column": 905,
+            "offset": 125600
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "“The men were already writing us checks, but the women — we had to convince them,” Deutsch explained of the seed round for ",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 908,
+                "offset": 125603
+              },
+              "end": {
+                "line": 439,
+                "column": 1031,
+                "offset": 125726
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://theia.com.br/"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Theia",
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 1063,
+                    "offset": 125758
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 1068,
+                    "offset": 125763
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 1031,
+                "offset": 125726
+              },
+              "end": {
+                "line": 439,
+                "column": 1072,
+                "offset": 125767
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", which ended the year as the largest all-female founded company raise in Latin America. “For every male investor we had, we wanted one female investor as well,” Deutsch said. And for good reason.",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 1072,
+                "offset": 125767
+              },
+              "end": {
+                "line": 439,
+                "column": 1268,
+                "offset": 125963
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 905,
+            "offset": 125600
+          },
+          "end": {
+            "line": 439,
+            "column": 1272,
+            "offset": 125967
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Many studies have established that female-founded companies outperform their all-male counterparts. Boston Consulting Group reports that for every dollar a female founder or co-founder raises, she generates 2.5X more revenue than a male founder.",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 1275,
+                "offset": 125970
+              },
+              "end": {
+                "line": 439,
+                "column": 1520,
+                "offset": 126215
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "sup",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://www.bcg.com/en-us/publications/2018/why-women-owned-startups-are-better-bet.aspx"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "1",
+                    "position": {
+                      "start": {
+                        "line": 439,
+                        "column": 1624,
+                        "offset": 126319
+                      },
+                      "end": {
+                        "line": 439,
+                        "column": 1625,
+                        "offset": 126320
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 1525,
+                    "offset": 126220
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 1629,
+                    "offset": 126324
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 1520,
+                "offset": 126215
+              },
+              "end": {
+                "line": 439,
+                "column": 1635,
+                "offset": 126330
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " First Round Capital’s research held that the female-founded companies it backed performed 63% better than all-male founding teams.",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 1635,
+                "offset": 126330
+              },
+              "end": {
+                "line": 439,
+                "column": 1766,
+                "offset": 126461
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "sup",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "http://10years.firstround.com/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "2",
+                    "position": {
+                      "start": {
+                        "line": 439,
+                        "column": 1812,
+                        "offset": 126507
+                      },
+                      "end": {
+                        "line": 439,
+                        "column": 1813,
+                        "offset": 126508
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 1771,
+                    "offset": 126466
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 1817,
+                    "offset": 126512
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "value": " ",
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 1817,
+                    "offset": 126512
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 1818,
+                    "offset": 126513
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 1766,
+                "offset": 126461
+              },
+              "end": {
+                "line": 439,
+                "column": 1824,
+                "offset": 126519
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": "The Ewing Marion Kauffman Foundation’s showed that return on investment from women-led teams is 35% higher than their all-male counterparts.",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 1824,
+                "offset": 126519
+              },
+              "end": {
+                "line": 439,
+                "column": 1964,
+                "offset": 126659
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "sup",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://www.kauffmanfellows.org/wp-content/uploads/KFR_Vol7/Juliana_Garaizar_vol7.pdf"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "3",
+                    "position": {
+                      "start": {
+                        "line": 439,
+                        "column": 2065,
+                        "offset": 126760
+                      },
+                      "end": {
+                        "line": 439,
+                        "column": 2066,
+                        "offset": 126761
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 1969,
+                    "offset": 126664
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 2070,
+                    "offset": 126765
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 1964,
+                "offset": 126659
+              },
+              "end": {
+                "line": 439,
+                "column": 2076,
+                "offset": 126771
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " ",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 2076,
+                "offset": 126771
+              },
+              "end": {
+                "line": 439,
+                "column": 2077,
+                "offset": 126772
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.allraise.org/"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "AllRaise",
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 2113,
+                    "offset": 126808
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 2121,
+                    "offset": 126816
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 2077,
+                "offset": 126772
+              },
+              "end": {
+                "line": 439,
+                "column": 2125,
+                "offset": 126820
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", a nonprofit promoting women in VC, found that “companies with women on their founding teams are likely to exit at least one year faster compared to the rest of the market, and the number of exits for companies with at least one female founder is growing at a faster rate year-over-year than exits for companies with only male founders.”",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 2125,
+                "offset": 126820
+              },
+              "end": {
+                "line": 439,
+                "column": 2463,
+                "offset": 127158
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "sup",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://www.allraise.org/assets/pitchbook_all_raise_2019_all_in_women_in_the_vc_ecosystem.pdf"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "4",
+                    "position": {
+                      "start": {
+                        "line": 439,
+                        "column": 2572,
+                        "offset": 127267
+                      },
+                      "end": {
+                        "line": 439,
+                        "column": 2573,
+                        "offset": 127268
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 2468,
+                    "offset": 127163
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 2577,
+                    "offset": 127272
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 2463,
+                "offset": 127158
+              },
+              "end": {
+                "line": 439,
+                "column": 2583,
+                "offset": 127278
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " Jen Neundorfer, founding partner at ",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 2583,
+                "offset": 127278
+              },
+              "end": {
+                "line": 439,
+                "column": 2620,
+                "offset": 127315
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.janevc.com/"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Jane VC",
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 2654,
+                    "offset": 127349
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 2661,
+                    "offset": 127356
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 2620,
+                "offset": 127315
+              },
+              "end": {
+                "line": 439,
+                "column": 2665,
+                "offset": 127360
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", succinctly explains her fund’s thesis of investing in female founders as, “",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 2665,
+                "offset": 127360
+              },
+              "end": {
+                "line": 439,
+                "column": 2742,
+                "offset": 127437
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://news.crunchbase.com/news/q3-2019-diversity-report-over-20b-invested-in-female-founded-co-founded-startups-this-year-alone/"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "investing in an overlooked asset class that is overperforming",
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 2883,
+                    "offset": 127578
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 2944,
+                    "offset": 127639
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 2742,
+                "offset": 127437
+              },
+              "end": {
+                "line": 439,
+                "column": 2948,
+                "offset": 127643
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ".” After all, it’s a “trillion-dollar opportunity.”",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 2948,
+                "offset": 127643
+              },
+              "end": {
+                "line": 439,
+                "column": 2999,
+                "offset": 127694
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "sup",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://hbr.org/2019/10/the-trillion-dollar-opportunity-in-supporting-female-entrepreneurs"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "5",
+                    "position": {
+                      "start": {
+                        "line": 439,
+                        "column": 3105,
+                        "offset": 127800
+                      },
+                      "end": {
+                        "line": 439,
+                        "column": 3106,
+                        "offset": 127801
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 3004,
+                    "offset": 127699
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 3110,
+                    "offset": 127805
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 2999,
+                "offset": 127694
+              },
+              "end": {
+                "line": 439,
+                "column": 3116,
+                "offset": 127811
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 1272,
+            "offset": 125967
+          },
+          "end": {
+            "line": 439,
+            "column": 3120,
+            "offset": 127815
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "And in the 2020s, much of that opportunity will be in emerging markets. The first year that the largest IPOs globally came from emerging markets was 2017. Since then, it has been a straight line up and to the right. Nazar Yasin, who invests in emerging markets as the founder of ",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 3123,
+                "offset": 127818
+              },
+              "end": {
+                "line": 439,
+                "column": 3402,
+                "offset": 128097
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://crunchbase.com/organization/rise-capital"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Rise Capital, ",
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 3553,
+                    "offset": 128248
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 3567,
+                    "offset": 128262
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 3402,
+                "offset": 128097
+              },
+              "end": {
+                "line": 439,
+                "column": 3621,
+                "offset": 128316
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " says, “this trend isn’t going away.” Given that most GDP growth now coming from emerging markets, where most global internet users live, “the future of market capitalization growth in the internet sector globally belongs to emerging markets.”",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 3621,
+                "offset": 128316
+              },
+              "end": {
+                "line": 439,
+                "column": 3864,
+                "offset": 128559
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 3120,
+            "offset": 127815
+          },
+          "end": {
+            "line": 439,
+            "column": 3868,
+            "offset": 128563
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Latin America takes the global lead in funding women",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 3872,
+                "offset": 128567
+              },
+              "end": {
+                "line": 439,
+                "column": 3924,
+                "offset": 128619
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 3868,
+            "offset": 128563
+          },
+          "end": {
+            "line": 439,
+            "column": 3929,
+            "offset": 128624
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "And it just may belong to the women who start companies there.",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 3932,
+                "offset": 128627
+              },
+              "end": {
+                "line": 439,
+                "column": 3994,
+                "offset": 128689
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 3929,
+            "offset": 128624
+          },
+          "end": {
+            "line": 439,
+            "column": 3998,
+            "offset": 128693
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "New data from Gene Teare at Crunchbase shows that Latin America currently takes the global lead in investment dollars directed to women.",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 4001,
+                "offset": 128696
+              },
+              "end": {
+                "line": 439,
+                "column": 4137,
+                "offset": 128832
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 3998,
+            "offset": 128693
+          },
+          "end": {
+            "line": 439,
+            "column": 4141,
+            "offset": 128836
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 4141,
+            "offset": 128836
+          },
+          "end": {
+            "line": 439,
+            "column": 4144,
+            "offset": 128839
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "img",
+        "properties": {
+          "ariaDescribedBy": [
+            "caption-attachment-1942632"
+          ],
+          "src": "./input_files/femalefounded.png",
+          "alt": "",
+          "width": 544,
+          "height": 457
+        },
+        "children": [],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 4226,
+            "offset": 128921
+          },
+          "end": {
+            "line": 439,
+            "column": 4768,
+            "offset": 129463
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "via Crunchbase",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 4827,
+                "offset": 129522
+              },
+              "end": {
+                "line": 439,
+                "column": 4841,
+                "offset": 129536
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 4768,
+            "offset": 129463
+          },
+          "end": {
+            "line": 439,
+            "column": 4845,
+            "offset": 129540
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": []
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "In 2019, investments into mixed female-male founding teams represented 16% of dollars invested in Latin America, 9% in the U.S. and only 8% in Europe.",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 4858,
+                "offset": 129553
+              },
+              "end": {
+                "line": 439,
+                "column": 5008,
+                "offset": 129703
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 4855,
+            "offset": 129550
+          },
+          "end": {
+            "line": 439,
+            "column": 5012,
+            "offset": 129707
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "This number includes a $400 million Series F into ",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 5015,
+                "offset": 129710
+              },
+              "end": {
+                "line": 439,
+                "column": 5065,
+                "offset": 129760
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://crunchbase.com/organization/nubank"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Nubank, ",
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 5204,
+                    "offset": 129899
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 5212,
+                    "offset": 129907
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 5065,
+                "offset": 129760
+              },
+              "end": {
+                "line": 439,
+                "column": 5266,
+                "offset": 129961
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " the Brazilian challenger bank co-founded by Cristina Junqueira, who was — not for the first time — pregnant at the time of the raise. Junqueira is not only the female co-founder currently leading ",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 5266,
+                "offset": 129961
+              },
+              "end": {
+                "line": 439,
+                "column": 5463,
+                "offset": 130158
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://news.crunchbase.com/news/female-stem-entrepreneurs-in-latin-american-are-gaining-momentum/"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "the largest neobank in the world",
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 5572,
+                    "offset": 130267
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 5604,
+                    "offset": 130299
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 5463,
+                "offset": 130158
+              },
+              "end": {
+                "line": 439,
+                "column": 5608,
+                "offset": 130303
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", she is also the female co-founder currently leading the world’s largest venture-backed company.",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 5608,
+                "offset": 130303
+              },
+              "end": {
+                "line": 439,
+                "column": 5705,
+                "offset": 130400
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 5012,
+            "offset": 129707
+          },
+          "end": {
+            "line": 439,
+            "column": 5709,
+            "offset": 130404
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 5709,
+            "offset": 130404
+          },
+          "end": {
+            "line": 439,
+            "column": 5712,
+            "offset": 130407
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "img",
+        "properties": {
+          "ariaDescribedBy": [
+            "caption-attachment-1942668"
+          ],
+          "src": "./input_files/dealcount.png",
+          "alt": "",
+          "width": 512,
+          "height": 433
+        },
+        "children": [],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 5794,
+            "offset": 130489
+          },
+          "end": {
+            "line": 439,
+            "column": 6306,
+            "offset": 131001
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "via Crunchbase",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 6365,
+                "offset": 131060
+              },
+              "end": {
+                "line": 439,
+                "column": 6379,
+                "offset": 131074
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 6306,
+            "offset": 131001
+          },
+          "end": {
+            "line": 439,
+            "column": 6383,
+            "offset": 131078
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": []
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Overall, total investment dollars into both mixed male-female teams and female-only teams represented 17% of total dollars invested in Latin America, 13% in the U.S. and 9% in Europe.",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 6396,
+                "offset": 131091
+              },
+              "end": {
+                "line": 439,
+                "column": 6579,
+                "offset": 131274
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 6393,
+            "offset": 131088
+          },
+          "end": {
+            "line": 439,
+            "column": 6583,
+            "offset": 131278
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "In terms of deal volume, mixed female-male founded teams make up 15% of investments in 2019 in Latin America, in comparison with 14% in the U.S. and 11% in Europe. One contributor is fintech. In Latin America, 35% of fintech companies have a female co-founder, 5X more than the global average of 7%.",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 6586,
+                "offset": 131281
+              },
+              "end": {
+                "line": 439,
+                "column": 6885,
+                "offset": 131580
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "sup",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://news.crunchbase.com/news/female-stem-entrepreneurs-in-latin-american-are-gaining-momentum/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "6",
+                    "position": {
+                      "start": {
+                        "line": 439,
+                        "column": 6999,
+                        "offset": 131694
+                      },
+                      "end": {
+                        "line": 439,
+                        "column": 7000,
+                        "offset": 131695
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 6890,
+                    "offset": 131585
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 7004,
+                    "offset": 131699
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 6885,
+                "offset": 131580
+              },
+              "end": {
+                "line": 439,
+                "column": 7010,
+                "offset": 131705
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 6583,
+            "offset": 131278
+          },
+          "end": {
+            "line": 439,
+            "column": 7014,
+            "offset": 131709
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "That said, in terms of funding all-female teams, the U.S. still leads. In Latin America, the women-only teams made up 4% of investment deals in 2019, on par with Europe but behind the U.S. average of 8%.",
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 7017,
+                "offset": 131712
+              },
+              "end": {
+                "line": 439,
+                "column": 7220,
+                "offset": 131915
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 7014,
+            "offset": 131709
+          },
+          "end": {
+            "line": 439,
+            "column": 7224,
+            "offset": 131919
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Read the conclusion, ",
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 7231,
+                    "offset": 131926
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 7252,
+                    "offset": 131947
+                  }
+                }
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://techcrunch.com/2020/02/06/women-are-the-secret-ingredient-in-latin-americas-outsized-returns/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Women are the secret ingredient in Latin America’s outsized returns",
+                    "position": {
+                      "start": {
+                        "line": 439,
+                        "column": 7364,
+                        "offset": 132059
+                      },
+                      "end": {
+                        "line": 439,
+                        "column": 7431,
+                        "offset": 132126
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 7252,
+                    "offset": 131947
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 7435,
+                    "offset": 132130
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "value": ", on Extra Crunch.",
+                "position": {
+                  "start": {
+                    "line": 439,
+                    "column": 7435,
+                    "offset": 132130
+                  },
+                  "end": {
+                    "line": 439,
+                    "column": 7453,
+                    "offset": 132148
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 439,
+                "column": 7227,
+                "offset": 131922
+              },
+              "end": {
+                "line": 439,
+                "column": 7458,
+                "offset": 132153
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 439,
+            "column": 7224,
+            "offset": 131919
+          },
+          "end": {
+            "line": 439,
+            "column": 7462,
+            "offset": 132157
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Tags",
+            "position": {
+              "start": {
+                "line": 486,
+                "column": 13650,
+                "offset": 149204
+              },
+              "end": {
+                "line": 486,
+                "column": 13654,
+                "offset": 149208
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 486,
+            "column": 13646,
+            "offset": 149200
+          },
+          "end": {
+            "line": 486,
+            "column": 13659,
+            "offset": 149213
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "ul",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://techcrunch.com/column/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Column",
+                    "position": {
+                      "start": {
+                        "line": 486,
+                        "column": 13761,
+                        "offset": 149315
+                      },
+                      "end": {
+                        "line": 486,
+                        "column": 13767,
+                        "offset": 149321
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 486,
+                    "column": 13720,
+                    "offset": 149274
+                  },
+                  "end": {
+                    "line": 486,
+                    "column": 13771,
+                    "offset": 149325
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 486,
+                "column": 13696,
+                "offset": 149250
+              },
+              "end": {
+                "line": 486,
+                "column": 13776,
+                "offset": 149330
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://techcrunch.com/diversity-2/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Diversity",
+                    "position": {
+                      "start": {
+                        "line": 486,
+                        "column": 13846,
+                        "offset": 149400
+                      },
+                      "end": {
+                        "line": 486,
+                        "column": 13855,
+                        "offset": 149409
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 486,
+                    "column": 13800,
+                    "offset": 149354
+                  },
+                  "end": {
+                    "line": 486,
+                    "column": 13859,
+                    "offset": 149413
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 486,
+                "column": 13776,
+                "offset": 149330
+              },
+              "end": {
+                "line": 486,
+                "column": 13864,
+                "offset": 149418
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://techcrunch.com/funding/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Funding",
+                    "position": {
+                      "start": {
+                        "line": 486,
+                        "column": 13930,
+                        "offset": 149484
+                      },
+                      "end": {
+                        "line": 486,
+                        "column": 13937,
+                        "offset": 149491
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 486,
+                    "column": 13888,
+                    "offset": 149442
+                  },
+                  "end": {
+                    "line": 486,
+                    "column": 13941,
+                    "offset": 149495
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 486,
+                "column": 13864,
+                "offset": 149418
+              },
+              "end": {
+                "line": 486,
+                "column": 13946,
+                "offset": 149500
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://techcrunch.com/venture-capital-2/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Venture Capital",
+                    "position": {
+                      "start": {
+                        "line": 486,
+                        "column": 14022,
+                        "offset": 149576
+                      },
+                      "end": {
+                        "line": 486,
+                        "column": 14037,
+                        "offset": 149591
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 486,
+                    "column": 13970,
+                    "offset": 149524
+                  },
+                  "end": {
+                    "line": 486,
+                    "column": 14041,
+                    "offset": 149595
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 486,
+                "column": 13946,
+                "offset": 149500
+              },
+              "end": {
+                "line": 486,
+                "column": 14046,
+                "offset": 149600
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://techcrunch.com/tag/brazil/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "brazil",
+                    "position": {
+                      "start": {
+                        "line": 486,
+                        "column": 14115,
+                        "offset": 149669
+                      },
+                      "end": {
+                        "line": 486,
+                        "column": 14121,
+                        "offset": 149675
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 486,
+                    "column": 14070,
+                    "offset": 149624
+                  },
+                  "end": {
+                    "line": 486,
+                    "column": 14125,
+                    "offset": 149679
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 486,
+                "column": 14046,
+                "offset": 149600
+              },
+              "end": {
+                "line": 486,
+                "column": 14130,
+                "offset": 149684
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://techcrunch.com/tag/emerging-market/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "emerging market",
+                    "position": {
+                      "start": {
+                        "line": 486,
+                        "column": 14208,
+                        "offset": 149762
+                      },
+                      "end": {
+                        "line": 486,
+                        "column": 14223,
+                        "offset": 149777
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 486,
+                    "column": 14154,
+                    "offset": 149708
+                  },
+                  "end": {
+                    "line": 486,
+                    "column": 14227,
+                    "offset": 149781
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 486,
+                "column": 14130,
+                "offset": 149684
+              },
+              "end": {
+                "line": 486,
+                "column": 14232,
+                "offset": 149786
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://techcrunch.com/tag/europe/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Europe",
+                    "position": {
+                      "start": {
+                        "line": 486,
+                        "column": 14301,
+                        "offset": 149855
+                      },
+                      "end": {
+                        "line": 486,
+                        "column": 14307,
+                        "offset": 149861
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 486,
+                    "column": 14256,
+                    "offset": 149810
+                  },
+                  "end": {
+                    "line": 486,
+                    "column": 14311,
+                    "offset": 149865
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 486,
+                "column": 14232,
+                "offset": 149786
+              },
+              "end": {
+                "line": 486,
+                "column": 14316,
+                "offset": 149870
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://techcrunch.com/tag/financial-technology/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "financial technology",
+                    "position": {
+                      "start": {
+                        "line": 486,
+                        "column": 14399,
+                        "offset": 149953
+                      },
+                      "end": {
+                        "line": 486,
+                        "column": 14419,
+                        "offset": 149973
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 486,
+                    "column": 14340,
+                    "offset": 149894
+                  },
+                  "end": {
+                    "line": 486,
+                    "column": 14423,
+                    "offset": 149977
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 486,
+                "column": 14316,
+                "offset": 149870
+              },
+              "end": {
+                "line": 486,
+                "column": 14428,
+                "offset": 149982
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 486,
+            "column": 13659,
+            "offset": 149213
+          },
+          "end": {
+            "line": 486,
+            "column": 14433,
+            "offset": 149987
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "line": 438,
+        "column": 201,
+        "offset": 120567
+      },
+      "end": {
+        "line": 486,
+        "column": 14455,
+        "offset": 150009
+      }
+    }
+  }
+}
