@@ -18,10 +18,7 @@ const {
 } = candidates
 
 module.exports = function getMeta (tree) {
-  const raw = select('head', tree)
-  const head = sanitize(raw, {
-    strip: ['script', 'style', 'link']
-  })
+  const head = select('head', tree)
 
   return {
     title: getTitle(),
@@ -43,7 +40,7 @@ module.exports = function getMeta (tree) {
 
     const candidate = metaTitle && metaTitle.hasOwnProperty('properties')
       ? metaTitle.properties.content
-      : stringify('h1', tree) || stringify('title', head)
+      : stringify('title', head) || stringify('h1', tree)
 
     const titleDelimiters = [' | ', ' – ', ' - ', ' » ', ' : ']
     return titleDelimiters.reduce((found, d) => {
@@ -56,14 +53,14 @@ module.exports = function getMeta (tree) {
 
   function getDate () {
     return DATE_CANDIDATES.reduce((found, candidate) => {
-      if (found.length) {
+      if (found) {
         return found
       }
       const node = select(candidate, tree)
       if (!node) {
-        return ''
+        return null
       }
-      const {properties: {content, attr}} = node
+      const { properties: { content, attr } } = node
       if (content) {
         return content
       }
@@ -71,75 +68,75 @@ module.exports = function getMeta (tree) {
         return attr
       }
       return toString(node)
-    }, '')
+    }, null)
   }
 
   function getAuthor () {
-    return AUTHOR_CANDIDATES.reduce((obj, {type, tag}) => {
+    return AUTHOR_CANDIDATES.reduce((found, candidate) => {
+      const { type, tag } = candidate
+      if (found || type !== 'name') {
+        return found
+      }
       const node = select(tag, tree)
-      if (!node) return obj
-      const {properties: {content}} = node
+      if (!node) {
+        return null
+      }
+      const { properties: { content } } = node
       if (content && content.length) {
-        return {...obj, [type]: content}
+        return content
       }
-      const text = toString(node)
-      if (text && text.length) {
-        return {...obj, [type]: cleanText(text)}
-      }
-      return obj
-    }, {})
+    }, null)
   }
 
   function getPublisher () {
-    return PUBLISHER_CANDIDATES.reduce((obj, {type, tag}) => {
+    return PUBLISHER_CANDIDATES.reduce((found, candidate) => {
+      const { type, tag } = candidate
+      if (found || type !== 'og') {
+        return found
+      }
       const node = select(tag, tree)
       if (!node) {
-        return obj
+        return null
       }
-      const {properties: {content}} = node
+      const { properties: { content } } = node
       if (content && content.length) {
-        return {...obj, [type]: content}
+        return content
       }
-      const text = toString(node)
-      if (text && text.length) {
-        return {...obj, [type]: cleanText(text)}
-      }
-      return obj
-    }, {})
+    }, null)
   }
 
   function getDescription () {
     return DESCRIPTION_CANDIDATES.reduce((found, candidate) => {
-      if (found.length) {
+      if (found) {
         return found
       }
       const node = select(candidate, tree)
       if (!node) {
-        return ''
+        return null
       }
-      const {properties: {content}} = node
+      const { properties: { content } } = node
       if (content) {
         return content
       }
       return toString(node)
-    }, '')
+    }, null)
   }
 
   function getImage () {
     return IMAGE_CANDIDATES.reduce((found, candidate) => {
-      if (found.length) {
+      if (found) {
         return found
       }
       const node = select(candidate, tree)
       if (!node) {
-        return ''
+        return null
       }
-      const {properties: {content}} = node
+      const { properties: { content } } = node
       if (content) {
         return content
       }
       return toString(node)
-    }, '')
+    }, null)
   }
 
   function getKeywords () {
@@ -151,7 +148,7 @@ module.exports = function getMeta (tree) {
       if (!node) {
         return []
       }
-      const {properties: {content}} = node
+      const { properties: { content } } = node
       if (content) {
         return content.split(',').map(w => w.trim())
       }
@@ -160,37 +157,37 @@ module.exports = function getMeta (tree) {
   }
 
   function getLang () {
-    const {properties} = select('html', tree)
+    const { properties } = select('html', tree)
     return properties.hasOwnProperty('lang')
       ? properties.lang
-      : head.children && head.children.reduce((found, {name, content, 'http-equiv': h}) => {
-        if (found.length) {
+      : head.children && head.children.reduce((found, { name, content, 'http-equiv': http }) => {
+        if (found) {
           return found
         }
         if (name === 'lang') {
           return content
         }
-        if (h === 'content-language') {
+        if (http === 'content-language') {
           return content
         }
         return found
-      }, '')
+      }, null)
   }
 
   function getUrl () {
-    return URL_CANDIDATES.reduce((found, {tag, attr}) => {
-      if (found.length) {
+    return URL_CANDIDATES.reduce((found, { tag, attr }) => {
+      if (found) {
         return found
       }
       const node = select(tag, head)
       if (!node) {
-        return ''
+        return null
       }
-      const v = node.properties[attr]
-      if (v) {
-        return v
+      const prop = node.properties[attr]
+      if (prop) {
+        return prop
       }
-      return ''
-    }, '')
+      return null
+    }, null)
   }
 }
