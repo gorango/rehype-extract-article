@@ -16,10 +16,10 @@ function extract () {
 
   function transformer (tree, file) {
     const node = sanitize(tree, initSchema)
-    const article = select('article', node)
+    let article = select('article', node)
 
     if (!article) {
-      throw new Error('No article found in document')
+      article = node
     }
 
     visit(article, one)
