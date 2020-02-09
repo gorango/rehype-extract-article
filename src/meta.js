@@ -33,7 +33,7 @@ module.exports = function getMeta (tree) {
   }
 
   function getTitle () {
-    const stringify = (selector, node) => selector && node && toString(select(selector, node))
+    const stringify = (selector, node) => toString(select(selector, node))
 
     const metaTitle = selectAll('meta', head)
       .find(({ properties: { property: p, name: n } }) => p && p === 'og:title' || n === 'title' )
