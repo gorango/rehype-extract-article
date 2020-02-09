@@ -16,9 +16,19 @@ const summarySchema = {
 
 module.exports = moduleExports
 
-function moduleExports (contents) {
-  const file = vfile(contents)
+const defaultOptions = {
+  meta: true,
+  summary: true,
+  body: true,
+  html: true
+}
 
+function moduleExports (contents, options = defaultOptions) {
+  if (!contents) {
+    throw new Error('You need to supply a content String')
+  }
+
+  const file = vfile({ contents })
   const processor = unified()
     .use(parse)
     .use(stringify)
