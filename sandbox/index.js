@@ -1,6 +1,5 @@
 const fs = require('fs')
 const pug = require('pug')
-const toHtml = require('hast-util-to-html')
 const inspect = require('unist-util-inspect')
 const pretty = require('pretty')
 
@@ -20,12 +19,13 @@ const fixtures = [
   'real-world/thenextweb.pug',       // 10
 ]
 
-const path = `sandbox/${fixtures[2]}`
-const contents = pug.renderFile(path)
+// const path = `sandbox/${fixtures[2]}`
+const path = 'fixtures/gen_gen-x-will-not-go-quitely/input.html'
+// const contents = pug.renderFile(path)
+const contents = fs.readFileSync(path, 'utf-8')
 
-const result = extract({ path, contents })
-const { meta, summary, body } = result
+const result = extract(contents, { meta: {}, html: {} })
+// const { meta, summary, body } = result
 
-console.log(inspect(body))
-
-const prettyHtml = pretty(toHtml(body))
+console.log(result)
+// console.log(inspect(body))

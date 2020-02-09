@@ -3,7 +3,7 @@ const path = require('path')
 const test = require('tape')
 const vfile = require('vfile')
 
-const chae = require('../src')
+const extract = require('../src')
 
 test('Fixtures', function(t) {
   const root = path.join(__dirname, '../fixtures')
@@ -12,8 +12,8 @@ test('Fixtures', function(t) {
     .forEach(function(fixture) {
       const input = path.join(root, fixture, 'input.html')
       const output = path.join(root, fixture, 'output.json')
-      const file = vfile(fs.readFileSync(input))
-      const actual = chae({ contents: file })
+      const file = fs.readFileSync(input)
+      const actual = extract(file)
       let expected
 
       try {

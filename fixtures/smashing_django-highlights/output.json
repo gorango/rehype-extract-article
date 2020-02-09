@@ -1,0 +1,3941 @@
+{
+  "meta": {
+    "title": "Django Highlights: User Models And Authentication (Part 1) — Smashing Magazine",
+    "date": "2020-02-06 11:00:00 +0000 UTC",
+    "author": null,
+    "publisher": "Smashing Magazine",
+    "description": "One major reason to develop a dynamic site is to authenticate users and restrict content. Django provides a powerful out-of-the-box user model, and in this article, we’ll walk through the best way to provide secure, intuitive user authentication flows.",
+    "image": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/57e143bf-3bb9-4886-a8f3-474997b49769/django-highlights-user-models-authentication.png",
+    "keywords": [],
+    "lang": "en",
+    "url": "https://www.smashingmagazine.com/2020/02/django-highlights-user-models-authentication/"
+  },
+  "summary": "About The AuthorPhilip Kiely is a developer, writer, and entrepreneur. He is an undergraduate at Grinnell College (class of 2020).\\nMore about\\nPhilip\\nKiely\\n…Upgrade your inbox and get our editors’ picks 2× a month — delivered right into your inbox. Earlier issues.One major rea",
+  "body": {
+    "type": "element",
+    "tagName": "article",
+    "properties": {},
+    "children": [
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "About The Author",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 63091,
+                "offset": 63090
+              },
+              "end": {
+                "line": 1,
+                "column": 63107,
+                "offset": 63106
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 63059,
+            "offset": 63058
+          },
+          "end": {
+            "line": 1,
+            "column": 63112,
+            "offset": 63111
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Philip Kiely is a developer, writer, and entrepreneur. He is an undergraduate at Grinnell College (class of 2020).\\n",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 63115,
+                "offset": 63114
+              },
+              "end": {
+                "line": 1,
+                "column": 63231,
+                "offset": 63230
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "/author/philip-kiely"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "More about\\n",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 63285,
+                    "offset": 63284
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 63297,
+                    "offset": 63296
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "value": "Philip\\nKiely\\n",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 63303,
+                    "offset": 63302
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 63318,
+                    "offset": 63317
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "value": "…",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 63325,
+                    "offset": 63324
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 63326,
+                    "offset": 63325
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 63231,
+                "offset": 63230
+              },
+              "end": {
+                "line": 1,
+                "column": 63330,
+                "offset": 63329
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 63112,
+            "offset": 63111
+          },
+          "end": {
+            "line": 1,
+            "column": 63334,
+            "offset": 63333
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Smashing Newsletter",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 65725,
+                "offset": 65724
+              },
+              "end": {
+                "line": 1,
+                "column": 65744,
+                "offset": 65743
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 65687,
+            "offset": 65686
+          },
+          "end": {
+            "line": 1,
+            "column": 65749,
+            "offset": 65748
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Upgrade your inbox and get our editors’ picks 2× a month — delivered right into your inbox. ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 65789,
+                "offset": 65788
+              },
+              "end": {
+                "line": 1,
+                "column": 65881,
+                "offset": 65880
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.smashingmagazine.com/the-smashing-newsletter/"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Earlier issues.",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 65949,
+                    "offset": 65948
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 65964,
+                    "offset": 65963
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 65881,
+                "offset": 65880
+              },
+              "end": {
+                "line": 1,
+                "column": 65968,
+                "offset": 65967
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 65749,
+            "offset": 65748
+          },
+          "end": {
+            "line": 1,
+            "column": 65972,
+            "offset": 65971
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "One major reason to develop a dynamic site is to authenticate users and restrict content. Django provides a powerful out-of-the-box user model, and in this article, we’ll walk through the best way to provide secure, intuitive user authentication flows.",
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 67596,
+            "offset": 67595
+          },
+          "end": {
+            "line": 1,
+            "column": 67848,
+            "offset": 67847
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "There are two types of websites: static and dynamic. ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 68180,
+                "offset": 68179
+              },
+              "end": {
+                "line": 1,
+                "column": 68233,
+                "offset": 68232
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.djangoproject.com"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Django",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 68273,
+                    "offset": 68272
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 68279,
+                    "offset": 68278
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 68233,
+                "offset": 68232
+              },
+              "end": {
+                "line": 1,
+                "column": 68283,
+                "offset": 68282
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " is a framework for developing dynamic websites. While a static website is one that solely presents information, there is no interaction (beyond simple page requests) that gets registered to a server. In a static website, the server sends HTML, CSS, and JavaScript to a client and that’s it. More capabilities require a dynamic website, where the server stores information and responds to user interaction beyond just serving pages. One major reason to develop a dynamic site is to authenticate users and restrict content.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 68283,
+                "offset": 68282
+              },
+              "end": {
+                "line": 1,
+                "column": 68805,
+                "offset": 68804
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 68177,
+            "offset": 68176
+          },
+          "end": {
+            "line": 1,
+            "column": 68809,
+            "offset": 68808
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Writing, deploying, and administering a static website is about an order of magnitude easier, cheaper, and more secure than a dynamic site. Thus, you should only create a dynamic website if the dynamic paradigm’s additional capabilities are necessary for your project. Django simplifies and streamlines the process of creating a dynamic site with its built-in components. As one of the primary components of a dynamic web application, the “user account” object, like the wheel, is tempting to re-invent, but the standard shape is appropriate for most uses. Django provides a powerful out-of-the-box user model, and in this article, we’ll walk through the best way to provide secure, intuitive user authentication flows.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 68812,
+                "offset": 68811
+              },
+              "end": {
+                "line": 1,
+                "column": 69531,
+                "offset": 69530
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 68809,
+            "offset": 68808
+          },
+          "end": {
+            "line": 1,
+            "column": 69535,
+            "offset": 69534
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Getting Set Up",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 69559,
+                "offset": 69558
+              },
+              "end": {
+                "line": 1,
+                "column": 69573,
+                "offset": 69572
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 69535,
+            "offset": 69534
+          },
+          "end": {
+            "line": 1,
+            "column": 69578,
+            "offset": 69577
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "If you’d like to create your own Django application to experiment with the concepts in this article, you can create a directory (and preferably a virtual environment) and then run the following commands:",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 69581,
+                "offset": 69580
+              },
+              "end": {
+                "line": 1,
+                "column": 69784,
+                "offset": 69783
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 69578,
+            "offset": 69577
+          },
+          "end": {
+            "line": 1,
+            "column": 69788,
+            "offset": 69787
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "pre",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "code",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "pip install django\\ndjango-admin startproject PROJECTNAME\\ncd PROJECTNAME\\npython manage.py startapp APPNAME\\npython manage.py migrate\\npython manage.py runserver\\n",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 69871,
+                    "offset": 69870
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 70035,
+                    "offset": 70034
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 69842,
+                "offset": 69841
+              },
+              "end": {
+                "line": 1,
+                "column": 70042,
+                "offset": 70041
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 69814,
+            "offset": 69813
+          },
+          "end": {
+            "line": 1,
+            "column": 70048,
+            "offset": 70047
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "If you’re looking for a walkthrough of creating your first Django project, ",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 70141,
+                    "offset": 70140
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 70216,
+                    "offset": 70215
+                  }
+                }
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://docs.djangoproject.com/en/3.0/intro/tutorial01/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Django’s own website provides a great one",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 70282,
+                        "offset": 70281
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 70323,
+                        "offset": 70322
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 70216,
+                    "offset": 70215
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 70327,
+                    "offset": 70326
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "value": ". In this article, we’re not using an example project, but the concepts discussed will apply to almost every Django application.",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 70327,
+                    "offset": 70326
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 70455,
+                    "offset": 70454
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 70137,
+                "offset": 70136
+              },
+              "end": {
+                "line": 1,
+                "column": 70460,
+                "offset": 70459
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 70134,
+            "offset": 70133
+          },
+          "end": {
+            "line": 1,
+            "column": 70464,
+            "offset": 70463
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Standard User Model",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 70623,
+                "offset": 70622
+              },
+              "end": {
+                "line": 1,
+                "column": 70642,
+                "offset": 70641
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 70594,
+            "offset": 70593
+          },
+          "end": {
+            "line": 1,
+            "column": 70647,
+            "offset": 70646
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Fundamentally, the concept of a user account exists for two reasons: access control and personalized application state. Access control is the idea that resources on a system are only available to some users. Personalized state is heavily dependent on the purpose of the application but may include settings, data, or any other records specific to an individual user. The Django stock ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 70650,
+                "offset": 70649
+              },
+              "end": {
+                "line": 1,
+                "column": 71034,
+                "offset": 71033
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "code",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "User",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 71040,
+                    "offset": 71039
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 71044,
+                    "offset": 71043
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 71034,
+                "offset": 71033
+              },
+              "end": {
+                "line": 1,
+                "column": 71051,
+                "offset": 71050
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " model provides sensible approaches to both use cases.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 71051,
+                "offset": 71050
+              },
+              "end": {
+                "line": 1,
+                "column": 71105,
+                "offset": 71104
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 70647,
+            "offset": 70646
+          },
+          "end": {
+            "line": 1,
+            "column": 71109,
+            "offset": 71108
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Initially, there are two types of users in a Django application: superuser accounts and regular users. Superusers have every attribute and privilege of regular accounts, but also have access to the Django admin panel, a powerful application that we’ll explore in detail in a future article. Essentially, superusers can create, edit, or delete any data in the application, including other user accounts.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 71112,
+                "offset": 71111
+              },
+              "end": {
+                "line": 1,
+                "column": 71514,
+                "offset": 71513
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 71109,
+            "offset": 71108
+          },
+          "end": {
+            "line": 1,
+            "column": 71518,
+            "offset": 71517
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "ariaLabel": "Share on Twitter",
+                  "href": "http://twitter.com/share?text=Fundamentally,%20the%20concept%20of%20a%20user%20account%20exists%20for%20two%20reasons:%20access%20control%20and%20personalized%20application%20state.%0a&url=https://smashingmagazine.com%2f2020%2f02%2fdjango-highlights-user-models-authentication%2f"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Fundamentally, the concept of a user account exists for two reasons: access control and personalized application state.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 71901,
+                        "offset": 71900
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 72020,
+                        "offset": 72019
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 71552,
+                    "offset": 71551
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 72024,
+                    "offset": 72023
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 71549,
+                "offset": 71548
+              },
+              "end": {
+                "line": 1,
+                "column": 72028,
+                "offset": 72027
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 71518,
+            "offset": 71517
+          },
+          "end": {
+            "line": 1,
+            "column": 72157,
+            "offset": 72156
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "To create a superuser on your own Django application, run:",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 72160,
+                "offset": 72159
+              },
+              "end": {
+                "line": 1,
+                "column": 72218,
+                "offset": 72217
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 72157,
+            "offset": 72156
+          },
+          "end": {
+            "line": 1,
+            "column": 72222,
+            "offset": 72221
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The other benefit of a user account is storing personalized data to the database. By default, Django only requires a username and password but provides optional fields for users to enter their first name, last name, and email address. You can read a ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 72441,
+                "offset": 72440
+              },
+              "end": {
+                "line": 1,
+                "column": 72691,
+                "offset": 72690
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://docs.djangoproject.com/en/3.0/topics/auth/default/"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "complete model reference on the Django website",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 72760,
+                    "offset": 72759
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 72806,
+                    "offset": 72805
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 72691,
+                "offset": 72690
+              },
+              "end": {
+                "line": 1,
+                "column": 72810,
+                "offset": 72809
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". We’ll discuss extending this model below.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 72810,
+                "offset": 72809
+              },
+              "end": {
+                "line": 1,
+                "column": 72853,
+                "offset": 72852
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 72438,
+            "offset": 72437
+          },
+          "end": {
+            "line": 1,
+            "column": 72857,
+            "offset": 72856
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h4",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Security And Reliability",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 72891,
+                "offset": 72890
+              },
+              "end": {
+                "line": 1,
+                "column": 72915,
+                "offset": 72914
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 72857,
+            "offset": 72856
+          },
+          "end": {
+            "line": 1,
+            "column": 72920,
+            "offset": 72919
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Django includes substantial password management middleware with the user model. User passwords are required to be at least 8 characters, not entirely numbers, not match too closely to the username, and not be on a list of the 20,000 most common passwords. The Django stock forms validate these requirements. When a password is sent to the server, it is encrypted before it is stored, by default using the PBKDF2 algorithm with a SHA256 hash. Overall, the default password system provides robust security without any effort from the developer. Unless you have specific expertise and a compelling reason to change the way passwords are handled in your application, don’t modify this behavior.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 72923,
+                "offset": 72922
+              },
+              "end": {
+                "line": 1,
+                "column": 73613,
+                "offset": 73612
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 72920,
+            "offset": 72919
+          },
+          "end": {
+            "line": 1,
+            "column": 73617,
+            "offset": 73616
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "One other convenient built-in is the requirement that usernames are unique. If you think about it, if there were two users with the username “djangofan1” and the server received a login request for that username it would not know which user was trying to access the application. Unfortunately for them, the second user to try to register with “djangofan1” will have to pick a different name, perhaps “djangofan2”. This uniqueness constraint is enforced at the database level but is again verified by the forms that Django provides.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 73620,
+                "offset": 73619
+              },
+              "end": {
+                "line": 1,
+                "column": 74151,
+                "offset": 74150
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 73617,
+            "offset": 73616
+          },
+          "end": {
+            "line": 1,
+            "column": 74155,
+            "offset": 74154
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Finally, a note on deleting users. While deleting users is a possibility, most complex applications will have a number of resources tied to each user account. If you want to effectively delete a user without removing those attached objects, set the user’s ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 74158,
+                "offset": 74157
+              },
+              "end": {
+                "line": 1,
+                "column": 74414,
+                "offset": 74413
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "code",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "is_active",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 74420,
+                    "offset": 74419
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 74429,
+                    "offset": 74428
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 74414,
+                "offset": 74413
+              },
+              "end": {
+                "line": 1,
+                "column": 74436,
+                "offset": 74435
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " field to false instead. Then, those other resources remain associated with the account rather than being deleted themselves, and the user account is able to be re-activated at any time by a superuser. Note that this does not free up the username, but setting the account as inactive in conjunction with changing the username to a random, unique value could achieve the same effect. Finally, if your site policies or applicable local law require that user accounts be fully deletable, the ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 74436,
+                "offset": 74435
+              },
+              "end": {
+                "line": 1,
+                "column": 74925,
+                "offset": 74924
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "code",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "is_active",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 74931,
+                    "offset": 74930
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 74940,
+                    "offset": 74939
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 74925,
+                "offset": 74924
+              },
+              "end": {
+                "line": 1,
+                "column": 74947,
+                "offset": 74946
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " approach will not be sufficient.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 74947,
+                "offset": 74946
+              },
+              "end": {
+                "line": 1,
+                "column": 74980,
+                "offset": 74979
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 74155,
+            "offset": 74154
+          },
+          "end": {
+            "line": 1,
+            "column": 74984,
+            "offset": 74983
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "ariaLabel": "Share on Twitter",
+                  "href": "http://twitter.com/share?text=Unless%20you%20have%20specific%20expertise%20and%20a%20compelling%20reason%20to%20change%20the%20way%20passwords%20are%20handled%20in%20your%20application,%20don%e2%80%99t%20modify%20this%20behavior.%0a&url=https://smashingmagazine.com%2f2020%2f02%2fdjango-highlights-user-models-authentication%2f"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Unless you have specific expertise and a compelling reason to change the way passwords are handled in your application, don’t modify this behavior.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 75415,
+                        "offset": 75414
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 75562,
+                        "offset": 75561
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 75018,
+                    "offset": 75017
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 75566,
+                    "offset": 75565
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 75015,
+                "offset": 75014
+              },
+              "end": {
+                "line": 1,
+                "column": 75570,
+                "offset": 75569
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 74984,
+            "offset": 74983
+          },
+          "end": {
+            "line": 1,
+            "column": 75699,
+            "offset": 75698
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h4",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Standard Use",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 75721,
+                "offset": 75720
+              },
+              "end": {
+                "line": 1,
+                "column": 75733,
+                "offset": 75732
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 75699,
+            "offset": 75698
+          },
+          "end": {
+            "line": 1,
+            "column": 75738,
+            "offset": 75737
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "When you want to register a new user account, the view for doing so will probably look something like the following in ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 75741,
+                "offset": 75740
+              },
+              "end": {
+                "line": 1,
+                "column": 75860,
+                "offset": 75859
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "views.py",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 75864,
+                    "offset": 75863
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 75872,
+                    "offset": 75871
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 75860,
+                "offset": 75859
+              },
+              "end": {
+                "line": 1,
+                "column": 75877,
+                "offset": 75876
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ":",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 75877,
+                "offset": 75876
+              },
+              "end": {
+                "line": 1,
+                "column": 75878,
+                "offset": 75877
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 75738,
+            "offset": 75737
+          },
+          "end": {
+            "line": 1,
+            "column": 75882,
+            "offset": 75881
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "pre",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "code",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "from django.shortcuts import render, redirect\\nfrom django.contrib.auth import authenticate, login\\nfrom django.contrib.auth.forms import UserCreationForm\\n\\ndef signup(request):\\n    if request.user.is_authenticated:\\n        return redirect(\\'/\\')\\n    if request.method == \\'POST\\':\\n        form = UserCreationForm(request.POST)\\n        if form.is_valid():\\n            form.save()\\n            username = form.cleaned_data.get(\\'username\\')\\n            password = form.cleaned_data.get(\\'password1\\')\\n            user = authenticate(username=username, password=password)\\n            login(request, user)\\n            return redirect(\\'/\\')\\n        else:\\n            return render(request, \\'signup.html\\', {\\'form\\': form})\\n    else:\\n        form = UserCreationForm()\\n        return render(request, \\'signup.html\\', {\\'form\\': form})\\n",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 75969,
+                    "offset": 75968
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 76818,
+                    "offset": 76817
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 75938,
+                "offset": 75937
+              },
+              "end": {
+                "line": 1,
+                "column": 76825,
+                "offset": 76824
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 75908,
+            "offset": 75907
+          },
+          "end": {
+            "line": 1,
+            "column": 76831,
+            "offset": 76830
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Let’s break that down:",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 76920,
+                "offset": 76919
+              },
+              "end": {
+                "line": 1,
+                "column": 76942,
+                "offset": 76941
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 76917,
+            "offset": 76916
+          },
+          "end": {
+            "line": 1,
+            "column": 76946,
+            "offset": 76945
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "ul",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "If the user is already signed in, we’ll redirect them away from the signup page.",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 76954,
+                    "offset": 76953
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 77034,
+                    "offset": 77033
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 76950,
+                "offset": 76949
+              },
+              "end": {
+                "line": 1,
+                "column": 77039,
+                "offset": 77038
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "If the request method is POST, that means that the form for creating a user has already been filled out and it’s time to create a user.",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 77043,
+                    "offset": 77042
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 77178,
+                    "offset": 77177
+                  }
+                }
+              },
+              {
+                "type": "element",
+                "tagName": "ul",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "First, construct the form object on the backend with the user-provided data.",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 77186,
+                            "offset": 77185
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 77262,
+                            "offset": 77261
+                          }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 77182,
+                        "offset": 77181
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 77267,
+                        "offset": 77266
+                      }
+                    }
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "If the form is valid, create the user and log them in, then send them to the main page.",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 77271,
+                            "offset": 77270
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 77358,
+                            "offset": 77357
+                          }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 77267,
+                        "offset": 77266
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 77363,
+                        "offset": 77362
+                      }
+                    }
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Otherwise, dump them back on the user creation page with information about what data was invalid (for example, they requested a username already in use).",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 77367,
+                            "offset": 77366
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 77520,
+                            "offset": 77519
+                          }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 77363,
+                        "offset": 77362
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 77525,
+                        "offset": 77524
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 77178,
+                    "offset": 77177
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 77530,
+                    "offset": 77529
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 77039,
+                "offset": 77038
+              },
+              "end": {
+                "line": 1,
+                "column": 77535,
+                "offset": 77534
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Otherwise, the user is accessing the page for the first time and should be met with the form for creating a new account.",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 77539,
+                    "offset": 77538
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 77659,
+                    "offset": 77658
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 77535,
+                "offset": 77534
+              },
+              "end": {
+                "line": 1,
+                "column": 77664,
+                "offset": 77663
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 76946,
+            "offset": 76945
+          },
+          "end": {
+            "line": 1,
+            "column": 77669,
+            "offset": 77668
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Now examining account signin:",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 77672,
+                "offset": 77671
+              },
+              "end": {
+                "line": 1,
+                "column": 77701,
+                "offset": 77700
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 77669,
+            "offset": 77668
+          },
+          "end": {
+            "line": 1,
+            "column": 77705,
+            "offset": 77704
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "pre",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "code",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "from django.shortcuts import render, redirect\\nfrom django.contrib.auth import authenticate, login\\nfrom django.contrib.auth.forms import AuthenticationForm\\n\\ndef signin(request):\\n    if request.user.is_authenticated:\\n        return render(request, \\'homepage.html\\')\\n    if request.method == \\'POST\\':\\n        username = request.POST[\\'username\\']\\n        password = request.POST[\\'password\\']\\n        user = authenticate(request, username=username, password=password)\\n        if user is not None:\\n            login(request, user)\\n            return redirect(\\'/\\')\\n        else:\\n            form = AuthenticationForm(request.POST)\\n            return render(request, \\'signin.html\\', {\\'form\\': form})\\n    else:\\n        form = AuthenticationForm()\\n        return render(request, \\'signin.html\\', {\\'form\\': form})\\n",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 77792,
+                    "offset": 77791
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 78624,
+                    "offset": 78623
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 77761,
+                "offset": 77760
+              },
+              "end": {
+                "line": 1,
+                "column": 78631,
+                "offset": 78630
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 77731,
+            "offset": 77730
+          },
+          "end": {
+            "line": 1,
+            "column": 78637,
+            "offset": 78636
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Another breakdown:",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 78726,
+                "offset": 78725
+              },
+              "end": {
+                "line": 1,
+                "column": 78744,
+                "offset": 78743
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 78723,
+            "offset": 78722
+          },
+          "end": {
+            "line": 1,
+            "column": 78748,
+            "offset": 78747
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "ul",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "If the user is already signed in, we’ll redirect them away from the sign-in page.",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 78756,
+                    "offset": 78755
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 78837,
+                    "offset": 78836
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 78752,
+                "offset": 78751
+              },
+              "end": {
+                "line": 1,
+                "column": 78842,
+                "offset": 78841
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "If the request method is POST, that means that the form for signing in has been filled and it’s time to authenticate the user to an account.",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 78846,
+                    "offset": 78845
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 78986,
+                    "offset": 78985
+                  }
+                }
+              },
+              {
+                "type": "element",
+                "tagName": "ul",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "First, authenticate the user with the user-provided data",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 78994,
+                            "offset": 78993
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 79050,
+                            "offset": 79049
+                          }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 78990,
+                        "offset": 78989
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 79055,
+                        "offset": 79054
+                      }
+                    }
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "If the username and password correspond to an account, log the user in",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 79059,
+                            "offset": 79058
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 79129,
+                            "offset": 79128
+                          }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 79055,
+                        "offset": 79054
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 79134,
+                        "offset": 79133
+                      }
+                    }
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "li",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Otherwise, bring them back to the sign-in page with their form information pre-filled",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 79138,
+                            "offset": 79137
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 79223,
+                            "offset": 79222
+                          }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 79134,
+                        "offset": 79133
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 79228,
+                        "offset": 79227
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 78986,
+                    "offset": 78985
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 79233,
+                    "offset": 79232
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 78842,
+                "offset": 78841
+              },
+              "end": {
+                "line": 1,
+                "column": 79238,
+                "offset": 79237
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Otherwise, the user is accessing the page for the first time and should be met with the form for logging in.",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 79242,
+                    "offset": 79241
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 79350,
+                    "offset": 79349
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 79238,
+                "offset": 79237
+              },
+              "end": {
+                "line": 1,
+                "column": 79355,
+                "offset": 79354
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 78748,
+            "offset": 78747
+          },
+          "end": {
+            "line": 1,
+            "column": 79360,
+            "offset": 79359
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Finally, your users may eventually want to sign out. The basic code for this request is simple:",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 79363,
+                "offset": 79362
+              },
+              "end": {
+                "line": 1,
+                "column": 79458,
+                "offset": 79457
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 79360,
+            "offset": 79359
+          },
+          "end": {
+            "line": 1,
+            "column": 79462,
+            "offset": 79461
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "pre",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "code",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "from django.shortcuts import render, redirect\\nfrom django.contrib.auth import logout\\n\\ndef signout(request):\\n    logout(request)\\n    return redirect(\\'/\\')\\n",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 79549,
+                    "offset": 79548
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 79710,
+                    "offset": 79709
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 79518,
+                "offset": 79517
+              },
+              "end": {
+                "line": 1,
+                "column": 79717,
+                "offset": 79716
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 79488,
+            "offset": 79487
+          },
+          "end": {
+            "line": 1,
+            "column": 79723,
+            "offset": 79722
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Once the user has been logged in to their account, and until they log out on that device, they are having a “session.” During this time, subsequent requests from their browser will be able to access account-only pages. A user can have multiple sessions active at the same time. By default, sessions do not time out.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 79812,
+                "offset": 79811
+              },
+              "end": {
+                "line": 1,
+                "column": 80127,
+                "offset": 80126
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 79809,
+            "offset": 79808
+          },
+          "end": {
+            "line": 1,
+            "column": 80131,
+            "offset": 80130
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "While a user has an active session on their device, they will register as ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 80134,
+                "offset": 80133
+              },
+              "end": {
+                "line": 1,
+                "column": 80208,
+                "offset": 80207
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "code",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "True",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 80214,
+                    "offset": 80213
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 80218,
+                    "offset": 80217
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 80208,
+                "offset": 80207
+              },
+              "end": {
+                "line": 1,
+                "column": 80225,
+                "offset": 80224
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " for the ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 80225,
+                "offset": 80224
+              },
+              "end": {
+                "line": 1,
+                "column": 80234,
+                "offset": 80233
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "code",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "request.user.is_authenticated",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 80240,
+                    "offset": 80239
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 80269,
+                    "offset": 80268
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 80234,
+                "offset": 80233
+              },
+              "end": {
+                "line": 1,
+                "column": 80276,
+                "offset": 80275
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " check. Another way to restrict pages to logged-in users only is the ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 80276,
+                "offset": 80275
+              },
+              "end": {
+                "line": 1,
+                "column": 80345,
+                "offset": 80344
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "code",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "@login_required",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 80351,
+                    "offset": 80350
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 80366,
+                    "offset": 80365
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 80345,
+                "offset": 80344
+              },
+              "end": {
+                "line": 1,
+                "column": 80373,
+                "offset": 80372
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " decorator above a function. There are multiple other ways of achieving the same, ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 80373,
+                "offset": 80372
+              },
+              "end": {
+                "line": 1,
+                "column": 80455,
+                "offset": 80454
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://docs.djangoproject.com/en/3.0/topics/auth/default/#limiting-access-to-logged-in-users"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "detailed here",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 80559,
+                    "offset": 80558
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 80572,
+                    "offset": 80571
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 80455,
+                "offset": 80454
+              },
+              "end": {
+                "line": 1,
+                "column": 80576,
+                "offset": 80575
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ".",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 80576,
+                "offset": 80575
+              },
+              "end": {
+                "line": 1,
+                "column": 80577,
+                "offset": 80576
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 80131,
+            "offset": 80130
+          },
+          "end": {
+            "line": 1,
+            "column": 80581,
+            "offset": 80580
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "If this level of configuration is more than you want to perform, there is an even more out-of-the-box approach to user management. These ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 80584,
+                "offset": 80583
+              },
+              "end": {
+                "line": 1,
+                "column": 80721,
+                "offset": 80720
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://docs.djangoproject.com/en/3.0/topics/auth/default/#module-django.contrib.auth.views"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "stock authentication views",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 80823,
+                    "offset": 80822
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 80849,
+                    "offset": 80848
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 80721,
+                "offset": 80720
+              },
+              "end": {
+                "line": 1,
+                "column": 80853,
+                "offset": 80852
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " provide standard routes, views, and forms for user management and can be modified by assigning them to custom URLs, passing custom templates, or even subclassing the views for more control.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 80853,
+                "offset": 80852
+              },
+              "end": {
+                "line": 1,
+                "column": 81043,
+                "offset": 81042
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 80581,
+            "offset": 80580
+          },
+          "end": {
+            "line": 1,
+            "column": 81047,
+            "offset": 81046
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Extending The User Model",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 81121,
+                "offset": 81120
+              },
+              "end": {
+                "line": 1,
+                "column": 81145,
+                "offset": 81144
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 81087,
+            "offset": 81086
+          },
+          "end": {
+            "line": 1,
+            "column": 81150,
+            "offset": 81149
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Generally, you need to expand the user model to provide finer-grained access controls or store more user data per account. We’ll explore several common cases below.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 81153,
+                "offset": 81152
+              },
+              "end": {
+                "line": 1,
+                "column": 81317,
+                "offset": 81316
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 81150,
+            "offset": 81149
+          },
+          "end": {
+            "line": 1,
+            "column": 81321,
+            "offset": 81320
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h4",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Dropping Fields From The User Model",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 81366,
+                "offset": 81365
+              },
+              "end": {
+                "line": 1,
+                "column": 81401,
+                "offset": 81400
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 81321,
+            "offset": 81320
+          },
+          "end": {
+            "line": 1,
+            "column": 81406,
+            "offset": 81405
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Contrary to this section’s header, I do not actually recommend making changes directly to the user model or associated database schema! The generic user model is established in your database by default during the setup of a new Django project. So much is tied to the default user model that changing it could have unexpected effects in your application (especially if you’re using third-party libraries), accordingly, adding or removing fields is not recommended and is not made easy by the framework.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 81409,
+                "offset": 81408
+              },
+              "end": {
+                "line": 1,
+                "column": 81910,
+                "offset": 81909
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 81406,
+            "offset": 81405
+          },
+          "end": {
+            "line": 1,
+            "column": 81914,
+            "offset": 81913
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "By default, the only two fields that are required for a user are username and password. If you don’t want to use any of the other fields, simply ignore their existence, as a user can be created without a first name, last name, or email address. There is a collection of default fields like last_login and date_joined that can also be ignored if you don’t want them. If you had an actual technical constraint that required dropping optional fields from the user model, you would already know about it and wouldn’t need this article.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 81917,
+                "offset": 81916
+              },
+              "end": {
+                "line": 1,
+                "column": 82448,
+                "offset": 82447
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 81914,
+            "offset": 81913
+          },
+          "end": {
+            "line": 1,
+            "column": 82452,
+            "offset": 82451
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "A common reason you might want to drop a field in the user model is to drop the username in favor of the email as a unique identifier. In that case, when creating the user from form data or authenticating a request, simply enter the email address as the username in addition to its use in the email field. The username field will still enforce the uniqueness constraint when usernames are formatted as email addresses. Strings are strings, they will be treated the same.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 82455,
+                "offset": 82454
+              },
+              "end": {
+                "line": 1,
+                "column": 82925,
+                "offset": 82924
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 82452,
+            "offset": 82451
+          },
+          "end": {
+            "line": 1,
+            "column": 82929,
+            "offset": 82928
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "ariaLabel": "Share on Twitter",
+                  "href": "http://twitter.com/share?text=So%20much%20is%20tied%20to%20the%20default%20user%20model%20that%20changing%20it%20could%20have%20unexpected%20effects%20in%20your%20application,%20especially%20if%20you%e2%80%99re%20using%20third-party%20libraries.%0a&url=https://smashingmagazine.com%2f2020%2f02%2fdjango-highlights-user-models-authentication%2f"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "So much is tied to the default user model that changing it could have unexpected effects in your application, especially if you’re using third-party libraries.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 83376,
+                        "offset": 83375
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 83535,
+                        "offset": 83534
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 82963,
+                    "offset": 82962
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 83539,
+                    "offset": 83538
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 82960,
+                "offset": 82959
+              },
+              "end": {
+                "line": 1,
+                "column": 83543,
+                "offset": 83542
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 82929,
+            "offset": 82928
+          },
+          "end": {
+            "line": 1,
+            "column": 83672,
+            "offset": 83671
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h4",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Adding Fields With A Profile",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 83710,
+                "offset": 83709
+              },
+              "end": {
+                "line": 1,
+                "column": 83738,
+                "offset": 83737
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 83672,
+            "offset": 83671
+          },
+          "end": {
+            "line": 1,
+            "column": 83743,
+            "offset": 83742
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Similarly, if you want to store extra information about your users, you should not attempt to modify the default user model. Even for a single field, define your own object with a one-to-one relationship with the existing users. This extra model is often called the ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 83746,
+                "offset": 83745
+              },
+              "end": {
+                "line": 1,
+                "column": 84012,
+                "offset": 84011
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "code",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Profile",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 84018,
+                    "offset": 84017
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 84025,
+                    "offset": 84024
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 84012,
+                "offset": 84011
+              },
+              "end": {
+                "line": 1,
+                "column": 84032,
+                "offset": 84031
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". Say you wanted to store a middle name and date of birth (dob) for each user. The ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 84032,
+                "offset": 84031
+              },
+              "end": {
+                "line": 1,
+                "column": 84115,
+                "offset": 84114
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "code",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Profile",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 84121,
+                    "offset": 84120
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 84128,
+                    "offset": 84127
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 84115,
+                "offset": 84114
+              },
+              "end": {
+                "line": 1,
+                "column": 84135,
+                "offset": 84134
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " would be defined as follows in ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 84135,
+                "offset": 84134
+              },
+              "end": {
+                "line": 1,
+                "column": 84167,
+                "offset": 84166
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "models.py",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 84171,
+                    "offset": 84170
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 84180,
+                    "offset": 84179
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 84167,
+                "offset": 84166
+              },
+              "end": {
+                "line": 1,
+                "column": 84185,
+                "offset": 84184
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ":",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 84185,
+                "offset": 84184
+              },
+              "end": {
+                "line": 1,
+                "column": 84186,
+                "offset": 84185
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 83743,
+            "offset": 83742
+          },
+          "end": {
+            "line": 1,
+            "column": 84190,
+            "offset": 84189
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "pre",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "code",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "from django.db import models\\nfrom django.contrib.auth.models import User\\n\\nclass Profile(models.Model):\\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\\n    middle_name = models.CharField(max_length=30, blank=True)\\n    dob = models.DateField(null=True, blank=True)\\n",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 84277,
+                    "offset": 84276
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 84563,
+                    "offset": 84562
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 84246,
+                "offset": 84245
+              },
+              "end": {
+                "line": 1,
+                "column": 84570,
+                "offset": 84569
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 84216,
+            "offset": 84215
+          },
+          "end": {
+            "line": 1,
+            "column": 84576,
+            "offset": 84575
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h4",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Custom Access Control",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 84693,
+                "offset": 84692
+              },
+              "end": {
+                "line": 1,
+                "column": 84714,
+                "offset": 84713
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 84662,
+            "offset": 84661
+          },
+          "end": {
+            "line": 1,
+            "column": 84719,
+            "offset": 84718
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Your application may have required a distinction between different types of users for accessing information and functions. Django provides a system for creating custom fine-grained access control: permissions and groups.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 84722,
+                "offset": 84721
+              },
+              "end": {
+                "line": 1,
+                "column": 84942,
+                "offset": 84941
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 84719,
+            "offset": 84718
+          },
+          "end": {
+            "line": 1,
+            "column": 84946,
+            "offset": 84945
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://docs.djangoproject.com/en/3.0/ref/contrib/auth/#django.contrib.auth.models.Permission"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Permissions",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 85053,
+                    "offset": 85052
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 85064,
+                    "offset": 85063
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 84949,
+                "offset": 84948
+              },
+              "end": {
+                "line": 1,
+                "column": 85068,
+                "offset": 85067
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " are objects that determine access to resources. A user can have one or more permissions. For example, they might have read access to a table of products and write access to a table of customers. The exact implementation of permission varies substantially by application but Django’s approach makes it intuitive to define permissions for data and assign those permissions to users.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 85068,
+                "offset": 85067
+              },
+              "end": {
+                "line": 1,
+                "column": 85449,
+                "offset": 85448
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 84946,
+            "offset": 84945
+          },
+          "end": {
+            "line": 1,
+            "column": 85453,
+            "offset": 85452
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Applications for enterprise and other large organizations often implement ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 85456,
+                "offset": 85455
+              },
+              "end": {
+                "line": 1,
+                "column": 85530,
+                "offset": 85529
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://en.wikipedia.org/wiki/Role-based_access_control"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "role-based access control",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 85596,
+                    "offset": 85595
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 85621,
+                    "offset": 85620
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 85530,
+                "offset": 85529
+              },
+              "end": {
+                "line": 1,
+                "column": 85625,
+                "offset": 85624
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". Essentially, a user can have various roles, each of which has certain permissions. Django’s tool for implementing this pattern is the ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 85625,
+                "offset": 85624
+              },
+              "end": {
+                "line": 1,
+                "column": 85761,
+                "offset": 85760
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://docs.djangoproject.com/en/3.0/ref/contrib/auth/#django.contrib.auth.models.Group"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Group",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 85860,
+                    "offset": 85859
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 85865,
+                    "offset": 85864
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 85761,
+                "offset": 85760
+              },
+              "end": {
+                "line": 1,
+                "column": 85869,
+                "offset": 85868
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". A group can have any number of permissions, which can each be assigned to any number of groups. A user then gains permissions not directly but by their membership to groups, making the application easier to administer.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 85869,
+                "offset": 85868
+              },
+              "end": {
+                "line": 1,
+                "column": 86089,
+                "offset": 86088
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 85453,
+            "offset": 85452
+          },
+          "end": {
+            "line": 1,
+            "column": 86093,
+            "offset": 86092
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h4",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Overview: Integrating A Payment Provider",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 86142,
+                "offset": 86141
+              },
+              "end": {
+                "line": 1,
+                "column": 86182,
+                "offset": 86181
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 86093,
+            "offset": 86092
+          },
+          "end": {
+            "line": 1,
+            "column": 86187,
+            "offset": 86186
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The precise process of integrating a payment processor varies substantially by application and provider. However, I’ll cover the process in general terms.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 86190,
+                "offset": 86189
+              },
+              "end": {
+                "line": 1,
+                "column": 86344,
+                "offset": 86343
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 86187,
+            "offset": 86186
+          },
+          "end": {
+            "line": 1,
+            "column": 86348,
+            "offset": 86347
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "One of the key advantages of outsourcing payments is that the provider is responsible for storing and validating highly regulated data such as credit card information. The service then shares some unique user token with your application along with data about their payment history. Like adding the profile, you can create a model associated with the core ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 86351,
+                "offset": 86350
+              },
+              "end": {
+                "line": 1,
+                "column": 86706,
+                "offset": 86705
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "code",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "User",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 86712,
+                    "offset": 86711
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 86716,
+                    "offset": 86715
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 86706,
+                "offset": 86705
+              },
+              "end": {
+                "line": 1,
+                "column": 86723,
+                "offset": 86722
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " and store the data in that model. As with passwords, it’s important to follow the given integration with the provider to avoid storing sensitive information improperly.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 86723,
+                "offset": 86722
+              },
+              "end": {
+                "line": 1,
+                "column": 86892,
+                "offset": 86891
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 86348,
+            "offset": 86347
+          },
+          "end": {
+            "line": 1,
+            "column": 86896,
+            "offset": 86895
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h4",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Overview: Social Sign-In",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 86969,
+                "offset": 86968
+              },
+              "end": {
+                "line": 1,
+                "column": 86993,
+                "offset": 86992
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 86936,
+            "offset": 86935
+          },
+          "end": {
+            "line": 1,
+            "column": 86998,
+            "offset": 86997
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The other broad, complex field I want to briefly touch upon is social sign-in. Large platforms like Facebook and Google, as well as smaller sites like GitHub, provide APIs for using their services to authenticate users. Similar to a payment provider, this creates a record in your database linking an account to an account in their database.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 87001,
+                "offset": 87000
+              },
+              "end": {
+                "line": 1,
+                "column": 87342,
+                "offset": 87341
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 86998,
+            "offset": 86997
+          },
+          "end": {
+            "line": 1,
+            "column": 87346,
+            "offset": 87345
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "You might want to include social auth in your site to make it easier for users to sign up without creating a new set of login credentials. If your application solely targets customers who already use a specific site that provides a social auth option, it might help you attract users from that market by lowering the barrier of entry. Furthermore, if your application intends to access the user’s data from a third-party service, linking the accounts during authentication simplifies the process of granting permissions.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 87349,
+                "offset": 87348
+              },
+              "end": {
+                "line": 1,
+                "column": 87869,
+                "offset": 87868
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 87346,
+            "offset": 87345
+          },
+          "end": {
+            "line": 1,
+            "column": 87873,
+            "offset": 87872
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "However, there are downsides to using social auth. API changes or outages from the third party provider could interrupt your application’s uptime or development activities. In general, external dependencies add complexity to the application. Finally, it’s worth considering the data collection and use policies of third parties that you are integrating with and make sure that they align with your and your users’ expectations.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 87876,
+                "offset": 87875
+              },
+              "end": {
+                "line": 1,
+                "column": 88303,
+                "offset": 88302
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 87873,
+            "offset": 87872
+          },
+          "end": {
+            "line": 1,
+            "column": 88307,
+            "offset": 88306
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "If you do decide that social authentication is right for your application, fortunately, there’s a library for that. ",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 88310,
+                "offset": 88309
+              },
+              "end": {
+                "line": 1,
+                "column": 88426,
+                "offset": 88425
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://github.com/python-social-auth/social-app-django"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Python Social Auth for Django",
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 88492,
+                    "offset": 88491
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 88521,
+                    "offset": 88520
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 88426,
+                "offset": 88425
+              },
+              "end": {
+                "line": 1,
+                "column": 88525,
+                "offset": 88524
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " is a package for enabling the capabilities of Python’s social auth ecosystem in Django projects.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 88525,
+                "offset": 88524
+              },
+              "end": {
+                "line": 1,
+                "column": 88622,
+                "offset": 88621
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 88307,
+            "offset": 88306
+          },
+          "end": {
+            "line": 1,
+            "column": 88626,
+            "offset": 88625
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Wrapping Up",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 88647,
+                "offset": 88646
+              },
+              "end": {
+                "line": 1,
+                "column": 88658,
+                "offset": 88657
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 88626,
+            "offset": 88625
+          },
+          "end": {
+            "line": 1,
+            "column": 88663,
+            "offset": 88662
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "As universal as the user account is, its widespread use can lead to resolving the same problems needlessly. Hopefully, this article has shown you the range of powerful features available in Django and given you an understanding of the basic responsibilities of an application when creating user accounts.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 88666,
+                "offset": 88665
+              },
+              "end": {
+                "line": 1,
+                "column": 88970,
+                "offset": 88969
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 88663,
+            "offset": 88662
+          },
+          "end": {
+            "line": 1,
+            "column": 88974,
+            "offset": 88973
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Django Highlights is a series introducing important concepts of web development in Django. Each article is written as a stand-alone guide to a facet of Django development intended to help front-end developers and designers reach a deeper understanding of “the other half” of the codebase. These articles are mostly constructed to help you gain an understanding of theory and convention but contain some code samples, which are written in Django 3.0. Several concepts that we touched on in this article, including templates, admin users, models, and forms, will be explored individually in detail in future articles in this series.",
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 88977,
+                "offset": 88976
+              },
+              "end": {
+                "line": 1,
+                "column": 89607,
+                "offset": 89606
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1,
+            "column": 88974,
+            "offset": 88973
+          },
+          "end": {
+            "line": 1,
+            "column": 89611,
+            "offset": 89610
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "line": 1,
+        "column": 62329,
+        "offset": 62328
+      },
+      "end": {
+        "line": 1,
+        "column": 90510,
+        "offset": 90509
+      }
+    }
+  },
+  "html": "<article><h3>About The Author</h3><p>Philip Kiely is a developer, writer, and entrepreneur. He is an undergraduate at Grinnell College (class of 2020).\\n<a href=\"/author/philip-kiely\">More about\\nPhilip\\nKiely\\n…</a></p><h2>Smashing Newsletter</h2><p>Upgrade your inbox and get our editors’ picks 2× a month — delivered right into your inbox. <a href=\"https://www.smashingmagazine.com/the-smashing-newsletter/\">Earlier issues.</a></p>One major reason to develop a dynamic site is to authenticate users and restrict content. Django provides a powerful out-of-the-box user model, and in this article, we’ll walk through the best way to provide secure, intuitive user authentication flows.<p>There are two types of websites: static and dynamic. <a href=\"https://www.djangoproject.com\">Django</a> is a framework for developing dynamic websites. While a static website is one that solely presents information, there is no interaction (beyond simple page requests) that gets registered to a server. In a static website, the server sends HTML, CSS, and JavaScript to a client and that’s it. More capabilities require a dynamic website, where the server stores information and responds to user interaction beyond just serving pages. One major reason to develop a dynamic site is to authenticate users and restrict content.</p><p>Writing, deploying, and administering a static website is about an order of magnitude easier, cheaper, and more secure than a dynamic site. Thus, you should only create a dynamic website if the dynamic paradigm’s additional capabilities are necessary for your project. Django simplifies and streamlines the process of creating a dynamic site with its built-in components. As one of the primary components of a dynamic web application, the “user account” object, like the wheel, is tempting to re-invent, but the standard shape is appropriate for most uses. Django provides a powerful out-of-the-box user model, and in this article, we’ll walk through the best way to provide secure, intuitive user authentication flows.</p><h3>Getting Set Up</h3><p>If you’d like to create your own Django application to experiment with the concepts in this article, you can create a directory (and preferably a virtual environment) and then run the following commands:</p><pre><code>pip install django\\ndjango-admin startproject PROJECTNAME\\ncd PROJECTNAME\\npython manage.py startapp APPNAME\\npython manage.py migrate\\npython manage.py runserver\\n</code></pre><p><em>If you’re looking for a walkthrough of creating your first Django project, <a href=\"https://docs.djangoproject.com/en/3.0/intro/tutorial01/\">Django’s own website provides a great one</a>. In this article, we’re not using an example project, but the concepts discussed will apply to almost every Django application.</em></p><h3>Standard User Model</h3><p>Fundamentally, the concept of a user account exists for two reasons: access control and personalized application state. Access control is the idea that resources on a system are only available to some users. Personalized state is heavily dependent on the purpose of the application but may include settings, data, or any other records specific to an individual user. The Django stock <code>User</code> model provides sensible approaches to both use cases.</p><p>Initially, there are two types of users in a Django application: superuser accounts and regular users. Superusers have every attribute and privilege of regular accounts, but also have access to the Django admin panel, a powerful application that we’ll explore in detail in a future article. Essentially, superusers can create, edit, or delete any data in the application, including other user accounts.</p><blockquote><p><a aria-label=\"Share on Twitter\" href=\"http://twitter.com/share?text=Fundamentally,%20the%20concept%20of%20a%20user%20account%20exists%20for%20two%20reasons:%20access%20control%20and%20personalized%20application%20state.%0a&#x26;url=https://smashingmagazine.com%2f2020%2f02%2fdjango-highlights-user-models-authentication%2f\">Fundamentally, the concept of a user account exists for two reasons: access control and personalized application state.</a></p></blockquote><p>To create a superuser on your own Django application, run:</p><p>The other benefit of a user account is storing personalized data to the database. By default, Django only requires a username and password but provides optional fields for users to enter their first name, last name, and email address. You can read a <a href=\"https://docs.djangoproject.com/en/3.0/topics/auth/default/\">complete model reference on the Django website</a>. We’ll discuss extending this model below.</p><h4>Security And Reliability</h4><p>Django includes substantial password management middleware with the user model. User passwords are required to be at least 8 characters, not entirely numbers, not match too closely to the username, and not be on a list of the 20,000 most common passwords. The Django stock forms validate these requirements. When a password is sent to the server, it is encrypted before it is stored, by default using the PBKDF2 algorithm with a SHA256 hash. Overall, the default password system provides robust security without any effort from the developer. Unless you have specific expertise and a compelling reason to change the way passwords are handled in your application, don’t modify this behavior.</p><p>One other convenient built-in is the requirement that usernames are unique. If you think about it, if there were two users with the username “djangofan1” and the server received a login request for that username it would not know which user was trying to access the application. Unfortunately for them, the second user to try to register with “djangofan1” will have to pick a different name, perhaps “djangofan2”. This uniqueness constraint is enforced at the database level but is again verified by the forms that Django provides.</p><p>Finally, a note on deleting users. While deleting users is a possibility, most complex applications will have a number of resources tied to each user account. If you want to effectively delete a user without removing those attached objects, set the user’s <code>is_active</code> field to false instead. Then, those other resources remain associated with the account rather than being deleted themselves, and the user account is able to be re-activated at any time by a superuser. Note that this does not free up the username, but setting the account as inactive in conjunction with changing the username to a random, unique value could achieve the same effect. Finally, if your site policies or applicable local law require that user accounts be fully deletable, the <code>is_active</code> approach will not be sufficient.</p><blockquote><p><a aria-label=\"Share on Twitter\" href=\"http://twitter.com/share?text=Unless%20you%20have%20specific%20expertise%20and%20a%20compelling%20reason%20to%20change%20the%20way%20passwords%20are%20handled%20in%20your%20application,%20don%e2%80%99t%20modify%20this%20behavior.%0a&#x26;url=https://smashingmagazine.com%2f2020%2f02%2fdjango-highlights-user-models-authentication%2f\">Unless you have specific expertise and a compelling reason to change the way passwords are handled in your application, don’t modify this behavior.</a></p></blockquote><h4>Standard Use</h4><p>When you want to register a new user account, the view for doing so will probably look something like the following in <em>views.py</em>:</p><pre><code>from django.shortcuts import render, redirect\\nfrom django.contrib.auth import authenticate, login\\nfrom django.contrib.auth.forms import UserCreationForm\\n\\ndef signup(request):\\n    if request.user.is_authenticated:\\n        return redirect(\\'/\\')\\n    if request.method == \\'POST\\':\\n        form = UserCreationForm(request.POST)\\n        if form.is_valid():\\n            form.save()\\n            username = form.cleaned_data.get(\\'username\\')\\n            password = form.cleaned_data.get(\\'password1\\')\\n            user = authenticate(username=username, password=password)\\n            login(request, user)\\n            return redirect(\\'/\\')\\n        else:\\n            return render(request, \\'signup.html\\', {\\'form\\': form})\\n    else:\\n        form = UserCreationForm()\\n        return render(request, \\'signup.html\\', {\\'form\\': form})\\n</code></pre><p>Let’s break that down:</p><ul><li>If the user is already signed in, we’ll redirect them away from the signup page.</li><li>If the request method is POST, that means that the form for creating a user has already been filled out and it’s time to create a user.<ul><li>First, construct the form object on the backend with the user-provided data.</li><li>If the form is valid, create the user and log them in, then send them to the main page.</li><li>Otherwise, dump them back on the user creation page with information about what data was invalid (for example, they requested a username already in use).</li></ul></li><li>Otherwise, the user is accessing the page for the first time and should be met with the form for creating a new account.</li></ul><p>Now examining account signin:</p><pre><code>from django.shortcuts import render, redirect\\nfrom django.contrib.auth import authenticate, login\\nfrom django.contrib.auth.forms import AuthenticationForm\\n\\ndef signin(request):\\n    if request.user.is_authenticated:\\n        return render(request, \\'homepage.html\\')\\n    if request.method == \\'POST\\':\\n        username = request.POST[\\'username\\']\\n        password = request.POST[\\'password\\']\\n        user = authenticate(request, username=username, password=password)\\n        if user is not None:\\n            login(request, user)\\n            return redirect(\\'/\\')\\n        else:\\n            form = AuthenticationForm(request.POST)\\n            return render(request, \\'signin.html\\', {\\'form\\': form})\\n    else:\\n        form = AuthenticationForm()\\n        return render(request, \\'signin.html\\', {\\'form\\': form})\\n</code></pre><p>Another breakdown:</p><ul><li>If the user is already signed in, we’ll redirect them away from the sign-in page.</li><li>If the request method is POST, that means that the form for signing in has been filled and it’s time to authenticate the user to an account.<ul><li>First, authenticate the user with the user-provided data</li><li>If the username and password correspond to an account, log the user in</li><li>Otherwise, bring them back to the sign-in page with their form information pre-filled</li></ul></li><li>Otherwise, the user is accessing the page for the first time and should be met with the form for logging in.</li></ul><p>Finally, your users may eventually want to sign out. The basic code for this request is simple:</p><pre><code>from django.shortcuts import render, redirect\\nfrom django.contrib.auth import logout\\n\\ndef signout(request):\\n    logout(request)\\n    return redirect(\\'/\\')\\n</code></pre><p>Once the user has been logged in to their account, and until they log out on that device, they are having a “session.” During this time, subsequent requests from their browser will be able to access account-only pages. A user can have multiple sessions active at the same time. By default, sessions do not time out.</p><p>While a user has an active session on their device, they will register as <code>True</code> for the <code>request.user.is_authenticated</code> check. Another way to restrict pages to logged-in users only is the <code>@login_required</code> decorator above a function. There are multiple other ways of achieving the same, <a href=\"https://docs.djangoproject.com/en/3.0/topics/auth/default/#limiting-access-to-logged-in-users\">detailed here</a>.</p><p>If this level of configuration is more than you want to perform, there is an even more out-of-the-box approach to user management. These <a href=\"https://docs.djangoproject.com/en/3.0/topics/auth/default/#module-django.contrib.auth.views\">stock authentication views</a> provide standard routes, views, and forms for user management and can be modified by assigning them to custom URLs, passing custom templates, or even subclassing the views for more control.</p><h3>Extending The User Model</h3><p>Generally, you need to expand the user model to provide finer-grained access controls or store more user data per account. We’ll explore several common cases below.</p><h4>Dropping Fields From The User Model</h4><p>Contrary to this section’s header, I do not actually recommend making changes directly to the user model or associated database schema! The generic user model is established in your database by default during the setup of a new Django project. So much is tied to the default user model that changing it could have unexpected effects in your application (especially if you’re using third-party libraries), accordingly, adding or removing fields is not recommended and is not made easy by the framework.</p><p>By default, the only two fields that are required for a user are username and password. If you don’t want to use any of the other fields, simply ignore their existence, as a user can be created without a first name, last name, or email address. There is a collection of default fields like last_login and date_joined that can also be ignored if you don’t want them. If you had an actual technical constraint that required dropping optional fields from the user model, you would already know about it and wouldn’t need this article.</p><p>A common reason you might want to drop a field in the user model is to drop the username in favor of the email as a unique identifier. In that case, when creating the user from form data or authenticating a request, simply enter the email address as the username in addition to its use in the email field. The username field will still enforce the uniqueness constraint when usernames are formatted as email addresses. Strings are strings, they will be treated the same.</p><blockquote><p><a aria-label=\"Share on Twitter\" href=\"http://twitter.com/share?text=So%20much%20is%20tied%20to%20the%20default%20user%20model%20that%20changing%20it%20could%20have%20unexpected%20effects%20in%20your%20application,%20especially%20if%20you%e2%80%99re%20using%20third-party%20libraries.%0a&#x26;url=https://smashingmagazine.com%2f2020%2f02%2fdjango-highlights-user-models-authentication%2f\">So much is tied to the default user model that changing it could have unexpected effects in your application, especially if you’re using third-party libraries.</a></p></blockquote><h4>Adding Fields With A Profile</h4><p>Similarly, if you want to store extra information about your users, you should not attempt to modify the default user model. Even for a single field, define your own object with a one-to-one relationship with the existing users. This extra model is often called the <code>Profile</code>. Say you wanted to store a middle name and date of birth (dob) for each user. The <code>Profile</code> would be defined as follows in <em>models.py</em>:</p><pre><code>from django.db import models\\nfrom django.contrib.auth.models import User\\n\\nclass Profile(models.Model):\\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\\n    middle_name = models.CharField(max_length=30, blank=True)\\n    dob = models.DateField(null=True, blank=True)\\n</code></pre><h4>Custom Access Control</h4><p>Your application may have required a distinction between different types of users for accessing information and functions. Django provides a system for creating custom fine-grained access control: permissions and groups.</p><p><a href=\"https://docs.djangoproject.com/en/3.0/ref/contrib/auth/#django.contrib.auth.models.Permission\">Permissions</a> are objects that determine access to resources. A user can have one or more permissions. For example, they might have read access to a table of products and write access to a table of customers. The exact implementation of permission varies substantially by application but Django’s approach makes it intuitive to define permissions for data and assign those permissions to users.</p><p>Applications for enterprise and other large organizations often implement <a href=\"https://en.wikipedia.org/wiki/Role-based_access_control\">role-based access control</a>. Essentially, a user can have various roles, each of which has certain permissions. Django’s tool for implementing this pattern is the <a href=\"https://docs.djangoproject.com/en/3.0/ref/contrib/auth/#django.contrib.auth.models.Group\">Group</a>. A group can have any number of permissions, which can each be assigned to any number of groups. A user then gains permissions not directly but by their membership to groups, making the application easier to administer.</p><h4>Overview: Integrating A Payment Provider</h4><p>The precise process of integrating a payment processor varies substantially by application and provider. However, I’ll cover the process in general terms.</p><p>One of the key advantages of outsourcing payments is that the provider is responsible for storing and validating highly regulated data such as credit card information. The service then shares some unique user token with your application along with data about their payment history. Like adding the profile, you can create a model associated with the core <code>User</code> and store the data in that model. As with passwords, it’s important to follow the given integration with the provider to avoid storing sensitive information improperly.</p><h4>Overview: Social Sign-In</h4><p>The other broad, complex field I want to briefly touch upon is social sign-in. Large platforms like Facebook and Google, as well as smaller sites like GitHub, provide APIs for using their services to authenticate users. Similar to a payment provider, this creates a record in your database linking an account to an account in their database.</p><p>You might want to include social auth in your site to make it easier for users to sign up without creating a new set of login credentials. If your application solely targets customers who already use a specific site that provides a social auth option, it might help you attract users from that market by lowering the barrier of entry. Furthermore, if your application intends to access the user’s data from a third-party service, linking the accounts during authentication simplifies the process of granting permissions.</p><p>However, there are downsides to using social auth. API changes or outages from the third party provider could interrupt your application’s uptime or development activities. In general, external dependencies add complexity to the application. Finally, it’s worth considering the data collection and use policies of third parties that you are integrating with and make sure that they align with your and your users’ expectations.</p><p>If you do decide that social authentication is right for your application, fortunately, there’s a library for that. <a href=\"https://github.com/python-social-auth/social-app-django\">Python Social Auth for Django</a> is a package for enabling the capabilities of Python’s social auth ecosystem in Django projects.</p><h3>Wrapping Up</h3><p>As universal as the user account is, its widespread use can lead to resolving the same problems needlessly. Hopefully, this article has shown you the range of powerful features available in Django and given you an understanding of the basic responsibilities of an application when creating user accounts.</p><p>Django Highlights is a series introducing important concepts of web development in Django. Each article is written as a stand-alone guide to a facet of Django development intended to help front-end developers and designers reach a deeper understanding of “the other half” of the codebase. These articles are mostly constructed to help you gain an understanding of theory and convention but contain some code samples, which are written in Django 3.0. Several concepts that we touched on in this article, including templates, admin users, models, and forms, will be explored individually in detail in future articles in this series.</p></article>"
+}
