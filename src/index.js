@@ -14,9 +14,9 @@ const summarySchema = {
   tagNames: ['p', 'blockquote']
 }
 
-module.exports = chae
+module.exports = moduleExports
 
-function chae (contents) {
+function moduleExports (contents) {
   const file = vfile(contents)
 
   const processor = unified()
