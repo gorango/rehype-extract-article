@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/gorango/rehype-extract-article/compare/v0.1.1...v0.1.2) (2020-02-09)
+
+
+### Bug Fixes
+
+* **meta:** ensure node is present to stringify ([8bfc4dd](https://github.com/gorango/rehype-extract-article/commit/8bfc4ddfd624ac8eacc406ad6a59e4b41591fb94))
+
 ### [0.1.1](https://github.com/gorango/rehype-extract-article/compare/v0.1.0...v0.1.1) (2020-02-09)
 
 
