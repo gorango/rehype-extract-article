@@ -4,7 +4,7 @@ const toHtml = require('hast-util-to-html')
 const inspect = require('unist-util-inspect')
 const pretty = require('pretty')
 
-const chae = require('../src')
+const extract = require('../src')
 
 const fixtures = [
   'components/input.pug',
@@ -23,7 +23,7 @@ const fixtures = [
 const path = `sandbox/${fixtures[2]}`
 const contents = pug.renderFile(path)
 
-const result = chae({ path, contents })
+const result = extract({ path, contents })
 const { meta, summary, body } = result
 
 console.log(inspect(body))
