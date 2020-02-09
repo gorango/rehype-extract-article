@@ -5,6 +5,7 @@ const stringify = require('rehype-stringify')
 const inspect = require('unist-util-inspect')
 const toString = require('hast-util-to-string')
 const sanitize = require('hast-util-sanitize')
+const toHtml = require('hast-util-to-html')
 
 const extract = require('./extract-content')
 const getMeta = require('./meta')
@@ -35,12 +36,22 @@ function moduleExports (contents, options = defaultOptions) {
     .use(extract)
 
   const tree = processor.parse(file)
-  const body = processor.runSync(tree, file)
   const meta = getMeta(tree)
-
+  const body = processor.runSync(tree, file)
+  const html = toHtml(body)
   const summary = sanitize(body, summarySchema)
     .children.reduce((str, par) => `${str}${toString(par)}`, '')
     .slice(0, 280)
 
-  return { meta, summary, body }
+  const results = {
+    meta,
+    body,
+    html,
+    summary,
+  }
+
+  return Object.keys(options).reduce((obj, key) => ({
+    ...obj,
+    [key]: results[key]
+  }), {})
 }
