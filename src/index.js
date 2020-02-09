@@ -45,7 +45,7 @@ function moduleExports (contents, options = defaultOptions) {
     .children.reduce((str, par) => `${str}${toHtmlString(par)}`, '')
     .slice(0, 280)
   const text = sanitize(body, summarySchema)
-    .children.reduce((str, par) => `${str}${toPlainString(par)}\n`, '')
+    .children.reduce((str, par) => `${str}${toPlainString(par)}\n\n`, '')
 
   const results = {
     meta,
