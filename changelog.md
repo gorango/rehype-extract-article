@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/gorango/rehype-extract-article/compare/v0.1.2...v0.1.3) (2020-02-09)
+
+
+### Features
+
+* **core:** add html to result; filter opts ([326d1e6](https://github.com/gorango/rehype-extract-article/commit/326d1e613ba806fde7ef6c05024bb4e7f0625fdf))
+
+
+### Bug Fixes
+
+* **core:** handle missing prop; add opts ([7008836](https://github.com/gorango/rehype-extract-article/commit/7008836ea117377d97af4ca3c9dbc0220375fa3f))
+
 ### [0.1.2](https://github.com/gorango/rehype-extract-article/compare/v0.1.1...v0.1.2) (2020-02-09)
 
 
