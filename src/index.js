@@ -3,9 +3,10 @@ const unified = require('unified')
 const parse = require('rehype-parse')
 const stringify = require('rehype-stringify')
 const inspect = require('unist-util-inspect')
-const toString = require('hast-util-to-string')
+const toHtmlString = require('hast-util-to-string')
 const sanitize = require('hast-util-sanitize')
 const toHtml = require('hast-util-to-html')
+const toPlainString = require('nlcst-to-string')
 
 const extract = require('./extract-content')
 const getMeta = require('./meta')
@@ -21,7 +22,8 @@ const defaultOptions = {
   meta: true,
   summary: true,
   body: true,
-  html: true
+  html: true,
+  text: false
 }
 
 function moduleExports (contents, options = defaultOptions) {
@@ -40,14 +42,17 @@ function moduleExports (contents, options = defaultOptions) {
   const body = processor.runSync(tree, file)
   const html = toHtml(body)
   const summary = sanitize(body, summarySchema)
-    .children.reduce((str, par) => `${str}${toString(par)}`, '')
+    .children.reduce((str, par) => `${str}${toHtmlString(par)}`, '')
     .slice(0, 280)
+  const text = sanitize(body, summarySchema)
+    .children.reduce((str, par) => `${str}${toPlainString(par)}\n`, '')
 
   const results = {
     meta,
     body,
     html,
     summary,
+    text,
   }
 
   return Object.keys(options).reduce((obj, key) => ({

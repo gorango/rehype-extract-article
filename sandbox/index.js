@@ -24,7 +24,7 @@ const path = 'fixtures/gen_gen-x-will-not-go-quitely/input.html'
 // const contents = pug.renderFile(path)
 const contents = fs.readFileSync(path, 'utf-8')
 
-const result = extract(contents, { meta: {}, html: {} })
+const result = extract(contents, { meta: {}, text: {} })
 // const { meta, summary, body } = result
 
 console.log(result)
