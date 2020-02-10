@@ -1,0 +1,1253 @@
+{
+  "meta": {
+    "title": "China’s Coronavirus Infections Top 40,000 As WHO Sends Advance Team To Beijing",
+    "date": "2020-02-10 00:01:13 -0500",
+    "author": null,
+    "publisher": "HuffPost",
+    "description": "China had reportedly ignored offers of help from the World Health Organization and the CDC until recently.",
+    "image": "https://img.huffingtonpost.com/asset/5e40cef1250000320033d414.jpeg?cache=qvlouqh8ck&ops=1778_1000",
+    "keywords": [
+      "Health",
+      "China",
+      "World Health Organization",
+      "Coronavirus",
+      "Tedros Adhanom"
+    ],
+    "lang": "en",
+    "url": "https://www.huffpost.com/entry/who-team-beijing-coronavirus_n_5e40be0ec5b6bb0ffc13ccea"
+  },
+  "summary": "The World Health Organization sent a team of international experts to Beijing as China works to contain the ongoing coronavirus epidemic, the agency’s chief announced Sunday.Tedros Adhanom Ghebreyesus, WHO’s director-general, said Sunday he had seen off members of a mission led b",
+  "body": {
+    "type": "element",
+    "tagName": "article",
+    "properties": {},
+    "children": [
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The ",
+            "position": {
+              "start": {
+                "line": 1775,
+                "column": 66,
+                "offset": 741566
+              },
+              "end": {
+                "line": 1775,
+                "column": 70,
+                "offset": 741570
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.huffpost.com/news/topic/world-health-organization",
+              "rel": [
+                "noopener",
+                "noreferrer"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "World Health Organization",
+                "position": {
+                  "start": {
+                    "line": 1775,
+                    "column": 184,
+                    "offset": 741684
+                  },
+                  "end": {
+                    "line": 1775,
+                    "column": 209,
+                    "offset": 741709
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1775,
+                "column": 70,
+                "offset": 741570
+              },
+              "end": {
+                "line": 1775,
+                "column": 213,
+                "offset": 741713
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " sent a team of international experts to Beijing as China works to contain the ongoing coronavirus epidemic, the agency’s chief announced Sunday.",
+            "position": {
+              "start": {
+                "line": 1775,
+                "column": 213,
+                "offset": 741713
+              },
+              "end": {
+                "line": 1775,
+                "column": 358,
+                "offset": 741858
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1775,
+            "column": 63,
+            "offset": 741563
+          },
+          "end": {
+            "line": 1775,
+            "column": 362,
+            "offset": 741862
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Tedros Adhanom Ghebreyesus, WHO’s director-general, said Sunday he had seen off members of a mission led by ",
+            "position": {
+              "start": {
+                "line": 1778,
+                "column": 66,
+                "offset": 741936
+              },
+              "end": {
+                "line": 1778,
+                "column": 174,
+                "offset": 742044
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.who.int/dg/adg/aylward/en/",
+              "rel": [
+                "noopener",
+                "noreferrer"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "an emergencies expert who helped spearhead the agency’s response",
+                "position": {
+                  "start": {
+                    "line": 1778,
+                    "column": 265,
+                    "offset": 742135
+                  },
+                  "end": {
+                    "line": 1778,
+                    "column": 329,
+                    "offset": 742199
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1778,
+                "column": 174,
+                "offset": 742044
+              },
+              "end": {
+                "line": 1778,
+                "column": 333,
+                "offset": 742203
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " to the Ebola crisis in West Africa. The team will head to China about two weeks after WHO declared the outbreak a global emergency.",
+            "position": {
+              "start": {
+                "line": 1778,
+                "column": 333,
+                "offset": 742203
+              },
+              "end": {
+                "line": 1778,
+                "column": 465,
+                "offset": 742335
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1778,
+            "column": 63,
+            "offset": 741933
+          },
+          "end": {
+            "line": 1778,
+            "column": 469,
+            "offset": 742339
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The move comes as ",
+            "position": {
+              "start": {
+                "line": 1781,
+                "column": 66,
+                "offset": 742413
+              },
+              "end": {
+                "line": 1781,
+                "column": 84,
+                "offset": 742431
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.reuters.com/article/us-china-health/who-team-heads-for-china-as-coronavirus-toll-hit-daily-record-idUSKBN20402G?il=0",
+              "rel": [
+                "noopener",
+                "noreferrer"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "infections continue to grow",
+                "position": {
+                  "start": {
+                    "line": 1781,
+                    "column": 265,
+                    "offset": 742612
+                  },
+                  "end": {
+                    "line": 1781,
+                    "column": 292,
+                    "offset": 742639
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1781,
+                "column": 84,
+                "offset": 742431
+              },
+              "end": {
+                "line": 1781,
+                "column": 296,
+                "offset": 742643
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". Officials with China’s National Health Commission said Monday the number of deaths had topped 900 — more than the global toll from ",
+            "position": {
+              "start": {
+                "line": 1781,
+                "column": 296,
+                "offset": 742643
+              },
+              "end": {
+                "line": 1781,
+                "column": 429,
+                "offset": 742776
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.huffpost.com/entry/china-coronavirus-death-toll-sars_n_5e3f670ac5b6bb0ffc125238",
+              "rel": [
+                "noopener",
+                "noreferrer"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "the SARS epidemic",
+                "position": {
+                  "start": {
+                    "line": 1781,
+                    "column": 573,
+                    "offset": 742920
+                  },
+                  "end": {
+                    "line": 1781,
+                    "column": 590,
+                    "offset": 742937
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1781,
+                "column": 429,
+                "offset": 742776
+              },
+              "end": {
+                "line": 1781,
+                "column": 594,
+                "offset": 742941
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " in 2002 and 2003. A vast majority of those infections are still centered on Wuhan, where the outbreak first began, and all but two deaths have been in China.",
+            "position": {
+              "start": {
+                "line": 1781,
+                "column": 594,
+                "offset": 742941
+              },
+              "end": {
+                "line": 1781,
+                "column": 757,
+                "offset": 743104
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1781,
+            "column": 63,
+            "offset": 742410
+          },
+          "end": {
+            "line": 1781,
+            "column": 761,
+            "offset": 743108
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "“Containment remains our objective, but all countries must use the window of opportunity created by the containment strategy to prepare for the virus’s possible arrival,” Tedros said Sunday on Twitter. He later called for the world to remain “calm” as officials worked to deal with the spread of the virus. “I reiterate my call for solidarity ― human, financial and scientific solidarity. Any breach in solidarity is a victory for the virus.”",
+            "position": {
+              "start": {
+                "line": 1792,
+                "column": 66,
+                "offset": 744102
+              },
+              "end": {
+                "line": 1792,
+                "column": 508,
+                "offset": 744544
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1792,
+            "column": 63,
+            "offset": 744099
+          },
+          "end": {
+            "line": 1792,
+            "column": 512,
+            "offset": 744548
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The number of cases has ",
+            "position": {
+              "start": {
+                "line": 1804,
+                "column": 76,
+                "offset": 745425
+              },
+              "end": {
+                "line": 1804,
+                "column": 100,
+                "offset": 745449
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://apnews.com/b618953aee1c52b983b280f09488c2e0",
+              "rel": [
+                "noopener",
+                "noreferrer"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "continued to grow",
+                "position": {
+                  "start": {
+                    "line": 1804,
+                    "column": 204,
+                    "offset": 745553
+                  },
+                  "end": {
+                    "line": 1804,
+                    "column": 221,
+                    "offset": 745570
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1804,
+                "column": 100,
+                "offset": 745449
+              },
+              "end": {
+                "line": 1804,
+                "column": 225,
+                "offset": 745574
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", and some officials expressed hope this weekend that the rate of new infections had stabilized in recent days. But officials have continued to caution that the outbreak is still “",
+            "position": {
+              "start": {
+                "line": 1804,
+                "column": 225,
+                "offset": 745574
+              },
+              "end": {
+                "line": 1804,
+                "column": 405,
+                "offset": 745754
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.nytimes.com/2020/02/09/world/asia/coronavirus-china.html?action=click&pgtype=Article&state=default&module=styln-coronavirus&variant=show&region=TOP_BANNER&context=storyline_menu#link-1f3fc778",
+              "rel": [
+                "noopener",
+                "noreferrer"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "very intense",
+                "position": {
+                  "start": {
+                    "line": 1804,
+                    "column": 685,
+                    "offset": 746034
+                  },
+                  "end": {
+                    "line": 1804,
+                    "column": 697,
+                    "offset": 746046
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1804,
+                "column": 405,
+                "offset": 745754
+              },
+              "end": {
+                "line": 1804,
+                "column": 701,
+                "offset": 746050
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ",” and many experts believe estimates of those affected by the new coronavirus may be far short of reality.",
+            "position": {
+              "start": {
+                "line": 1804,
+                "column": 701,
+                "offset": 746050
+              },
+              "end": {
+                "line": 1804,
+                "column": 808,
+                "offset": 746157
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1804,
+            "column": 73,
+            "offset": 745422
+          },
+          "end": {
+            "line": 1804,
+            "column": 812,
+            "offset": 746161
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "At the same time, Chinese health workers in Wuhan and its broader Hubei Province — where some 60 million people are effectively quarantined — have struggled to deal with the sheer number of people who may have been infected. ",
+            "position": {
+              "start": {
+                "line": 1805,
+                "column": 112,
+                "offset": 746279
+              },
+              "end": {
+                "line": 1805,
+                "column": 337,
+                "offset": 746504
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.nytimes.com/2020/02/02/world/asia/china-coronavirus-wuhan.html",
+              "rel": [
+                "noopener",
+                "noreferrer"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Hospitals are overwhelmed, and there aren’t enough testing kits",
+                "position": {
+                  "start": {
+                    "line": 1805,
+                    "column": 464,
+                    "offset": 746631
+                  },
+                  "end": {
+                    "line": 1805,
+                    "column": 527,
+                    "offset": 746694
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1805,
+                "column": 337,
+                "offset": 746504
+              },
+              "end": {
+                "line": 1805,
+                "column": 531,
+                "offset": 746698
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " to go around.",
+            "position": {
+              "start": {
+                "line": 1805,
+                "column": 531,
+                "offset": 746698
+              },
+              "end": {
+                "line": 1805,
+                "column": 545,
+                "offset": 746712
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1805,
+            "column": 109,
+            "offset": 746276
+          },
+          "end": {
+            "line": 1805,
+            "column": 549,
+            "offset": 746716
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The New York Times reported Friday that offers from WHO and the U.S. Centers for Disease Control and Prevention ",
+            "position": {
+              "start": {
+                "line": 1806,
+                "column": 66,
+                "offset": 746788
+              },
+              "end": {
+                "line": 1806,
+                "column": 178,
+                "offset": 746900
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.nytimes.com/2020/02/07/health/cdc-coronavirus-china.html",
+              "rel": [
+                "noopener",
+                "noreferrer"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "had largely been ignored by officials in China",
+                "position": {
+                  "start": {
+                    "line": 1806,
+                    "column": 299,
+                    "offset": 747021
+                  },
+                  "end": {
+                    "line": 1806,
+                    "column": 345,
+                    "offset": 747067
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1806,
+                "column": 178,
+                "offset": 746900
+              },
+              "end": {
+                "line": 1806,
+                "column": 349,
+                "offset": 747071
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " for more than a month as the virus spread.",
+            "position": {
+              "start": {
+                "line": 1806,
+                "column": 349,
+                "offset": 747071
+              },
+              "end": {
+                "line": 1806,
+                "column": 392,
+                "offset": 747114
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1806,
+            "column": 63,
+            "offset": 746785
+          },
+          "end": {
+            "line": 1806,
+            "column": 396,
+            "offset": 747118
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The outlet noted teams with the CDC’s Epidemic Intelligence Service can be ready to travel within 24 hours, but China’s ambassador to the Untied States, Cui Tiankai, wouldn’t say Sunday if the agency would be allowed to send experts to the country, at least as direct emissaries.",
+            "position": {
+              "start": {
+                "line": 1807,
+                "column": 66,
+                "offset": 747190
+              },
+              "end": {
+                "line": 1807,
+                "column": 345,
+                "offset": 747469
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1807,
+            "column": 63,
+            "offset": 747187
+          },
+          "end": {
+            "line": 1807,
+            "column": 349,
+            "offset": 747473
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "“We welcome the American expert to participate in our efforts. And we are coordinating with the World Health Organization because a lot of things are done under the auspices of the [agency]. … American experts are on the list recommended by the W.H.O.,” ",
+            "position": {
+              "start": {
+                "line": 1808,
+                "column": 66,
+                "offset": 747545
+              },
+              "end": {
+                "line": 1808,
+                "column": 320,
+                "offset": 747799
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.cbsnews.com/news/transcript-cui-tiankai-on-face-the-nation-february-9-2020/",
+              "rel": [
+                "noopener",
+                "noreferrer"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Cui said during an interview",
+                "position": {
+                  "start": {
+                    "line": 1808,
+                    "column": 460,
+                    "offset": 747939
+                  },
+                  "end": {
+                    "line": 1808,
+                    "column": 488,
+                    "offset": 747967
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1808,
+                "column": 320,
+                "offset": 747799
+              },
+              "end": {
+                "line": 1808,
+                "column": 492,
+                "offset": 747971
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " with CBS’ Face the Nation. “Even beyond that, some American experts have come to China already on their own individual basis.”",
+            "position": {
+              "start": {
+                "line": 1808,
+                "column": 492,
+                "offset": 747971
+              },
+              "end": {
+                "line": 1808,
+                "column": 619,
+                "offset": 748098
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1808,
+            "column": 63,
+            "offset": 747542
+          },
+          "end": {
+            "line": 1808,
+            "column": 623,
+            "offset": 748102
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Cui continued to reject assertions that the Chinese government is working to silence those speaking out about the spread of the virus, including Li Wenliang, the doctor who was one of the first to raise concerns about the epidemic. ",
+            "position": {
+              "start": {
+                "line": 1809,
+                "column": 66,
+                "offset": 748174
+              },
+              "end": {
+                "line": 1809,
+                "column": 298,
+                "offset": 748406
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.nytimes.com/2020/02/06/world/asia/chinese-doctor-Li-Wenliang-coronavirus.html",
+              "rel": [
+                "noopener",
+                "noreferrer"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Li died on Friday",
+                "position": {
+                  "start": {
+                    "line": 1809,
+                    "column": 440,
+                    "offset": 748548
+                  },
+                  "end": {
+                    "line": 1809,
+                    "column": 457,
+                    "offset": 748565
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1809,
+                "column": 298,
+                "offset": 748406
+              },
+              "end": {
+                "line": 1809,
+                "column": 461,
+                "offset": 748569
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " after contracting the virus himself. Cui also lambasted unfounded claims from U.S. Sen. Tom Cotton (R-Ark.), who suggested the virus came from the country’s biological weapons program.",
+            "position": {
+              "start": {
+                "line": 1809,
+                "column": 461,
+                "offset": 748569
+              },
+              "end": {
+                "line": 1809,
+                "column": 646,
+                "offset": 748754
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1809,
+            "column": 63,
+            "offset": 748171
+          },
+          "end": {
+            "line": 1809,
+            "column": 650,
+            "offset": 748758
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "“It’s very dangerous to stir up suspicion, rumors and spread them among the people,” the ambassador said. He continued to say he was saddened by Li’s death. “He was a devoted doctor, and he did his best to protect people’s health. We are so grateful to him. But you see, he was a doctor and a doctor could be alarmed by some individual cases.”",
+            "position": {
+              "start": {
+                "line": 1812,
+                "column": 66,
+                "offset": 748832
+              },
+              "end": {
+                "line": 1812,
+                "column": 409,
+                "offset": 749175
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1812,
+            "column": 63,
+            "offset": 748829
+          },
+          "end": {
+            "line": 1812,
+            "column": 413,
+            "offset": 749179
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "RELATED...",
+            "position": {
+              "start": {
+                "line": 1816,
+                "column": 43,
+                "offset": 749341
+              },
+              "end": {
+                "line": 1816,
+                "column": 53,
+                "offset": 749351
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1816,
+            "column": 1,
+            "offset": 749299
+          },
+          "end": {
+            "line": 1816,
+            "column": 58,
+            "offset": 749356
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "ul",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://www.huffpost.com/entry/china-coronavirus-wet-markets-disease_n_5e3df0a2c5b6bb0ffc1113fd"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Wildlife Markets Are Ticking Time Bombs For Epidemics Like Coronavirus",
+                    "position": {
+                      "start": {
+                        "line": 1820,
+                        "column": 209,
+                        "offset": 749674
+                      },
+                      "end": {
+                        "line": 1820,
+                        "column": 279,
+                        "offset": 749744
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1820,
+                    "column": 1,
+                    "offset": 749466
+                  },
+                  "end": {
+                    "line": 1820,
+                    "column": 283,
+                    "offset": 749748
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1819,
+                "column": 1,
+                "offset": 749400
+              },
+              "end": {
+                "line": 1821,
+                "column": 6,
+                "offset": 749754
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://www.huffpost.com/entry/china-coronavirus-death-toll-sars_n_5e3f670ac5b6bb0ffc125238"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "China’s Coronavirus Death Toll Surpasses SARS, But New Cases Drop",
+                    "position": {
+                      "start": {
+                        "line": 1823,
+                        "column": 205,
+                        "offset": 750025
+                      },
+                      "end": {
+                        "line": 1823,
+                        "column": 270,
+                        "offset": 750090
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1823,
+                    "column": 1,
+                    "offset": 749821
+                  },
+                  "end": {
+                    "line": 1823,
+                    "column": 274,
+                    "offset": 750094
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1822,
+                "column": 1,
+                "offset": 749755
+              },
+              "end": {
+                "line": 1824,
+                "column": 6,
+                "offset": 750100
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://www.huffpost.com/entry/coronavirus-american-dies-wuhan_n_5e3eaf8cc5b6bb0ffc11b6f2"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "American In Wuhan Becomes First Non-Chinese National To Die From Coronavirus",
+                    "position": {
+                      "start": {
+                        "line": 1826,
+                        "column": 203,
+                        "offset": 750369
+                      },
+                      "end": {
+                        "line": 1826,
+                        "column": 279,
+                        "offset": 750445
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1826,
+                    "column": 1,
+                    "offset": 750167
+                  },
+                  "end": {
+                    "line": 1826,
+                    "column": 283,
+                    "offset": 750449
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1825,
+                "column": 1,
+                "offset": 750101
+              },
+              "end": {
+                "line": 1827,
+                "column": 6,
+                "offset": 750455
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1818,
+            "column": 1,
+            "offset": 749364
+          },
+          "end": {
+            "line": 1828,
+            "column": 6,
+            "offset": 750461
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h4",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "BEFORE YOU GO",
+            "position": {
+              "start": {
+                "line": 1926,
+                "column": 41,
+                "offset": 755417
+              },
+              "end": {
+                "line": 1926,
+                "column": 54,
+                "offset": 755430
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 1926,
+            "column": 1,
+            "offset": 755377
+          },
+          "end": {
+            "line": 1926,
+            "column": 59,
+            "offset": 755435
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "line": 1672,
+        "column": 1,
+        "offset": 731790
+      },
+      "end": {
+        "line": 2436,
+        "column": 11,
+        "offset": 780175
+      }
+    }
+  },
+  "html": "<article><p>The <a href=\"https://www.huffpost.com/news/topic/world-health-organization\" rel=\"noopener noreferrer\">World Health Organization</a> sent a team of international experts to Beijing as China works to contain the ongoing coronavirus epidemic, the agency’s chief announced Sunday.</p><p>Tedros Adhanom Ghebreyesus, WHO’s director-general, said Sunday he had seen off members of a mission led by <a href=\"https://www.who.int/dg/adg/aylward/en/\" rel=\"noopener noreferrer\">an emergencies expert who helped spearhead the agency’s response</a> to the Ebola crisis in West Africa. The team will head to China about two weeks after WHO declared the outbreak a global emergency.</p><p>The move comes as <a href=\"https://www.reuters.com/article/us-china-health/who-team-heads-for-china-as-coronavirus-toll-hit-daily-record-idUSKBN20402G?il=0\" rel=\"noopener noreferrer\">infections continue to grow</a>. Officials with China’s National Health Commission said Monday the number of deaths had topped 900 — more than the global toll from <a href=\"https://www.huffpost.com/entry/china-coronavirus-death-toll-sars_n_5e3f670ac5b6bb0ffc125238\" rel=\"noopener noreferrer\">the SARS epidemic</a> in 2002 and 2003. A vast majority of those infections are still centered on Wuhan, where the outbreak first began, and all but two deaths have been in China.</p><p>“Containment remains our objective, but all countries must use the window of opportunity created by the containment strategy to prepare for the virus’s possible arrival,” Tedros said Sunday on Twitter. He later called for the world to remain “calm” as officials worked to deal with the spread of the virus. “I reiterate my call for solidarity ― human, financial and scientific solidarity. Any breach in solidarity is a victory for the virus.”</p><p>The number of cases has <a href=\"https://apnews.com/b618953aee1c52b983b280f09488c2e0\" rel=\"noopener noreferrer\">continued to grow</a>, and some officials expressed hope this weekend that the rate of new infections had stabilized in recent days. But officials have continued to caution that the outbreak is still “<a href=\"https://www.nytimes.com/2020/02/09/world/asia/coronavirus-china.html?action=click&#x26;pgtype=Article&#x26;state=default&#x26;module=styln-coronavirus&#x26;variant=show&#x26;region=TOP_BANNER&#x26;context=storyline_menu#link-1f3fc778\" rel=\"noopener noreferrer\">very intense</a>,” and many experts believe estimates of those affected by the new coronavirus may be far short of reality.</p><p>At the same time, Chinese health workers in Wuhan and its broader Hubei Province — where some 60 million people are effectively quarantined — have struggled to deal with the sheer number of people who may have been infected. <a href=\"https://www.nytimes.com/2020/02/02/world/asia/china-coronavirus-wuhan.html\" rel=\"noopener noreferrer\">Hospitals are overwhelmed, and there aren’t enough testing kits</a> to go around.</p><p>The New York Times reported Friday that offers from WHO and the U.S. Centers for Disease Control and Prevention <a href=\"https://www.nytimes.com/2020/02/07/health/cdc-coronavirus-china.html\" rel=\"noopener noreferrer\">had largely been ignored by officials in China</a> for more than a month as the virus spread.</p><p>The outlet noted teams with the CDC’s Epidemic Intelligence Service can be ready to travel within 24 hours, but China’s ambassador to the Untied States, Cui Tiankai, wouldn’t say Sunday if the agency would be allowed to send experts to the country, at least as direct emissaries.</p><p>“We welcome the American expert to participate in our efforts. And we are coordinating with the World Health Organization because a lot of things are done under the auspices of the [agency]. … American experts are on the list recommended by the W.H.O.,” <a href=\"https://www.cbsnews.com/news/transcript-cui-tiankai-on-face-the-nation-february-9-2020/\" rel=\"noopener noreferrer\">Cui said during an interview</a> with CBS’ Face the Nation. “Even beyond that, some American experts have come to China already on their own individual basis.”</p><p>Cui continued to reject assertions that the Chinese government is working to silence those speaking out about the spread of the virus, including Li Wenliang, the doctor who was one of the first to raise concerns about the epidemic. <a href=\"https://www.nytimes.com/2020/02/06/world/asia/chinese-doctor-Li-Wenliang-coronavirus.html\" rel=\"noopener noreferrer\">Li died on Friday</a> after contracting the virus himself. Cui also lambasted unfounded claims from U.S. Sen. Tom Cotton (R-Ark.), who suggested the virus came from the country’s biological weapons program.</p><p>“It’s very dangerous to stir up suspicion, rumors and spread them among the people,” the ambassador said. He continued to say he was saddened by Li’s death. “He was a devoted doctor, and he did his best to protect people’s health. We are so grateful to him. But you see, he was a doctor and a doctor could be alarmed by some individual cases.”</p><h3>RELATED...</h3><ul><li><a href=\"https://www.huffpost.com/entry/china-coronavirus-wet-markets-disease_n_5e3df0a2c5b6bb0ffc1113fd\">Wildlife Markets Are Ticking Time Bombs For Epidemics Like Coronavirus</a></li><li><a href=\"https://www.huffpost.com/entry/china-coronavirus-death-toll-sars_n_5e3f670ac5b6bb0ffc125238\">China’s Coronavirus Death Toll Surpasses SARS, But New Cases Drop</a></li><li><a href=\"https://www.huffpost.com/entry/coronavirus-american-dies-wuhan_n_5e3eaf8cc5b6bb0ffc11b6f2\">American In Wuhan Becomes First Non-Chinese National To Die From Coronavirus</a></li></ul><h4>BEFORE YOU GO</h4></article>",
+  "text": "The World Health Organization sent a team of international experts to Beijing as China works to contain the ongoing coronavirus epidemic, the agency’s chief announced Sunday.\n\nTedros Adhanom Ghebreyesus, WHO’s director-general, said Sunday he had seen off members of a mission led by an emergencies expert who helped spearhead the agency’s response to the Ebola crisis in West Africa. The team will head to China about two weeks after WHO declared the outbreak a global emergency.\n\nThe move comes as infections continue to grow. Officials with China’s National Health Commission said Monday the number of deaths had topped 900 — more than the global toll from the SARS epidemic in 2002 and 2003. A vast majority of those infections are still centered on Wuhan, where the outbreak first began, and all but two deaths have been in China.\n\n“Containment remains our objective, but all countries must use the window of opportunity created by the containment strategy to prepare for the virus’s possible arrival,” Tedros said Sunday on Twitter. He later called for the world to remain “calm” as officials worked to deal with the spread of the virus. “I reiterate my call for solidarity ― human, financial and scientific solidarity. Any breach in solidarity is a victory for the virus.”\n\nThe number of cases has continued to grow, and some officials expressed hope this weekend that the rate of new infections had stabilized in recent days. But officials have continued to caution that the outbreak is still “very intense,” and many experts believe estimates of those affected by the new coronavirus may be far short of reality.\n\nAt the same time, Chinese health workers in Wuhan and its broader Hubei Province — where some 60 million people are effectively quarantined — have struggled to deal with the sheer number of people who may have been infected. Hospitals are overwhelmed, and there aren’t enough testing kits to go around.\n\nThe New York Times reported Friday that offers from WHO and the U.S. Centers for Disease Control and Prevention had largely been ignored by officials in China for more than a month as the virus spread.\n\nThe outlet noted teams with the CDC’s Epidemic Intelligence Service can be ready to travel within 24 hours, but China’s ambassador to the Untied States, Cui Tiankai, wouldn’t say Sunday if the agency would be allowed to send experts to the country, at least as direct emissaries.\n\n“We welcome the American expert to participate in our efforts. And we are coordinating with the World Health Organization because a lot of things are done under the auspices of the [agency]. … American experts are on the list recommended by the W.H.O.,” Cui said during an interview with CBS’ Face the Nation. “Even beyond that, some American experts have come to China already on their own individual basis.”\n\nCui continued to reject assertions that the Chinese government is working to silence those speaking out about the spread of the virus, including Li Wenliang, the doctor who was one of the first to raise concerns about the epidemic. Li died on Friday after contracting the virus himself. Cui also lambasted unfounded claims from U.S. Sen. Tom Cotton (R-Ark.), who suggested the virus came from the country’s biological weapons program.\n\n“It’s very dangerous to stir up suspicion, rumors and spread them among the people,” the ambassador said. He continued to say he was saddened by Li’s death. “He was a devoted doctor, and he did his best to protect people’s health. We are so grateful to him. But you see, he was a doctor and a doctor could be alarmed by some individual cases.”\n\nRELATED...\n\nWildlife Markets Are Ticking Time Bombs For Epidemics Like Coronavirus\n\nChina’s Coronavirus Death Toll Surpasses SARS, But New Cases Drop\n\nAmerican In Wuhan Becomes First Non-Chinese National To Die From Coronavirus\n\nBEFORE YOU GO\n\n"
+}

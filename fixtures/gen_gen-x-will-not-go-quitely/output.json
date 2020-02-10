@@ -10,7 +10,7 @@
     "lang": "en",
     "url": "https://gen.medium.com/gen-x-will-not-go-quietly-3b0429c63c70"
   },
-  "summary": "Gen X refuses to die with dignity. We will die in the spirit of Grace Jones and Poison, thank you, as we express ourselves in any way we see fit, whether that be in a regular suit and tie, or a full body of tattoos.Most of us are not, as our parents did, dressing our age. We see ",
+  "summary": "Amber FraleyFollowJan 15·3 min readGen X refuses to die with dignity. We will die in the spirit of Grace Jones and Poison, thank you, as we express ourselves in any way we see fit, whether that be in a regular suit and tie, or a full body of tattoos.Most of us are not, as our par",
   "body": {
     "type": "element",
     "tagName": "article",
@@ -83,6 +83,150 @@
             "line": 257,
             "column": 6370,
             "offset": 113101
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "a",
+        "properties": {
+          "href": "/@AmberBobamber_43268?source=post_page-----3b0429c63c70----------------------",
+          "rel": [
+            "noopener"
+          ]
+        },
+        "children": [
+          {
+            "type": "text",
+            "value": "Amber Fraley",
+            "position": {
+              "start": {
+                "line": 257,
+                "column": 7478,
+                "offset": 114209
+              },
+              "end": {
+                "line": 257,
+                "column": 7490,
+                "offset": 114221
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 257,
+            "column": 7322,
+            "offset": 114053
+          },
+          "end": {
+            "line": 257,
+            "column": 7494,
+            "offset": 114225
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Follow",
+        "position": {
+          "start": {
+            "line": 257,
+            "column": 7605,
+            "offset": 114336
+          },
+          "end": {
+            "line": 257,
+            "column": 7611,
+            "offset": 114342
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "a",
+        "properties": {
+          "rel": [
+            "noopener"
+          ],
+          "href": "/gen-x-will-not-go-quietly-3b0429c63c70?source=post_page-----3b0429c63c70----------------------"
+        },
+        "children": [
+          {
+            "type": "text",
+            "value": "Jan 15",
+            "position": {
+              "start": {
+                "line": 257,
+                "column": 7916,
+                "offset": 114647
+              },
+              "end": {
+                "line": 257,
+                "column": 7922,
+                "offset": 114653
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 257,
+            "column": 7742,
+            "offset": 114473
+          },
+          "end": {
+            "line": 257,
+            "column": 7926,
+            "offset": 114657
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "·",
+        "position": {
+          "start": {
+            "line": 257,
+            "column": 7935,
+            "offset": 114666
+          },
+          "end": {
+            "line": 257,
+            "column": 7936,
+            "offset": 114667
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "3",
+        "position": {
+          "start": {
+            "line": 257,
+            "column": 7953,
+            "offset": 114684
+          },
+          "end": {
+            "line": 257,
+            "column": 7954,
+            "offset": 114685
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": " min read",
+        "position": {
+          "start": {
+            "line": 257,
+            "column": 7962,
+            "offset": 114693
+          },
+          "end": {
+            "line": 257,
+            "column": 7971,
+            "offset": 114702
           }
         }
       },
@@ -387,6 +531,135 @@
       },
       {
         "type": "element",
+        "tagName": "a",
+        "properties": {
+          "rel": [
+            "noopener"
+          ],
+          "href": "/gen-x-is-having-a-very-gen-x-moment-3782644b92bf"
+        },
+        "children": [
+          {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Gen X Is Having a (Very Gen X) Moment",
+                "position": {
+                  "start": {
+                    "line": 257,
+                    "column": 14348,
+                    "offset": 121079
+                  },
+                  "end": {
+                    "line": 257,
+                    "column": 14385,
+                    "offset": 121116
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 257,
+                "column": 14290,
+                "offset": 121021
+              },
+              "end": {
+                "line": 257,
+                "column": 14396,
+                "offset": 121127
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "h3",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Why the opt-out generation should reject its nostalgia bath",
+                "position": {
+                  "start": {
+                    "line": 257,
+                    "column": 14471,
+                    "offset": 121202
+                  },
+                  "end": {
+                    "line": 257,
+                    "column": 14530,
+                    "offset": 121261
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 257,
+                "column": 14414,
+                "offset": 121145
+              },
+              "end": {
+                "line": 257,
+                "column": 14541,
+                "offset": 121272
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "gen.medium.com",
+                "position": {
+                  "start": {
+                    "line": 257,
+                    "column": 14623,
+                    "offset": 121354
+                  },
+                  "end": {
+                    "line": 257,
+                    "column": 14637,
+                    "offset": 121368
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 257,
+                "column": 14565,
+                "offset": 121296
+              },
+              "end": {
+                "line": 257,
+                "column": 14648,
+                "offset": 121379
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 257,
+            "column": 14165,
+            "offset": 120896
+          },
+          "end": {
+            "line": 257,
+            "column": 14739,
+            "offset": 121470
+          }
+        }
+      },
+      {
+        "type": "element",
         "tagName": "p",
         "properties": {},
         "children": [
@@ -524,6 +797,135 @@
             "offset": 123259
           }
         }
+      },
+      {
+        "type": "element",
+        "tagName": "a",
+        "properties": {
+          "rel": [
+            "noopener"
+          ],
+          "href": "/i-believe-in-love-elizabeth-wurtzel-s-final-year-in-her-own-words-e34320e41ee0"
+        },
+        "children": [
+          {
+            "type": "element",
+            "tagName": "h2",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "‘I Believe in Love’: Elizabeth Wurtzel’s Final Year, In Her Own Words",
+                "position": {
+                  "start": {
+                    "line": 257,
+                    "column": 16772,
+                    "offset": 123503
+                  },
+                  "end": {
+                    "line": 257,
+                    "column": 16841,
+                    "offset": 123572
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 257,
+                "column": 16714,
+                "offset": 123445
+              },
+              "end": {
+                "line": 257,
+                "column": 16852,
+                "offset": 123583
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "h3",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The difficult final year of a much-loved and legendarily difficult woman",
+                "position": {
+                  "start": {
+                    "line": 257,
+                    "column": 16927,
+                    "offset": 123658
+                  },
+                  "end": {
+                    "line": 257,
+                    "column": 16999,
+                    "offset": 123730
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 257,
+                "column": 16870,
+                "offset": 123601
+              },
+              "end": {
+                "line": 257,
+                "column": 17010,
+                "offset": 123741
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "h4",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "gen.medium.com",
+                "position": {
+                  "start": {
+                    "line": 257,
+                    "column": 17092,
+                    "offset": 123823
+                  },
+                  "end": {
+                    "line": 257,
+                    "column": 17106,
+                    "offset": 123837
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 257,
+                "column": 17034,
+                "offset": 123765
+              },
+              "end": {
+                "line": 257,
+                "column": 17117,
+                "offset": 123848
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 257,
+            "column": 16559,
+            "offset": 123290
+          },
+          "end": {
+            "line": 257,
+            "column": 17208,
+            "offset": 123939
+          }
+        }
       }
     ],
     "position": {
@@ -539,6 +941,6 @@
       }
     }
   },
-  "html": "<article><h1>Gen X Will Not Go Quietly</h1><h2>We have always lived loud, and we’re not going to change that</h2><figure><figcaption>Photo: Cavan Images/Getty Images</figcaption></figure><p>Gen X refuses to die with dignity. We will die in the spirit of Grace Jones and Poison, thank you, as we express ourselves in any way we see fit, whether that be in a regular suit and tie, or a full body of tattoos.</p><p>Most of us are not, as our parents did, dressing our age. We see those articles — the ones that say we’re supposed to stop wearing strappy sandals and high-tops, combat boots and miniskirts, or skin-tight jeans with holes — and we consider them for a second until we say “fuck that.” We’ve always worn whatever we wanted and we don’t particularly give a crap if you don’t like it. We grew up in the ’80s, the age of flash and color, punk, metal, and hip-hop. We learned to live loud and we aren’t giving it up. Our music is still loud and so are our clothes. So are our opinions, which we’re not afraid to share with you. We might be leading the PTA or playing bass in this cool little band on the side, or maybe we’re just taking our kid fishing, to show them what it’s like to do something outside.</p><blockquote><p>We are now at the age we have seen most of this bullshit before, so you’re not going to fool us easily.</p></blockquote><p>We lived through the era of Reagan and the fear of the Cold War. We saw the wall come down and we supported our LGBT friends until eventually, we helped to vote for the passage of marriage equality. We came of age in the era of androgyny (the precursor to gender-neutral), and AIDS, back when the president of the United States understood Russia was not, and could likely never be, an ally.</p><p><mark>We are now at the age we have seen most of this bullshit before, so you’re not going to fool us easily.</mark> Gen X may be a small generation that’s stretched too thin right now as we look after our kids and our parents, but that just makes us all the more wary and skeptical. We’re not sure if the country is going to survive Donald Trump, but we saw the country survive Ronald Reagan and Bill Clinton and George W. Bush, so we suspect there will be something afterward, whether the dust settles after one or (God forbid) two terms.</p><p>We like to listen to Lizzo and Duran Duran and Tupac and The Cure and Madonna and Childish Gambino. And also old country, old rock and roll, old jazz, and occasionally, some classical. We grew up on tacos and pizza and burgers. We have come to love sushi and perogies and bulgogi. But now, one of our kids is having gender identity issues and we’re trying to figure out how to help our partner adequately care for their parents while making sure our own mothers and fathers get to their doctor’s appointments, so we’re often tired. But we still like to go out and have a drink once in a while and maybe even sing a little karaoke.</p><p>We’re not satisfied to stay in a marriage that isn’t working, so we’ll divorce responsibly, making sure the kids’ concerns take center stage, because that’s probably not what happened when our parents divorced and we want to do better by our own kids.</p><p>We know how to cook dinner, secure a mortgage, air up a bicycle tire, and skateboard, though we don’t skate much anymore. Instead, we do yoga when we can.</p><p>And as we get older and wrinklier and our hair whitens and we’re stooped over barely shuffling along, we might have to switch to orthopedic shoes from our Chucks (if we haven't already), but we’ll still have Guns N’ Roses blasting into our hearing aids, dammit. You can just go ahead and play Prince at all our funerals.</p></article>",
-  "text": "Gen X refuses to die with dignity. We will die in the spirit of Grace Jones and Poison, thank you, as we express ourselves in any way we see fit, whether that be in a regular suit and tie, or a full body of tattoos.\nMost of us are not, as our parents did, dressing our age. We see those articles — the ones that say we’re supposed to stop wearing strappy sandals and high-tops, combat boots and miniskirts, or skin-tight jeans with holes — and we consider them for a second until we say “fuck that.” We’ve always worn whatever we wanted and we don’t particularly give a crap if you don’t like it. We grew up in the ’80s, the age of flash and color, punk, metal, and hip-hop. We learned to live loud and we aren’t giving it up. Our music is still loud and so are our clothes. So are our opinions, which we’re not afraid to share with you. We might be leading the PTA or playing bass in this cool little band on the side, or maybe we’re just taking our kid fishing, to show them what it’s like to do something outside.\nWe are now at the age we have seen most of this bullshit before, so you’re not going to fool us easily.\nWe lived through the era of Reagan and the fear of the Cold War. We saw the wall come down and we supported our LGBT friends until eventually, we helped to vote for the passage of marriage equality. We came of age in the era of androgyny (the precursor to gender-neutral), and AIDS, back when the president of the United States understood Russia was not, and could likely never be, an ally.\nWe are now at the age we have seen most of this bullshit before, so you’re not going to fool us easily. Gen X may be a small generation that’s stretched too thin right now as we look after our kids and our parents, but that just makes us all the more wary and skeptical. We’re not sure if the country is going to survive Donald Trump, but we saw the country survive Ronald Reagan and Bill Clinton and George W. Bush, so we suspect there will be something afterward, whether the dust settles after one or (God forbid) two terms.\nWe like to listen to Lizzo and Duran Duran and Tupac and The Cure and Madonna and Childish Gambino. And also old country, old rock and roll, old jazz, and occasionally, some classical. We grew up on tacos and pizza and burgers. We have come to love sushi and perogies and bulgogi. But now, one of our kids is having gender identity issues and we’re trying to figure out how to help our partner adequately care for their parents while making sure our own mothers and fathers get to their doctor’s appointments, so we’re often tired. But we still like to go out and have a drink once in a while and maybe even sing a little karaoke.\nWe’re not satisfied to stay in a marriage that isn’t working, so we’ll divorce responsibly, making sure the kids’ concerns take center stage, because that’s probably not what happened when our parents divorced and we want to do better by our own kids.\nWe know how to cook dinner, secure a mortgage, air up a bicycle tire, and skateboard, though we don’t skate much anymore. Instead, we do yoga when we can.\nAnd as we get older and wrinklier and our hair whitens and we’re stooped over barely shuffling along, we might have to switch to orthopedic shoes from our Chucks (if we haven't already), but we’ll still have Guns N’ Roses blasting into our hearing aids, dammit. You can just go ahead and play Prince at all our funerals.\n"
+  "html": "<article><h1>Gen X Will Not Go Quietly</h1><h2>We have always lived loud, and we’re not going to change that</h2><a href=\"/@AmberBobamber_43268?source=post_page-----3b0429c63c70----------------------\" rel=\"noopener\">Amber Fraley</a>Follow<a rel=\"noopener\" href=\"/gen-x-will-not-go-quietly-3b0429c63c70?source=post_page-----3b0429c63c70----------------------\">Jan 15</a>·3 min read<figure><figcaption>Photo: Cavan Images/Getty Images</figcaption></figure><p>Gen X refuses to die with dignity. We will die in the spirit of Grace Jones and Poison, thank you, as we express ourselves in any way we see fit, whether that be in a regular suit and tie, or a full body of tattoos.</p><p>Most of us are not, as our parents did, dressing our age. We see those articles — the ones that say we’re supposed to stop wearing strappy sandals and high-tops, combat boots and miniskirts, or skin-tight jeans with holes — and we consider them for a second until we say “fuck that.” We’ve always worn whatever we wanted and we don’t particularly give a crap if you don’t like it. We grew up in the ’80s, the age of flash and color, punk, metal, and hip-hop. We learned to live loud and we aren’t giving it up. Our music is still loud and so are our clothes. So are our opinions, which we’re not afraid to share with you. We might be leading the PTA or playing bass in this cool little band on the side, or maybe we’re just taking our kid fishing, to show them what it’s like to do something outside.</p><blockquote><p>We are now at the age we have seen most of this bullshit before, so you’re not going to fool us easily.</p></blockquote><p>We lived through the era of Reagan and the fear of the Cold War. We saw the wall come down and we supported our LGBT friends until eventually, we helped to vote for the passage of marriage equality. We came of age in the era of androgyny (the precursor to gender-neutral), and AIDS, back when the president of the United States understood Russia was not, and could likely never be, an ally.</p><p><mark>We are now at the age we have seen most of this bullshit before, so you’re not going to fool us easily.</mark> Gen X may be a small generation that’s stretched too thin right now as we look after our kids and our parents, but that just makes us all the more wary and skeptical. We’re not sure if the country is going to survive Donald Trump, but we saw the country survive Ronald Reagan and Bill Clinton and George W. Bush, so we suspect there will be something afterward, whether the dust settles after one or (God forbid) two terms.</p><a rel=\"noopener\" href=\"/gen-x-is-having-a-very-gen-x-moment-3782644b92bf\"><h2>Gen X Is Having a (Very Gen X) Moment</h2><h3>Why the opt-out generation should reject its nostalgia bath</h3><h4>gen.medium.com</h4></a><p>We like to listen to Lizzo and Duran Duran and Tupac and The Cure and Madonna and Childish Gambino. And also old country, old rock and roll, old jazz, and occasionally, some classical. We grew up on tacos and pizza and burgers. We have come to love sushi and perogies and bulgogi. But now, one of our kids is having gender identity issues and we’re trying to figure out how to help our partner adequately care for their parents while making sure our own mothers and fathers get to their doctor’s appointments, so we’re often tired. But we still like to go out and have a drink once in a while and maybe even sing a little karaoke.</p><p>We’re not satisfied to stay in a marriage that isn’t working, so we’ll divorce responsibly, making sure the kids’ concerns take center stage, because that’s probably not what happened when our parents divorced and we want to do better by our own kids.</p><p>We know how to cook dinner, secure a mortgage, air up a bicycle tire, and skateboard, though we don’t skate much anymore. Instead, we do yoga when we can.</p><p>And as we get older and wrinklier and our hair whitens and we’re stooped over barely shuffling along, we might have to switch to orthopedic shoes from our Chucks (if we haven't already), but we’ll still have Guns N’ Roses blasting into our hearing aids, dammit. You can just go ahead and play Prince at all our funerals.</p><a rel=\"noopener\" href=\"/i-believe-in-love-elizabeth-wurtzel-s-final-year-in-her-own-words-e34320e41ee0\"><h2>‘I Believe in Love’: Elizabeth Wurtzel’s Final Year, In Her Own Words</h2><h3>The difficult final year of a much-loved and legendarily difficult woman</h3><h4>gen.medium.com</h4></a></article>",
+  "text": "Amber Fraley\n\nFollow\n\nJan 15\n\n·\n\n3\n\n min read\n\nGen X refuses to die with dignity. We will die in the spirit of Grace Jones and Poison, thank you, as we express ourselves in any way we see fit, whether that be in a regular suit and tie, or a full body of tattoos.\n\nMost of us are not, as our parents did, dressing our age. We see those articles — the ones that say we’re supposed to stop wearing strappy sandals and high-tops, combat boots and miniskirts, or skin-tight jeans with holes — and we consider them for a second until we say “fuck that.” We’ve always worn whatever we wanted and we don’t particularly give a crap if you don’t like it. We grew up in the ’80s, the age of flash and color, punk, metal, and hip-hop. We learned to live loud and we aren’t giving it up. Our music is still loud and so are our clothes. So are our opinions, which we’re not afraid to share with you. We might be leading the PTA or playing bass in this cool little band on the side, or maybe we’re just taking our kid fishing, to show them what it’s like to do something outside.\n\nWe are now at the age we have seen most of this bullshit before, so you’re not going to fool us easily.\n\nWe lived through the era of Reagan and the fear of the Cold War. We saw the wall come down and we supported our LGBT friends until eventually, we helped to vote for the passage of marriage equality. We came of age in the era of androgyny (the precursor to gender-neutral), and AIDS, back when the president of the United States understood Russia was not, and could likely never be, an ally.\n\nWe are now at the age we have seen most of this bullshit before, so you’re not going to fool us easily. Gen X may be a small generation that’s stretched too thin right now as we look after our kids and our parents, but that just makes us all the more wary and skeptical. We’re not sure if the country is going to survive Donald Trump, but we saw the country survive Ronald Reagan and Bill Clinton and George W. Bush, so we suspect there will be something afterward, whether the dust settles after one or (God forbid) two terms.\n\nWhy the opt-out generation should reject its nostalgia bath\n\ngen.medium.com\n\nWe like to listen to Lizzo and Duran Duran and Tupac and The Cure and Madonna and Childish Gambino. And also old country, old rock and roll, old jazz, and occasionally, some classical. We grew up on tacos and pizza and burgers. We have come to love sushi and perogies and bulgogi. But now, one of our kids is having gender identity issues and we’re trying to figure out how to help our partner adequately care for their parents while making sure our own mothers and fathers get to their doctor’s appointments, so we’re often tired. But we still like to go out and have a drink once in a while and maybe even sing a little karaoke.\n\nWe’re not satisfied to stay in a marriage that isn’t working, so we’ll divorce responsibly, making sure the kids’ concerns take center stage, because that’s probably not what happened when our parents divorced and we want to do better by our own kids.\n\nWe know how to cook dinner, secure a mortgage, air up a bicycle tire, and skateboard, though we don’t skate much anymore. Instead, we do yoga when we can.\n\nAnd as we get older and wrinklier and our hair whitens and we’re stooped over barely shuffling along, we might have to switch to orthopedic shoes from our Chucks (if we haven't already), but we’ll still have Guns N’ Roses blasting into our hearing aids, dammit. You can just go ahead and play Prince at all our funerals.\n\nThe difficult final year of a much-loved and legendarily difficult woman\n\ngen.medium.com\n\n"
 }

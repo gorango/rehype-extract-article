@@ -10,57 +10,1814 @@
     "lang": "en-us",
     "url": "https://thenextweb.com/hardfork/2020/02/07/bitcoin-ransom-ransomware-malware-cryptocurrency-maastricht-university-attack-hackers/"
   },
-  "summary": "\n\n        \n    \n        \n    ",
+  "summary": "A Dutch university resorted to paying hackers $220,000 in Bitcoin $BTC▲0.41% to release computer systems held for ransom since Christmas Eve, reports Reuters.University of Maastricht vice president Nick Bos announced at a press conference on Wednesday it had bowed to the cyberatt",
   "body": {
     "type": "element",
     "tagName": "article",
     "properties": {},
     "children": [
       {
-        "type": "text",
-        "value": "\n\n        ",
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "A Dutch university resorted to paying hackers $220,000 in Bitcoin ",
+            "position": {
+              "start": {
+                "line": 373,
+                "column": 36,
+                "offset": 289930
+              },
+              "end": {
+                "line": 373,
+                "column": 102,
+                "offset": 289996
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "rel": [
+                "nofollow",
+                "noopener"
+              ],
+              "href": "https://partners.etoro.com/B9157_A72407_TClick.aspx"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "$BTC",
+                "position": {
+                  "start": {
+                    "line": 373,
+                    "column": 274,
+                    "offset": 290168
+                  },
+                  "end": {
+                    "line": 373,
+                    "column": 278,
+                    "offset": 290172
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "value": "▲0.41%",
+                "position": {
+                  "start": {
+                    "line": 373,
+                    "column": 318,
+                    "offset": 290212
+                  },
+                  "end": {
+                    "line": 373,
+                    "column": 324,
+                    "offset": 290218
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 373,
+                "column": 102,
+                "offset": 289996
+              },
+              "end": {
+                "line": 373,
+                "column": 335,
+                "offset": 290229
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " to release computer systems held for ransom since Christmas Eve, ",
+            "position": {
+              "start": {
+                "line": 373,
+                "column": 335,
+                "offset": 290229
+              },
+              "end": {
+                "line": 373,
+                "column": 401,
+                "offset": 290295
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.reuters.com/article/us-cybercrime-netherlands-university/university-of-maastricht-says-it-paid-hackers-200000-euro-ransom-idUSKBN1ZZ2HH",
+              "rel": [
+                "nofollow",
+                "noopener"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "reports",
+                "position": {
+                  "start": {
+                    "line": 373,
+                    "column": 599,
+                    "offset": 290493
+                  },
+                  "end": {
+                    "line": 373,
+                    "column": 606,
+                    "offset": 290500
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 373,
+                "column": 401,
+                "offset": 290295
+              },
+              "end": {
+                "line": 373,
+                "column": 610,
+                "offset": 290504
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " Reuters.",
+            "position": {
+              "start": {
+                "line": 373,
+                "column": 610,
+                "offset": 290504
+              },
+              "end": {
+                "line": 373,
+                "column": 619,
+                "offset": 290513
+              }
+            }
+          }
+        ],
         "position": {
           "start": {
-            "line": 292,
-            "column": 113,
-            "offset": 280142
+            "line": 373,
+            "column": 33,
+            "offset": 289927
           },
           "end": {
-            "line": 294,
-            "column": 9,
-            "offset": 280152
+            "line": 373,
+            "column": 623,
+            "offset": 290517
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "University of Maastricht vice president Nick Bos announced at a ",
+            "position": {
+              "start": {
+                "line": 374,
+                "column": 4,
+                "offset": 290521
+              },
+              "end": {
+                "line": 374,
+                "column": 68,
+                "offset": 290585
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.youtube.com/watch?v=ik-ZVvZ2-xU",
+              "rel": [
+                "nofollow",
+                "noopener"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "press conference",
+                "position": {
+                  "start": {
+                    "line": 374,
+                    "column": 162,
+                    "offset": 290679
+                  },
+                  "end": {
+                    "line": 374,
+                    "column": 178,
+                    "offset": 290695
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 374,
+                "column": 68,
+                "offset": 290585
+              },
+              "end": {
+                "line": 374,
+                "column": 182,
+                "offset": 290699
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " on Wednesday it had bowed to the cyberattackers’ demands, as it otherwise would’ve had to rebuild its entire IT network to get back online.",
+            "position": {
+              "start": {
+                "line": 374,
+                "column": 182,
+                "offset": 290699
+              },
+              "end": {
+                "line": 374,
+                "column": 322,
+                "offset": 290839
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 374,
+            "column": 1,
+            "offset": 290518
+          },
+          "end": {
+            "line": 374,
+            "column": 326,
+            "offset": 290843
           }
         }
       },
       {
         "type": "text",
-        "value": "\n    \n        ",
+        "value": "10 years of Bitcoin",
         "position": {
           "start": {
-            "line": 459,
-            "column": 11,
-            "offset": 333348
+            "line": 376,
+            "column": 1676,
+            "offset": 292590
           },
           "end": {
-            "line": 461,
-            "column": 9,
-            "offset": 333362
+            "line": 376,
+            "column": 1695,
+            "offset": 292609
           }
         }
       },
       {
         "type": "text",
-        "value": "\n    ",
+        "value": "Happy Birthday Bitcoin, you magnificent digital bastard",
         "position": {
           "start": {
-            "line": 463,
-            "column": 11,
-            "offset": 333552
+            "line": 376,
+            "column": 1747,
+            "offset": 292661
           },
           "end": {
-            "line": 464,
-            "column": 5,
-            "offset": 333557
+            "line": 376,
+            "column": 1802,
+            "offset": 292716
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "More Videos",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 3389,
+            "offset": 294303
+          },
+          "end": {
+            "line": 376,
+            "column": 3400,
+            "offset": 294314
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Volume 0%",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 4116,
+            "offset": 295030
+          },
+          "end": {
+            "line": 376,
+            "column": 4125,
+            "offset": 295039
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Press shift question mark to access a list of keyboard shortcuts",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 5027,
+            "offset": 295941
+          },
+          "end": {
+            "line": 376,
+            "column": 5091,
+            "offset": 296005
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Keyboard Shortcuts",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 5227,
+            "offset": 296141
+          },
+          "end": {
+            "line": 376,
+            "column": 5245,
+            "offset": 296159
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Play/Pause",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 5620,
+            "offset": 296534
+          },
+          "end": {
+            "line": 376,
+            "column": 5630,
+            "offset": 296544
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "SPACE",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 5677,
+            "offset": 296591
+          },
+          "end": {
+            "line": 376,
+            "column": 5682,
+            "offset": 296596
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Increase Volume",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 5782,
+            "offset": 296696
+          },
+          "end": {
+            "line": 376,
+            "column": 5797,
+            "offset": 296711
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "↑",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 5844,
+            "offset": 296758
+          },
+          "end": {
+            "line": 376,
+            "column": 5845,
+            "offset": 296759
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Decrease Volume",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 5945,
+            "offset": 296859
+          },
+          "end": {
+            "line": 376,
+            "column": 5960,
+            "offset": 296874
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "↓",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 6007,
+            "offset": 296921
+          },
+          "end": {
+            "line": 376,
+            "column": 6008,
+            "offset": 296922
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Seek Forward",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 6108,
+            "offset": 297022
+          },
+          "end": {
+            "line": 376,
+            "column": 6120,
+            "offset": 297034
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "→",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 6167,
+            "offset": 297081
+          },
+          "end": {
+            "line": 376,
+            "column": 6168,
+            "offset": 297082
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Seek Backward",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 6268,
+            "offset": 297182
+          },
+          "end": {
+            "line": 376,
+            "column": 6281,
+            "offset": 297195
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "←",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 6328,
+            "offset": 297242
+          },
+          "end": {
+            "line": 376,
+            "column": 6329,
+            "offset": 297243
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Captions On/Off",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 6429,
+            "offset": 297343
+          },
+          "end": {
+            "line": 376,
+            "column": 6444,
+            "offset": 297358
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "c",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 6491,
+            "offset": 297405
+          },
+          "end": {
+            "line": 376,
+            "column": 6492,
+            "offset": 297406
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Fullscreen/Exit Fullscreen",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 6592,
+            "offset": 297506
+          },
+          "end": {
+            "line": 376,
+            "column": 6618,
+            "offset": 297532
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "f",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 6665,
+            "offset": 297579
+          },
+          "end": {
+            "line": 376,
+            "column": 6666,
+            "offset": 297580
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Mute/Unmute",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 6766,
+            "offset": 297680
+          },
+          "end": {
+            "line": 376,
+            "column": 6777,
+            "offset": 297691
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "m",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 6824,
+            "offset": 297738
+          },
+          "end": {
+            "line": 376,
+            "column": 6825,
+            "offset": 297739
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Seek %",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 6925,
+            "offset": 297839
+          },
+          "end": {
+            "line": 376,
+            "column": 6931,
+            "offset": 297845
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "0-9",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 6978,
+            "offset": 297892
+          },
+          "end": {
+            "line": 376,
+            "column": 6981,
+            "offset": 297895
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Next Up",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 10537,
+            "offset": 301451
+          },
+          "end": {
+            "line": 376,
+            "column": 10544,
+            "offset": 301458
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Hash It Out - with Dominik Schiener (IOTA)",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 10604,
+            "offset": 301518
+          },
+          "end": {
+            "line": 376,
+            "column": 10646,
+            "offset": 301560
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "05:33",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 10693,
+            "offset": 301607
+          },
+          "end": {
+            "line": 376,
+            "column": 10698,
+            "offset": 301612
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "0.5x",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 14447,
+            "offset": 305361
+          },
+          "end": {
+            "line": 376,
+            "column": 14451,
+            "offset": 305365
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "1x",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 14621,
+            "offset": 305535
+          },
+          "end": {
+            "line": 376,
+            "column": 14623,
+            "offset": 305537
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "1.25x",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 14773,
+            "offset": 305687
+          },
+          "end": {
+            "line": 376,
+            "column": 14778,
+            "offset": 305692
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "1.5x",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 14927,
+            "offset": 305841
+          },
+          "end": {
+            "line": 376,
+            "column": 14931,
+            "offset": 305845
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "2x",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 15078,
+            "offset": 305992
+          },
+          "end": {
+            "line": 376,
+            "column": 15080,
+            "offset": 305994
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": " facebook",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 15881,
+            "offset": 306795
+          },
+          "end": {
+            "line": 376,
+            "column": 15890,
+            "offset": 306804
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": " twitter",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 16745,
+            "offset": 307659
+          },
+          "end": {
+            "line": 376,
+            "column": 16753,
+            "offset": 307667
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": " Email",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 17244,
+            "offset": 308158
+          },
+          "end": {
+            "line": 376,
+            "column": 17250,
+            "offset": 308164
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": " Link",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 18226,
+            "offset": 309140
+          },
+          "end": {
+            "line": 376,
+            "column": 18231,
+            "offset": 309145
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "https://thenextweb.com/hardfork/2020/02/07/bitcoin-ransom-ransomware-malware-cryptocurrency-maastricht-university-attack-hackers/?jwsource=cl",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 18303,
+            "offset": 309217
+          },
+          "end": {
+            "line": 376,
+            "column": 18444,
+            "offset": 309358
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Copied",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 18533,
+            "offset": 309447
+          },
+          "end": {
+            "line": 376,
+            "column": 18539,
+            "offset": 309453
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": " Embed",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 19220,
+            "offset": 310134
+          },
+          "end": {
+            "line": 376,
+            "column": 19226,
+            "offset": 310140
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "<iframe src=\"//cdn.jwplayer.com/players/6u1wMT6q-vRZNU7bT.html\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"auto\"></iframe>",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 19298,
+            "offset": 310212
+          },
+          "end": {
+            "line": 376,
+            "column": 19441,
+            "offset": 310355
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Copied",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 19531,
+            "offset": 310445
+          },
+          "end": {
+            "line": 376,
+            "column": 19537,
+            "offset": 310451
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Live",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 25989,
+            "offset": 316903
+          },
+          "end": {
+            "line": 376,
+            "column": 25993,
+            "offset": 316907
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "00:00",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 26081,
+            "offset": 316995
+          },
+          "end": {
+            "line": 376,
+            "column": 26086,
+            "offset": 317000
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "03:07",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 26176,
+            "offset": 317090
+          },
+          "end": {
+            "line": 376,
+            "column": 26181,
+            "offset": 317095
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "03:07",
+        "position": {
+          "start": {
+            "line": 376,
+            "column": 26270,
+            "offset": 317184
+          },
+          "end": {
+            "line": 376,
+            "column": 26275,
+            "offset": 317189
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "“The damage of that to the work of the students, scientists, staff, as well as the continuity of the institution, can scarcely be conceived,” said university vice president Nick Bos, as quoted by Reuters.",
+            "position": {
+              "start": {
+                "line": 383,
+                "column": 4,
+                "offset": 324122
+              },
+              "end": {
+                "line": 383,
+                "column": 208,
+                "offset": 324326
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 383,
+            "column": 1,
+            "offset": 324119
+          },
+          "end": {
+            "line": 383,
+            "column": 212,
+            "offset": 324330
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Bos confirmed the attackers gained entry to the network after compromising an employee’s email account in November 2019 via phishing.",
+            "position": {
+              "start": {
+                "line": 384,
+                "column": 4,
+                "offset": 324334
+              },
+              "end": {
+                "line": 384,
+                "column": 137,
+                "offset": 324467
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 384,
+            "column": 1,
+            "offset": 324331
+          },
+          "end": {
+            "line": 384,
+            "column": 141,
+            "offset": 324471
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "By December 24 last year, the hackers had encrypted the university‘s computer systems, including workstations and email servers, and demanded 30 BTC for a tool to unlock them (worth $216,000 then, $294,000 today).",
+            "position": {
+              "start": {
+                "line": 385,
+                "column": 4,
+                "offset": 324475
+              },
+              "end": {
+                "line": 385,
+                "column": 217,
+                "offset": 324688
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 385,
+            "column": 1,
+            "offset": 324472
+          },
+          "end": {
+            "line": 385,
+            "column": 221,
+            "offset": 324692
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Cybersecurity firm Fox-IT, hired by the University of Maastricht to recover its systems, found Russian-speaking cybercriminal group TA505, also known as Evil Corp, responsible for the attack.",
+            "position": {
+              "start": {
+                "line": 386,
+                "column": 4,
+                "offset": 324696
+              },
+              "end": {
+                "line": 386,
+                "column": 195,
+                "offset": 324887
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 386,
+            "column": 1,
+            "offset": 324693
+          },
+          "end": {
+            "line": 386,
+            "column": 199,
+            "offset": 324891
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The US Department of Justice ",
+            "position": {
+              "start": {
+                "line": 389,
+                "column": 4,
+                "offset": 325282
+              },
+              "end": {
+                "line": 389,
+                "column": 33,
+                "offset": 325311
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://home.treasury.gov/news/press-releases/sm845",
+              "rel": [
+                "nofollow",
+                "noopener"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "believes",
+                "position": {
+                  "start": {
+                    "line": 389,
+                    "column": 135,
+                    "offset": 325413
+                  },
+                  "end": {
+                    "line": 389,
+                    "column": 143,
+                    "offset": 325421
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 389,
+                "column": 33,
+                "offset": 325311
+              },
+              "end": {
+                "line": 389,
+                "column": 147,
+                "offset": 325425
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " TA505 has caused over $100 million worth of losses since its inception, having hit financial institutions and retailers in several countries with its information-stealing ",
+            "position": {
+              "start": {
+                "line": 389,
+                "column": 147,
+                "offset": 325425
+              },
+              "end": {
+                "line": 389,
+                "column": 324,
+                "offset": 325602
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Dridex",
+                "position": {
+                  "start": {
+                    "line": 389,
+                    "column": 328,
+                    "offset": 325606
+                  },
+                  "end": {
+                    "line": 389,
+                    "column": 334,
+                    "offset": 325612
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 389,
+                "column": 324,
+                "offset": 325602
+              },
+              "end": {
+                "line": 389,
+                "column": 339,
+                "offset": 325617
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " malware.",
+            "position": {
+              "start": {
+                "line": 389,
+                "column": 339,
+                "offset": 325617
+              },
+              "end": {
+                "line": 389,
+                "column": 348,
+                "offset": 325626
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 389,
+            "column": 1,
+            "offset": 325279
+          },
+          "end": {
+            "line": 389,
+            "column": 352,
+            "offset": 325630
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "A recent investigation found more than 1,000 potential TA505 victims across the world.",
+            "position": {
+              "start": {
+                "line": 390,
+                "column": 4,
+                "offset": 325634
+              },
+              "end": {
+                "line": 390,
+                "column": 90,
+                "offset": 325720
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 390,
+            "column": 1,
+            "offset": 325631
+          },
+          "end": {
+            "line": 390,
+            "column": 94,
+            "offset": 325724
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "FBI urges victims not to pay Bitcoin ransoms",
+            "position": {
+              "start": {
+                "line": 391,
+                "column": 5,
+                "offset": 325729
+              },
+              "end": {
+                "line": 391,
+                "column": 49,
+                "offset": 325773
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 391,
+            "column": 1,
+            "offset": 325725
+          },
+          "end": {
+            "line": 391,
+            "column": 54,
+            "offset": 325778
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Ransomware incidents like these persist across the world. In the past two years, hackers have taken over the computer networks of ",
+            "position": {
+              "start": {
+                "line": 392,
+                "column": 4,
+                "offset": 325782
+              },
+              "end": {
+                "line": 392,
+                "column": 134,
+                "offset": 325912
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://thenextweb.com/hardfork/2019/12/16/bitcoin-ransomware-cryptocurrency-new-orleans-state-of-emergency-ryuk-blockchain/",
+              "rel": [
+                "noopener"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "governments",
+                "position": {
+                  "start": {
+                    "line": 392,
+                    "column": 300,
+                    "offset": 326078
+                  },
+                  "end": {
+                    "line": 392,
+                    "column": 311,
+                    "offset": 326089
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 392,
+                "column": 134,
+                "offset": 325912
+              },
+              "end": {
+                "line": 392,
+                "column": 315,
+                "offset": 326093
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", ",
+            "position": {
+              "start": {
+                "line": 392,
+                "column": 315,
+                "offset": 326093
+              },
+              "end": {
+                "line": 392,
+                "column": 317,
+                "offset": 326095
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://thenextweb.com/hardfork/2020/01/08/travelex-sodinokibi-ransomware-bitcoin/",
+              "rel": [
+                "noopener"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "businesses",
+                "position": {
+                  "start": {
+                    "line": 392,
+                    "column": 441,
+                    "offset": 326219
+                  },
+                  "end": {
+                    "line": 392,
+                    "column": 451,
+                    "offset": 326229
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 392,
+                "column": 317,
+                "offset": 326095
+              },
+              "end": {
+                "line": 392,
+                "column": 455,
+                "offset": 326233
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", ",
+            "position": {
+              "start": {
+                "line": 392,
+                "column": 455,
+                "offset": 326233
+              },
+              "end": {
+                "line": 392,
+                "column": 457,
+                "offset": 326235
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://thenextweb.com/hardfork/2019/10/07/us-hospitals-pay-bitcoin-cryptocurrency-to-survive-ryuk-ransomware-attack/",
+              "rel": [
+                "noopener"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "hospitals",
+                "position": {
+                  "start": {
+                    "line": 392,
+                    "column": 616,
+                    "offset": 326394
+                  },
+                  "end": {
+                    "line": 392,
+                    "column": 625,
+                    "offset": 326403
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 392,
+                "column": 457,
+                "offset": 326235
+              },
+              "end": {
+                "line": 392,
+                "column": 629,
+                "offset": 326407
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": ", and schools, often demanding millions of dollars in cryptocurrency (most Bitcoin) for a decryption tool.",
+            "position": {
+              "start": {
+                "line": 392,
+                "column": 629,
+                "offset": 326407
+              },
+              "end": {
+                "line": 392,
+                "column": 745,
+                "offset": 326523
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 392,
+            "column": 1,
+            "offset": 325779
+          },
+          "end": {
+            "line": 392,
+            "column": 749,
+            "offset": 326527
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "They’re indeed so prevalent that the FBI ",
+            "position": {
+              "start": {
+                "line": 393,
+                "column": 4,
+                "offset": 326531
+              },
+              "end": {
+                "line": 393,
+                "column": 45,
+                "offset": 326572
+              }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.zdnet.com/article/fbis-new-ransomware-warning-dont-pay-up-but-if-you-do-tell-us-about-it/",
+              "rel": [
+                "nofollow",
+                "noopener"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "issued a warning",
+                "position": {
+                  "start": {
+                    "line": 393,
+                    "column": 197,
+                    "offset": 326724
+                  },
+                  "end": {
+                    "line": 393,
+                    "column": 213,
+                    "offset": 326740
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 393,
+                "column": 45,
+                "offset": 326572
+              },
+              "end": {
+                "line": 393,
+                "column": 217,
+                "offset": 326744
+              }
+            }
+          },
+          {
+            "type": "text",
+            "value": " in October urging ransomware victims not to pay their hackers, lest they be encouraged to carry out more attacks.",
+            "position": {
+              "start": {
+                "line": 393,
+                "column": 217,
+                "offset": 326744
+              },
+              "end": {
+                "line": 393,
+                "column": 331,
+                "offset": 326858
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 393,
+            "column": 1,
+            "offset": 326528
+          },
+          "end": {
+            "line": 393,
+            "column": 335,
+            "offset": 326862
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "As for the University of Maastricht, its computer systems are reportedly back online and now fully operational.",
+            "position": {
+              "start": {
+                "line": 394,
+                "column": 4,
+                "offset": 326866
+              },
+              "end": {
+                "line": 394,
+                "column": 115,
+                "offset": 326977
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 394,
+            "column": 1,
+            "offset": 326863
+          },
+          "end": {
+            "line": 394,
+            "column": 119,
+            "offset": 326981
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "\n                                    Published February 7, 2020 — 11:27 UTC\n                                ",
+            "position": {
+              "start": {
+                "line": 397,
+                "column": 59,
+                "offset": 327074
+              },
+              "end": {
+                "line": 399,
+                "column": 33,
+                "offset": 327182
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 397,
+            "column": 33,
+            "offset": 327048
+          },
+          "end": {
+            "line": 399,
+            "column": 37,
+            "offset": 327186
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "h5",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://thenextweb.com/author/davidcanellis",
+              "rel": [
+                "noopener"
+              ]
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "David Canellis",
+                "position": {
+                  "start": {
+                    "line": 415,
+                    "column": 126,
+                    "offset": 330595
+                  },
+                  "end": {
+                    "line": 415,
+                    "column": 140,
+                    "offset": 330609
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 415,
+                "column": 41,
+                "offset": 330510
+              },
+              "end": {
+                "line": 415,
+                "column": 144,
+                "offset": 330613
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 415,
+            "column": 37,
+            "offset": 330506
+          },
+          "end": {
+            "line": 415,
+            "column": 149,
+            "offset": 330618
+          }
+        }
+      },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "\n                                        February 7, 2020 — 11:27 UTC\n                                    ",
+            "position": {
+              "start": {
+                "line": 416,
+                "column": 113,
+                "offset": 330731
+              },
+              "end": {
+                "line": 418,
+                "column": 37,
+                "offset": 330837
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 416,
+            "column": 73,
+            "offset": 330691
+          },
+          "end": {
+            "line": 418,
+            "column": 41,
+            "offset": 330841
+          }
+        }
+      },
+      {
+        "type": "text",
+        "value": "Read more",
+        "position": {
+          "start": {
+            "line": 425,
+            "column": 96,
+            "offset": 331133
+          },
+          "end": {
+            "line": 425,
+            "column": 105,
+            "offset": 331142
           }
         }
       }
@@ -78,6 +1835,6 @@
       }
     }
   },
-  "html": "<article>\n\n        \n    \n        \n    </article>",
-  "text": "\n\n        \n\n    \n        \n\n    \n"
+  "html": "<article><p>A Dutch university resorted to paying hackers $220,000 in Bitcoin <a rel=\"nofollow noopener\" href=\"https://partners.etoro.com/B9157_A72407_TClick.aspx\">$BTC▲0.41%</a> to release computer systems held for ransom since Christmas Eve, <a href=\"https://www.reuters.com/article/us-cybercrime-netherlands-university/university-of-maastricht-says-it-paid-hackers-200000-euro-ransom-idUSKBN1ZZ2HH\" rel=\"nofollow noopener\">reports</a> Reuters.</p><p>University of Maastricht vice president Nick Bos announced at a <a href=\"https://www.youtube.com/watch?v=ik-ZVvZ2-xU\" rel=\"nofollow noopener\">press conference</a> on Wednesday it had bowed to the cyberattackers’ demands, as it otherwise would’ve had to rebuild its entire IT network to get back online.</p>10 years of BitcoinHappy Birthday Bitcoin, you magnificent digital bastardMore VideosVolume 0%Press shift question mark to access a list of keyboard shortcutsKeyboard ShortcutsPlay/PauseSPACEIncrease Volume↑Decrease Volume↓Seek Forward→Seek Backward←Captions On/OffcFullscreen/Exit FullscreenfMute/UnmutemSeek %0-9Next UpHash It Out - with Dominik Schiener (IOTA)05:330.5x1x1.25x1.5x2x facebook twitter Email Linkhttps://thenextweb.com/hardfork/2020/02/07/bitcoin-ransom-ransomware-malware-cryptocurrency-maastricht-university-attack-hackers/?jwsource=clCopied Embed&#x3C;iframe src=\"//cdn.jwplayer.com/players/6u1wMT6q-vRZNU7bT.html\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"auto\">&#x3C;/iframe>CopiedLive00:0003:0703:07<p>“The damage of that to the work of the students, scientists, staff, as well as the continuity of the institution, can scarcely be conceived,” said university vice president Nick Bos, as quoted by Reuters.</p><p>Bos confirmed the attackers gained entry to the network after compromising an employee’s email account in November 2019 via phishing.</p><p>By December 24 last year, the hackers had encrypted the university‘s computer systems, including workstations and email servers, and demanded 30 BTC for a tool to unlock them (worth $216,000 then, $294,000 today).</p><p>Cybersecurity firm Fox-IT, hired by the University of Maastricht to recover its systems, found Russian-speaking cybercriminal group TA505, also known as Evil Corp, responsible for the attack.</p><p>The US Department of Justice <a href=\"https://home.treasury.gov/news/press-releases/sm845\" rel=\"nofollow noopener\">believes</a> TA505 has caused over $100 million worth of losses since its inception, having hit financial institutions and retailers in several countries with its information-stealing <em>Dridex</em> malware.</p><p>A recent investigation found more than 1,000 potential TA505 victims across the world.</p><h2>FBI urges victims not to pay Bitcoin ransoms</h2><p>Ransomware incidents like these persist across the world. In the past two years, hackers have taken over the computer networks of <a href=\"https://thenextweb.com/hardfork/2019/12/16/bitcoin-ransomware-cryptocurrency-new-orleans-state-of-emergency-ryuk-blockchain/\" rel=\"noopener\">governments</a>, <a href=\"https://thenextweb.com/hardfork/2020/01/08/travelex-sodinokibi-ransomware-bitcoin/\" rel=\"noopener\">businesses</a>, <a href=\"https://thenextweb.com/hardfork/2019/10/07/us-hospitals-pay-bitcoin-cryptocurrency-to-survive-ryuk-ransomware-attack/\" rel=\"noopener\">hospitals</a>, and schools, often demanding millions of dollars in cryptocurrency (most Bitcoin) for a decryption tool.</p><p>They’re indeed so prevalent that the FBI <a href=\"https://www.zdnet.com/article/fbis-new-ransomware-warning-dont-pay-up-but-if-you-do-tell-us-about-it/\" rel=\"nofollow noopener\">issued a warning</a> in October urging ransomware victims not to pay their hackers, lest they be encouraged to carry out more attacks.</p><p>As for the University of Maastricht, its computer systems are reportedly back online and now fully operational.</p><p>\n                                    Published February 7, 2020 — 11:27 UTC\n                                </p><h5><a href=\"https://thenextweb.com/author/davidcanellis\" rel=\"noopener\">David Canellis</a></h5><p>\n                                        February 7, 2020 — 11:27 UTC\n                                    </p>Read more</article>",
+  "text": "A Dutch university resorted to paying hackers $220,000 in Bitcoin $BTC▲0.41% to release computer systems held for ransom since Christmas Eve, reports Reuters.\n\nUniversity of Maastricht vice president Nick Bos announced at a press conference on Wednesday it had bowed to the cyberattackers’ demands, as it otherwise would’ve had to rebuild its entire IT network to get back online.\n\n10 years of Bitcoin\n\nHappy Birthday Bitcoin, you magnificent digital bastard\n\nMore Videos\n\nVolume 0%\n\nPress shift question mark to access a list of keyboard shortcuts\n\nKeyboard Shortcuts\n\nPlay/Pause\n\nSPACE\n\nIncrease Volume\n\n↑\n\nDecrease Volume\n\n↓\n\nSeek Forward\n\n→\n\nSeek Backward\n\n←\n\nCaptions On/Off\n\nc\n\nFullscreen/Exit Fullscreen\n\nf\n\nMute/Unmute\n\nm\n\nSeek %\n\n0-9\n\nNext Up\n\nHash It Out - with Dominik Schiener (IOTA)\n\n05:33\n\n0.5x\n\n1x\n\n1.25x\n\n1.5x\n\n2x\n\n facebook\n\n twitter\n\n Email\n\n Link\n\nhttps://thenextweb.com/hardfork/2020/02/07/bitcoin-ransom-ransomware-malware-cryptocurrency-maastricht-university-attack-hackers/?jwsource=cl\n\nCopied\n\n Embed\n\n<iframe src=\"//cdn.jwplayer.com/players/6u1wMT6q-vRZNU7bT.html\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"auto\"></iframe>\n\nCopied\n\nLive\n\n00:00\n\n03:07\n\n03:07\n\n“The damage of that to the work of the students, scientists, staff, as well as the continuity of the institution, can scarcely be conceived,” said university vice president Nick Bos, as quoted by Reuters.\n\nBos confirmed the attackers gained entry to the network after compromising an employee’s email account in November 2019 via phishing.\n\nBy December 24 last year, the hackers had encrypted the university‘s computer systems, including workstations and email servers, and demanded 30 BTC for a tool to unlock them (worth $216,000 then, $294,000 today).\n\nCybersecurity firm Fox-IT, hired by the University of Maastricht to recover its systems, found Russian-speaking cybercriminal group TA505, also known as Evil Corp, responsible for the attack.\n\nThe US Department of Justice believes TA505 has caused over $100 million worth of losses since its inception, having hit financial institutions and retailers in several countries with its information-stealing Dridex malware.\n\nA recent investigation found more than 1,000 potential TA505 victims across the world.\n\nRansomware incidents like these persist across the world. In the past two years, hackers have taken over the computer networks of governments, businesses, hospitals, and schools, often demanding millions of dollars in cryptocurrency (most Bitcoin) for a decryption tool.\n\nThey’re indeed so prevalent that the FBI issued a warning in October urging ransomware victims not to pay their hackers, lest they be encouraged to carry out more attacks.\n\nAs for the University of Maastricht, its computer systems are reportedly back online and now fully operational.\n\n\n                                    Published February 7, 2020 — 11:27 UTC\n                                \n\nDavid Canellis\n\n\n                                        February 7, 2020 — 11:27 UTC\n                                    \n\nRead more\n\n"
 }
