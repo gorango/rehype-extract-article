@@ -51,6 +51,16 @@ function one (node, _, parent) {
 
   if (node.tagName === 'div' && node.score < 500) {
     node.trash = true
+
+    remove(parent, { cascade: false }, isEmpty)
+
+    function isEmpty (node) {
+      if (node.children) {
+        return node.children.reduce((bool, child) => bool && isEmpty(child), true)
+      }
+      const whiteSpaceOnly = /^\s*$/
+      return whiteSpaceOnly.test(node.value)
+    }
   }
 
   function collect (node) {

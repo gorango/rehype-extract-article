@@ -20,7 +20,7 @@ const fixtures = [
 ]
 
 // const path = `sandbox/${fixtures[2]}`
-const path = 'fixtures/gen_gen-x-will-not-go-quitely/input.html'
+const path = 'fixtures/huffpo_china-corona/input.html'
 // const contents = pug.renderFile(path)
 const contents = fs.readFileSync(path, 'utf-8')
 
